@@ -13,20 +13,27 @@
 	<div id="map" style="width: 1024px; height: 800px"></div>
 
 	<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
-	<script src="https://rawgithub.com/mpetazzoni/leaflet-gpx/master/gpx.js"></script>
+	<script src="./leaflet-plugins/layer/vector/GPX.js"></script>
 	<script>
 
 		var map = L.map('map').setView([46.75, 8.25], 8);
 
-		L.tileLayer('https://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png', {
+		var mapbox = new L.tileLayer('https://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png', {
 			maxZoom: 18,
 			attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
 				'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
 				'Imagery © <a href="http://mapbox.com">Mapbox</a>',
 			id: 'examples.map-i86knfo3'
-		}).addTo(map);
+		});
 
+		var track = new L.GPX("tds.gpx", {async: true})
+					.on("loaded", function(e) { map.fitBounds(e.target.getBounds()); });
+					
+		map.addLayer(mapbox);
+		map.addLayer(track);
 
+		map.addControl(new L.Control.Layers({}, {'GPX':track}));
+		
 /* 		L.marker([51.5, -0.09]).addTo(map)
 			.bindPopup("<b>Hello world!</b><br />I am a popup.").openPopup();
 		L.circle([51.508, -0.11], 500, {
@@ -43,7 +50,7 @@
  */
 
 
-		var popup = L.popup();
+/* 		var popup = L.popup();
 
 		function onMapClick(e) {
 			popup
@@ -53,7 +60,7 @@
 		}
 
 		map.on('click', onMapClick);
-
+ */
 	</script>
 </body>
 </html>

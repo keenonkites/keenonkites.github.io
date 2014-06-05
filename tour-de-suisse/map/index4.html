@@ -13,20 +13,21 @@
 	<div id="map" style="width: 1024px; height: 800px"></div>
 
 	<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
-	<script src="https://rawgithub.com/mpetazzoni/leaflet-gpx/master/gpx.js"></script>
+	<script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.1.2/leaflet-omnivore.min.js'></script>
 	<script>
 
 		var map = L.map('map').setView([46.75, 8.25], 8);
 
-		L.tileLayer('https://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png', {
+/* 		L.tileLayer('https://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png', {
 			maxZoom: 18,
 			attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
 				'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
 				'Imagery © <a href="http://mapbox.com">Mapbox</a>',
 			id: 'examples.map-i86knfo3'
 		}).addTo(map);
-
-
+ */
+		omnivore.gpx('tds.gpx').addTo(map);
+		
 /* 		L.marker([51.5, -0.09]).addTo(map)
 			.bindPopup("<b>Hello world!</b><br />I am a popup.").openPopup();
 		L.circle([51.508, -0.11], 500, {
