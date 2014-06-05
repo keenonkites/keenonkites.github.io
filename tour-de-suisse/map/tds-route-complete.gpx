@@ -8,2039 +8,1530 @@
   <trkseg>
    <trkpt lon="7.30976666666667" lat="47.0834833333333">
     <time>2005-09-10T07:00:00Z</time>
-    <name>Mystic-G</name>
    </trkpt>
    <trkpt lon="7.38475" lat="47.0361166666667">
     <time>2005-09-10T07:00:00Z</time>
-    <name>Berner</name>
    </trkpt>
    <trkpt lon="7.42998333333333" lat="47.1059666666667">
     <time>2005-09-11T07:00:00Z</time>
-    <name>Storchi 1</name>
    </trkpt>
    <trkpt lon="7.4683" lat="47.0257333333333">
     <time>2005-09-12T07:00:00Z</time>
-    <name>D'Fenneks</name>
    </trkpt>
    <trkpt lon="7.45083333333333" lat="46.9473333333333">
     <time>2005-09-14T07:00:00Z</time>
-    <name>hajker</name>
    </trkpt>
    <trkpt lon="7.60083333333333" lat="46.9177333333333">
     <time>2005-09-14T07:00:00Z</time>
-    <name>venefica</name>
    </trkpt>
    <trkpt lon="7.71296666666667" lat="46.9409666666667">
     <time>2005-09-16T07:00:00Z</time>
-    <name>Der Imker</name>
    </trkpt>
    <trkpt lon="7.82581666666667" lat="47.0023333333333">
     <time>2005-09-19T07:00:00Z</time>
-    <name>phil59</name>
    </trkpt>
    <trkpt lon="7.81823333333333" lat="47.0978333333333">
     <time>2005-09-30T07:00:00Z</time>
-    <name>Happywin</name>
    </trkpt>
    <trkpt lon="7.96738333333333" lat="47.14745">
     <time>2005-10-06T07:00:00Z</time>
-    <name>Mammuti</name>
    </trkpt>
    <trkpt lon="8.1393" lat="47.1144833333333">
     <time>2005-10-12T07:00:00Z</time>
-    <name>spaghetti</name>
    </trkpt>
    <trkpt lon="8.20795" lat="47.0916166666667">
     <time>2005-10-14T07:00:00Z</time>
-    <name>bossi-trip</name>
    </trkpt>
    <trkpt lon="8.30061666666667" lat="47.2670666666667">
     <time>2005-10-31T08:00:00Z</time>
-    <name>Silverwave</name>
    </trkpt>
    <trkpt lon="8.31376666666667" lat="47.3753333333333">
     <time>2005-11-02T08:00:00Z</time>
-    <name>Waschi</name>
    </trkpt>
    <trkpt lon="8.40931666666667" lat="47.35475">
     <time>2005-11-08T08:00:00Z</time>
-    <name>elquerandi</name>
    </trkpt>
    <trkpt lon="8.50618333333333" lat="47.3920166666667">
     <time>2005-11-17T08:00:00Z</time>
-    <name>yugi04</name>
    </trkpt>
    <trkpt lon="8.49031666666667" lat="47.4281">
     <time>2005-11-17T08:00:00Z</time>
-    <name>PicoKnirps</name>
    </trkpt>
    <trkpt lon="8.52293333333333" lat="47.4193">
     <time>2005-11-18T08:00:00Z</time>
-    <name>Silberpfeil</name>
    </trkpt>
    <trkpt lon="8.04648333333333" lat="47.20575">
     <time>2005-11-21T08:00:00Z</time>
-    <name>Mystic-G</name>
    </trkpt>
    <trkpt lon="8.70016666666667" lat="47.4373166666667">
     <time>2005-11-22T08:00:00Z</time>
-    <name>PicoKnirps</name>
    </trkpt>
    <trkpt lon="8.84616666666667" lat="47.34545">
     <time>2005-11-22T08:00:00Z</time>
-    <name>hobel</name>
    </trkpt>
    <trkpt lon="8.94166666666667" lat="47.3506666666667">
     <time>2005-11-23T08:00:00Z</time>
-    <name>Tullus</name>
    </trkpt>
    <trkpt lon="9.03386666666667" lat="47.3717666666667">
     <time>2005-11-25T08:00:00Z</time>
-    <name>Jasi+Saba</name>
    </trkpt>
    <trkpt lon="9.08016666666667" lat="47.2552166666667">
     <time>2005-11-26T08:00:00Z</time>
-    <name>Swiss Jim Hawkins</name>
    </trkpt>
    <trkpt lon="9.42171666666667" lat="47.1979166666667">
     <time>2005-11-26T08:00:00Z</time>
-    <name>Jasi+Saba</name>
    </trkpt>
    <trkpt lon="9.55208333333333" lat="47.4189833333333">
     <time>2005-11-27T08:00:00Z</time>
-    <name>jös</name>
    </trkpt>
    <trkpt lon="9.38821666666667" lat="47.4499666666667">
     <time>2005-11-27T08:00:00Z</time>
-    <name>tanja und tom</name>
    </trkpt>
    <trkpt lon="9.30925" lat="47.4298333333333">
     <time>2005-11-27T08:00:00Z</time>
-    <name>Der UHU</name>
    </trkpt>
    <trkpt lon="9.38745" lat="47.4654666666667">
     <time>2005-11-29T08:00:00Z</time>
-    <name>tuxracer</name>
    </trkpt>
    <trkpt lon="9.33866666666667" lat="47.5001333333333">
     <time>2005-12-01T08:00:00Z</time>
-    <name>Minis</name>
    </trkpt>
    <trkpt lon="9.28915" lat="47.5229833333333">
     <time>2005-12-02T08:00:00Z</time>
-    <name>Lody & Gofry</name>
    </trkpt>
    <trkpt lon="9.19296666666667" lat="47.4768">
     <time>2005-12-03T08:00:00Z</time>
-    <name>Der UHU</name>
    </trkpt>
    <trkpt lon="9.2111" lat="47.5051">
     <time>2005-12-03T08:00:00Z</time>
-    <name>tanja und tom</name>
    </trkpt>
    <trkpt lon="9.1335" lat="47.4345">
     <time>2005-12-04T08:00:00Z</time>
-    <name>jös</name>
    </trkpt>
    <trkpt lon="9.02651666666667" lat="47.4717833333333">
     <time>2005-12-05T08:00:00Z</time>
-    <name>gerojo</name>
    </trkpt>
    <trkpt lon="8.95395" lat="47.5309166666667">
     <time>2005-12-06T08:00:00Z</time>
-    <name>Jasi+Saba</name>
    </trkpt>
    <trkpt lon="9.12135" lat="47.5652666666667">
     <time>2005-12-06T08:00:00Z</time>
-    <name>harrybald</name>
    </trkpt>
    <trkpt lon="9.13633333333333" lat="47.66425">
     <time>2005-12-07T08:00:00Z</time>
-    <name>tuxracer</name>
    </trkpt>
    <trkpt lon="9.06056666666667" lat="47.6165">
     <time>2005-12-08T08:00:00Z</time>
-    <name>PeterWehrli</name>
    </trkpt>
    <trkpt lon="8.78408333333333" lat="47.5890833333333">
     <time>2005-12-09T08:00:00Z</time>
-    <name>bikekurier</name>
    </trkpt>
    <trkpt lon="8.73653333333333" lat="47.59">
     <time>2005-12-10T08:00:00Z</time>
-    <name>vierkant</name>
    </trkpt>
    <trkpt lon="8.70218333333333" lat="47.48745">
     <time>2005-12-10T08:00:00Z</time>
-    <name>PicoKnirps</name>
    </trkpt>
    <trkpt lon="8.53178333333333" lat="47.4891666666667">
     <time>2005-12-11T08:00:00Z</time>
-    <name>pasatho</name>
    </trkpt>
    <trkpt lon="8.71911666666667" lat="47.3452333333333">
     <time>2005-12-11T08:00:00Z</time>
-    <name>Die Motte</name>
    </trkpt>
    <trkpt lon="8.62243333333333" lat="47.4004166666667">
     <time>2005-12-12T08:00:00Z</time>
-    <name>Desert Snow</name>
    </trkpt>
    <trkpt lon="8.5919" lat="47.4069333333333">
     <time>2005-12-13T08:00:00Z</time>
-    <name>PicoKnirps</name>
    </trkpt>
    <trkpt lon="8.61313333333333" lat="47.4308166666667">
     <time>2005-12-13T08:00:00Z</time>
-    <name>stefan007</name>
    </trkpt>
    <trkpt lon="8.59983333333333" lat="47.4272833333333">
     <time>2005-12-14T08:00:00Z</time>
-    <name>icklesidi</name>
    </trkpt>
    <trkpt lon="8.3091" lat="47.4807666666667">
     <time>2005-12-15T08:00:00Z</time>
-    <name>PicoKnirps</name>
    </trkpt>
    <trkpt lon="8.20351666666667" lat="47.4984">
     <time>2005-12-16T08:00:00Z</time>
-    <name>Die Motte</name>
    </trkpt>
    <trkpt lon="8.10458333333333" lat="47.47985">
     <time>2005-12-18T08:00:00Z</time>
-    <name>venefica</name>
    </trkpt>
    <trkpt lon="7.9825" lat="47.5420666666667">
     <time>2005-12-18T08:00:00Z</time>
-    <name>swissgeocache</name>
    </trkpt>
    <trkpt lon="7.87126666666667" lat="47.5529166666667">
     <time>2005-12-19T08:00:00Z</time>
-    <name>hajker</name>
    </trkpt>
    <trkpt lon="7.73528333333333" lat="47.5316833333333">
     <time>2005-12-19T08:00:00Z</time>
-    <name>Mystic-G</name>
    </trkpt>
    <trkpt lon="7.60176666666667" lat="47.5640333333333">
     <time>2005-12-20T08:00:00Z</time>
-    <name>Find-It</name>
    </trkpt>
    <trkpt lon="7.63935" lat="47.53045">
     <time>2005-12-21T08:00:00Z</time>
-    <name>chjasipa</name>
    </trkpt>
    <trkpt lon="7.61855" lat="47.5174166666667">
     <time>2005-12-22T08:00:00Z</time>
-    <name>gletzi</name>
    </trkpt>
    <trkpt lon="7.53936666666667" lat="47.4805833333333">
     <time>2005-12-22T08:00:00Z</time>
-    <name>daendy</name>
    </trkpt>
    <trkpt lon="7.49495" lat="47.4810166666667">
     <time>2005-12-23T08:00:00Z</time>
-    <name>mistral28</name>
    </trkpt>
    <trkpt lon="7.63495" lat="47.4032666666667">
     <time>2005-12-29T08:00:00Z</time>
-    <name>hajker</name>
    </trkpt>
    <trkpt lon="7.59383333333333" lat="47.35935">
     <time>2005-12-29T08:00:00Z</time>
-    <name>venefica</name>
    </trkpt>
    <trkpt lon="7.66511666666667" lat="47.3590166666667">
     <time>2006-01-03T08:00:00Z</time>
-    <name>MiMa</name>
    </trkpt>
    <trkpt lon="7.70938333333333" lat="47.3217333333333">
     <time>2006-01-07T08:00:00Z</time>
-    <name>Tullus</name>
    </trkpt>
    <trkpt lon="7.6912" lat="47.307">
     <time>2006-01-09T08:00:00Z</time>
-    <name>MiMa</name>
    </trkpt>
    <trkpt lon="7.75718333333333" lat="47.2776666666667">
     <time>2006-01-10T08:00:00Z</time>
-    <name>Lody & Gofry</name>
    </trkpt>
    <trkpt lon="7.64015" lat="47.2735333333333">
     <time>2006-01-15T08:00:00Z</time>
-    <name>Sanne&Kiki</name>
    </trkpt>
    <trkpt lon="7.65255" lat="47.2395666666667">
     <time>2006-01-18T08:00:00Z</time>
-    <name>Vatanen73</name>
    </trkpt>
    <trkpt lon="7.53875" lat="47.208">
     <time>2006-01-18T08:00:00Z</time>
-    <name>Mystic-G</name>
    </trkpt>
    <trkpt lon="7.42251666666667" lat="47.1547333333333">
     <time>2006-01-19T08:00:00Z</time>
-    <name>mr.magic</name>
    </trkpt>
    <trkpt lon="7.34373333333333" lat="47.14175">
     <time>2006-01-20T08:00:00Z</time>
-    <name>Thekla</name>
    </trkpt>
    <trkpt lon="7.23218333333333" lat="47.1361">
     <time>2006-01-20T08:00:00Z</time>
-    <name>Sanne&Kiki</name>
    </trkpt>
    <trkpt lon="7.28588333333333" lat="47.1734166666667">
     <time>2006-01-20T08:00:00Z</time>
-    <name>Thekla</name>
    </trkpt>
    <trkpt lon="7.17748333333333" lat="47.1022">
     <time>2006-01-21T08:00:00Z</time>
-    <name>matte bueb j</name>
    </trkpt>
    <trkpt lon="7.10896666666667" lat="47.0376833333333">
     <time>2006-01-22T08:00:00Z</time>
-    <name>moudi</name>
    </trkpt>
    <trkpt lon="7.0159" lat="46.9977">
     <time>2006-01-27T08:00:00Z</time>
-    <name>phil59</name>
    </trkpt>
    <trkpt lon="6.94026666666667" lat="47.0016166666667">
     <time>2006-01-29T08:00:00Z</time>
-    <name>oli kuul</name>
    </trkpt>
    <trkpt lon="6.92553333333333" lat="46.9916333333333">
     <time>2006-01-29T08:00:00Z</time>
-    <name>SUI-66</name>
    </trkpt>
    <trkpt lon="6.8654" lat="46.9664">
     <time>2006-01-29T08:00:00Z</time>
-    <name>BADOUM</name>
    </trkpt>
    <trkpt lon="6.82543333333333" lat="46.9279333333333">
     <time>2006-01-29T08:00:00Z</time>
-    <name>Rumpeli</name>
    </trkpt>
    <trkpt lon="6.75488333333333" lat="46.8791">
     <time>2006-01-29T08:00:00Z</time>
-    <name>Waldkatze</name>
    </trkpt>
    <trkpt lon="6.72555" lat="46.8540333333333">
     <time>2006-01-30T08:00:00Z</time>
-    <name>Thekla</name>
    </trkpt>
    <trkpt lon="6.64166666666667" lat="46.77825">
     <time>2006-02-01T08:00:00Z</time>
-    <name>phil59</name>
    </trkpt>
    <trkpt lon="6.59851666666667" lat="46.7767">
     <time>2006-02-01T08:00:00Z</time>
-    <name>phil59</name>
    </trkpt>
    <trkpt lon="6.55476666666667" lat="46.6610333333333">
     <time>2006-02-06T08:00:00Z</time>
-    <name>Swiss Jim Hawkins</name>
    </trkpt>
    <trkpt lon="6.52145" lat="46.6055">
     <time>2006-02-09T08:00:00Z</time>
-    <name>oli kuul</name>
    </trkpt>
    <trkpt lon="6.58821666666667" lat="46.6163166666667">
     <time>2006-02-11T08:00:00Z</time>
-    <name>Reloader22 (Dan & â€ AdÃ©)</name>
    </trkpt>
    <trkpt lon="6.76356666666667" lat="46.5007333333333">
     <time>2006-02-19T08:00:00Z</time>
-    <name>Robin des bois</name>
    </trkpt>
    <trkpt lon="7.05926666666667" lat="46.6173666666667">
     <time>2006-02-27T08:00:00Z</time>
-    <name>Mystic-G</name>
    </trkpt>
    <trkpt lon="7.16451666666667" lat="46.738">
     <time>2006-03-02T08:00:00Z</time>
-    <name>Mumins</name>
    </trkpt>
    <trkpt lon="7.16451666666667" lat="46.738">
     <time>2006-03-02T08:00:00Z</time>
-    <name>Mumins</name>
    </trkpt>
    <trkpt lon="7.16101666666667" lat="46.8144833333333">
     <time>2006-03-05T08:00:00Z</time>
-    <name>munds</name>
    </trkpt>
    <trkpt lon="7.447" lat="46.76465">
     <time>2006-03-12T08:00:00Z</time>
-    <name>xiphias</name>
    </trkpt>
    <trkpt lon="7.5412" lat="46.76575">
     <time>2006-03-17T08:00:00Z</time>
-    <name>Baery68</name>
    </trkpt>
    <trkpt lon="7.55105" lat="46.7731833333333">
     <time>2006-03-17T08:00:00Z</time>
-    <name>Huckis</name>
    </trkpt>
    <trkpt lon="7.64903333333333" lat="46.782">
     <time>2006-03-19T08:00:00Z</time>
-    <name>Karibu's</name>
    </trkpt>
    <trkpt lon="7.64903333333333" lat="46.782">
     <time>2006-03-20T08:00:00Z</time>
-    <name>Karibu's</name>
    </trkpt>
    <trkpt lon="7.57178333333333" lat="46.8126333333333">
     <time>2006-03-20T08:00:00Z</time>
-    <name>Jaris</name>
    </trkpt>
    <trkpt lon="7.63683333333333" lat="46.7474666666667">
     <time>2006-03-21T08:00:00Z</time>
-    <name>Mr.GPS-yess</name>
    </trkpt>
    <trkpt lon="7.62928333333333" lat="46.7264833333333">
     <time>2006-03-21T08:00:00Z</time>
-    <name>Mr.Quady</name>
    </trkpt>
    <trkpt lon="7.68651666666667" lat="46.6923666666667">
     <time>2006-03-25T08:00:00Z</time>
-    <name>woistwalter?</name>
    </trkpt>
    <trkpt lon="7.72225" lat="46.65645">
     <time>2006-03-26T08:00:00Z</time>
-    <name>Berner</name>
    </trkpt>
    <trkpt lon="7.877" lat="46.6815">
     <time>2006-04-07T07:00:00Z</time>
-    <name>Der Imker</name>
    </trkpt>
    <trkpt lon="7.88038333333333" lat="46.6966333333333">
     <time>2006-04-07T07:00:00Z</time>
-    <name>Amadiesli</name>
    </trkpt>
    <trkpt lon="7.96331666666667" lat="46.73785">
     <time>2006-04-23T07:00:00Z</time>
-    <name>stefan007</name>
    </trkpt>
    <trkpt lon="8.13666666666667" lat="46.7564333333333">
     <time>2006-05-14T07:00:00Z</time>
-    <name>Mystic-G</name>
    </trkpt>
    <trkpt lon="8.1423" lat="46.7755833333333">
     <time>2006-05-24T07:00:00Z</time>
-    <name>Jaris</name>
    </trkpt>
    <trkpt lon="8.18326666666667" lat="46.8255166666667">
     <time>2006-07-26T07:00:00Z</time>
-    <name>Jaris</name>
    </trkpt>
    <trkpt lon="8.24458333333333" lat="46.8971">
     <time>2006-07-27T07:00:00Z</time>
-    <name>Waschi</name>
    </trkpt>
    <trkpt lon="7.18721666666667" lat="47.0944333333333">
     <time>2006-08-08T07:35:10Z</time>
-    <name>swissgeocache</name>
    </trkpt>
    <trkpt lon="8.14536666666667" lat="47.3415">
     <time>2006-08-12T07:00:00Z</time>
-    <name>PicoKnirps</name>
    </trkpt>
    <trkpt lon="8.18701666666667" lat="47.3870833333333">
     <time>2006-08-14T07:00:00Z</time>
-    <name>mirpets</name>
    </trkpt>
    <trkpt lon="8.28286666666667" lat="47.5299666666667">
     <time>2006-08-17T07:00:00Z</time>
-    <name>swissseal</name>
    </trkpt>
    <trkpt lon="8.42241666666667" lat="47.4889833333333">
     <time>2006-08-17T07:00:00Z</time>
-    <name>PicoKnirps</name>
    </trkpt>
    <trkpt lon="8.51896666666667" lat="47.5252833333333">
     <time>2006-08-18T07:00:00Z</time>
-    <name>Tullus</name>
    </trkpt>
    <trkpt lon="8.51896666666667" lat="47.5252833333333">
     <time>2006-08-21T07:00:00Z</time>
-    <name>catwisel</name>
    </trkpt>
    <trkpt lon="8.57581666666667" lat="47.5462666666667">
     <time>2006-08-26T07:00:00Z</time>
-    <name>skipperdan</name>
    </trkpt>
    <trkpt lon="8.47813333333333" lat="47.4997833333333">
     <time>2006-08-27T07:00:00Z</time>
-    <name>PicoKnirps</name>
    </trkpt>
    <trkpt lon="8.61438333333333" lat="47.6747833333333">
     <time>2006-08-28T07:00:00Z</time>
-    <name>Die schwarze Hand</name>
    </trkpt>
    <trkpt lon="8.64685" lat="47.68115">
     <time>2006-08-29T07:00:00Z</time>
-    <name>stefan007</name>
    </trkpt>
    <trkpt lon="8.87666666666667" lat="47.64845">
     <time>2006-09-04T07:00:00Z</time>
-    <name>tuxracer</name>
    </trkpt>
    <trkpt lon="8.88456666666667" lat="47.6394666666667">
     <time>2006-09-04T07:00:00Z</time>
-    <name>Algorithmus</name>
    </trkpt>
    <trkpt lon="9.18493333333333" lat="47.6995333333333">
     <time>2006-09-07T07:00:00Z</time>
-    <name>PeterWehrli</name>
    </trkpt>
    <trkpt lon="9.2709" lat="47.6216666666667">
     <time>2006-09-07T07:00:00Z</time>
-    <name>PeterWehrli</name>
    </trkpt>
    <trkpt lon="9.45775" lat="47.4765">
     <time>2006-09-13T07:00:00Z</time>
-    <name>tanja und tom</name>
    </trkpt>
    <trkpt lon="9.54766666666667" lat="47.485">
     <time>2006-09-14T07:00:00Z</time>
-    <name>jös</name>
    </trkpt>
    <trkpt lon="9.6445" lat="47.3905833333333">
     <time>2006-09-14T07:00:00Z</time>
-    <name>Desert Snow</name>
    </trkpt>
    <trkpt lon="9.61043333333333" lat="47.3588833333333">
     <time>2006-09-14T07:00:00Z</time>
-    <name>Jasi+Saba</name>
    </trkpt>
    <trkpt lon="9.49133333333333" lat="47.3396666666667">
     <time>2006-09-15T07:00:00Z</time>
-    <name>jös</name>
    </trkpt>
    <trkpt lon="9.5489" lat="47.2861833333333">
     <time>2006-09-18T07:00:00Z</time>
-    <name>Jasi+Saba</name>
    </trkpt>
    <trkpt lon="9.49721666666667" lat="47.21555">
     <time>2006-09-18T07:00:00Z</time>
-    <name>Schnueffelnase</name>
    </trkpt>
    <trkpt lon="9.52631666666667" lat="47.1379833333333">
     <time>2006-09-18T07:00:00Z</time>
-    <name>lupf</name>
    </trkpt>
    <trkpt lon="9.50081666666667" lat="47.0651">
     <time>2006-09-20T07:00:00Z</time>
-    <name>Jasi+Saba</name>
    </trkpt>
    <trkpt lon="9.5452" lat="47.0137166666667">
     <time>2006-09-20T07:00:00Z</time>
-    <name>haupkins</name>
    </trkpt>
    <trkpt lon="9.4486" lat="47.03685">
     <time>2006-09-21T07:00:00Z</time>
-    <name>Quaxis</name>
    </trkpt>
    <trkpt lon="9.41056666666667" lat="47.0488">
     <time>2006-09-22T07:00:00Z</time>
-    <name>bloeterli</name>
    </trkpt>
    <trkpt lon="9.2912" lat="47.11535">
     <time>2006-09-22T07:00:00Z</time>
-    <name>Jasi+Saba</name>
    </trkpt>
    <trkpt lon="9.05736666666667" lat="47.0526833333333">
     <time>2006-09-22T07:00:00Z</time>
-    <name>Die Motte</name>
    </trkpt>
    <trkpt lon="9.03268333333333" lat="46.94705">
     <time>2006-09-26T07:00:00Z</time>
-    <name>schufis</name>
    </trkpt>
    <trkpt lon="8.86895" lat="46.87385">
     <time>2006-10-08T07:00:00Z</time>
-    <name>lupf</name>
    </trkpt>
    <trkpt lon="8.61345" lat="46.9319">
     <time>2006-10-26T07:00:00Z</time>
-    <name>PicoKnirps</name>
    </trkpt>
    <trkpt lon="8.64615" lat="46.8823666666667">
     <time>2006-11-16T08:00:00Z</time>
-    <name>Braschi</name>
    </trkpt>
    <trkpt lon="8.49586666666667" lat="46.9592666666667">
     <time>2006-11-16T08:00:00Z</time>
-    <name>Fee_Rapunzel</name>
    </trkpt>
    <trkpt lon="8.34421666666667" lat="46.9815166666667">
     <time>2007-01-18T08:00:00Z</time>
-    <name>Waschi</name>
    </trkpt>
    <trkpt lon="8.32151666666667" lat="47.0165166666667">
     <time>2007-01-21T08:00:00Z</time>
-    <name>lubiker</name>
    </trkpt>
    <trkpt lon="8.20331666666667" lat="47.1388833333333">
     <time>2007-02-04T08:00:00Z</time>
-    <name>icklesidi</name>
    </trkpt>
    <trkpt lon="8.10175" lat="47.1309">
     <time>2007-05-18T07:00:00Z</time>
-    <name>Swiss_ICe</name>
    </trkpt>
    <trkpt lon="7.99276666666667" lat="47.1469166666667">
     <time>2007-05-26T07:00:00Z</time>
-    <name>salbedo</name>
    </trkpt>
    <trkpt lon="7.83893333333333" lat="47.2322833333333">
     <time>2007-06-13T07:00:00Z</time>
-    <name>elquerandi</name>
    </trkpt>
    <trkpt lon="7.85853333333333" lat="47.1850166666667">
     <time>2007-06-19T07:00:00Z</time>
-    <name>jopary</name>
    </trkpt>
    <trkpt lon="7.93463333333333" lat="47.1514333333333">
     <time>2007-06-20T07:00:00Z</time>
-    <name>roehru</name>
    </trkpt>
    <trkpt lon="7.84073333333333" lat="47.2324166666667">
     <time>2007-11-06T20:00:00Z</time>
-    <name>Schaffner</name>
    </trkpt>
    <trkpt lon="7.84073333333333" lat="47.2323333333333">
     <time>2007-11-06T20:00:00Z</time>
-    <name>PicoKnirps</name>
    </trkpt>
    <trkpt lon="7.79791666666667" lat="47.2110666666667">
     <time>2007-12-17T20:00:00Z</time>
-    <name>JJKP</name>
    </trkpt>
    <trkpt lon="7.85476666666667" lat="47.19735">
     <time>2007-12-18T20:00:00Z</time>
-    <name>Berner</name>
    </trkpt>
    <trkpt lon="7.84698333333333" lat="47.1139333333333">
     <time>2007-12-19T20:00:00Z</time>
-    <name>Swiss Indy Team</name>
    </trkpt>
    <trkpt lon="7.82831666666667" lat="47.1225">
     <time>2007-12-20T20:00:00Z</time>
-    <name>Swiss Indy Team</name>
    </trkpt>
    <trkpt lon="7.84686666666667" lat="47.1139166666667">
     <time>2007-12-22T20:00:00Z</time>
-    <name>gloeggli</name>
    </trkpt>
    <trkpt lon="7.78115" lat="47.1883166666667">
     <time>2007-12-22T20:00:00Z</time>
-    <name>Compi7</name>
    </trkpt>
    <trkpt lon="7.76246666666667" lat="47.1948166666667">
     <time>2007-12-25T20:00:00Z</time>
-    <name>NathanS05</name>
    </trkpt>
    <trkpt lon="7.64771666666667" lat="47.08695">
     <time>2007-12-27T20:00:00Z</time>
-    <name>Agentenbande</name>
    </trkpt>
    <trkpt lon="7.50901666666667" lat="46.9857333333333">
     <time>2008-01-15T20:00:00Z</time>
-    <name>Swiss Chiron</name>
    </trkpt>
    <trkpt lon="7.40448333333333" lat="47.0845666666667">
     <time>2008-01-30T20:00:00Z</time>
-    <name>phil59</name>
    </trkpt>
    <trkpt lon="7.43275" lat="47.1770666666667">
     <time>2008-02-02T20:00:00Z</time>
-    <name>kerumar</name>
    </trkpt>
    <trkpt lon="7.15881666666667" lat="47.0948333333333">
     <time>2008-02-06T20:00:00Z</time>
-    <name>lilibiggs</name>
    </trkpt>
    <trkpt lon="7.27458333333333" lat="47.0471">
     <time>2008-02-22T20:00:00Z</time>
-    <name>tanja und tom</name>
    </trkpt>
    <trkpt lon="7.18498333333333" lat="47.004">
     <time>2008-02-24T20:00:00Z</time>
-    <name>fourNdog</name>
    </trkpt>
    <trkpt lon="7.01881666666667" lat="46.8859666666667">
     <time>2008-03-04T20:00:00Z</time>
-    <name>phil59</name>
    </trkpt>
    <trkpt lon="6.91895" lat="46.8480833333333">
     <time>2008-03-15T18:59:59Z</time>
-    <name>furtif</name>
    </trkpt>
    <trkpt lon="6.90976666666667" lat="46.8273833333333">
     <time>2008-03-15T18:59:59Z</time>
-    <name>Ambroise</name>
    </trkpt>
    <trkpt lon="6.82195" lat="46.7981333333333">
     <time>2008-09-26T18:59:59Z</time>
-    <name>mr.edi</name>
    </trkpt>
    <trkpt lon="6.73505" lat="46.8044333333333">
     <time>2008-10-12T18:59:59Z</time>
-    <name>fourNdog</name>
    </trkpt>
    <trkpt lon="6.7629" lat="46.7897166666667">
     <time>2009-03-07T20:00:00Z</time>
-    <name>Eltitas</name>
    </trkpt>
    <trkpt lon="7.05185" lat="46.7626">
     <time>2009-04-13T18:59:59Z</time>
-    <name>Braschi</name>
    </trkpt>
    <trkpt lon="7.24951666666667" lat="46.7344833333333">
     <time>2009-09-05T18:59:59Z</time>
-    <name>mahuzi</name>
    </trkpt>
    <trkpt lon="7.28893333333333" lat="46.7393166666667">
     <time>2009-09-05T18:59:59Z</time>
-    <name>elmathu</name>
    </trkpt>
    <trkpt lon="7.3316" lat="46.7669">
     <time>2009-09-08T18:59:59Z</time>
-    <name>twingo69</name>
    </trkpt>
    <trkpt lon="7.38508333333333" lat="46.7470333333333">
     <time>2009-09-13T18:59:59Z</time>
-    <name>Frienisberger</name>
    </trkpt>
    <trkpt lon="7.4527" lat="46.7334">
     <time>2009-09-23T18:59:59Z</time>
-    <name>Cache.Mike</name>
    </trkpt>
    <trkpt lon="7.64478333333333" lat="46.68745">
     <time>2009-09-23T18:59:59Z</time>
-    <name>Cache.Mike</name>
    </trkpt>
    <trkpt lon="7.64035" lat="46.74805">
     <time>2009-09-26T18:59:59Z</time>
-    <name>Sitipeja</name>
    </trkpt>
    <trkpt lon="7.64035" lat="46.74805">
     <time>2009-09-29T18:59:59Z</time>
-    <name>Sitipeja</name>
    </trkpt>
    <trkpt lon="7.60363333333333" lat="46.7740333333333">
     <time>2009-10-09T18:59:59Z</time>
-    <name>GulaS</name>
    </trkpt>
    <trkpt lon="7.5757" lat="46.7953666666667">
     <time>2009-10-10T18:59:59Z</time>
-    <name>Fö-Nix</name>
    </trkpt>
    <trkpt lon="7.5667" lat="46.9312666666667">
     <time>2009-10-10T18:59:59Z</time>
-    <name>lucky el loco</name>
    </trkpt>
    <trkpt lon="7.45918333333333" lat="46.9769666666667">
     <time>2009-10-11T18:59:59Z</time>
-    <name>foolish5</name>
    </trkpt>
    <trkpt lon="7.56618333333333" lat="47.0762333333333">
     <time>2009-11-02T20:00:00Z</time>
-    <name>aenneli</name>
    </trkpt>
    <trkpt lon="7.53478333333333" lat="47.2230333333333">
     <time>2009-11-04T20:00:00Z</time>
-    <name>Khadija</name>
    </trkpt>
    <trkpt lon="7.64911666666667" lat="47.2577666666667">
     <time>2009-11-05T20:00:00Z</time>
-    <name>jenalo</name>
    </trkpt>
    <trkpt lon="7.68913333333333" lat="47.3451666666667">
     <time>2009-11-05T20:00:00Z</time>
-    <name>NinjaCacher!</name>
    </trkpt>
    <trkpt lon="7.53925" lat="47.3849333333333">
     <time>2009-11-11T20:00:00Z</time>
-    <name>Thermodos</name>
    </trkpt>
    <trkpt lon="7.50831666666667" lat="47.42575">
     <time>2009-11-14T20:00:00Z</time>
-    <name>racemice</name>
    </trkpt>
    <trkpt lon="7.57731666666667" lat="47.4447666666667">
     <time>2009-11-15T20:00:00Z</time>
-    <name>salbedo</name>
    </trkpt>
    <trkpt lon="7.62353333333333" lat="47.5196333333333">
     <time>2009-12-27T20:00:00Z</time>
-    <name>Basileus & Basilea</name>
    </trkpt>
    <trkpt lon="7.58881666666667" lat="47.5872666666667">
     <time>2009-12-28T20:00:00Z</time>
-    <name>Find-it-old</name>
    </trkpt>
    <trkpt lon="7.63126666666667" lat="47.548">
     <time>2009-12-29T20:00:00Z</time>
-    <name>Towerstar</name>
    </trkpt>
    <trkpt lon="7.78395" lat="47.5444666666667">
     <time>2009-12-29T20:00:00Z</time>
-    <name>hexehexe</name>
    </trkpt>
    <trkpt lon="8.05775" lat="47.4974">
     <time>2010-01-01T20:00:00Z</time>
-    <name>nangga</name>
    </trkpt>
    <trkpt lon="8.21405" lat="47.4759833333333">
     <time>2010-01-02T20:00:00Z</time>
-    <name>molubuha</name>
    </trkpt>
    <trkpt lon="8.2783" lat="47.4515833333333">
     <time>2010-01-02T20:00:00Z</time>
-    <name>d'ronja</name>
    </trkpt>
    <trkpt lon="8.45831666666667" lat="47.4714333333333">
     <time>2010-01-03T20:00:00Z</time>
-    <name>magirus</name>
    </trkpt>
    <trkpt lon="8.57333333333333" lat="47.5356333333333">
     <time>2010-01-03T20:00:00Z</time>
-    <name>chrissy_dugi</name>
    </trkpt>
    <trkpt lon="8.42705" lat="47.4593833333333">
     <time>2010-01-03T20:00:00Z</time>
-    <name>PicoKnirps</name>
    </trkpt>
    <trkpt lon="8.42301666666667" lat="47.46035">
     <time>2010-01-03T20:00:00Z</time>
-    <name>Luckythree</name>
    </trkpt>
    <trkpt lon="8.52493333333333" lat="47.4429833333333">
     <time>2010-01-04T20:00:00Z</time>
-    <name>catwisel</name>
    </trkpt>
    <trkpt lon="7.64441666666667" lat="47.5930666666667">
     <time>2009-12-28T20:00:00Z</time>
-    <name>waldi40</name>
    </trkpt>
    <trkpt lon="8.53181666666667" lat="47.4545166666667">
     <time>2010-01-05T20:00:00Z</time>
-    <name>sternli</name>
    </trkpt>
    <trkpt lon="8.51121666666667" lat="47.4702833333333">
     <time>2010-01-05T10:29:46Z</time>
-    <name>ernies</name>
    </trkpt>
    <trkpt lon="8.54953333333333" lat="47.5193166666667">
     <time>2010-01-05T20:00:00Z</time>
-    <name>pasatho</name>
    </trkpt>
    <trkpt lon="8.54161666666667" lat="47.5220666666667">
     <time>2010-01-05T08:00:00Z</time>
-    <name>PicoKnirps</name>
    </trkpt>
    <trkpt lon="7.64441666666667" lat="47.5930666666667">
     <time>2009-12-28T20:00:00Z</time>
-    <name>waldi40</name>
    </trkpt>
    <trkpt lon="8.51181666666667" lat="47.57945">
     <time>2010-01-07T20:00:00Z</time>
-    <name>barbagrigia</name>
    </trkpt>
    <trkpt lon="8.57938333333333" lat="47.5777833333333">
     <time>2010-01-08T20:00:00Z</time>
-    <name>StefM</name>
    </trkpt>
    <trkpt lon="8.60718333333333" lat="47.64305">
     <time>2010-01-10T20:00:00Z</time>
-    <name>möösli</name>
    </trkpt>
    <trkpt lon="8.61001666666667" lat="47.6761666666667">
     <time>2010-01-17T20:00:00Z</time>
-    <name>Vyrembi</name>
    </trkpt>
    <trkpt lon="8.61665" lat="47.67545">
     <time>2010-02-17T20:00:00Z</time>
-    <name>Mondlinger</name>
    </trkpt>
    <trkpt lon="8.62378333333333" lat="47.68735">
     <time>2010-02-19T20:00:00Z</time>
-    <name>popfex</name>
    </trkpt>
    <trkpt lon="8.663" lat="47.73295">
     <time>2010-02-23T20:00:00Z</time>
-    <name>Scio</name>
    </trkpt>
    <trkpt lon="8.82018333333333" lat="47.6697166666667">
     <time>2010-04-09T18:59:59Z</time>
-    <name>Garfield</name>
    </trkpt>
    <trkpt lon="8.86686666666667" lat="47.65485">
     <time>2010-04-12T18:59:59Z</time>
-    <name>shch</name>
    </trkpt>
    <trkpt lon="8.94001666666667" lat="47.64825">
     <time>2010-04-17T18:59:59Z</time>
-    <name>Algorithmus</name>
    </trkpt>
    <trkpt lon="9.06231666666667" lat="47.6727166666667">
     <time>2010-05-02T18:59:59Z</time>
-    <name>Bruchpilot60</name>
    </trkpt>
    <trkpt lon="9.11055" lat="47.6636">
     <time>2010-08-10T18:59:59Z</time>
-    <name>Jasi+Saba</name>
    </trkpt>
    <trkpt lon="9.1546" lat="47.6193">
     <time>2010-08-10T18:59:59Z</time>
-    <name>thurgauer</name>
    </trkpt>
    <trkpt lon="9.15626666666667" lat="47.6193">
     <time>2010-08-22T18:59:59Z</time>
-    <name>PeterWehrli</name>
    </trkpt>
    <trkpt lon="9.1546" lat="47.6193">
     <time>2010-08-22T18:59:59Z</time>
-    <name>thurgauer</name>
    </trkpt>
    <trkpt lon="9.01633333333333" lat="47.5411333333333">
     <time>2010-08-23T18:59:59Z</time>
-    <name>bikekurier</name>
    </trkpt>
    <trkpt lon="8.8494" lat="47.546">
     <time>2010-08-25T18:59:59Z</time>
-    <name>PeterWehrli</name>
    </trkpt>
    <trkpt lon="8.70026666666667" lat="47.50525">
     <time>2010-08-29T18:59:59Z</time>
-    <name>-Wrex-</name>
    </trkpt>
    <trkpt lon="8.56748333333333" lat="47.4503833333333">
     <time>2010-08-30T18:59:59Z</time>
-    <name>salbedo</name>
    </trkpt>
    <trkpt lon="8.55056666666667" lat="47.3777166666667">
     <time>2010-09-03T18:59:59Z</time>
-    <name>mipsel</name>
    </trkpt>
    <trkpt lon="8.72695" lat="47.5057333333333">
     <time>2010-09-04T18:59:59Z</time>
-    <name>Boskop</name>
    </trkpt>
    <trkpt lon="8.59711666666667" lat="47.3968666666667">
     <time>2010-09-07T18:59:59Z</time>
-    <name>tifig</name>
    </trkpt>
    <trkpt lon="8.49166666666667" lat="47.3494166666667">
     <time>2010-09-08T18:59:59Z</time>
-    <name>icklesidi</name>
    </trkpt>
    <trkpt lon="8.49038333333333" lat="47.3484">
     <time>2010-09-09T20:30:53Z</time>
-    <name>ernies</name>
    </trkpt>
    <trkpt lon="8.46345" lat="47.3585333333333">
     <time>2010-09-11T18:59:59Z</time>
-    <name>icklesidi</name>
    </trkpt>
    <trkpt lon="8.50113333333333" lat="47.2664833333333">
     <time>2010-09-12T18:59:59Z</time>
-    <name>Gelada</name>
    </trkpt>
    <trkpt lon="8.43926666666667" lat="47.2018833333333">
     <time>2010-09-12T18:59:59Z</time>
-    <name>TecmjrB</name>
    </trkpt>
    <trkpt lon="8.4136" lat="47.1170166666667">
     <time>2010-09-13T18:59:59Z</time>
-    <name>cacheator</name>
    </trkpt>
    <trkpt lon="8.3348" lat="47.0510833333333">
     <time>2010-09-13T18:59:59Z</time>
-    <name>Rotmarder</name>
    </trkpt>
    <trkpt lon="8.3348" lat="47.0510833333333">
     <time>2010-09-13T18:59:59Z</time>
-    <name>Rotmarder</name>
    </trkpt>
    <trkpt lon="8.27668333333333" lat="46.9553">
     <time>2010-09-14T18:59:59Z</time>
-    <name>nokko~tronic</name>
    </trkpt>
    <trkpt lon="8.3575" lat="47.0331166666667">
     <time>2010-09-14T18:59:59Z</time>
-    <name>Waschi</name>
    </trkpt>
    <trkpt lon="8.3219" lat="47.0447833333333">
     <time>2010-09-27T18:59:59Z</time>
-    <name>Waschi</name>
    </trkpt>
    <trkpt lon="8.27323333333333" lat="46.9212166666667">
     <time>2010-09-27T18:59:59Z</time>
-    <name>rohrerhj</name>
    </trkpt>
    <trkpt lon="8.16861666666667" lat="46.8046166666667">
     <time>2010-09-29T18:59:59Z</time>
-    <name>Loppergnom</name>
    </trkpt>
    <trkpt lon="7.98831666666667" lat="46.7203833333333">
     <time>2010-10-01T18:59:59Z</time>
-    <name>nokko~tronic</name>
    </trkpt>
    <trkpt lon="7.98806666666667" lat="46.7204">
     <time>2010-10-03T18:59:59Z</time>
-    <name>nokko~tronic</name>
    </trkpt>
    <trkpt lon="7.86466666666667" lat="46.6775">
     <time>2010-10-03T18:59:59Z</time>
-    <name>O-Laeufer</name>
    </trkpt>
    <trkpt lon="7.86393333333333" lat="46.6778">
     <time>2010-10-03T18:59:59Z</time>
-    <name>O-Laeufer</name>
    </trkpt>
    <trkpt lon="7.74386666666667" lat="46.6589333333333">
     <time>2010-10-05T18:59:59Z</time>
-    <name>Compi7</name>
    </trkpt>
    <trkpt lon="7.73048333333333" lat="46.6284166666667">
     <time>2010-10-06T18:59:59Z</time>
-    <name>Vanderhoff</name>
    </trkpt>
    <trkpt lon="7.64961666666667" lat="46.5789666666667">
     <time>2010-10-17T18:59:59Z</time>
-    <name>Jakis</name>
    </trkpt>
    <trkpt lon="7.66775" lat="46.5338666666667">
     <time>2010-10-18T18:59:59Z</time>
-    <name>beutlins</name>
    </trkpt>
    <trkpt lon="7.66698333333333" lat="46.4782333333333">
     <time>2010-10-19T18:59:59Z</time>
-    <name>Niceman-ch</name>
    </trkpt>
    <trkpt lon="7.66111666666667" lat="46.59755">
     <time>2011-01-19T20:00:00Z</time>
-    <name>bajassli</name>
    </trkpt>
    <trkpt lon="7.68826666666667" lat="46.6893">
     <time>2011-01-22T20:00:00Z</time>
-    <name>Bookenways</name>
    </trkpt>
    <trkpt lon="7.67308333333333" lat="46.6927166666667">
     <time>2011-01-23T20:00:00Z</time>
-    <name>jjsch.68</name>
    </trkpt>
    <trkpt lon="7.6271" lat="46.6753">
     <time>2011-01-24T20:00:00Z</time>
-    <name>Emmenstein</name>
    </trkpt>
    <trkpt lon="7.3733" lat="46.6137833333333">
     <time>2011-01-27T20:00:00Z</time>
-    <name>Compi7</name>
    </trkpt>
    <trkpt lon="7.3411" lat="46.5908166666667">
     <time>2011-01-29T20:00:00Z</time>
-    <name>Pfauenauge04</name>
    </trkpt>
    <trkpt lon="7.27706666666667" lat="46.6097833333333">
     <time>2011-01-29T20:00:00Z</time>
-    <name>Eltitas</name>
    </trkpt>
    <trkpt lon="7.1754" lat="46.6115166666667">
     <time>2011-04-10T18:59:59Z</time>
-    <name>Butterblume</name>
    </trkpt>
    <trkpt lon="7.10201666666667" lat="46.6057333333333">
     <time>2011-05-05T18:59:59Z</time>
-    <name>fam.wue</name>
    </trkpt>
    <trkpt lon="7.07921666666667" lat="46.5773">
     <time>2011-06-28T18:59:59Z</time>
-    <name>hekiha</name>
    </trkpt>
    <trkpt lon="7.0762" lat="46.5923">
     <time>2011-07-15T18:59:59Z</time>
-    <name>cuchaule</name>
    </trkpt>
    <trkpt lon="8.21618333333333" lat="46.71175">
     <time>2011-07-26T18:59:59Z</time>
-    <name>treasure hunt</name>
    </trkpt>
    <trkpt lon="8.13531666666667" lat="46.7573333333333">
     <time>2011-07-27T18:59:59Z</time>
-    <name>Riepichiep</name>
    </trkpt>
    <trkpt lon="8.08745" lat="46.7466833333333">
     <time>2011-10-12T18:59:59Z</time>
-    <name>schnuefelis</name>
    </trkpt>
    <trkpt lon="7.92566666666667" lat="46.7167166666667">
     <time>2012-02-05T20:00:00Z</time>
-    <name>Tapsi.li</name>
    </trkpt>
    <trkpt lon="7.83206666666667" lat="46.6921333333333">
     <time>2012-02-09T20:00:00Z</time>
-    <name>O-Laeufer</name>
    </trkpt>
    <trkpt lon="7.66795" lat="46.7302166666667">
     <time>2012-02-10T20:00:00Z</time>
-    <name>baryt68</name>
    </trkpt>
    <trkpt lon="7.66795" lat="46.7302166666667">
     <time>2012-02-10T20:00:00Z</time>
-    <name>ernies</name>
    </trkpt>
    <trkpt lon="7.64851666666667" lat="46.7823166666667">
     <time>2012-02-12T20:00:00Z</time>
-    <name>HUCK64</name>
    </trkpt>
    <trkpt lon="8.02156666666667" lat="46.6236">
     <time>2012-02-13T20:00:00Z</time>
-    <name>Moxjet</name>
    </trkpt>
    <trkpt lon="7.36865" lat="47.2021833333333">
     <time>2012-03-16T09:36:34Z</time>
-    <name>Znuk</name>
    </trkpt>
    <trkpt lon="7.47418333333333" lat="47.1602666666667">
     <time>2012-03-20T18:59:59Z</time>
-    <name>Mat_Lynx</name>
    </trkpt>
    <trkpt lon="7.42243333333333" lat="47.0492666666667">
     <time>2012-04-01T18:59:59Z</time>
-    <name>stoe_01</name>
    </trkpt>
    <trkpt lon="7.58938333333333" lat="47.0630666666667">
     <time>2012-04-05T18:59:59Z</time>
-    <name>Gluresucher</name>
    </trkpt>
    <trkpt lon="7.74393333333333" lat="47.019">
     <time>2012-04-09T18:59:59Z</time>
-    <name>Resbug</name>
    </trkpt>
    <trkpt lon="8.60028333333333" lat="47.2606">
     <time>2012-04-10T18:59:59Z</time>
-    <name>tifig</name>
    </trkpt>
    <trkpt lon="8.0445" lat="46.94755">
     <time>2012-04-16T18:59:59Z</time>
-    <name>tifig</name>
    </trkpt>
    <trkpt lon="8.18378333333333" lat="47.0396833333333">
     <time>2012-04-18T18:59:59Z</time>
-    <name>Worlddiver</name>
    </trkpt>
    <trkpt lon="8.18281666666667" lat="47.11855">
     <time>2012-04-19T18:59:59Z</time>
-    <name>claudiahans</name>
    </trkpt>
    <trkpt lon="8.17823333333333" lat="47.14505">
     <time>2012-04-19T18:59:59Z</time>
-    <name>chipmuncher</name>
    </trkpt>
    <trkpt lon="8.17823333333333" lat="47.14505">
     <time>2012-04-19T18:59:59Z</time>
-    <name>chipmuncher</name>
    </trkpt>
    <trkpt lon="8.06665" lat="47.1713833333333">
     <time>2012-04-20T18:59:59Z</time>
-    <name>Die Heimlifeisse</name>
    </trkpt>
    <trkpt lon="8.48693333333333" lat="47.1145666666667">
     <time>2012-04-22T18:59:59Z</time>
-    <name>Biendliwisi</name>
    </trkpt>
    <trkpt lon="8.56358333333333" lat="47.0438166666667">
     <time>2012-04-23T18:59:59Z</time>
-    <name>Sortis</name>
    </trkpt>
    <trkpt lon="8.56358333333333" lat="47.0438166666667">
     <time>2012-04-23T18:59:59Z</time>
-    <name>ernies</name>
    </trkpt>
    <trkpt lon="8.49395" lat="47.0744">
     <time>2012-04-25T18:59:59Z</time>
-    <name>thomeri</name>
    </trkpt>
    <trkpt lon="8.46795" lat="47.1337666666667">
     <time>2012-04-26T18:59:59Z</time>
-    <name>Widi5</name>
    </trkpt>
    <trkpt lon="8.62183333333333" lat="47.1143333333333">
     <time>2012-04-26T18:59:59Z</time>
-    <name>Don Raul</name>
    </trkpt>
    <trkpt lon="8.76515" lat="47.11345">
     <time>2012-04-28T18:59:59Z</time>
-    <name>kalü</name>
    </trkpt>
    <trkpt lon="8.76943333333333" lat="47.1779666666667">
     <time>2012-05-08T18:59:59Z</time>
-    <name>daisy1620</name>
    </trkpt>
    <trkpt lon="8.70731666666667" lat="47.2090833333333">
     <time>2012-05-09T18:59:59Z</time>
-    <name>lokisob</name>
    </trkpt>
    <trkpt lon="8.69021666666667" lat="47.2010166666667">
     <time>2012-05-10T18:59:59Z</time>
-    <name>Die Berüchtigten</name>
    </trkpt>
    <trkpt lon="8.80886666666667" lat="47.2189">
     <time>2012-05-12T18:59:59Z</time>
-    <name>etzelblick</name>
    </trkpt>
    <trkpt lon="8.79615" lat="47.2011">
     <time>2012-05-13T18:59:59Z</time>
-    <name>Tayger</name>
    </trkpt>
    <trkpt lon="8.86468333333333" lat="47.1941">
     <time>2012-05-13T18:59:59Z</time>
-    <name>Tenemet</name>
    </trkpt>
    <trkpt lon="9.01016666666667" lat="47.1883">
     <time>2012-05-17T18:59:59Z</time>
-    <name>meersäuli</name>
    </trkpt>
    <trkpt lon="9.27048333333333" lat="47.1421166666667">
     <time>2012-05-20T18:59:59Z</time>
-    <name>cascata</name>
    </trkpt>
    <trkpt lon="9.38616666666667" lat="47.0484333333333">
     <time>2012-05-22T18:59:59Z</time>
-    <name>bloeterli</name>
    </trkpt>
    <trkpt lon="9.38581666666667" lat="47.0484333333333">
     <time>2012-05-22T18:59:59Z</time>
-    <name>bloeterli</name>
    </trkpt>
    <trkpt lon="9.38616666666667" lat="47.0484333333333">
     <time>2012-05-22T18:59:59Z</time>
-    <name>Michix</name>
    </trkpt>
    <trkpt lon="9.13926666666667" lat="47.1212666666667">
     <time>2012-05-23T18:59:59Z</time>
-    <name>H0nolulu</name>
    </trkpt>
    <trkpt lon="9.21506666666667" lat="47.1115">
     <time>2012-05-24T18:59:59Z</time>
-    <name>Michix</name>
    </trkpt>
    <trkpt lon="9.4386" lat="47.0491833333333">
     <time>2012-05-26T18:59:59Z</time>
-    <name>chraxli</name>
    </trkpt>
    <trkpt lon="9.45925" lat="47.02305">
     <time>2012-05-27T18:59:59Z</time>
-    <name>swissalba</name>
    </trkpt>
    <trkpt lon="9.5203" lat="47.0238833333333">
     <time>2012-05-27T18:59:59Z</time>
-    <name>Rakchi</name>
    </trkpt>
    <trkpt lon="9.519" lat="47.1463833333333">
     <time>2012-05-28T18:59:59Z</time>
-    <name>Indianagoofy</name>
    </trkpt>
    <trkpt lon="9.519" lat="47.1463833333333">
     <time>2012-05-28T18:59:59Z</time>
-    <name>Capt. Jane Sparrow</name>
    </trkpt>
    <trkpt lon="9.53328333333333" lat="47.12485">
     <time>2012-05-29T18:59:59Z</time>
-    <name>hoepsi</name>
    </trkpt>
    <trkpt lon="9.54621666666667" lat="47.1248166666667">
     <time>2012-05-31T18:59:59Z</time>
-    <name>NX-8213</name>
    </trkpt>
    <trkpt lon="9.57753333333333" lat="47.10835">
     <time>2012-06-01T18:59:59Z</time>
-    <name>Jasi+Saba</name>
    </trkpt>
    <trkpt lon="9.533" lat="47.1264833333333">
     <time>2012-06-01T18:59:59Z</time>
-    <name>stromer5</name>
    </trkpt>
    <trkpt lon="9.36141666666667" lat="46.8150166666667">
     <time>2012-06-02T18:59:59Z</time>
-    <name>maraz</name>
    </trkpt>
    <trkpt lon="9.3408" lat="46.8033">
     <time>2012-06-03T18:59:59Z</time>
-    <name>nrg77</name>
    </trkpt>
    <trkpt lon="9.31671666666667" lat="46.7948833333333">
     <time>2012-06-04T18:59:59Z</time>
-    <name>tigerandmike</name>
    </trkpt>
    <trkpt lon="9.20835" lat="46.7684">
     <time>2012-06-04T18:59:59Z</time>
-    <name>Team Capun</name>
    </trkpt>
    <trkpt lon="8.94741666666667" lat="46.7260666666667">
     <time>2012-06-12T17:07:22Z</time>
-    <name>moritours</name>
    </trkpt>
    <trkpt lon="8.85498333333333" lat="46.6935666666667">
     <time>2012-06-23T18:59:59Z</time>
-    <name>4Rennschnecken</name>
    </trkpt>
    <trkpt lon="8.8036" lat="46.56365">
     <time>2012-07-10T18:59:59Z</time>
-    <name>GrignaSprite</name>
    </trkpt>
    <trkpt lon="8.94845" lat="46.4855833333333">
     <time>2012-07-11T18:59:59Z</time>
-    <name>hb9eds ? Alchemilla</name>
    </trkpt>
    <trkpt lon="8.96956666666667" lat="46.3818833333333">
     <time>2012-07-12T18:59:59Z</time>
-    <name>goldzak</name>
    </trkpt>
    <trkpt lon="9.02668333333333" lat="46.1920333333333">
     <time>2012-07-15T18:59:59Z</time>
-    <name>fastoa</name>
    </trkpt>
    <trkpt lon="8.91126666666667" lat="46.1367">
     <time>2012-07-16T18:59:59Z</time>
-    <name>GPenguinS</name>
    </trkpt>
    <trkpt lon="8.92783333333333" lat="46.0183333333333">
     <time>2012-07-18T18:59:59Z</time>
-    <name>finsteraarhorn</name>
    </trkpt>
    <trkpt lon="8.98595" lat="45.8937333333333">
     <time>2012-07-19T18:59:59Z</time>
-    <name>miuu</name>
    </trkpt>
    <trkpt lon="8.99916666666667" lat="45.8665333333333">
     <time>2012-07-20T18:59:59Z</time>
-    <name>Camel!</name>
    </trkpt>
    <trkpt lon="8.95168333333333" lat="45.9338166666667">
     <time>2012-07-22T18:59:59Z</time>
-    <name>tanja und tom</name>
    </trkpt>
    <trkpt lon="8.88726666666667" lat="45.9633833333333">
     <time>2012-07-24T18:59:59Z</time>
-    <name>giuba21</name>
    </trkpt>
    <trkpt lon="8.88883333333333" lat="46.05085">
     <time>2012-08-03T18:59:59Z</time>
-    <name>hgy59</name>
    </trkpt>
    <trkpt lon="8.95528333333333" lat="46.1437833333333">
     <time>2012-08-06T18:59:59Z</time>
-    <name>dis19</name>
    </trkpt>
    <trkpt lon="8.97731666666667" lat="46.1757666666667">
     <time>2012-08-09T18:59:59Z</time>
-    <name>fafafafa</name>
    </trkpt>
    <trkpt lon="8.84918333333333" lat="46.1693666666667">
     <time>2012-08-14T18:59:59Z</time>
-    <name>BelTicino</name>
    </trkpt>
    <trkpt lon="9.0211" lat="46.1931833333333">
     <time>2012-08-16T18:59:59Z</time>
-    <name>Mr. & Miss X</name>
    </trkpt>
    <trkpt lon="9.03126666666667" lat="46.2556">
     <time>2012-08-17T18:59:59Z</time>
-    <name>PKLM</name>
    </trkpt>
    <trkpt lon="8.97663333333333" lat="46.3014166666667">
     <time>2012-08-17T18:59:59Z</time>
-    <name>Danymey</name>
    </trkpt>
    <trkpt lon="8.874" lat="46.40435">
     <time>2012-08-31T18:59:59Z</time>
-    <name>casamafa</name>
    </trkpt>
    <trkpt lon="8.874" lat="46.40435">
     <time>2012-09-16T18:59:59Z</time>
-    <name>casamafa</name>
    </trkpt>
    <trkpt lon="8.75958333333333" lat="46.4916">
     <time>2012-10-06T18:59:59Z</time>
-    <name>D'Buebe vom Dorf</name>
    </trkpt>
    <trkpt lon="8.67513333333333" lat="46.5167">
     <time>2012-10-07T18:59:59Z</time>
-    <name>Loremo</name>
    </trkpt>
    <trkpt lon="8.58998333333333" lat="46.52315">
     <time>2012-10-27T18:59:59Z</time>
-    <name>giorgix3</name>
    </trkpt>
    <trkpt lon="8.59201666666667" lat="46.6711166666667">
     <time>2012-11-02T18:59:59Z</time>
-    <name>GPenguinS</name>
    </trkpt>
    <trkpt lon="8.6298" lat="46.7326666666667">
     <time>2012-11-04T20:00:00Z</time>
-    <name>Urmanija</name>
    </trkpt>
    <trkpt lon="8.21378333333333" lat="47.4830166666667">
     <time>2012-11-14T20:00:00Z</time>
-    <name>Hlw</name>
    </trkpt>
    <trkpt lon="8.28475" lat="47.4704">
     <time>2012-11-16T20:00:00Z</time>
-    <name>KAPPIS</name>
    </trkpt>
    <trkpt lon="8.28718333333333" lat="47.46045">
     <time>2012-11-18T20:00:00Z</time>
-    <name>mfbaden</name>
    </trkpt>
    <trkpt lon="8.235" lat="47.455">
     <time>2012-11-18T20:00:00Z</time>
-    <name>Omeros</name>
    </trkpt>
    <trkpt lon="8.35258333333333" lat="47.43725">
     <time>2012-11-19T20:00:00Z</time>
-    <name>aikaonyx</name>
    </trkpt>
    <trkpt lon="8.19203333333333" lat="47.4523166666667">
     <time>2012-11-21T20:00:00Z</time>
-    <name>tommiB</name>
    </trkpt>
    <trkpt lon="8.51508333333333" lat="47.3576666666667">
     <time>2012-11-23T20:00:00Z</time>
-    <name>SaschaBänzi</name>
    </trkpt>
    <trkpt lon="8.42965" lat="47.4017666666667">
     <time>2012-11-23T20:00:00Z</time>
-    <name>fiona84</name>
    </trkpt>
    <trkpt lon="8.42705" lat="47.4593666666667">
     <time>2012-11-23T20:00:00Z</time>
-    <name>PicoKnirps</name>
    </trkpt>
    <trkpt lon="8.41658333333333" lat="47.4635833333333">
     <time>2012-11-24T20:00:00Z</time>
-    <name>Luckythree</name>
    </trkpt>
    <trkpt lon="8.36616666666667" lat="47.5123333333333">
     <time>2012-11-24T20:00:00Z</time>
-    <name>pasra</name>
    </trkpt>
    <trkpt lon="8.17425" lat="47.4220166666667">
     <time>2012-11-25T20:00:00Z</time>
-    <name>molubuha</name>
    </trkpt>
    <trkpt lon="8.02851666666667" lat="47.3688166666667">
     <time>2012-11-25T20:00:00Z</time>
-    <name>bossi-trip</name>
    </trkpt>
    <trkpt lon="8.0699" lat="47.4367166666667">
     <time>2012-11-26T20:00:00Z</time>
-    <name>9xy</name>
    </trkpt>
    <trkpt lon="8.09746666666667" lat="47.44665">
     <time>2012-11-27T20:00:00Z</time>
-    <name>Zahn5</name>
    </trkpt>
    <trkpt lon="8.06798333333333" lat="47.4783166666667">
     <time>2012-11-27T20:00:00Z</time>
-    <name>treasure hunt</name>
    </trkpt>
    <trkpt lon="7.87823333333333" lat="47.53475">
     <time>2012-11-28T20:00:00Z</time>
-    <name>zulei32</name>
    </trkpt>
    <trkpt lon="7.70013333333333" lat="47.5328333333333">
     <time>2012-11-30T20:00:00Z</time>
-    <name>EdnaSonne</name>
    </trkpt>
    <trkpt lon="7.66088333333333" lat="47.5397333333333">
     <time>2012-12-01T20:00:00Z</time>
-    <name>lilupanda</name>
    </trkpt>
    <trkpt lon="7.6201" lat="47.55805">
     <time>2012-12-02T20:00:00Z</time>
-    <name>MartiBelle</name>
    </trkpt>
    <trkpt lon="7.60235" lat="47.4554666666667">
     <time>2012-12-03T20:00:00Z</time>
-    <name>Birszwärge</name>
    </trkpt>
    <trkpt lon="7.53561666666667" lat="47.4277666666667">
     <time>2012-12-03T20:00:00Z</time>
-    <name>ravijeger</name>
    </trkpt>
    <trkpt lon="7.47766666666667" lat="47.39975">
     <time>2012-12-04T20:00:00Z</time>
-    <name>pipistrelli</name>
    </trkpt>
    <trkpt lon="7.39635" lat="47.3973833333333">
     <time>2012-12-05T17:39:14Z</time>
-    <name>alatariel & osiris</name>
    </trkpt>
    <trkpt lon="7.37073333333333" lat="47.38885">
     <time>2012-12-06T20:00:00Z</time>
-    <name>bubendorf</name>
    </trkpt>
    <trkpt lon="7.36043333333333" lat="47.3725666666667">
     <time>2012-12-06T20:00:00Z</time>
-    <name>al_fa</name>
    </trkpt>
    <trkpt lon="7.36251666666667" lat="47.2691833333333">
     <time>2012-12-13T20:00:00Z</time>
-    <name>aaremeitschi</name>
    </trkpt>
    <trkpt lon="7.38081666666667" lat="47.2919666666667">
     <time>2012-12-26T20:00:00Z</time>
-    <name>jackeroo99</name>
    </trkpt>
    <trkpt lon="7.17725" lat="47.1997833333333">
     <time>2013-01-02T20:00:00Z</time>
-    <name>Mystic-G</name>
    </trkpt>
    <trkpt lon="7.34613333333333" lat="47.25855">
     <time>2012-12-29T20:00:00Z</time>
-    <name>Mystic-S</name>
    </trkpt>
    <trkpt lon="7.23128333333333" lat="47.1364">
     <time>2013-01-06T20:00:00Z</time>
-    <name>Nidi_biel</name>
    </trkpt>
    <trkpt lon="7.22906666666667" lat="47.1075666666667">
     <time>2013-01-08T20:00:00Z</time>
-    <name>Aku+Uvo</name>
    </trkpt>
    <trkpt lon="7.44696666666667" lat="47.1344">
     <time>2013-01-13T20:00:00Z</time>
-    <name>Mr.Gross</name>
    </trkpt>
    <trkpt lon="7.37438333333333" lat="47.0457833333333">
     <time>2013-01-13T20:00:00Z</time>
-    <name>CeMaBiFi junior's</name>
    </trkpt>
    <trkpt lon="7.26635" lat="47.1390333333333">
     <time>2013-01-15T20:00:00Z</time>
-    <name>chasseral</name>
    </trkpt>
    <trkpt lon="7.26896666666667" lat="47.0427166666667">
     <time>2013-01-16T20:00:00Z</time>
-    <name>Tapsi.li</name>
    </trkpt>
    <trkpt lon="7.19135" lat="46.9879166666667">
     <time>2013-01-16T20:00:00Z</time>
-    <name>Radioaktiv</name>
    </trkpt>
    <trkpt lon="7.10651666666667" lat="46.9955833333333">
     <time>2013-01-20T20:00:00Z</time>
-    <name>sutosven</name>
    </trkpt>
    <trkpt lon="7.01473333333333" lat="46.9585833333333">
     <time>2013-01-22T20:00:00Z</time>
-    <name>LIANA25</name>
    </trkpt>
    <trkpt lon="7.09306666666667" lat="46.9641">
     <time>2013-01-25T20:00:00Z</time>
-    <name>KKA16</name>
    </trkpt>
    <trkpt lon="7.27666666666667" lat="46.9204333333333">
     <time>2013-01-26T20:00:00Z</time>
-    <name>Rollsky</name>
    </trkpt>
    <trkpt lon="7.42975" lat="46.9330666666667">
     <time>2013-01-27T15:26:14Z</time>
-    <name>Caro1984</name>
    </trkpt>
    <trkpt lon="7.24281666666667" lat="46.9436333333333">
     <time>2013-01-28T20:00:00Z</time>
-    <name>edi_the_eagle</name>
    </trkpt>
    <trkpt lon="7.32621666666667" lat="46.9187">
     <time>2013-01-31T20:00:00Z</time>
-    <name>Mromi62</name>
    </trkpt>
    <trkpt lon="7.4731" lat="46.8518166666667">
     <time>2013-02-01T20:00:00Z</time>
-    <name>Fribj</name>
    </trkpt>
    <trkpt lon="7.46778333333333" lat="46.7874166666667">
     <time>2013-02-02T20:00:00Z</time>
-    <name>Zombie's</name>
    </trkpt>
    <trkpt lon="7.45066666666667" lat="46.75475">
     <time>2013-02-18T20:29:07Z</time>
-    <name>Apicula</name>
    </trkpt>
    <trkpt lon="7.47648333333333" lat="46.7993666666667">
     <time>2013-02-19T09:38:49Z</time>
-    <name>SouthernLord</name>
    </trkpt>
    <trkpt lon="7.53136666666667" lat="46.8260666666667">
     <time>2013-02-19T20:00:00Z</time>
-    <name>eigerrun</name>
    </trkpt>
    <trkpt lon="7.54361666666667" lat="46.8419333333333">
     <time>2013-02-19T20:00:00Z</time>
-    <name>schallers</name>
    </trkpt>
    <trkpt lon="7.5188" lat="46.8674333333333">
     <time>2013-02-20T20:00:00Z</time>
-    <name>Galgenvögel</name>
    </trkpt>
    <trkpt lon="7.51046666666667" lat="46.9086833333333">
     <time>2013-02-20T20:00:00Z</time>
-    <name>elmathu</name>
    </trkpt>
    <trkpt lon="7.60813333333333" lat="46.9069833333333">
     <time>2013-02-21T20:00:00Z</time>
-    <name>fam.wue</name>
    </trkpt>
    <trkpt lon="7.66056666666667" lat="46.9073666666667">
     <time>2013-02-21T20:00:00Z</time>
-    <name>DinoRex07</name>
    </trkpt>
    <trkpt lon="7.73481666666667" lat="46.9280833333333">
     <time>2013-02-25T20:00:00Z</time>
-    <name>dreamfull</name>
    </trkpt>
    <trkpt lon="7.78743333333333" lat="46.9358">
     <time>2013-02-25T20:00:00Z</time>
-    <name>spazifiz</name>
    </trkpt>
    <trkpt lon="7.85073333333333" lat="46.92615">
     <time>2013-03-11T23:49:04Z</time>
-    <name>Stöpsu</name>
    </trkpt>
    <trkpt lon="7.90793333333333" lat="46.96135">
     <time>2013-03-23T18:59:59Z</time>
-    <name>uschoen</name>
    </trkpt>
    <trkpt lon="7.93695" lat="46.9827666666667">
     <time>2013-03-26T18:59:59Z</time>
-    <name>silli1310</name>
    </trkpt>
    <trkpt lon="7.94018333333333" lat="47.0035833333333">
     <time>2013-04-25T18:59:59Z</time>
-    <name>Katzenauge07</name>
    </trkpt>
    <trkpt lon="7.95686666666667" lat="47.0409">
     <time>2013-04-28T18:59:59Z</time>
-    <name>simeat</name>
    </trkpt>
    <trkpt lon="7.99771666666667" lat="47.1177666666667">
     <time>2013-05-05T18:59:59Z</time>
-    <name>stuhlbein</name>
    </trkpt>
    <trkpt lon="8.31698333333333" lat="46.9700666666667">
     <time>2013-05-08T18:59:59Z</time>
-    <name>lara05</name>
    </trkpt>
    <trkpt lon="8.33773333333333" lat="46.9808666666667">
     <time>2013-05-10T18:59:59Z</time>
-    <name>s'lulins</name>
    </trkpt>
    <trkpt lon="8.28355" lat="47.0185666666667">
     <time>2013-05-11T18:59:59Z</time>
-    <name>Steipilzbrätler</name>
    </trkpt>
    <trkpt lon="8.32228333333333" lat="47.2048">
     <time>2013-05-31T18:59:59Z</time>
-    <name>icklesidi</name>
    </trkpt>
    <trkpt lon="8.44695" lat="47.0765">
     <time>2013-06-07T07:00:00Z</time>
-    <name>Staerneching</name>
    </trkpt>
    <trkpt lon="8.44763333333333" lat="47.0923833333333">
     <time>2013-06-07T07:00:00Z</time>
-    <name>a234781</name>
    </trkpt>
    <trkpt lon="8.56616666666667" lat="47.0665">
     <time>2013-06-09T07:00:00Z</time>
-    <name>Spirit_ch</name>
    </trkpt>
    <trkpt lon="8.61293333333333" lat="46.9823">
     <time>2013-06-16T18:59:59Z</time>
-    <name>TecmjrB</name>
    </trkpt>
    <trkpt lon="8.6156" lat="46.9594">
     <time>2013-06-19T18:59:59Z</time>
-    <name>schlumpftrupp</name>
    </trkpt>
    <trkpt lon="8.75416666666667" lat="46.86655">
     <time>2013-06-22T18:59:59Z</time>
-    <name>lunzebiene</name>
    </trkpt>
    <trkpt lon="8.7853" lat="46.8652166666667">
     <time>2013-06-30T18:59:59Z</time>
-    <name>Piratenbär</name>
    </trkpt>
    <trkpt lon="8.75803333333333" lat="46.8715166666667">
     <time>2013-06-30T18:59:59Z</time>
-    <name>Trepan</name>
    </trkpt>
    <trkpt lon="8.85445" lat="46.8676833333333">
     <time>2013-06-30T18:59:59Z</time>
-    <name>Silas07</name>
    </trkpt>
    <trkpt lon="9.05926666666667" lat="46.9877166666667">
     <time>2013-07-01T18:59:59Z</time>
-    <name>Chäps</name>
    </trkpt>
    <trkpt lon="8.98558333333333" lat="47.1745333333333">
     <time>2013-07-01T18:59:59Z</time>
-    <name>ussbuehler</name>
    </trkpt>
    <trkpt lon="8.84705" lat="47.1260666666667">
     <time>2013-07-02T18:59:59Z</time>
-    <name>Team Eisstock</name>
    </trkpt>
    <trkpt lon="8.77875" lat="47.1541166666667">
     <time>2013-07-02T18:59:59Z</time>
-    <name>Wolpe</name>
    </trkpt>
    <trkpt lon="8.72291666666667" lat="47.1556166666667">
     <time>2013-07-03T18:59:59Z</time>
-    <name>Svandan</name>
    </trkpt>
    <trkpt lon="8.75655" lat="47.1952666666667">
     <time>2013-07-04T18:59:59Z</time>
-    <name>Black Ravens</name>
    </trkpt>
    <trkpt lon="8.97665" lat="47.18275">
     <time>2013-07-05T18:59:59Z</time>
-    <name>be68</name>
    </trkpt>
    <trkpt lon="9.02753333333333" lat="47.1541166666667">
     <time>2013-07-05T18:59:59Z</time>
-    <name>Goldinus</name>
    </trkpt>
    <trkpt lon="9.0809" lat="47.1087166666667">
     <time>2013-07-05T18:59:59Z</time>
-    <name>ussbuehler</name>
    </trkpt>
    <trkpt lon="9.06906666666667" lat="47.02175">
     <time>2013-07-05T18:59:59Z</time>
-    <name>kraimorie</name>
    </trkpt>
    <trkpt lon="9.07546666666667" lat="46.9915166666667">
     <time>2013-07-07T18:59:59Z</time>
-    <name>meersäuli</name>
    </trkpt>
    <trkpt lon="9.08758333333333" lat="47.0224833333333">
     <time>2013-07-07T18:59:59Z</time>
-    <name>pfiff 74.ch</name>
    </trkpt>
    <trkpt lon="9.07423333333333" lat="47.0826">
     <time>2013-07-18T18:59:59Z</time>
-    <name>Michix</name>
    </trkpt>
    <trkpt lon="9.19493333333333" lat="47.1144">
     <time>2013-07-20T18:59:59Z</time>
-    <name>Stuermi33</name>
    </trkpt>
    <trkpt lon="9.28761666666667" lat="47.1184166666667">
     <time>2013-07-27T18:59:59Z</time>
-    <name>bloeterli</name>
    </trkpt>
    <trkpt lon="9.35188333333333" lat="47.1015833333333">
     <time>2013-07-30T18:59:59Z</time>
-    <name>hoepsi</name>
    </trkpt>
    <trkpt lon="9.45125" lat="47.0575166666667">
     <time>2013-08-04T18:59:59Z</time>
-    <name>Hexilein</name>
    </trkpt>
    <trkpt lon="9.5452" lat="47.0137">
     <time>2013-08-04T18:59:59Z</time>
-    <name>Jasi+Saba</name>
    </trkpt>
    <trkpt lon="9.53031666666667" lat="47.0410166666667">
     <time>2013-08-06T18:59:59Z</time>
-    <name>chraxli</name>
    </trkpt>
    <trkpt lon="9.41315" lat="47.05215">
     <time>2013-08-12T18:59:59Z</time>
-    <name>swissalba</name>
    </trkpt>
    <trkpt lon="9.50185" lat="47.0657333333333">
     <time>2013-08-13T18:59:59Z</time>
-    <name>pongo und göttin</name>
    </trkpt>
    <trkpt lon="9.47513333333333" lat="47.1275666666667">
     <time>2013-08-15T18:59:59Z</time>
-    <name>Pakasch</name>
    </trkpt>
    <trkpt lon="9.45448333333333" lat="47.1363333333333">
     <time>2013-08-16T18:59:59Z</time>
-    <name>Fliggflauder</name>
    </trkpt>
    <trkpt lon="9.52023333333333" lat="47.2888666666667">
     <time>2013-08-17T18:59:59Z</time>
-    <name>adfahe</name>
    </trkpt>
    <trkpt lon="9.4441" lat="47.2258833333333">
     <time>2013-08-19T18:59:59Z</time>
-    <name>hb9tmr</name>
    </trkpt>
    <trkpt lon="9.36528333333333" lat="47.2076666666667">
     <time>2013-08-24T18:59:59Z</time>
-    <name>pongo und göttin</name>
    </trkpt>
    <trkpt lon="9.34376666666667" lat="47.2493666666667">
     <time>2013-09-01T18:59:59Z</time>
-    <name>Bärenkralle</name>
    </trkpt>
    <trkpt lon="9.29498333333333" lat="47.2658166666667">
     <time>2013-09-19T18:59:59Z</time>
-    <name>Chrisoli</name>
    </trkpt>
    <trkpt lon="9.04161666666667" lat="47.45635">
     <time>2013-09-23T18:59:59Z</time>
-    <name>Rikli25</name>
    </trkpt>
    <trkpt lon="9.23165" lat="47.4908166666667">
     <time>2013-09-24T18:59:59Z</time>
-    <name>Wibus</name>
    </trkpt>
    <trkpt lon="9.19321666666667" lat="47.5182333333333">
     <time>2013-09-26T18:59:59Z</time>
-    <name>Junaro</name>
    </trkpt>
    <trkpt lon="9.29158333333333" lat="47.542">
     <time>2013-09-27T18:59:59Z</time>
-    <name>birkli</name>
    </trkpt>
    <trkpt lon="9.32261666666667" lat="47.5961333333333">
     <time>2013-09-27T18:59:59Z</time>
-    <name>popfex</name>
    </trkpt>
    <trkpt lon="9.19283333333333" lat="47.6491166666667">
     <time>2013-09-29T18:59:59Z</time>
-    <name>Appezeller</name>
    </trkpt>
    <trkpt lon="9.1423" lat="47.6635666666667">
     <time>2013-09-29T18:59:59Z</time>
-    <name>GreenTeam_ch</name>
    </trkpt>
    <trkpt lon="9.11733333333333" lat="47.6198333333333">
     <time>2013-10-01T18:59:59Z</time>
-    <name>DerGallier</name>
    </trkpt>
    <trkpt lon="9.16983333333333" lat="47.67245">
     <time>2013-10-01T18:59:59Z</time>
-    <name>*ra</name>
    </trkpt>
    <trkpt lon="9.18546666666667" lat="47.6527833333333">
     <time>2013-10-02T18:59:59Z</time>
-    <name>Laub-frosch</name>
    </trkpt>
    <trkpt lon="9.06253333333333" lat="47.6722333333333">
     <time>2013-10-03T18:59:59Z</time>
-    <name>stehebo</name>
    </trkpt>
    <trkpt lon="9.01653333333333" lat="47.6750333333333">
     <time>2013-10-06T18:59:59Z</time>
-    <name>Lody & Gofry</name>
    </trkpt>
    <trkpt lon="8.98168333333333" lat="47.6667666666667">
     <time>2013-10-13T18:59:59Z</time>
-    <name>whiterussian_ch</name>
    </trkpt>
    <trkpt lon="8.83841666666667" lat="47.6799666666667">
     <time>2013-10-18T18:59:59Z</time>
-    <name>Sajoansa</name>
    </trkpt>
    <trkpt lon="8.69156666666667" lat="47.7191166666667">
     <time>2013-10-19T18:59:59Z</time>
-    <name>LabiCH</name>
    </trkpt>
    <trkpt lon="8.63536666666667" lat="47.6867166666667">
     <time>2013-10-20T18:59:59Z</time>
-    <name>wummi65</name>
    </trkpt>
    <trkpt lon="8.65945" lat="47.63125">
     <time>2013-10-22T18:59:59Z</time>
-    <name>busy2</name>
    </trkpt>
    <trkpt lon="8.50016666666667" lat="47.588">
     <time>2013-10-26T18:59:59Z</time>
-    <name>JKrubi</name>
    </trkpt>
    <trkpt lon="8.42775" lat="47.5570666666667">
     <time>2013-11-03T20:00:00Z</time>
-    <name>Hinni&Simo</name>
    </trkpt>
    <trkpt lon="8.38593333333333" lat="47.5559166666667">
     <time>2013-11-10T20:00:00Z</time>
-    <name>JuergB</name>
    </trkpt>
    <trkpt lon="8.17765" lat="47.6006666666667">
     <time>2013-11-17T20:00:00Z</time>
-    <name>jonny08</name>
    </trkpt>
    <trkpt lon="8.12698333333333" lat="47.5826166666667">
     <time>2013-11-18T20:00:00Z</time>
-    <name>DiMaSh</name>
    </trkpt>
    <trkpt lon="7.9858" lat="47.5544833333333">
     <time>2013-11-18T20:00:00Z</time>
-    <name>benny1969</name>
    </trkpt>
    <trkpt lon="7.77785" lat="47.5509166666667">
     <time>2013-11-19T20:00:00Z</time>
-    <name>Eyjafjallajökull</name>
    </trkpt>
    <trkpt lon="7.61833333333333" lat="47.4851333333333">
     <time>2013-11-20T20:00:00Z</time>
-    <name>Swisspanther</name>
    </trkpt>
    <trkpt lon="7.63998333333333" lat="47.5204166666667">
     <time>2013-11-20T20:00:00Z</time>
-    <name>Quirin07</name>
    </trkpt>
    <trkpt lon="7.64456666666667" lat="47.5457666666667">
     <time>2013-11-21T20:00:00Z</time>
-    <name>drueegger</name>
    </trkpt>
    <trkpt lon="7.63143333333333" lat="47.5593">
     <time>2013-11-23T20:00:00Z</time>
-    <name>Lampi89</name>
    </trkpt>
    <trkpt lon="7.78268333333333" lat="47.5483">
     <time>2013-11-24T20:00:00Z</time>
-    <name>Muggefuerz</name>
    </trkpt>
    <trkpt lon="7.77498333333333" lat="47.5469">
     <time>2013-12-01T20:00:00Z</time>
-    <name>sgnuflas</name>
    </trkpt>
    <trkpt lon="7.58333333333333" lat="47.5666666666667">
     <time>2013-12-02T20:00:00Z</time>
-    <name>M2S2</name>
    </trkpt>
    <trkpt lon="7.49935" lat="47.42535">
     <time>2013-12-08T20:00:00Z</time>
-    <name>M2S2</name>
    </trkpt>
    <trkpt lon="7.50338333333333" lat="47.4249333333333">
     <time>2013-12-08T20:00:00Z</time>
-    <name>w18</name>
    </trkpt>
    <trkpt lon="7.39631666666667" lat="47.3972333333333">
     <time>2013-12-10T20:00:00Z</time>
-    <name>mindx</name>
    </trkpt>
    <trkpt lon="7.3576" lat="47.3779666666667">
     <time>2013-12-15T20:00:00Z</time>
-    <name>La Baroudeuse</name>
    </trkpt>
    <trkpt lon="7.3576" lat="47.3779666666667">
     <time>2013-12-15T20:00:00Z</time>
-    <name>La Baroudeuse</name>
    </trkpt>
    <trkpt lon="7.20633333333333" lat="47.3847666666667">
     <time>2013-12-15T20:00:00Z</time>
-    <name>Sarkara</name>
    </trkpt>
    <trkpt lon="7.0455" lat="47.2375166666667">
     <time>2013-12-16T20:00:00Z</time>
-    <name>chassetoys</name>
    </trkpt>
    <trkpt lon="6.86988333333333" lat="47.0712">
     <time>2013-12-18T20:00:00Z</time>
-    <name>UncleBen's</name>
    </trkpt>
    <trkpt lon="6.83423333333333" lat="46.9498166666667">
     <time>2013-12-22T20:00:00Z</time>
-    <name>speedy4807</name>
    </trkpt>
    <trkpt lon="6.94865" lat="46.9993666666667">
     <time>2014-01-13T20:00:00Z</time>
-    <name>jraminhos</name>
    </trkpt>
    <trkpt lon="6.94028333333333" lat="47.0016">
     <time>2014-01-23T20:00:00Z</time>
-    <name>oli kuul</name>
    </trkpt>
    <trkpt lon="6.92426666666667" lat="47.00235">
     <time>2014-01-24T20:00:00Z</time>
-    <name>Nab74</name>
    </trkpt>
    <trkpt lon="6.83316666666667" lat="47.0051833333333">
     <time>2014-02-05T20:00:00Z</time>
-    <name>F-Guillaume</name>
    </trkpt>
    <trkpt lon="6.81016666666667" lat="46.94375">
     <time>2014-02-06T20:00:00Z</time>
-    <name>mar-elendili</name>
    </trkpt>
    <trkpt lon="6.7635" lat="46.9065833333333">
     <time>2014-02-06T20:00:00Z</time>
-    <name>Astrancia</name>
    </trkpt>
    <trkpt lon="6.64226666666667" lat="46.83515">
     <time>2014-02-07T20:00:00Z</time>
-    <name>Alinternet</name>
    </trkpt>
    <trkpt lon="6.59451666666667" lat="46.7689833333333">
     <time>2014-02-11T20:00:00Z</time>
-    <name>quetzal-ch</name>
    </trkpt>
    <trkpt lon="6.64075" lat="46.7785833333333">
     <time>2014-02-18T20:00:00Z</time>
-    <name>Sylcé</name>
    </trkpt>
    <trkpt lon="6.63203333333333" lat="46.5085833333333">
     <time>2014-02-19T20:00:00Z</time>
-    <name>BOA2300</name>
    </trkpt>
    <trkpt lon="6.59643333333333" lat="46.5188333333333">
     <time>2014-03-06T20:00:00Z</time>
-    <name>Lesyeuxdetaupes</name>
    </trkpt>
    <trkpt lon="6.69901666666667" lat="46.5194666666667">
     <time>2014-03-08T20:00:00Z</time>
-    <name>flochrikck</name>
    </trkpt>
    <trkpt lon="6.77385" lat="46.5108833333333">
     <time>2014-03-09T18:59:59Z</time>
-    <name>Nellea</name>
    </trkpt>
    <trkpt lon="6.88401666666667" lat="46.47155">
     <time>2014-03-16T18:59:59Z</time>
-    <name>Oleg</name>
    </trkpt>
    <trkpt lon="6.90923333333333" lat="46.4323">
     <time>2014-03-17T18:59:59Z</time>
-    <name>graines d'aventures</name>
    </trkpt>
    <trkpt lon="6.85266666666667" lat="46.4719166666667">
     <time>2014-04-21T18:59:59Z</time>
-    <name>Ondallaz</name>
    </trkpt>
    <trkpt lon="6.90103333333333" lat="46.4465666666667">
     <time>2014-04-24T18:59:59Z</time>
-    <name>K.oline1</name>
    </trkpt>
    <trkpt lon="7.0806" lat="46.58365">
     <time>2014-04-25T18:59:59Z</time>
-    <name>yerkalo</name>
    </trkpt>
    <trkpt lon="7.09465" lat="46.61405">
     <time>2014-05-16T18:59:59Z</time>
-    <name>pasatho</name>
    </trkpt>
    <trkpt lon="7.148" lat="46.6220166666667">
     <time>2014-05-26T18:59:59Z</time>
-    <name>Tourelles</name>
    </trkpt>
    <trkpt lon="7.33651666666667" lat="46.5905">
     <time>2014-05-29T18:59:59Z</time>
-    <name>keenonkites</name>
    </trkpt>
   </trkseg>
  </trk>
