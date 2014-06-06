@@ -16,7 +16,7 @@
 	<script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.1.2/leaflet-omnivore.min.js'></script>
 	<script>
 
-		var map = L.map('map').setView([46.75, 8.25], 10);
+		var map = L.map('map').setView([46.75, 8.25], 8);
 
  		L.tileLayer('https://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png', {
 			maxZoom: 18,
@@ -53,8 +53,8 @@
 		map.addControl(new L.Control.Layers({}, tdsControl ));
 
 		map.on('zoomend ', function(e) {
-			 if ( map.getZoom() > 10 ){ map.removeLayer( tdswpt )}
-			 else if ( map.getZoom() <= 10 ){ map.addLayer( tdswpt )}
+			 if ( map.getZoom() < 11 ){ map.removeLayer( tdswpt )}
+			 else if ( map.getZoom() >= 11 ){ map.addLayer( tdswpt )}
 		});
 		
 /* 		L.marker([51.5, -0.09]).addTo(map)
