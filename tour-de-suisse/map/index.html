@@ -31,7 +31,7 @@
 		var tdswpt    = omnivore.gpx('tds-wpt-complete.gpx')
 			.on ('ready', function(layer) {
 				this.eachLayer(function(marker) {
-				marker.bindPopup(marker.toGeoJSON().properties.name);
+				marker.bindPopup("Finder :" + marker.toGeoJSON().properties.name + "<br>Logtime: " + marker.toGeoJSON().properties.time);
 				});
 				})
 				.addTo(map);
