@@ -36,8 +36,7 @@
 							'TdS Waypoints': tdswpt 
 						 };
 
-		L.Control.Layers('TdS Route': tdstrack).addTo(map);
-#		map.addControl(new L.Control.Layers({}, {'TdS Track':tdstrack,'Other Track':tdstrack2,'wpt':tdswpt}));
+		map.addControl(new L.Control.Layers({}, {'TdS Track':tdstrack}));
 #		map.addControl(new L.Control.Layers({}, {'TdS Track':tdstrack,'Other Track':tdstrack2,'wpt':tdswpt}));
 		
 /* 		L.marker([51.5, -0.09]).addTo(map)
