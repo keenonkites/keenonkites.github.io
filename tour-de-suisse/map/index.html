@@ -40,7 +40,7 @@
 		
 		var tdswpt    = omnivore.gpx('tds-wpt-complete.gpx')
 			.on ('ready', function(layer) {
-				this.toGeoJSON().setStyle({ color:'#000' });
+				this.setStyle({ color:'#000' });
 				this.eachLayer(function(marker) {
 				marker.bindPopup("Placed by :" + marker.toGeoJSON().properties.name + "<br>Logtime: " + marker.toGeoJSON().properties.time);
 				marker.on('mouseover', function (e) { this.openPopup();  });
