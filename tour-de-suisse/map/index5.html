@@ -1,38 +1,67 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset=utf-8 />
-<title>GPX trackpoints and waypoints</title>
-<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-<script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.3/mapbox.js'></script>
-<link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.3/mapbox.css' rel='stylesheet' />
-<style>
-  body { margin:0; padding:0; }
-  #map { position:absolute; top:0; bottom:0; width:100%; }
-</style>
+	<title>Leaflet Quick Start Guide Example</title>
+	<meta charset="utf-8" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
 </head>
 <body>
+	<div id="map" style="width: 1024px; height: 800px"></div>
+
+	<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+	<script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.1.2/leaflet-omnivore.min.js'></script>
+	<script>
+
+		var map = L.map('map').setView([46.75, 8.25], 8);
+
+ 		L.tileLayer('https://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png', {
+			maxZoom: 18,
+			attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
+				'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+				'Imagery © <a href="http://mapbox.com">Mapbox</a>',
+			id: 'examples.map-i86knfo3'
+		}).addTo(map);
+
+		var tdstrack = omnivore.gpx('tds-route-complete-ele.gpx').addTo(map);
+		map.addControl(new L.Control.Layers({}, {'TdS Track':tdstrack}));
+
+		var othertrack = omnivore.gpx('gpx2.gpx').addTo(map);
+#		map.addControl(new L.Control.Layers({}, {'Other Track':othertrack}));
+		
+		var gpxwpt = omnivore.gpx('wpt.gpx').addTo(map);
+#		map.addControl(new L.Control.Layers({}, {'TdS Track':tdstrack, 'Other Track':othertrack, 'wpt':gpxwpt}));
+
+		/* 		L.marker([51.5, -0.09]).addTo(map)
+			.bindPopup("<b>Hello world!</b><br />I am a popup.").openPopup();
+		L.circle([51.508, -0.11], 500, {
+			color: 'red',
+			fillColor: '#f03',
+			fillOpacity: 0.5
+		}).addTo(map).bindPopup("I am a circle.");
+
+		L.polygon([
+			[51.509, -0.08],
+			[51.503, -0.06],
+			[51.51, -0.047]
+		]).addTo(map).bindPopup("I am a polygon.");
+ */
 
 
-<script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.1.2/leaflet-omnivore.min.js'></script>
+		var popup = L.popup();
 
-<div id='map'></div>
+		function onMapClick(e) {
+			popup
+				.setLatLng(e.latlng)
+				.setContent("You clicked the map at " + e.latlng.toString())
+				.openOn(map);
+		}
 
-<script>
-var map = L.mapbox.map('map', 'examples.map-i86nkdio');
+		map.on('click', onMapClick);
 
-// omnivore will AJAX-request this file behind the scenes and parse it:
-// note that there are considerations:
-// - The file must either be on the same domain as the page that requests it,
-//   or both the server it is requested from and the user's browser must
-//   support CORS.
-var runLayer = omnivore.gpx('/tour-de-suisse/map/tds.gpx')
-    .on('ready', function() {
-        map.fitBounds(runLayer.getBounds());
-    })
-    .addTo(map);
-</script>
-
-
+	</script>
 </body>
 </html>
