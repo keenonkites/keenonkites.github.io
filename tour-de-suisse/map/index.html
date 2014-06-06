@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
 	<style>
 		html, body {
-			height: 100%;
+			height: 90%;
 		}
 
 		#map {
@@ -51,6 +51,7 @@
 				});
 				})
 				.addTo(map);
+		map.fitBounds(tdstrack.getBounds());
 		
 		var tdstrack2 = omnivore.gpx('gpx2.gpx' ).addTo(map);
 		
