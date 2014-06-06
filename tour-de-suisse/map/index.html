@@ -30,8 +30,15 @@
 		var tdstrack2 = omnivore.gpx('gpx2.gpx').addTo(map);
 		var tdswpt    = omnivore.gpx('wpt.gpx').addTo(map);
 
-		
-		map.addControl(new L.Control.Layers({}, {'TdS Track':tdstrack,'Other Track':tdstrack2,'wpt':tdswpt}));
+		var tdsControl = {
+							'TdS Route': tdstrack ,
+							'TdS Route 2': tdstrack2 ,
+							'TdS Waypoints': tdswpt 
+						 }
+
+		map.addControl(new L.Control.Layers(tdsControl));
+#		map.addControl(new L.Control.Layers({}, {'TdS Track':tdstrack,'Other Track':tdstrack2,'wpt':tdswpt}));
+#		map.addControl(new L.Control.Layers({}, {'TdS Track':tdstrack,'Other Track':tdstrack2,'wpt':tdswpt}));
 		
 /* 		L.marker([51.5, -0.09]).addTo(map)
 			.bindPopup("<b>Hello world!</b><br />I am a popup.").openPopup();
