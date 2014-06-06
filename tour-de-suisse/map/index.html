@@ -49,7 +49,7 @@
 		
 		var tdstrack2 = omnivore.gpx('gpx2.gpx' ).addTo(map);
 		
-		var tdswpt    = omnivore.gpx('tds-wpt-complete.gpx' )
+		var tdswpt    = omnivore.gpx('tds-wpt-complete.gpx' , null, customLayer)
 			.on ('ready', function(layer) {
 //				this.setStyle({ color: '#000', marker-color: 'red' });
 				this.eachLayer(function(marker) {
