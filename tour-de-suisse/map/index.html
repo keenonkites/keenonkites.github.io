@@ -69,8 +69,11 @@
 		});
 
 		
- 		L.marker([47.03611755, 7.38474989]).addTo(map)
+ 		var startMarker = L.marker([47.03611755, 7.38474989]).addTo(map)
 			.bindPopup("TdS<br>Start");
+		startMarker.on('mouseover', function (e) { this.openPopup();  });
+		startMarker.on('mouseout',  function (e) { this.closePopup(); });
+		
 /*		L.circle([51.508, -0.11], 500, {
 			color: 'red',
 			fillColor: '#f03',
