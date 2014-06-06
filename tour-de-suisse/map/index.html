@@ -74,24 +74,25 @@
 		});
 
 		
- 		var startMarker = L.marker([47.08348465, 7.30976677]).addTo(map)
+/*  		var startMarker = L.marker([47.08348465, 7.30976677]).addTo(map)
 			.bindPopup("TdS<br>Start");
 		startMarker.on('mouseover', function (e) { this.openPopup();  });
 		startMarker.on('mouseout',  function (e) { this.closePopup(); });
-		
-/*		L.circle([51.508, -0.11], 500, {
+ */		
+		var startCircle = L.circle([47.08348465, 7.30976677]], 500, {
 			color: 'red',
 			fillColor: '#f03',
 			fillOpacity: 0.5
-		}).addTo(map).bindPopup("I am a circle.");
-
-		L.polygon([
+		}).addTo(map).bindPopup("TdS<br>Start");
+		startCircle.on('mouseover', function (e) { this.openPopup();  });
+		startCircle.on('mouseout',  function (e) { this.closePopup(); });
+ 
+/* 		L.polygon([
 			[51.509, -0.08],
 			[51.503, -0.06],
 			[51.51, -0.047]
 		]).addTo(map).bindPopup("I am a polygon.");
  */
-
 
 		var popup = L.popup();
 
