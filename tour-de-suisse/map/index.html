@@ -40,10 +40,10 @@
 		
 		var tdswpt    = omnivore.gpx('tds-wpt-complete.gpx')
 			.on ('ready', function(layer) {
-				layer.feature.properties['marker-color'] = '#ff8888';
 				this.eachLayer(function(marker) {
 				marker.bindPopup("Placed by :" + marker.toGeoJSON().properties.name + "<br>Logtime: " + marker.toGeoJSON().properties.time);
 				});
+				marker.on('mouseover', function (e) { this.openPopup(); });
 				});
 
 		var tdsControl = {
