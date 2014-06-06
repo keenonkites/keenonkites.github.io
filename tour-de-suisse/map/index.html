@@ -16,7 +16,7 @@
 	<script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.1.2/leaflet-omnivore.min.js'></script>
 	<script>
 
-		var mystyle = {color:'red', opacity: 1.0, fillOpacity: 1.0, weight: 2, clickable: true};
+		var mystyle = {color:'red' };
 	
 		var map = L.map('map').setView([46.75, 8.25], 8);
 
@@ -36,7 +36,7 @@
 				})
 				.addTo(map);
 		
-		var tdstrack2 = omnivore.gpx('gpx2.gpx', { style: mystyle } ).addTo(map);
+		var tdstrack2 = omnivore.gpx('gpx2.gpx', { color:'red' } ).addTo(map);
 		
 		var tdswpt    = omnivore.gpx('tds-wpt-complete.gpx')
 			.on ('ready', function(layer) {
