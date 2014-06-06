@@ -16,13 +16,15 @@
 	<script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.1.2/leaflet-omnivore.min.js'></script>
 	<script>
 
-		var myStyle = { "fillColor": "#ff7800", "color":"#000", "weight":5 };
+//		var myStyle = { "fillColor": "#ff7800", "color":"#000", "weight":5 };
 		
 		var customLayer = L.geoJson(null, {
 			// http://leafletjs.com/reference.html#geojson-style
 			style: function(feature) {
 				return {
-					color: '#f00'
+					color: '#f00',
+					fillColor: '#f00',
+					weight: 5
 				};
 			}
 		});		
