@@ -28,7 +28,7 @@
 			id: 'examples.map-i86knfo3'
 		}).addTo(map);
 
-		var tdstrack  = omnivore.gpx('tds-route-complete-ele.gpx')
+		var tdstrack  = omnivore.gpx('tds-route-complete-ele.gpx', {style: myStyle})
 			.on ('ready', function(layer) {
 				this.eachLayer(function(layer) {
 				layer.bindPopup("Name :" + layer.feature.properties.name + "<br>Logtime: " + layer.feature.properties.length);
