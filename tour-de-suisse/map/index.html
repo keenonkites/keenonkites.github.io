@@ -36,7 +36,7 @@
 				})
 				.addTo(map);
 		
-		var tdstrack2 = omnivore.gpx('gpx2.gpx', style: mystyle ).addTo(map);
+		var tdstrack2 = omnivore.gpx('gpx2.gpx', { style: mystyle } ).addTo(map);
 		
 		var tdswpt    = omnivore.gpx('tds-wpt-complete.gpx')
 			.on ('ready', function(layer) {
