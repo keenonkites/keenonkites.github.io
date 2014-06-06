@@ -26,12 +26,20 @@
 			id: 'examples.map-i86knfo3'
 		}).addTo(map);
 
-		var tdstrack  = omnivore.gpx('tds-route-complete-ele.gpx').addTo(map);
+		var tdstrack  = omnivore.gpx('tds-route-complete-ele.gpx')
+			.on ('ready', function(layer) {
+				this.eachLayer(function(layer) {
+				layer.bindPopup("Placed by :" + layer.feature.properties.name + "<br>Logtime: " + layer.feature.properties.time);
+				});
+				})
+				.addTo(map);
+		
 		var tdstrack2 = omnivore.gpx('gpx2.gpx').addTo(map);
+		
 		var tdswpt    = omnivore.gpx('tds-wpt-complete.gpx')
 			.on ('ready', function(layer) {
 				this.eachLayer(function(marker) {
-				marker.bindPopup("Finder :" + marker.toGeoJSON().properties.name + "<br>Logtime: " + marker.toGeoJSON().properties.time);
+				marker.bindPopup("Placed by :" + marker.toGeoJSON().properties.name + "<br>Logtime: " + marker.toGeoJSON().properties.time);
 				});
 				})
 				.addTo(map);
