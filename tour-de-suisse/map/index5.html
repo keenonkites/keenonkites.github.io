@@ -27,12 +27,12 @@
 		}).addTo(map);
 
 		var tdstrack = omnivore.gpx('tds-route-complete-ele.gpx').addTo(map);
-		map.addControl(new L.Control.Layers({}, {'TdS Track':tdstrack}));
+		map.addControl(new L.Control.Layers({}, {'TdSTrack':tdstrack}));
 
-		var othertrack = omnivore.gpx('gpx2.gpx').addTo(map);
+#		var othertrack = omnivore.gpx('gpx2.gpx').addTo(map);
 #		map.addControl(new L.Control.Layers({}, {'Other Track':othertrack}));
 		
-		var gpxwpt = omnivore.gpx('wpt.gpx').addTo(map);
+#		var gpxwpt = omnivore.gpx('wpt.gpx').addTo(map);
 #		map.addControl(new L.Control.Layers({}, {'TdS Track':tdstrack, 'Other Track':othertrack, 'wpt':gpxwpt}));
 
 		/* 		L.marker([51.5, -0.09]).addTo(map)
