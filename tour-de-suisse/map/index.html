@@ -29,7 +29,7 @@
 		var tdstrack  = omnivore.gpx('tds-route-complete-ele.gpx')
 			.on ('ready', function(layer) {
 				this.eachLayer(function(polygon) {
-				polygon.bindPopup("Placed by :" + polygon.properties.name + "<br>Logtime: " + polygon.properties.time);
+				polygon.bindPopup("Placed by :" + polygon.toGeoJSON().properties.name + "<br>Logtime: " + polygon.toGeoJSON().properties.time);
 				});
 				})
 				.addTo(map);
@@ -41,8 +41,7 @@
 				this.eachLayer(function(marker) {
 				marker.bindPopup("Placed by :" + marker.toGeoJSON().properties.name + "<br>Logtime: " + marker.toGeoJSON().properties.time);
 				});
-				})
-				.addTo(map);
+				});
 
 		var tdsControl = {
 							'TdS Route': tdstrack ,
@@ -52,6 +51,11 @@
 
 //		map.addControl(new L.Control.Layers({}, {'TdS Track':tdstrack}));
 		map.addControl(new L.Control.Layers({}, tdsControl ));
+
+		map.on('zoomend ', function(e) {
+			 if ( map.getZoom() > 6 ){ map.removeLayer( vector )}
+			 else if ( map.getZoom() <= 6 ){ map.addLayer( vector )}
+		});
 		
 /* 		L.marker([51.5, -0.09]).addTo(map)
 			.bindPopup("<b>Hello world!</b><br />I am a popup.").openPopup();
