@@ -65,7 +65,7 @@
 
 		var actualZoomlevel = map.getZoom();
 		
-		map.on('zoom ', function(e) {
+		map.on('zoomstart ', function(e) {
 			actualZoomlevel = map.getZoom();
 		});
 		map.on('zoomend ', function(e) {
