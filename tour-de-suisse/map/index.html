@@ -29,7 +29,7 @@
 		var tdstrack  = omnivore.gpx('tds-route-complete-ele.gpx')
 			.on ('ready', function(layer) {
 				this.eachLayer(function(layer) {
-				layer.bindPopup("Name :" + layer.feature.properties.name + "<br>Logtime: " + layer.feature.properties.time);
+				layer.bindPopup("Name :" + layer.feature.properties.name + "<br>Logtime: " + layer.feature.properties.length);
 				});
 				})
 				.addTo(map);
