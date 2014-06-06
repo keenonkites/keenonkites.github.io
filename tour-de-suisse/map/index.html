@@ -29,7 +29,7 @@
 		var tdstrack  = omnivore.gpx('tds-route-complete-ele.gpx')
 			.on ('ready', function(layer) {
 				this.eachLayer(function(layer) {
-				layer.bindPopup("Name :" + layer().properties.name + "<br>Logtime: " + layer().properties.time);
+				layer.bindPopup("Name :" + layer.properties.name + "<br>Logtime: " + layer.properties.time);
 				});
 				})
 				.addTo(map);
@@ -53,8 +53,8 @@
 		map.addControl(new L.Control.Layers({}, tdsControl ));
 
 		map.on('zoomend ', function(e) {
-			 if ( map.getZoom() > 6 ){ map.removeLayer( vector )}
-			 else if ( map.getZoom() <= 6 ){ map.addLayer( vector )}
+			 if ( map.getZoom() > 6 ){ map.removeLayer( tdswpt )}
+			 else if ( map.getZoom() <= 6 ){ map.addLayer( tdswpt )}
 		});
 		
 /* 		L.marker([51.5, -0.09]).addTo(map)
