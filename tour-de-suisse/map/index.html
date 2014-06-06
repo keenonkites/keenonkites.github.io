@@ -28,6 +28,16 @@
 				};
 			}
 		});		
+		var customLayer2 = L.geoJson(null, {
+			// http://leafletjs.com/reference.html#geojson-style
+			style: function(feature) {
+				return {
+					color: '#f00',
+					fillColor: '#f00',
+					weight: 20
+				};
+			}
+		});		
 	
 		var map = L.map('map').setView([46.75, 8.25], 8);
 
@@ -49,7 +59,7 @@
 		
 		var tdstrack2 = omnivore.gpx('gpx2.gpx' ).addTo(map);
 		
-		var tdswpt    = omnivore.gpx('tds-wpt-complete.gpx' , null, customLayer)
+		var tdswpt    = omnivore.gpx('tds-wpt-complete.gpx' , null, customLayer2)
 			.on ('ready', function(layer) {
 //				this.setStyle({ color: '#000', marker-color: 'red' });
 				this.eachLayer(function(marker) {
