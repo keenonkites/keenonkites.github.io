@@ -63,6 +63,11 @@
 //		map.addControl(new L.Control.Layers({}, {'TdS Track':tdstrack}));
 		map.addControl(new L.Control.Layers({}, tdsControl ));
 
+		var actualZoomlevel = map.getZoom();
+		
+		map.on('zoom ', function(e) {
+			actualZoomlevel = map.getZoom();
+		});
 		map.on('zoomend ', function(e) {
 			 if ( map.getZoom() < 11 ){ map.removeLayer( tdswpt )}
 			 else if ( map.getZoom() >= 11 ){ map.addLayer( tdswpt )}
