@@ -30,7 +30,7 @@
 		var tdstrack2 = omnivore.gpx('gpx2.gpx').addTo(map);
 		var tdswpt    = omnivore.gpx('tds-wpt-complete.gpx')
 			.on ('ready', function(layer) {
-				this.eachLayer(funtion(marker) {
+				this.eachLayer(function(marker) {
 				marker.bindPopup(marker.toGeoJSON().properties.name);
 				});
 				})
