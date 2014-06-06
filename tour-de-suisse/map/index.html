@@ -74,10 +74,11 @@
 		});
 
 		
- 		var startCircle = L.circleMarker([47.08348465, 7.30976677], 25, {
+ 		var startCircle = L.circleMarker([47.08348465, 7.30976677], {
+			radius: 25,
 			color: '#00ff00',
 			fillColor: '#00ff00',
-			fillOpacity: 1.0
+			fillOpacity: 0.5
 		}).addTo(map).bindPopup("TdS<br>Start");
 		startCircle.on('mouseover', function (e) { this.openPopup();  });
 		startCircle.on('mouseout',  function (e) { this.closePopup(); });
