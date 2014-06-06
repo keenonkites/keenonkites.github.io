@@ -37,7 +37,7 @@
 			id: 'examples.map-i86knfo3'
 		}).addTo(map);
 
-		var tdstrack  = omnivore.gpx('tds-route-complete-ele.gpx')
+		var tdstrack  = omnivore.gpx('tds-route-complete-ele.gpx', null, customLayer)
 			.on ('ready', function(layer) {
 				this.eachLayer(function(layer) {
 				layer.bindPopup("Name :" + layer.feature.properties.name + "<br>Logtime: " + layer.feature.properties.length);
@@ -47,7 +47,7 @@
 		
 		var tdstrack2 = omnivore.gpx('gpx2.gpx' ).addTo(map);
 		
-		var tdswpt    = omnivore.gpx('tds-wpt-complete.gpx', null, customLayer )
+		var tdswpt    = omnivore.gpx('tds-wpt-complete.gpx' )
 			.on ('ready', function(layer) {
 //				this.setStyle({ color: '#000', marker-color: 'red' });
 				this.eachLayer(function(marker) {
