@@ -69,8 +69,8 @@
 			actualZoomlevel = map.getZoom();
 		});
 		map.on('zoomend ', function(e) {
-			 if ( map.getZoom() < 11 && actualZoomlevel==11 ){ map.removeLayer( tdswpt )}
-			 else if ( map.getZoom() >= 11 && actualZoomlevel==11 ){ map.addLayer( tdswpt )}
+			 if ( map.getZoom() < 11 && actualZoomlevel >= 11 ){ map.removeLayer( tdswpt )}
+			 else if ( map.getZoom() >= 11 && actualZoomlevel < 11 ){ map.addLayer( tdswpt )}
 		});
 
 		
