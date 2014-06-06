@@ -15,7 +15,16 @@
 	<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
 	<script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.1.2/leaflet-omnivore.min.js'></script>
 	<script>
-
+		
+		var customLayer = L.geoJson(null, {
+			style: function(feature) {
+				return {
+					color: '#f00',
+					weight: 5
+				};
+			}
+		});		
+	
 		var map = L.map('map').setView([46.75, 8.25], 8);
 
  		L.tileLayer('https://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png', {
@@ -26,25 +35,75 @@
 			id: 'examples.map-i86knfo3'
 		}).addTo(map);
 
-		var gpx = omnivore.gpx('tds.gpx').addTo(map);
+		var tdstrack  = omnivore.gpx('tds-route-complete-ele.gpx', null, customLayer)
+			.on ('ready', function(layer) {
+				this.eachLayer(function(layer) {
+				layer.bindPopup("Name :" + layer.feature.properties.name + "<br>Logtime: " + layer.feature.properties.length);
+				});
+				})
+				.addTo(map);
 		
-		map.addControl(new L.Control.Layers({}, {'GPX':gpx}));
+//		var tdstrack2 = omnivore.gpx('gpx2.gpx' ).addTo(map);
 		
-/* 		L.marker([51.5, -0.09]).addTo(map)
-			.bindPopup("<b>Hello world!</b><br />I am a popup.").openPopup();
-		L.circle([51.508, -0.11], 500, {
+		var tdswpt    = omnivore.gpx('tds-wpt-complete.gpx' )
+			.on ('ready', function(layer) {
+				this.eachLayer(function(marker) {
+				marker.bindPopup(marker.toGeoJSON().properties.name + "<br>" + marker.toGeoJSON().properties.time);
+				marker.on('mouseover', function (e) { this.openPopup();  });
+				marker.on('mouseout',  function (e) { this.closePopup(); });
+				});
+				});
+
+		var tdsControl = {
+							'TdS Route': tdstrack ,
+							'TdS Route 2': tdstrack2 ,
+							'TdS Waypoints': tdswpt 
+						 };
+
+//		map.addControl(new L.Control.Layers({}, {'TdS Track':tdstrack}));
+		map.addControl(new L.Control.Layers({}, tdsControl ));
+
+		var actualZoomlevel = map.getZoom();
+		
+		map.on('zoomstart ', function(e) {
+			actualZoomlevel = map.getZoom();
+		});
+		map.on('zoomend ', function(e) {
+			 if ( map.getZoom() < 11 && actualZoomlevel >= 11 ){ map.removeLayer( tdswpt )}
+			 else if ( map.getZoom() >= 11 && actualZoomlevel < 11 ){ map.addLayer( tdswpt )}
+		});
+
+		
+ 		var startCircle = L.circleMarker([47.08348465, 7.30976677], {
+			radius: 20,
+			stroke: 5,
+			color: '#003300',
+			fillColor: '#00ff00',
+			fillOpacity: 0.5
+		}).addTo(map).bindPopup("TdS<br>Start");
+		startCircle.on('mouseover', function (e) { this.openPopup();  });
+		startCircle.on('mouseout',  function (e) { this.closePopup(); });
+ 
+ 
+		/*  		var startMarker = L.marker([47.08348465, 7.30976677]).addTo(map)
+			.bindPopup("TdS<br>Start");
+		startMarker.on('mouseover', function (e) { this.openPopup();  });
+		startMarker.on('mouseout',  function (e) { this.closePopup(); });
+ */		
+/* 		var startCircle = L.circle([47.08348465, 7.30976677], 500, {
 			color: 'red',
 			fillColor: '#f03',
 			fillOpacity: 0.5
-		}).addTo(map).bindPopup("I am a circle.");
-
-		L.polygon([
+		}).addTo(map).bindPopup("TdS<br>Start");
+		startCircle.on('mouseover', function (e) { this.openPopup();  });
+		startCircle.on('mouseout',  function (e) { this.closePopup(); });
+ */ 
+/* 		L.polygon([
 			[51.509, -0.08],
 			[51.503, -0.06],
 			[51.51, -0.047]
 		]).addTo(map).bindPopup("I am a polygon.");
  */
-
 
 		var popup = L.popup();
 
