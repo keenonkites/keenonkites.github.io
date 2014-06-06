@@ -15,16 +15,12 @@
 	<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
 	<script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.1.2/leaflet-omnivore.min.js'></script>
 	<script>
-
-//		var myStyle = { "fillColor": "#ff7800", "color":"#000", "weight":5 };
 		
 		var customLayer = L.geoJson(null, {
-			// http://leafletjs.com/reference.html#geojson-style
 			style: function(feature) {
 				return {
 					color: '#f00',
-					fillColor: '#f00',
-					weight: 20
+					weight: 5
 				};
 			}
 		});		
@@ -47,13 +43,12 @@
 				})
 				.addTo(map);
 		
-		var tdstrack2 = omnivore.gpx('gpx2.gpx', null, customLayer ).addTo(map);
+		var tdstrack2 = omnivore.gpx('gpx2.gpx' ).addTo(map);
 		
 		var tdswpt    = omnivore.gpx('tds-wpt-complete.gpx' )
 			.on ('ready', function(layer) {
-//				this.setStyle({ color: '#000', marker-color: 'red' });
 				this.eachLayer(function(marker) {
-				marker.bindPopup("Placed by :" + marker.toGeoJSON().properties.name + "<br>Logtime: " + marker.toGeoJSON().properties.time);
+				marker.bindPopup(marker.toGeoJSON().properties.name + "<br>" + marker.toGeoJSON().properties.time);
 				marker.on('mouseover', function (e) { this.openPopup();  });
 				marker.on('mouseout',  function (e) { this.closePopup(); });
 				});
