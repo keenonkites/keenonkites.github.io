@@ -24,6 +24,13 @@
 	<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
 	<script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.1.2/leaflet-omnivore.min.js'></script>
 	<script>
+	
+	function dateFromString(s) {
+	  var bits = s.split(/[-T:]/g);
+	  var d = new Date(bits[0], bits[1]-1, bits[2]);
+	  d.setHours(bits[3], bits[4], bits[5]);
+	  return d;
+	}		
 		
 		var customLayer = L.geoJson(null, {
 			style: function(feature) {
@@ -51,14 +58,16 @@
 				});
 				})
 				.addTo(map);
-		map.fitBounds(tdstrack.getBounds());
+				
+//		map.fitBounds(tdstrack.getBounds());
 		
 		var tdstrack2 = omnivore.gpx('gpx2.gpx' ).addTo(map);
 		
 		var tdswpt    = omnivore.gpx('tds-wpt-complete.gpx' )
 			.on ('ready', function(layer) {
 				this.eachLayer(function(marker) {
-				marker.bindPopup(marker.toGeoJSON().properties.name + "<br>" + marker.toGeoJSON().properties.time);
+#				marker.bindPopup(marker.toGeoJSON().properties.name + "<br>" + marker.toGeoJSON().properties.time);
+				marker.bindPopup(marker.toGeoJSON().properties.name + "<br>" + dateFromString(marker.toGeoJSON().properties.time).toDateString());
 				marker.on('mouseover', function (e) { this.openPopup();  });
 				marker.on('mouseout',  function (e) { this.closePopup(); });
 				});
