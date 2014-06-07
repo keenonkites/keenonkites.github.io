@@ -100,7 +100,7 @@
 				this.eachLayer(function(marker) {
 //				marker.bindPopup(marker.toGeoJSON().properties.name + "<br>" + marker.toGeoJSON().properties.time);
 //				marker.bindPopup(marker.toGeoJSON().properties.name + "<br>" + dateFromString(marker.toGeoJSON().properties.time).toDateString());
-				marker.bindPopup(marker.toGeoJSON().properties.name + "<br>" + xmlDateToJavascriptDate(marker.toGeoJSON().properties.time));
+				marker.bindPopup(marker.toGeoJSON().properties.name + "<br>" + xmlDateToJavascriptDate(marker.toGeoJSON().properties.time).toDateString());
 
 				marker.on('mouseover', function (e) { this.openPopup();  });
 				marker.on('mouseout',  function (e) { this.closePopup(); });
