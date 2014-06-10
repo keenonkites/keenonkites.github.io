@@ -71,7 +71,12 @@
 					weight: 5
 				};
 			}
-		});		
+		});	
+
+		var highlightStyle = {
+//			color: '#2262CC', 
+			weight: 10,
+		};		
 	
 		var map = L.map('map').setView([46.75, 8.25], 8);
 
@@ -87,7 +92,7 @@
 			.on ('ready', function(layer) {
 				this.eachLayer(function(layer) {
 				layer.bindPopup(layer.feature.properties.name);
-				layer.on('mouseover', function (e) { this.openPopup(e.latlng); this.setstyle( { color: '#fff', weight: 8} ) });
+				layer.on('mouseover', function (e) { this.openPopup(e.latlng); layer.setstyle( { color: '#fff', weight: 8} ) });
 //				layer.on('mouseout',  function (e) { this.closePopup(); });
 				
 //				layer.bindPopup("Name :" + layer.feature.properties.name + "<br>Logtime: " + layer.feature.properties.length);
