@@ -66,11 +66,11 @@
 		
 		var highlightStyle = {
 			color: '#2262CC', 
-			weight: 10,
+			weight: 5,
 		};		
 		var defaultStyle = {
 			color: '#f00', 
-			weight: 8,
+			weight: 5,
 		};		
 		var customLayer = L.geoJson(null, {
 			style: function(feature) {
@@ -180,7 +180,7 @@
 		]).addTo(map).bindPopup("I am a polygon.");
  */
 
-		var popup = L.popup();
+/* 		var popup = L.popup();
 
 		function onMapClick(e) {
 			popup
@@ -190,7 +190,7 @@
 		}
 
 		map.on('click', onMapClick);
-
+ */
 	</script>
 </body>
 </html>
