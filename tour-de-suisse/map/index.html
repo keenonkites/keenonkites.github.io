@@ -87,8 +87,8 @@
 			.on ('ready', function(layer) {
 				this.eachLayer(function(layer) {
 				layer.bindPopup(layer.feature.properties.name);
-//				layer.on('mouseover', function (e) { this.openPopup();  });
-//				layer.on('mouseout',  function (e) { this.closePopup(); });
+				layer.on('mouseover', function (e) { this.openPopup(e.latlng);  });
+				layer.on('mouseout',  function (e) { this.closePopup(); });
 				
 //				layer.bindPopup("Name :" + layer.feature.properties.name + "<br>Logtime: " + layer.feature.properties.length);
 				});
@@ -112,7 +112,7 @@
 //				marker.bindPopup(marker.toGeoJSON().properties.name + "<br>" + dateFromString(marker.toGeoJSON().properties.time).toDateString());
 				marker.bindPopup(marker.toGeoJSON().properties.name + "<br>" + xmlDateToJavascriptDate(marker.toGeoJSON().properties.time).toLocaleDateString());
 
-				marker.on('mouseover', function (e) { this.openPopup(e.latlng);  });
+				marker.on('mouseover', function (e) { this.openPopup();  });
 				marker.on('mouseout',  function (e) { this.closePopup(); });
 				});
 				});
