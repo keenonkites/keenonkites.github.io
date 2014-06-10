@@ -83,7 +83,7 @@
 			id: 'examples.map-i86knfo3'
 		}).addTo(map);
 
-		var tdstrack  = omnivore.gpx('tds-route-complete.gpx', null, customLayer)
+		var tdstrack = omnivore.gpx('tds-route-complete.gpx', null, customLayer)
 			.on ('ready', function(layer) {
 				this.eachLayer(function(layer) {
 				layer.bindPopup(layer.feature.properties.name);
@@ -112,7 +112,7 @@
 //				marker.bindPopup(marker.toGeoJSON().properties.name + "<br>" + dateFromString(marker.toGeoJSON().properties.time).toDateString());
 				marker.bindPopup(marker.toGeoJSON().properties.name + "<br>" + xmlDateToJavascriptDate(marker.toGeoJSON().properties.time).toLocaleDateString());
 
-				marker.on('mouseover', function (e) { this.openPopup();  });
+				marker.on('mouseover', function (e) { this.openPopup(e.latlng);  });
 				marker.on('mouseout',  function (e) { this.closePopup(); });
 				});
 				});
