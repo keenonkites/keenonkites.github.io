@@ -93,14 +93,14 @@
 				
 //		map.fitBounds(tdstrack.getBounds());
 		
-		var tdstrack2 = omnivore.gpx('gpx2.gpx' )
+/* 		var tdstrack2 = omnivore.gpx('gpx2.gpx' )
 			.on ('ready', function(layer) {
 				this.eachLayer(function(layer) {
 				layer.bindPopup("Name :" + layer.feature.properties.name + "<br>Logtime: " + layer.feature.properties.length);
 				});
 				})
 				.addTo(map);
-
+ */
 		var tdswpt    = omnivore.gpx('tds-wpt-complete.gpx' )
 			.on ('ready', function(layer) {
 				this.eachLayer(function(marker) {
@@ -115,7 +115,7 @@
 
 		var tdsControl = {
 							'TdS Route': tdstrack ,
-							'TdS Route 2': tdstrack2 ,
+							// 'TdS Route 2': tdstrack2 ,
 							'TdS Waypoints': tdswpt 
 						 };
 
