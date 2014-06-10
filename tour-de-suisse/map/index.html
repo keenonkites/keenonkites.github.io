@@ -87,7 +87,7 @@
 			.on ('ready', function(layer) {
 				this.eachLayer(function(layer) {
 				layer.bindPopup(layer.feature.properties.name);
-				layer.on('mouseover', function (e) { this.openPopup(e.latlng);  });
+				layer.on('mouseover', function (e) { this.openPopup(e.latlng); this.setstyle( { color: '#fff', weight: 8} ) });
 //				layer.on('mouseout',  function (e) { this.closePopup(); });
 				
 //				layer.bindPopup("Name :" + layer.feature.properties.name + "<br>Logtime: " + layer.feature.properties.length);
