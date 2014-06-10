@@ -64,19 +64,25 @@
 		  return new Date(utcDate);
 		}		
 		
+		var highlightStyle = {
+			color: '#2262CC', 
+			weight: 8,
+		};		
+		var defaultStyle = {
+			color: '#f00', 
+			weight: 5,
+		};		
 		var customLayer = L.geoJson(null, {
 			style: function(feature) {
-				return {
+			    return defaultStyle;
+/* 				return {
 					color: '#f00',
 					weight: 5
 				};
+*/
 			}
 		});	
 
-		var highlightStyle = {
-//			color: '#2262CC', 
-			weight: 10,
-		};		
 	
 		var map = L.map('map').setView([46.75, 8.25], 8);
 
