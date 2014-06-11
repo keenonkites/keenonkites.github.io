@@ -85,7 +85,6 @@
 			}
 		});	
 
-	
 		var map = L.map('map').setView([46.75, 8.25], 8);
 
  		L.tileLayer('https://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png', {
@@ -96,50 +95,63 @@
 			id: 'examples.map-i86knfo3'
 		}).addTo(map);
 
+
+        // Define what happens to each polygon just before it is loaded on to
+        // the map. This is Leaflet's special way of goofing around with your
+        // data, setting styles and regulating user interactions.
+		var onEachFeature = function(feature, layer) {
+			// Load the default style. 
+			layer.setStyle(defaultStyle);
+			// Fetch the year out of the track name
+			var yearmatch = (properties.name).match(/([0-9]{4,})/);
+			var yearid = yearmatch[1];
+
+			// Create a self-invoking function that passes in the layer
+			// and the properties associated with this particular record.
+			(function(layer, properties) {
+			  // Create a mouseover event
+			  layer.on("mouseover", function (e) {
+				// Change the style to the highlighted version
+				layer.setStyle(highlightStyle);
+				// Create a popup with a unique ID linked to this record
+				var popup = $("<div></div>", {
+					id: "popup-tds-" + yearid,
+					css: {
+						position: "absolute",
+						bottom: "85px",
+						left: "50px",
+						zIndex: 1002,
+						backgroundColor: "white",
+						padding: "8px",
+						border: "1px solid #ccc"
+					}
+				});
+				// Insert a headline into that popup
+				var hed = $("<div></div>", {
+					text: properties.name,
+					css: {fontSize: "16px", marginBottom: "3px"}
+				}).appendTo(popup);
+				// Add the popup to the map
+				popup.appendTo("#map");
+			  });
+			  // Create a mouseout event that undoes the mouseover changes
+			  layer.on("mouseout", function (e) {
+				// Start by reverting the style back
+				layer.setStyle(defaultStyle); 
+				// And then destroying the popup
+				$("#popup-tds-" + properties.yearid).remove();
+			  });
+			  // Close the "anonymous" wrapper function, and call it while passing
+			  // in the variables necessary to make the events work the way we want.
+			})(layer, feature.properties);
+		};
+
+
 		var tdstrack = omnivore.gpx('tds-route-complete.gpx', null, customLayer)
 			.on ('ready', function(layer) {
-				this.eachLayer(function(layer) {
-					// Fetch the year out of the track name
-					var yearmatch = (layer.feature.properties.name).match(/([0-9]{4,})/);
-					var yearid = yearmatch[1];
-//				layer.bindPopup(layer.feature.properties.name);
-				layer.on('mouseover', function (e) { 
-//					this.openPopup(e.latlng)
-					this.setStyle( highlightStyle ) ;
-					
-					// Create a popup with a unique ID linked to this record
-					var popup = $("<div></div>", {
-						id: "popup-tds-" + yearid,
-						css: {
-							position: "absolute",
-							bottom: "85px",
-							left: "50px",
-							zIndex: 1002,
-							backgroundColor: "white",
-							padding: "8px",
-							border: "1px solid #ccc"
-						}
-					});
-					// Insert a headline into that popup
-					var hed = $("<div></div>", {
-						text: layer.feature.properties.name ,
-						css: {fontSize: "16px", marginBottom: "3px"}
-					}).appendTo(popup);
-					// Add the popup to the map
-					popup.appendTo("#map");
-					});
-//				layer.on('popupclose',  function (e) { 
-				layer.on('mouseout',  function (e) { 
-					this.setStyle( defaultStyle );
-					this.closePopup();
-//					$("popup-tds-" + yearid).remove();
+			onEachFeature: onEachFeature
 				});
-//				layer.on('mouseout',  function (e) { this.closePopup(); this.setStyle( defaultStyle )});
-				
-//				layer.bindPopup("Name :" + layer.feature.properties.name + "<br>Logtime: " + layer.feature.properties.length);
-				});
-				})
-				.addTo(map);
+		map.addLayer(tdstrack);
 				
 //		map.fitBounds(tdstrack.getBounds());
 		
