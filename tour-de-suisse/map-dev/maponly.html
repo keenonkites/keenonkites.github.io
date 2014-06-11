@@ -103,7 +103,7 @@
 				var yearid = yearmatch[1];
 				
 				layer.bindPopup("Route " + yearid);
-				layer.on('mouseover', function (e) { this.openPopup(e.latlng); this.setStyle( highlightStyle ) });
+				layer.on('click', function (e) { this.openPopup(e.latlng); this.setStyle( highlightStyle ) });
 				layer.on('popupclose',  function (e) { this.setStyle( defaultStyle )});
 //				layer.on('mouseout',  function (e) { this.closePopup(); this.setStyle( defaultStyle )});
 				
