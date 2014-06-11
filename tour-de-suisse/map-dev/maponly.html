@@ -99,13 +99,17 @@
 		var tdstrack = omnivore.gpx('tds-route-complete.gpx', null, customLayer)
 			.on ('ready', function(layer) {
 				this.eachLayer(function(layer) {
+					// Fetch the year out of the track name
+					var yearmatch = layer.feature.properties.name.match(/([0-9]{4,})/);
+					var yearid = yearmatch[1];
 //				layer.bindPopup(layer.feature.properties.name);
 				layer.on('mouseover', function (e) { 
 //					this.openPopup(e.latlng)
 					this.setStyle( highlightStyle ) ;
+					
 					// Create a popup with a unique ID linked to this record
 					var popup = $("<div></div>", {
-						id: "popup-tds",
+						id: "popup-tds-" + yearid,
 						css: {
 							position: "absolute",
 							bottom: "85px",
@@ -126,7 +130,7 @@
 					});
 				layer.on('popupclose',  function (e) { 
 					this.setStyle( defaultStyle );
-					$("#popup-tds").remove();
+					$("popup-tds-" + yearid).remove();
 				});
 //				layer.on('mouseout',  function (e) { this.closePopup(); this.setStyle( defaultStyle )});
 				
