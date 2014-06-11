@@ -100,7 +100,7 @@
 			.on ('ready', function(layer) {
 				this.eachLayer(function(layer) {
 					// Fetch the year out of the track name
-					var yearmatch = layer.feature.properties.name.match(/([0-9]{4,})/);
+					var yearmatch = (layer.feature.properties.name).match(/([0-9]{4,})/);
 					var yearid = yearmatch[1];
 //				layer.bindPopup(layer.feature.properties.name);
 				layer.on('mouseover', function (e) { 
