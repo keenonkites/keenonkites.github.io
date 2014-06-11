@@ -97,9 +97,35 @@
 		var tdstrack = omnivore.gpx('tds-route-complete.gpx', null, customLayer)
 			.on ('ready', function(layer) {
 				this.eachLayer(function(layer) {
-				layer.bindPopup(layer.feature.properties.name);
-				layer.on('mouseover', function (e) { this.openPopup(e.latlng); this.setStyle( highlightStyle ) });
-				layer.on('popupclose',  function (e) { this.setStyle( defaultStyle )});
+//				layer.bindPopup(layer.feature.properties.name);
+				layer.on('mouseover', function (e) { 
+//					this.openPopup(e.latlng)
+					this.setStyle( highlightStyle ) ;
+					// Create a popup with a unique ID linked to this record
+					var popup = $("<div></div>", {
+						id: "popup-tds",
+						css: {
+							position: "absolute",
+							bottom: "85px",
+							left: "50px",
+							zIndex: 1002,
+							backgroundColor: "white",
+							padding: "8px",
+							border: "1px solid #ccc"
+						}
+					});
+					// Insert a headline into that popup
+					var hed = $("<div></div>", {
+						text: layer.feature.properties.name ,
+						css: {fontSize: "16px", marginBottom: "3px"}
+					}).appendTo(popup);
+					// Add the popup to the map
+					popup.appendTo("#map");
+					});
+				layer.on('popupclose',  function (e) { 
+					this.setStyle( defaultStyle );
+					$("#popup-tds").remove();
+				});
 //				layer.on('mouseout',  function (e) { this.closePopup(); this.setStyle( defaultStyle )});
 				
 //				layer.bindPopup("Name :" + layer.feature.properties.name + "<br>Logtime: " + layer.feature.properties.length);
