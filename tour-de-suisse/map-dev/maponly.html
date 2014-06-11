@@ -128,7 +128,8 @@
 					// Add the popup to the map
 					popup.appendTo("#map");
 					});
-				layer.on('popupclose',  function (e) { 
+//				layer.on('popupclose',  function (e) { 
+				layer.on('mouseout',  function (e) { 
 					this.setStyle( defaultStyle );
 					$("popup-tds-" + yearid).remove();
 				});
