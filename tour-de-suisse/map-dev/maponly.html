@@ -74,16 +74,17 @@
 			color: '#2262CC', 
 			weight: 5,
 		};		
-		var customLayer = L.geoJson(null, {
+/* 		var customLayer = L.geoJson(null, {
 			style: function(feature) {
 			    return defaultStyle;
-/* 				return {
+ 				return {
 					color: '#f00',
 					weight: 5
 				};
-*/
+
 			}
-		});	
+		});	 
+*/
 
 		var map = L.map('map').setView([46.75, 8.25], 8);
 
@@ -147,10 +148,16 @@
 		};
 
 
-		var tdstrack = omnivore.gpx('tds-route-complete.gpx', null, customLayer)
+/* 		var tdstrack = omnivore.gpx('tds-route-complete.gpx', null, customLayer)
 			.on ('ready', function(layer) {
 			onEachFeature: onEachFeature
 				});
+				
+*/
+		var tdstrack = omnivore.gpx('tds-route-complete.gpx' {
+			onEachFeature: onEachFeature
+				});
+
 		map.addLayer(tdstrack);
 				
 //		map.fitBounds(tdstrack.getBounds());
