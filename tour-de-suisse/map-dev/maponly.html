@@ -131,7 +131,8 @@
 //				layer.on('popupclose',  function (e) { 
 				layer.on('mouseout',  function (e) { 
 					this.setStyle( defaultStyle );
-					$("popup-tds-" + yearid).remove();
+					this.closePopup();
+//					$("popup-tds-" + yearid).remove();
 				});
 //				layer.on('mouseout',  function (e) { this.closePopup(); this.setStyle( defaultStyle )});
 				
