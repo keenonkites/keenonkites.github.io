@@ -113,8 +113,7 @@
 				});
 			}).addTo(map);
 
-		var trackbounds = L.latLngBounds(tdstrack); 
-		map.fitBounds(trackbounds);
+		map.fitBounds([ [5.97, 45.83] , [10.49 , 47.81 ] ]);
 				
 		// Here we load all the waypoints
 		var tdswpt    = omnivore.gpx('tds-wpt-complete.gpx' )
