@@ -4,7 +4,7 @@
   <time>2014-05-31T16:32:57Z</time>
  </metadata>
  <trk>
-  <name>Tour de Suisse (GCQG54) - Route XXXX</name>
+  <name>Tour de Suisse (GCQG54) - Route 2005</name>
   <trkseg>
    <trkpt lon="7.30976666666667" lat="47.0834833333333">
     <time>2005-09-10T07:00:00Z</time>
@@ -192,7 +192,7 @@
   </trkseg>
  </trk>
  <trk>
-  <name>Tour de Suisse (GCQG54) - Route 2005</name>
+  <name>Tour de Suisse (GCQG54) - Route 2006</name>
   <trkseg>
    <trkpt lon="7.59383333333333" lat="47.35935">
     <time>2005-12-29T08:00:00Z</time>
@@ -443,7 +443,7 @@
   </trkseg>
  </trk>
  <trk>
-  <name>Tour de Suisse (GCQG54) - Route 2006</name>
+  <name>Tour de Suisse (GCQG54) - Route 2007</name>
   <trkseg>
    <trkpt lon="8.49586666666667" lat="46.9592666666667">
     <time>2006-11-16T08:00:00Z</time>
@@ -505,7 +505,7 @@
   </trkseg>
  </trk>
  <trk>
-  <name>Tour de Suisse (GCQG54) - Route 2007</name>
+  <name>Tour de Suisse (GCQG54) - Route 2008</name>
   <trkseg>
    <trkpt lon="7.64771666666667" lat="47.08695">
     <time>2007-12-27T20:00:00Z</time>
@@ -546,7 +546,7 @@
   </trkseg>
  </trk>
  <trk>
-  <name>Tour de Suisse (GCQG54) - Route 2008</name>
+  <name>Tour de Suisse (GCQG54) - Route 2009</name>
   <trkseg>
    <trkpt lon="6.73505" lat="46.8044333333333">
     <time>2008-10-12T18:59:59Z</time>
@@ -620,6 +620,12 @@
    <trkpt lon="7.58881666666667" lat="47.5872666666667">
     <time>2009-12-28T20:00:00Z</time>
    </trkpt>
+   <trkpt lon="7.64441666666667" lat="47.5930666666667">
+    <time>2009-12-28T20:00:00Z</time>
+   </trkpt>
+   <trkpt lon="7.64441666666667" lat="47.5930666666667">
+    <time>2009-12-28T20:00:00Z</time>
+   </trkpt>
    <trkpt lon="7.63126666666667" lat="47.548">
     <time>2009-12-29T20:00:00Z</time>
    </trkpt>
@@ -629,7 +635,7 @@
   </trkseg>
  </trk>
  <trk>
-  <name>Tour de Suisse (GCQG54) - Route 2009</name>
+  <name>Tour de Suisse (GCQG54) - Route 2010</name>
   <trkseg>
    <trkpt lon="7.78395" lat="47.5444666666667">
     <time>2009-12-29T20:00:00Z</time>
@@ -658,55 +664,17 @@
    <trkpt lon="8.52493333333333" lat="47.4429833333333">
     <time>2010-01-04T20:00:00Z</time>
    </trkpt>
-  </trkseg>
- </trk>
- <trk>
-  <name>Tour de Suisse (GCQG54) - Route 2010</name>
-  <trkseg>
-   <trkpt lon="8.52493333333333" lat="47.4429833333333">
-    <time>2010-01-04T20:00:00Z</time>
-   </trkpt>
-   <trkpt lon="7.64441666666667" lat="47.5930666666667">
-    <time>2009-12-28T20:00:00Z</time>
-   </trkpt>
-  </trkseg>
- </trk>
- <trk>
-  <name>Tour de Suisse (GCQG54) - Route 2009</name>
-  <trkseg>
-   <trkpt lon="7.64441666666667" lat="47.5930666666667">
-    <time>2009-12-28T20:00:00Z</time>
-   </trkpt>
-   <trkpt lon="8.53181666666667" lat="47.4545166666667">
-    <time>2010-01-05T20:00:00Z</time>
+   <trkpt lon="8.54161666666667" lat="47.5220666666667">
+    <time>2010-01-05T08:00:00Z</time>
    </trkpt>
    <trkpt lon="8.51121666666667" lat="47.4702833333333">
     <time>2010-01-05T10:29:46Z</time>
    </trkpt>
-   <trkpt lon="8.54953333333333" lat="47.5193166666667">
+   <trkpt lon="8.53181666666667" lat="47.4545166666667">
     <time>2010-01-05T20:00:00Z</time>
    </trkpt>
-   <trkpt lon="8.54161666666667" lat="47.5220666666667">
-    <time>2010-01-05T08:00:00Z</time>
-   </trkpt>
-  </trkseg>
- </trk>
- <trk>
-  <name>Tour de Suisse (GCQG54) - Route 2010</name>
-  <trkseg>
-   <trkpt lon="8.54161666666667" lat="47.5220666666667">
-    <time>2010-01-05T08:00:00Z</time>
-   </trkpt>
-   <trkpt lon="7.64441666666667" lat="47.5930666666667">
-    <time>2009-12-28T20:00:00Z</time>
-   </trkpt>
-  </trkseg>
- </trk>
- <trk>
-  <name>Tour de Suisse (GCQG54) - Route 2009</name>
-  <trkseg>
-   <trkpt lon="7.64441666666667" lat="47.5930666666667">
-    <time>2009-12-28T20:00:00Z</time>
+   <trkpt lon="8.54953333333333" lat="47.5193166666667">
+    <time>2010-01-05T20:00:00Z</time>
    </trkpt>
    <trkpt lon="8.51181666666667" lat="47.57945">
     <time>2010-01-07T20:00:00Z</time>
@@ -843,7 +811,7 @@
   </trkseg>
  </trk>
  <trk>
-  <name>Tour de Suisse (GCQG54) - Route 2010</name>
+  <name>Tour de Suisse (GCQG54) - Route 2011</name>
   <trkseg>
    <trkpt lon="7.66698333333333" lat="46.4782333333333">
     <time>2010-10-19T18:59:59Z</time>
@@ -893,7 +861,7 @@
   </trkseg>
  </trk>
  <trk>
-  <name>Tour de Suisse (GCQG54) - Route 2011</name>
+  <name>Tour de Suisse (GCQG54) - Route 2012</name>
   <trkseg>
    <trkpt lon="8.08745" lat="46.7466833333333">
     <time>2011-10-12T18:59:59Z</time>
@@ -1213,35 +1181,19 @@
    <trkpt lon="7.38081666666667" lat="47.2919666666667">
     <time>2012-12-26T20:00:00Z</time>
    </trkpt>
-  </trkseg>
- </trk>
- <trk>
-  <name>Tour de Suisse (GCQG54) - Route 2012</name>
-  <trkseg>
-   <trkpt lon="7.38081666666667" lat="47.2919666666667">
-    <time>2012-12-26T20:00:00Z</time>
-   </trkpt>
-   <trkpt lon="7.17725" lat="47.1997833333333">
-    <time>2013-01-02T20:00:00Z</time>
+   <trkpt lon="7.34613333333333" lat="47.25855">
+    <time>2012-12-29T20:00:00Z</time>
    </trkpt>
   </trkseg>
  </trk>
  <trk>
   <name>Tour de Suisse (GCQG54) - Route 2013</name>
   <trkseg>
+   <trkpt lon="7.34613333333333" lat="47.25855">
+    <time>2012-12-29T20:00:00Z</time>
+   </trkpt>
    <trkpt lon="7.17725" lat="47.1997833333333">
     <time>2013-01-02T20:00:00Z</time>
-   </trkpt>
-   <trkpt lon="7.34613333333333" lat="47.25855">
-    <time>2012-12-29T20:00:00Z</time>
-   </trkpt>
-  </trkseg>
- </trk>
- <trk>
-  <name>Tour de Suisse (GCQG54) - Route 2012</name>
-  <trkseg>
-   <trkpt lon="7.34613333333333" lat="47.25855">
-    <time>2012-12-29T20:00:00Z</time>
    </trkpt>
    <trkpt lon="7.23128333333333" lat="47.1364">
     <time>2013-01-06T20:00:00Z</time>
@@ -1585,7 +1537,7 @@
   </trkseg>
  </trk>
  <trk>
-  <name>Tour de Suisse (GCQG54) - Route 2013</name>
+  <name>Tour de Suisse (GCQG54) - Route 2014</name>
   <trkseg>
    <trkpt lon="6.83423333333333" lat="46.9498166666667">
     <time>2013-12-22T20:00:00Z</time>
