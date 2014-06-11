@@ -112,6 +112,8 @@
 				
 				});
 			}).addTo(map);
+
+		map.fitBounds(tdstrack.getBounds());
 				
 		// Here we load all the waypoints
 		var tdswpt    = omnivore.gpx('tds-wpt-complete.gpx' )
@@ -124,7 +126,6 @@
 				});
 			});
 
-//		map.fitBounds(tdstrack.getBounds());
 
 		// Define and add the control panel to enable/disable the track and/or the waypoint
 		var tdsControl = {
