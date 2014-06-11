@@ -129,8 +129,8 @@
 //				marker.bindPopup(marker.toGeoJSON().properties.name + "<br>" + dateFromString(marker.toGeoJSON().properties.time).toDateString());
 				marker.bindPopup(marker.toGeoJSON().properties.name + "<br>" + xmlDateToJavascriptDate(marker.toGeoJSON().properties.time).toLocaleDateString());
 
-				marker.on('mouseover', function (e) { this.openPopup();  });
-				marker.on('mouseout',  function (e) { this.closePopup(); });
+				marker.on('click', function (e) { this.openPopup();  });
+//				marker.on('mouseout',  function (e) { this.closePopup(); });
 				});
 				});
 
