@@ -56,9 +56,9 @@
 			id: 'examples.map-i86knfo3'
 		}).addTo(map);
 		
-		$getJSON("che+.json", function (regions)   {
+		$getJSON("./che+.json", function (regions)   {
 			L.geoJson(regions).addTo(map);
-			})
+			});
 
 		// Define and add the control panel to enable/disable the track and/or the waypoint
 //		var tdsControl = {
