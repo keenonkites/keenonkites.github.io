@@ -2558,4 +2558,9 @@
     <name>carena64</name>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.7292333333333" lon="7.59125">
+    <time>2014-06-19T18:59:59Z</time>
+    <name>Santianer</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
