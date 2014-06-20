@@ -2568,4 +2568,9 @@
     <name>sanreju</name>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.6838666666667" lon="7.78081666666667">
+    <time>2014-06-20T18:59:59Z</time>
+    <name>eigerrun</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
