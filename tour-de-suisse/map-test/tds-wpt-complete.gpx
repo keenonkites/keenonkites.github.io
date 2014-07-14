@@ -2573,4 +2573,19 @@
     <name>eigerrun</name>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.6818166666667" lon="7.87591666666667">
+    <time>2014-07-13T18:59:59Z</time>
+    <name>andi e.</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7509166666667" lon="8.10925">
+    <time>2014-07-13T18:59:59Z</time>
+    <name>xundx</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7606333333333" lon="8.14">
+    <time>2014-07-13T18:59:59Z</time>
+    <name>Schmidi74</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
