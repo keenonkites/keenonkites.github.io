@@ -2588,4 +2588,14 @@
     <name>Schmidi74</name>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.77525" lon="8.14345">
+    <time>2014-07-15T18:59:59Z</time>
+    <name>ligschwil</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.8062666666667" lon="8.16938333333333">
+    <time>2014-07-15T18:59:59Z</time>
+    <name>BäRu</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
