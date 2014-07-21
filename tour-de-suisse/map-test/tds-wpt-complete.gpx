@@ -2598,4 +2598,14 @@
     <name>BäRu</name>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.8958333333333" lon="8.22035">
+    <time>2014-07-19T18:59:59Z</time>
+    <name>gnome.ch</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9300166666667" lon="8.30043333333333">
+    <time>2014-07-20T18:59:59Z</time>
+    <name>Städerfamilie</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
