@@ -2608,4 +2608,14 @@
     <name>Städerfamilie</name>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.9635833333333" lon="8.38628333333333">
+    <time>2014-07-23T18:59:59Z</time>
+    <name>Elchli</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9927833333333" lon="8.41748333333333">
+    <time>2014-07-23T18:59:59Z</time>
+    <name>July4ers</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
