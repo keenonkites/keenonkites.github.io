@@ -2618,4 +2618,14 @@
     <name>July4ers</name>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.80935" lon="8.42135">
+    <time>2014-07-27T18:59:59Z</time>
+    <name>we-base</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9605166666667" lon="8.45293333333333">
+    <time>2014-07-27T18:59:59Z</time>
+    <name>geo.hammer</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
