@@ -2628,4 +2628,14 @@
     <name>geo.hammer</name>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.9593833333333" lon="8.50025">
+    <time>2014-08-06T18:59:59Z</time>
+    <name>legguM</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9623" lon="8.5731">
+    <time>2014-08-08T16:21:48Z</time>
+    <name>Strandhotel</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
