@@ -1090,7 +1090,7 @@
    </wpt>
    <wpt lat="47.6697166666667" lon="8.82018333333333">
     <time>2010-04-09T18:59:59Z</time>
-    <name>Garfield</name>
+    <name>Garfield+Arlene</name>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="47.65485" lon="8.86686666666667">
@@ -1890,7 +1890,7 @@
    </wpt>
    <wpt lat="47.1344" lon="7.44696666666667">
     <time>2013-01-13T20:00:00Z</time>
-    <name>Mr.Gross</name>
+    <name>Mr.G!</name>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="47.0457833333333" lon="7.37438333333333">
@@ -2460,7 +2460,7 @@
    </wpt>
    <wpt lat="47.0051833333333" lon="6.83316666666667">
     <time>2014-02-05T20:00:00Z</time>
-    <name>F-Guillaume</name>
+    <name>Les Varnaveux</name>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="46.94375" lon="6.81016666666667">
@@ -2568,11 +2568,6 @@
     <name>sanreju</name>
     <sym>Pin, Blue</sym>
    </wpt>
-   <wpt lat="46.6838666666667" lon="7.78081666666667">
-    <time>2014-06-20T18:59:59Z</time>
-    <name>eigerrun</name>
-    <sym>Pin, Blue</sym>
-   </wpt>
    <wpt lat="46.6818166666667" lon="7.87591666666667">
     <time>2014-07-13T18:59:59Z</time>
     <name>andi e.</name>
@@ -2634,8 +2629,18 @@
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="46.9623" lon="8.5731">
-    <time>2014-08-08T16:21:48Z</time>
+    <time>2014-08-08T18:59:59Z</time>
     <name>Strandhotel</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9677" lon="8.59296666666667">
+    <time>2014-08-15T18:59:59Z</time>
+    <name>Crazy-Bikers</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0679666666667" lon="8.6215">
+    <time>2014-08-19T18:59:59Z</time>
+    <name>Ado &amp; Lomoli</name>
     <sym>Pin, Blue</sym>
    </wpt>
 </gpx>
