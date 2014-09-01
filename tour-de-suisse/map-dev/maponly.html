@@ -152,11 +152,16 @@
 
 		// Create a clear circle for the very starting of the Tour for easier identifying
  		var startCircle = L.circleMarker([47.08348465, 7.30976677], {
-			radius: 20,
-			stroke: 5,
-			color: '#003300',
-			fillColor: '#00ff00',
-			fillOpacity: 0.5
+		    radius:  20,
+			weight:  15,
+            color:   '#00ff00',
+            opacity: 0.5,
+            fill:    false			
+//			radius: 20,
+//			stroke: 5,
+//			color: '#003300',
+//			fillColor: '#00ff00',
+//			fillOpacity: 0.5
 		}).addTo(map).bindPopup("TdS<br>Start");
 		startCircle.on('click', function (e) { this.openPopup();  });
 		//		startCircle.on('mouseout',  function (e) { this.closePopup(); });
