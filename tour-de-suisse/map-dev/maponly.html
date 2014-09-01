@@ -125,7 +125,7 @@
 				this.eachLayer(function(marker) {
 					// and define the popups for all markers
 					marker.bindPopup(marker.toGeoJSON().properties.name + "<br>" + xmlDateToJavascriptDate(marker.toGeoJSON().properties.time).toLocaleDateString());
-					lastLatLong = marker.getLatLng();
+					var lastLatLong = marker.getLatLng();
 					marker.on('click', function (e) { this.openPopup();  });
 	//				marker.on('mouseout',  function (e) { this.closePopup(); });
 				});
@@ -168,7 +168,7 @@
 			color: '#003300',
 			fillColor: '#00ff00',
 			fillOpacity: 0.5
-		}).addTo(map).bindPopup("TdS<br>Start");
+		}).addTo(map).bindPopup("TdS<br>Jetzt/Now");
 		startCircle.on('click', function (e) { this.openPopup();  });
 
   
