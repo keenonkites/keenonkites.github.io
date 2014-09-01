@@ -125,7 +125,7 @@
 				this.eachLayer(function(marker) {
 					// and define the popups for all markers
 					marker.bindPopup(marker.toGeoJSON().properties.name + "<br>" + xmlDateToJavascriptDate(marker.toGeoJSON().properties.time).toLocaleDateString());
-					lastLatLong = [47.0, 8.0];
+					var lastLatLong = [47.0, 9.0];
 					marker.on('click', function (e) { this.openPopup();  });
 	//				marker.on('mouseout',  function (e) { this.closePopup(); });
 				});
