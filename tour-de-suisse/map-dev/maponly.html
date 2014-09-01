@@ -63,18 +63,21 @@
 			var utcDate = Date.UTC(year, Number(month)-1, day, hour, minute, second, (milli || 0));
 			return new Date(utcDate);
 		}		
+		// Define Last Coordinates
+		var lastLatLong = "";
 		
 		// Define our highlight style for the different years of the track
 		var highlightStyle = {
 			color: '#f00', 
 			weight: 5,
+			lineCap: 'round',
 		};
 
         // And here comes the default style for the track if it's not highlighted		
 		var defaultStyle = {
 			color: '#2262CC', 
 			weight: 5,
-			lineCap: 'butt',
+			lineCap: 'round',
 		};
 
         // create a custom layer to be able to apply style		
@@ -122,6 +125,7 @@
 				this.eachLayer(function(marker) {
 					// and define the popups for all markers
 					marker.bindPopup(marker.toGeoJSON().properties.name + "<br>" + xmlDateToJavascriptDate(marker.toGeoJSON().properties.time).toLocaleDateString());
+					lastLatLong = marker.toGeoJson().getLatLng();
 					marker.on('click', function (e) { this.openPopup();  });
 	//				marker.on('mouseout',  function (e) { this.closePopup(); });
 				});
