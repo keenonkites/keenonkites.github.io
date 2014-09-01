@@ -162,14 +162,14 @@
 		//		startCircle.on('mouseout',  function (e) { this.closePopup(); });
   
   		// Create a clear circle for the very starting of the Tour for easier identifying
- 		var startCircle = L.circleMarker( lastLatLong, {
+ 		var endCircle = L.circleMarker( lastLatLong, {
 			radius: 20,
 			stroke: 5,
 			color: '#003300',
 			fillColor: '#00ff00',
 			fillOpacity: 0.5
 		}).addTo(map).bindPopup("TdS<br>Jetzt/Now");
-		startCircle.on('click', function (e) { this.openPopup();  });
+		endCircle.on('click', function (e) { this.openPopup();  });
 
   
 	</script>
