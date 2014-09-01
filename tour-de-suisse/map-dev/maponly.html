@@ -64,7 +64,7 @@
 			return new Date(utcDate);
 		}		
 		// Define Last Coordinates
-		lastLatLong = [47.0, 7.0];
+//		lastLatLong = [47.0, 7.0];
 		
 		// Define our highlight style for the different years of the track
 		var highlightStyle = {
@@ -125,7 +125,7 @@
 				this.eachLayer(function(marker) {
 					// and define the popups for all markers
 					marker.bindPopup(marker.toGeoJSON().properties.name + "<br>" + xmlDateToJavascriptDate(marker.toGeoJSON().properties.time).toLocaleDateString());
-					lastLatLong = [47.0, 9.0];
+	//				lastLatLong = [47.0, 9.0];
 					marker.on('click', function (e) { this.openPopup();  });
 	//				marker.on('mouseout',  function (e) { this.closePopup(); });
 				});
@@ -168,14 +168,14 @@
   
 
   // Create a clear circle for the very starting of the Tour for easier identifying
- 		var startEndCircle = L.circleMarker( lastLatLong, {
-			radius: 20,
-			stroke: 5,
-			color: '#003300',
-			fillColor: '#00ff00',
-			fillOpacity: 0.5
-		}).addTo(map).bindPopup("TdS<br>Jetzt/Now");
-		startEndCircle.on('click', function (e) { this.openPopup();  });
+// 		var startEndCircle = L.circleMarker( lastLatLong, {
+//			radius: 20,
+//			stroke: 5,
+//			color: '#003300',
+//			fillColor: '#00ff00',
+//			fillOpacity: 0.5
+//		}).addTo(map).bindPopup("TdS<br>Jetzt/Now");
+//		startEndCircle.on('click', function (e) { this.openPopup();  });
 
   
 	</script>
