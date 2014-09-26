@@ -2568,6 +2568,11 @@
     <name>sanreju</name>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.6838666666667" lon="7.78081666666667">
+    <time>2014-06-20T18:59:59Z</time>
+    <name>eigerrun</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
    <wpt lat="46.6818166666667" lon="7.87591666666667">
     <time>2014-07-13T18:59:59Z</time>
     <name>andi e.</name>
@@ -2641,6 +2646,11 @@
    <wpt lat="47.0679666666667" lon="8.6215">
     <time>2014-08-19T18:59:59Z</time>
     <name>Ado &amp; Lomoli</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.12175" lon="8.63651666666667">
+    <time>2014-09-14T18:59:59Z</time>
+    <name>baenzfamily</name>
     <sym>Pin, Blue</sym>
    </wpt>
 </gpx>
