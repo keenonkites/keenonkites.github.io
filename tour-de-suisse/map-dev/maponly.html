@@ -195,7 +195,7 @@
 						 };
 
 //		map.addControl(new L.Control.Layers({}, {'TdS Track':tdstrack}));
-		map.addControl(new L.Control.Layers({}, baseMaps, overlayMaps));
+		map.addControl(new L.Control.Layers(baseMaps, overlayMaps));
 
 		var actualZoomlevel = map.getZoom();
 		
