@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tour de Suisse (GCQG54) - Info</title>
+	<meta charset="utf-8" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+	<style>
+		html, body {
+			height: 100%;
+		}
+
+		#map {
+			height: 100%;
+		}
+	</style>	
+</head>
+<body>
+	<div id="map" style="width: 100%; height: 95%"></div>
+
+	<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+	<script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
+	<script>
+
+		/**	
+		* Return a Javascript Date for the given XML Schema date string.  Return
+		* null if the date cannot be parsed.
+		*
+		* Does not know how to parse BC dates or AD dates < 100.
+		*
+		* Valid examples of input:
+		* 2010-04-28T10:46:37.0123456789Z
+		* 2010-04-28T10:46:37.37Z
+		* 2010-04-28T10:46:37Z
+		* 2010-04-28T10:46:37
+		* 2010-04-28T10:46:37.012345+05:30
+		* 2010-04-28T10:46:37.37-05:30
+		* 1776-04-28T10:46:37+05:30
+		* 0150-04-28T10:46:37-05:30
+		*/
+		var xmlDateToJavascriptDate = function(xmlDate) {
+			// It's times like these you wish Javascript supported multiline regex specs
+			var re = /^([0-9]{4,})-([0-9]{2})-([0-9]{2})T([0-9]{2}):([0-9]{2}):([0-9]{2})(\.[0-9]+)?(Z|([+-])([0-9]{2}):([0-9]{2}))?$/;
+			var match = xmlDate.match(re);
+			if (!match)
+			return null;
+
+			var all = match[0];
+			var year = match[1];  var month = match[2];  var day = match[3];
+			var hour = match[4];  var minute = match[5]; var second = match[6];
+			var milli = match[7]; 
+			var z_or_offset = match[8];  var offset_sign = match[9]; 
+			var offset_hour = match[10]; var offset_minute = match[11];
+
+			if (offset_sign) { // ended with +xx:xx or -xx:xx as opposed to Z or nothing
+			var direction = (offset_sign == "+" ? 1 : -1);
+			hour =   parseInt(hour)   + parseInt(offset_hour)   * direction;
+			minute = parseInt(minute) + parseInt(offset_minute) * direction;
+			}
+			var utcDate = Date.UTC(year, Number(month)-1, day, hour, minute, second, (milli || 0));
+			return new Date(utcDate);
+		}		
+		// Define Last Coordinates
+//		lastLatLong = [47.0, 7.0];
+		
+		// Define our highlight style for the different years of the track
+		var highlightStyle = {
+			color: '#f00', 
+			weight: 5,
+			lineCap: 'round',
+		};
+
+        // And here comes the default style for the track if it's not highlighted		
+		var defaultStyle = {
+			color: '#2262CC', 
+			weight: 5,
+			lineCap: 'round',
+		};
+
+        // create a custom layer to be able to apply style		
+		var customLayer = L.geoJson(null, {
+			style: function(feature) {
+			    return defaultStyle;
+			}
+		});	
+
+		// Now let's initiate the map itself, centralized in Switzerland
+		var map = L.map('map').setView([46.75, 8.25], 8);
+
+		// Add the mapbox layer...
+ 		L.tileLayer('http://otile{s}.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.jpeg', {
+			attribution: 'Tiles Courtesy of <a href="http://www.mapquest.com/">MapQuest</a> &mdash; Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+			subdomains: '1234'
+}).addTo(map);
+
+		// now use omnivore to load the gpx containing all yearly tracks (name must contain the year as YYYY)
+		var tdstrack = omnivore.gpx('tds-route-complete.gpx', null, customLayer)
+			.on ('ready', function(layer) {
+				this.eachLayer(function(layer) {
+				
+					// Fetch the year out of the track name (for the short name)
+					var yearmatch = (layer.feature.properties.name).match(/([0-9]{4,})/);
+					var yearid = yearmatch[1];
+					
+					// and bind the popup to it
+					layer.bindPopup("Route " + yearid);
+					layer.on('click', function (e) { this.openPopup(e.latlng); this.setStyle( highlightStyle ) });
+					layer.on('popupclose',  function (e) { this.setStyle( defaultStyle )});
+//					layer.on('mouseout',  function (e) { this.closePopup(); this.setStyle( defaultStyle )});
+				
+				});
+			}).addTo(map);
+
+		map.fitBounds([ [ 45.83, 5.97 ] , [ 47.81, 10.49 ] ]);
+				
+		// Here we load all the waypoints
+		var tdswpt    = omnivore.gpx('tds-wpt-complete.gpx' )
+			.on ('ready', function(layer) {
+				this.eachLayer(function(marker) {
+					// and define the popups for all markers
+					marker.bindPopup(marker.toGeoJSON().properties.name + "<br>" + xmlDateToJavascriptDate(marker.toGeoJSON().properties.time).toLocaleDateString());
+	//				lastLatLong = [47.0, 9.0];
+					marker.on('click', function (e) { this.openPopup();  });
+	//				marker.on('mouseout',  function (e) { this.closePopup(); });
+				});
+			});
+
+
+		// Define and add the control panel to enable/disable the track and/or the waypoint
+		var tdsControl = {
+							'TdS Route 2005 - 2014': tdstrack ,
+							// 'TdS Route 2': tdstrack2 ,
+							'TdS Waypoints 2005 - 2014': tdswpt 
+						 };
+		map.addControl(new L.Control.Layers({}, tdsControl ));
+
+		// Make sure that the waypoints only get loaded at a certain zoom level (or if enabled manually)
+		var actualZoomlevel = map.getZoom();
+		map.on('zoomstart ', function(e) {
+			actualZoomlevel = map.getZoom();
+		});
+		map.on('zoomend ', function(e) {
+			 if ( map.getZoom() < 11 && actualZoomlevel >= 11 ){ map.removeLayer( tdswpt )}
+			 else if ( map.getZoom() >= 11 && actualZoomlevel < 11 ){ map.addLayer( tdswpt )}
+		});
+
+		// Create a clear circle for the very starting of the Tour for easier identifying
+ 		var startEndCircle = L.circleMarker([47.08348465, 7.30976677], {
+//		    radius:  18,
+//			weight:  14,
+//      	color:   '#00ff00',
+//	        opacity: 0.5,
+//	        fill:    false			
+			radius: 20,
+			weight: 2,
+			color: '#003300',
+			fillColor: '#00ff00',
+			fillOpacity: 0.5
+		}).addTo(map).bindPopup("TdS<br>Start");
+		startEndCircle.on('click', function (e) { this.openPopup();  });
+		//		startCircle.on('mouseout',  function (e) { this.closePopup(); });
+  
+
+  // Create a clear circle for the very starting of the Tour for easier identifying
+// 		var startEndCircle = L.circleMarker( lastLatLong, {
+//			radius: 20,
+//			stroke: 5,
+//			color: '#003300',
+//			fillColor: '#00ff00',
+//			fillOpacity: 0.5
+//		}).addTo(map).bindPopup("TdS<br>Jetzt/Now");
+//		startEndCircle.on('click', function (e) { this.openPopup();  });
+
+  
+	</script>
+</body>
+</html>
