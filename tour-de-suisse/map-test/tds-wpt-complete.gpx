@@ -2653,4 +2653,9 @@
     <name>baenzfamily</name>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="47.1436333333333" lon="8.65278333333333">
+    <time>2014-09-27T18:59:59Z</time>
+    <name>benitos family</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
