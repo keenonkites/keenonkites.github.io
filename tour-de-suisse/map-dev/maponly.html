@@ -149,17 +149,26 @@
 			});
 		*/
 
- 		// Here we load all the waypoints
+ 		// Prepare the Icon stuff: we have local icons
+		varLeafIcon = L.Icon.extend({
+			options: {
+				shadowUrl:	'marker-shadow.png'
+			}
+		});
+		
+		// Predefine our Icons
+		var blueMarker = new LeafIcon({iconUrl: 'marker-icon-blue.png'}),
+		    redMarker = new LeafIcon({iconUrl: 'marker-icon-red.png'});
+				
+		
+		// Here we load all the waypoints
 		var tdswpt    = omnivore.gpx('tds-wpt-complete.gpx' )
 			.on ('ready', function(layer) {
 				this.eachLayer(function(marker) {
 					// and define the popups for all markers
 					marker.bindPopup(marker.toGeoJSON().properties.name + "<br>" + xmlDateToJavascriptDate(marker.toGeoJSON().properties.time).toLocaleDateString());
 					marker.on('click', function (e) { this.openPopup();  });
-					marker.setIcon(marker.icon({
-						'marker-color': '#ff8888',
-						'marker-size': 'large'
-					}));
+					marker.setIcon( redMarker );
 				});
 			});
 		
