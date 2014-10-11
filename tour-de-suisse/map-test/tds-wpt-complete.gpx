@@ -973,6 +973,16 @@
     <name>Find-it-old</name>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="47.5930666666667" lon="7.64441666666667">
+    <time>2009-12-28T20:00:00Z</time>
+    <name>waldi40</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.5930666666667" lon="7.64441666666667">
+    <time>2009-12-28T20:00:00Z</time>
+    <name>waldi40</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
    <wpt lat="47.548" lon="7.63126666666667">
     <time>2009-12-29T20:00:00Z</time>
     <name>Towerstar</name>
@@ -1023,11 +1033,6 @@
     <name>catwisel</name>
     <sym>Pin, Blue</sym>
    </wpt>
-   <wpt lat="47.5930666666667" lon="7.64441666666667">
-    <time>2009-12-28T20:00:00Z</time>
-    <name>waldi40</name>
-    <sym>Pin, Blue</sym>
-   </wpt>
    <wpt lat="47.4545166666667" lon="8.53181666666667">
     <time>2010-01-05T20:00:00Z</time>
     <name>sternli</name>
@@ -1046,11 +1051,6 @@
    <wpt lat="47.5220666666667" lon="8.54161666666667">
     <time>2010-01-05T08:00:00Z</time>
     <name>PicoKnirps</name>
-    <sym>Pin, Blue</sym>
-   </wpt>
-   <wpt lat="47.5930666666667" lon="7.64441666666667">
-    <time>2009-12-28T20:00:00Z</time>
-    <name>waldi40</name>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="47.57945" lon="8.51181666666667">
@@ -1868,14 +1868,14 @@
     <name>jackeroo99</name>
     <sym>Pin, Blue</sym>
    </wpt>
-   <wpt lat="47.1997833333333" lon="7.17725">
-    <time>2013-01-02T20:00:00Z</time>
-    <name>Mystic-G</name>
-    <sym>Pin, Blue</sym>
-   </wpt>
    <wpt lat="47.25855" lon="7.34613333333333">
     <time>2012-12-29T20:00:00Z</time>
     <name>Mystic-S</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1997833333333" lon="7.17725">
+    <time>2013-01-02T20:00:00Z</time>
+    <name>Mystic-G</name>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="47.1364" lon="7.23128333333333">
@@ -2656,11 +2656,6 @@
    <wpt lat="47.1436333333333" lon="8.65278333333333">
     <time>2014-09-27T18:59:59Z</time>
     <name>benitos family</name>
-    <sym>Pin, Blue</sym>
-   </wpt>
-   <wpt lat="47.1676333333333" lon="8.73165">
-    <time>2014-10-08T18:59:59Z</time>
-    <name>daisy1620</name>
     <sym>Pin, Blue</sym>
    </wpt>
 </gpx>
