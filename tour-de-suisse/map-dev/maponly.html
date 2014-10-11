@@ -65,13 +65,13 @@
 		}		
 		
 		// Define our highlight style for the different years of the track
-		var highlightStyle = {
+		var trackHighlightStyle = {
 			color: '#f00', 
 			weight: 5,
 		};
 
         // And here comes the default style for the track if it's not highlighted		
-		var defaultStyle = {
+		var trackDefaultStyle = {
 			color: '#2262CC', 
 			weight: 5,
 		};
@@ -79,7 +79,7 @@
         // create a custom layer to be able to apply style		
 		var customLayer = L.geoJson(null, {
 			style: function(feature) {
-			    return defaultStyle;
+			    return trackDefaultStyle;
 			}
 		});	
 
@@ -128,15 +128,16 @@
 					
 					// and bind the popup to it
 					layer.bindPopup("Route " + yearid);
-					layer.on('click', function (e) { this.openPopup(e.latlng); this.setStyle( highlightStyle ) });
-					layer.on('popupclose',  function (e) { this.setStyle( defaultStyle )});
-//					layer.on('mouseout',  function (e) { this.closePopup(); this.setStyle( defaultStyle )});
+					layer.on('click', function (e) { this.openPopup(e.latlng); this.setStyle( trackHighlightStyle ) });
+					layer.on('popupclose',  function (e) { this.setStyle( trackDefaultStyle )});
+//					layer.on('mouseout',  function (e) { this.closePopup(); this.setStyle( trackDefaultStyle )});
 				
 				});
 			}).addTo(map);
 
 				
-		// Here we load all the waypoints
+		/**	
+ 		// Here we load all the waypoints
 		var tdswpt    = omnivore.gpx('tds-wpt-complete.gpx' )
 			.on ('ready', function(layer) {
 				this.eachLayer(function(marker) {
@@ -146,7 +147,22 @@
 	//				marker.on('mouseout',  function (e) { this.closePopup(); });
 				});
 			});
+		*/
 
+ 		// Here we load all the waypoints
+		var tdswpt    = omnivore.gpx('tds-wpt-complete.gpx' )
+			.on ('ready', function(layer) {
+				this.eachLayer(function(marker) {
+					// and define the popups for all markers
+					marker.bindPopup(marker.toGeoJSON().properties.name + "<br>" + xmlDateToJavascriptDate(marker.toGeoJSON().properties.time).toLocaleDateString());
+					marker.on('click', function (e) { this.openPopup();  });
+					marker.setIcon(L.mapbox.marker.icon({
+						marker-color': '#ff8888',
+						'marker-size': 'large'
+					}));
+				});
+			});
+		
 		// Put the overlay maps together into one container
 		var overlayMaps = {
 							'TdS Route': tdstrack ,
