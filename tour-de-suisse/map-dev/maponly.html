@@ -157,7 +157,7 @@
 					marker.bindPopup(marker.toGeoJSON().properties.name + "<br>" + xmlDateToJavascriptDate(marker.toGeoJSON().properties.time).toLocaleDateString());
 					marker.on('click', function (e) { this.openPopup();  });
 					marker.setIcon(L.mapbox.marker.icon({
-						marker-color': '#ff8888',
+						'marker-color': '#ff8888',
 						'marker-size': 'large'
 					}));
 				});
