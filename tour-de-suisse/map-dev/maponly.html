@@ -158,7 +158,7 @@
 					// and define the popups for all markers
 					marker.bindPopup(marker.toGeoJSON().properties.name + "<br>" + xmlDateToJavascriptDate(marker.toGeoJSON().properties.time).toLocaleDateString());
 					marker.on('click', function (e) { this.openPopup();  });
-					marker.setIcon( BlueMarker );
+					marker.setIcon( blueMarker );
 				});
 			});
 		
