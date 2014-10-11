@@ -86,12 +86,37 @@
 		// Now let's initiate the map itself, centralized in Switzerland
 		var map = L.map('map').setView([46.75, 8.25], 8);
 
-		// Add the mapbox layer...
- 		L.tileLayer('http://otile{s}.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.jpeg', {
+		// Let's define the different possible base maps
+ 		var mapQuestOpenOsm = L.tileLayer('http://otile{s}.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.jpeg', {
 			attribution: 'Tiles Courtesy of <a href="http://www.mapquest.com/">MapQuest</a> &mdash; Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
 			subdomains: '1234'
 		}).addTo(map);
 
+		var osmMapnik = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+			attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
+		});		
+
+		var ThunderforestLandscape = L.tileLayer('http://{s}.tile.thunderforest.com/landscape/{z}/{x}/{y}.png', {
+			attribution: '&copy; <a href="http://www.opencyclemap.org">OpenCycleMap</a>, &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
+		});		
+
+		var EsriWorldStreetMap = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+			attribution: 'Tiles &copy; Esri &mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom, 2012'
+		});		
+
+		var EsriWorldImagery = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+			attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+		});		
+
+		// put all the predefined basemaps together
+		var baseMaps = {
+			"MapQuest Open OSM":       mapQuestOpenOsm,
+			"OSM Mapnik":              osmMapnik,
+			"Thunderforest Landscape": ThunderforestLandscape,
+			"ESRI WorldStreetMap":     EsriWorldStreetMap,
+			"ESRI WorldImagery":       EsriWorldImagery
+		};
+		
 		// now use omnivore to load the gpx containing all yearly tracks (name must contain the year as YYYY)
 		var tdstrack = omnivore.gpx('tds-route-complete.gpx', null, customLayer)
 			.on ('ready', function(layer) {
@@ -110,7 +135,6 @@
 				});
 			}).addTo(map);
 
-		map.fitBounds([ [ 45.83, 5.97 ] , [ 47.81, 10.49 ] ]);
 				
 		// Here we load all the waypoints
 		var tdswpt    = omnivore.gpx('tds-wpt-complete.gpx' )
@@ -123,14 +147,17 @@
 				});
 			});
 
+		// Put the overlay maps together into one container
+		var overlayMaps = {
+							'TdS Route': tdstrack ,
+							'TdS Waypoints': tdswpt 		
+		}
+		
+		// Define and add the control panel to the map
+		map.addControl(new L.Control.Layers(baseMaps, overlayMaps));
 
-		// Define and add the control panel to enable/disable the track and/or the waypoint
-		var tdsControl = {
-							'TdS Route 2005 - 2014': tdstrack ,
-							// 'TdS Route 2': tdstrack2 ,
-							'TdS Waypoints 2005 - 2014': tdswpt 
-						 };
-		map.addControl(new L.Control.Layers({}, tdsControl ));
+		// Make sure that the zoom of the actual window does cover complete Switzerland
+		map.fitBounds([ [ 45.83, 5.97 ] , [ 47.81, 10.49 ] ]);
 
 		// Make sure that the waypoints only get loaded at a certain zoom level (or if enabled manually)
 		var actualZoomlevel = map.getZoom();
