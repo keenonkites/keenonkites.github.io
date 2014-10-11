@@ -135,20 +135,6 @@
 				});
 			}).addTo(map);
 
-				
-		/**	
- 		// Here we load all the waypoints
-		var tdswpt    = omnivore.gpx('tds-wpt-complete.gpx' )
-			.on ('ready', function(layer) {
-				this.eachLayer(function(marker) {
-					// and define the popups for all markers
-					marker.bindPopup(marker.toGeoJSON().properties.name + "<br>" + xmlDateToJavascriptDate(marker.toGeoJSON().properties.time).toLocaleDateString());
-					marker.on('click', function (e) { this.openPopup();  });
-	//				marker.on('mouseout',  function (e) { this.closePopup(); });
-				});
-			});
-		*/
-
  		// Prepare the Icon stuff: we have local icons
 		var LeafIcon = L.Icon.extend({
 			options: {
@@ -165,9 +151,19 @@
 		var blueMarker = new LeafIcon({iconUrl: 'marker-icon-blue.png'}),
 		    redMarker = new LeafIcon({iconUrl: 'marker-icon-red.png'});
 				
+ 		// Here we load all the waypoints
+		var tdswpt    = omnivore.gpx('tds-wpt-complete.gpx' )
+			.on ('ready', function(layer) {
+				this.eachLayer(function(marker) {
+					// and define the popups for all markers
+					marker.bindPopup(marker.toGeoJSON().properties.name + "<br>" + xmlDateToJavascriptDate(marker.toGeoJSON().properties.time).toLocaleDateString());
+					marker.on('click', function (e) { this.openPopup();  });
+					marker.setIcon( BlueMarker );
+				});
+			});
 		
 		// Here we load all the waypoints
-		var tdswpt    = omnivore.gpx('tds-wpt-complete.gpx' )
+		var tdswptfirstlast = omnivore.gpx('tds-wpt-firstlast.gpx' )
 			.on ('ready', function(layer) {
 				this.eachLayer(function(marker) {
 					// and define the popups for all markers
@@ -175,12 +171,13 @@
 					marker.on('click', function (e) { this.openPopup();  });
 					marker.setIcon( redMarker );
 				});
-			});
+			}.addTo(map);
 		
 		// Put the overlay maps together into one container
 		var overlayMaps = {
 							'TdS Route': tdstrack ,
-							'TdS Waypoints': tdswpt 		
+							'TdS Waypoints': tdswpt ,
+							'TdS Actual Position': tdswptfirstlast
 		}
 		
 		// Define and add the control panel to the map
