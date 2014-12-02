@@ -2355,7 +2355,7 @@
    </wpt>
    <wpt lat="47.5544833333333" lon="7.9858">
     <time>2013-11-18T20:00:00Z</time>
-    <name>benny1969</name>
+    <name>Benny1969</name>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="47.5509166666667" lon="7.77785">
@@ -2465,7 +2465,7 @@
    </wpt>
    <wpt lat="46.94375" lon="6.81016666666667">
     <time>2014-02-06T20:00:00Z</time>
-    <name>mar-elendili</name>
+    <name>Mar-elendili</name>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="46.9065833333333" lon="6.7635">
@@ -2661,6 +2661,11 @@
    <wpt lat="47.1676333333333" lon="8.73165">
     <time>2014-10-08T18:59:59Z</time>
     <name>daisy1620</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1931666666667" lon="8.67605">
+    <time>2014-10-12T18:59:59Z</time>
+    <name>topaz58</name>
     <sym>Pin, Blue</sym>
    </wpt>
 </gpx>
