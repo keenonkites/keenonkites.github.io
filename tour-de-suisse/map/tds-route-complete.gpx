@@ -1686,6 +1686,12 @@
    <trkpt lon="8.76686666666667" lat="47.1675">
     <time>2014-12-06T20:00:00Z</time>
    </trkpt>
+   <trkpt lon="8.85595" lat="47.1823">
+    <time>2014-12-20T20:00:00Z</time>
+   </trkpt>
+   <trkpt lon="9.04005" lat="47.2544833333333">
+    <time>2014-12-20T20:00:00Z</time>
+   </trkpt>
   </trkseg>
  </trk>
 </gpx>

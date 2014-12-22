@@ -2678,4 +2678,14 @@
     <name>ladytwo2</name>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="47.1675" lon="8.76686666666667">
+    <time>2014-12-06T20:00:00Z</time>
+    <name>Ofner</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1823" lon="8.85595">
+    <time>2014-12-20T20:00:00Z</time>
+    <name>popfex</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
