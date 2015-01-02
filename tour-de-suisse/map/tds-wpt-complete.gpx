@@ -2688,4 +2688,9 @@
     <name>popfex</name>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="47.2544833333333" lon="9.04005">
+    <time>2014-12-20T20:00:00Z</time>
+    <name>cats1611</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
