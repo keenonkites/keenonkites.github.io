@@ -206,16 +206,6 @@
 		}).addTo(map).bindPopup("TdS<br>Start");
 		startCircle.on('click', function (e) { this.openPopup();  });
 //		startCircle.on('mouseout',  function (e) { this.closePopup(); });
-
-      var legend = L.control({position: 'topleft'});  
-      legend.onAdd = function (map) {
-         var div = L.DomUtil.create('div', 'info legend'),
-         //grades = [50, 100, 150, 200, 250, 300],
-         labels = ['<strong> Tour de Suisse </strong>'];
-         div.innerHTML = labels.join('<br>');
-         return div;
-      };
-      legend.addTo(map);
   
 	</script>
 </body>
