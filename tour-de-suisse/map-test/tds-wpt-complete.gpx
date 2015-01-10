@@ -2698,4 +2698,9 @@
     <name>MHM G-Team</name>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="47.1726833333333" lon="9.00965">
+    <time>2015-01-05T20:00:00Z</time>
+    <name>Michix</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
