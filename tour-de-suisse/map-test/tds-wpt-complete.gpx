@@ -2703,4 +2703,14 @@
     <name>Michix</name>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="47.1151333333333" lon="9.21623333333333">
+    <time>2015-01-10T20:00:00Z</time>
+    <name>curwas</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.12405" lon="9.30135">
+    <time>2015-01-11T20:00:00Z</time>
+    <name>rg4980</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
