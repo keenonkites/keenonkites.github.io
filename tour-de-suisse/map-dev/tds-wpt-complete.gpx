@@ -105,7 +105,7 @@
    </wpt>
    <wpt lat="47.34545" lon="8.84616666666667">
     <time>2005-11-22T08:00:00Z</time>
-    <name>hobel</name>
+    <name>Hobel</name>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="47.3506666666667" lon="8.94166666666667">
@@ -1190,7 +1190,7 @@
    </wpt>
    <wpt lat="47.1170166666667" lon="8.4136">
     <time>2010-09-13T18:59:59Z</time>
-    <name>cacheator</name>
+    <name>Cacheator</name>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="47.0510833333333" lon="8.3348">
@@ -2040,7 +2040,7 @@
    </wpt>
    <wpt lat="46.9700666666667" lon="8.31698333333333">
     <time>2013-05-08T18:59:59Z</time>
-    <name>lara05</name>
+    <name>Lara05</name>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="46.9808666666667" lon="8.33773333333333">
@@ -2225,7 +2225,7 @@
    </wpt>
    <wpt lat="47.2258833333333" lon="9.4441">
     <time>2013-08-19T18:59:59Z</time>
-    <name>hb9tmr</name>
+    <name>HB9TMR</name>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="47.2076666666667" lon="9.36528333333333">
@@ -2726,6 +2726,11 @@
    <wpt lat="46.9735166666667" lon="9.64098333333333">
     <time>2015-01-13T20:00:00Z</time>
     <name>ady73</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9783" lon="9.65696666666667">
+    <time>2015-01-15T20:00:00Z</time>
+    <name>chaufma</name>
     <sym>Pin, Blue</sym>
    </wpt>
 </gpx>
