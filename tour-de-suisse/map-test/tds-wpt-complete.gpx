@@ -2733,4 +2733,14 @@
     <name>chaufma</name>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.9563333333333" lon="9.70458333333333">
+    <time>2015-01-16T20:00:00Z</time>
+    <name>plausi</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.90365" lon="9.82506666666667">
+    <time>2015-01-18T20:00:00Z</time>
+    <name>hemaromir</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
