@@ -2748,4 +2748,9 @@
     <name>martina08</name>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.8131" lon="9.84505">
+    <time>2015-02-12T20:00:00Z</time>
+    <name>loslachen.ch</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
