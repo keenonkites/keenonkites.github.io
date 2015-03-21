@@ -2758,4 +2758,9 @@
     <name>nuggetpete</name>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.67505" lon="9.67203333333333">
+    <time>2015-02-24T20:00:00Z</time>
+    <name>Ferratum</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
