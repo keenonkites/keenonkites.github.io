@@ -2763,4 +2763,9 @@
     <name>Ferratum</name>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.6785333333333" lon="9.53021666666667">
+    <time>2015-03-21T18:59:59Z</time>
+    <name>Bigiwo</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
