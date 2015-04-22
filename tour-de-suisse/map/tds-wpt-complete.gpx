@@ -2768,4 +2768,9 @@
     <name>Bigiwo</name>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.6992166666667" lon="9.46756666666667">
+    <time>2015-04-21T18:59:59Z</time>
+    <name>bigGBS</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
