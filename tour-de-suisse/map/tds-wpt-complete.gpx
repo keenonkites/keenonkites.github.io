@@ -2773,4 +2773,9 @@
     <name>bigGBS</name>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.6842666666667" lon="9.446">
+    <time>2015-04-22T18:59:59Z</time>
+    <name>Servaz</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
