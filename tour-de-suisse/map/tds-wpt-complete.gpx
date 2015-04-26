@@ -2778,4 +2778,9 @@
     <name>Servaz</name>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.6368666666667" lon="9.44113333333333">
+    <time>2015-04-24T14:10:44Z</time>
+    <name>Madmeck</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
