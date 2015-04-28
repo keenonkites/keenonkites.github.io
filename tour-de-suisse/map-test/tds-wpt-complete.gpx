@@ -2783,4 +2783,24 @@
     <name>Madmeck</name>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.4623833333333" lon="9.18375">
+    <time>2015-04-26T18:59:59Z</time>
+    <name>agrifoglio</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.3233666666667" lon="9.2152">
+    <time>2015-04-27T18:59:59Z</time>
+    <name>Grampasso</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.2151333333333" lon="9.03905">
+    <time>2015-04-28T18:59:59Z</time>
+    <name>Coattis</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.2151333333333" lon="9.03905">
+    <time>2015-04-28T18:59:59Z</time>
+    <name>NikNikko</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
