@@ -2798,4 +2798,14 @@
     <name>Coattis</name>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.1903666666667" lon="9.02606666666667">
+    <time>2015-04-28T18:59:59Z</time>
+    <name>NikNikko</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.1944333333333" lon="9.00096666666667">
+    <time>2015-04-29T18:59:59Z</time>
+    <name>lunzebiene</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
