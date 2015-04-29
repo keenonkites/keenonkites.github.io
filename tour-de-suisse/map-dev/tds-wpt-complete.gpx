@@ -2808,4 +2808,9 @@
     <name>lunzebiene</name>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.1654166666667" lon="8.94725">
+    <time>2015-04-29T18:59:59Z</time>
+    <name>Grob+CPM</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
