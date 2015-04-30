@@ -206,6 +206,16 @@
 		}).addTo(map).bindPopup("TdS<br>Start");
 		startCircle.on('click', function (e) { this.openPopup();  });
 //		startCircle.on('mouseout',  function (e) { this.closePopup(); });
+
+ 		var startCircle = L.circleMarker([45.971067, 8.971665], {
+			radius: 20,
+			stroke: 5,
+			color: '##FF9933',
+			fillColor: '#FFC285',
+			fillOpacity: 0.5
+		}).addTo(map).bindPopup("Ziel 1<br>Target 1");
+		startCircle.on('click', function (e) { this.openPopup();  });
+
   
 	</script>
 </body>
