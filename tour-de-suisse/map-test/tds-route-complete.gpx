@@ -1784,6 +1784,9 @@
    <trkpt lon="8.95" lat="45.95415">
     <time>2015-04-30T18:59:59Z</time>
    </trkpt>
+   <trkpt lon="8.95866666666667" lat="45.9535166666667">
+    <time>2015-05-01T18:59:59Z</time>
+   </trkpt>
   </trkseg>
  </trk>
 </gpx>
