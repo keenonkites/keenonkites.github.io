@@ -2833,4 +2833,9 @@
     <name>b2b4</name>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="45.9535166666667" lon="8.95866666666667">
+    <time>2015-05-01T18:59:59Z</time>
+    <name>lukem18</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
