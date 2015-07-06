@@ -2838,4 +2838,9 @@
     <name>lukem18</name>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="45.9715666666667" lon="8.97066666666667">
+    <time>2015-06-29T18:59:59Z</time>
+    <name>GeoFellow</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
