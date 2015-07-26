@@ -2843,4 +2843,24 @@
     <name>GeoFellow</name>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="45.87735" lon="8.98103333333333">
+    <time>2015-07-06T18:59:59Z</time>
+    <name>coco.ch</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="45.9701166666667" lon="8.8818">
+    <time>2015-07-16T14:00:11Z</time>
+    <name>Piratenbär</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.0682666666667" lon="8.92981666666667">
+    <time>2015-07-19T18:59:59Z</time>
+    <name>Thai-TukTuk</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.1440666666667" lon="8.9418">
+    <time>2015-07-24T18:59:59Z</time>
+    <name>coco.ch</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
