@@ -2863,4 +2863,9 @@
     <name>coco.ch</name>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.1708666666667" lon="8.9151">
+    <time>2015-07-25T18:59:59Z</time>
+    <name>monty-CH</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
