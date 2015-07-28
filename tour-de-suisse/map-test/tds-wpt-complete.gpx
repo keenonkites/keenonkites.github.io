@@ -2868,4 +2868,14 @@
     <name>monty-CH</name>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.1843333333333" lon="8.85383333333333">
+    <time>2015-07-27T18:59:59Z</time>
+    <name>Total4</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.1638666666667" lon="8.75698333333333">
+    <time>2015-07-28T09:58:15Z</time>
+    <name>Jack Dalton</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
