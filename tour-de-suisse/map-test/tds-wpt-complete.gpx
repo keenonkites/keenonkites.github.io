@@ -2878,4 +2878,14 @@
     <name>Jack Dalton</name>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.1637333333333" lon="8.7547">
+    <time>2015-07-28T13:56:30Z</time>
+    <name>Jack Dalton</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.18325" lon="8.8489">
+    <time>2015-07-30T18:59:59Z</time>
+    <name>SchregiWeiss</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
