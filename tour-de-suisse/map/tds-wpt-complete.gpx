@@ -2893,4 +2893,14 @@
     <name>casamafa</name>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.1735666666667" lon="8.7884">
+    <time>2015-08-03T18:59:59Z</time>
+    <name>HugBee</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.179" lon="8.97295">
+    <time>2015-08-03T18:59:59Z</time>
+    <name>ticinese</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>

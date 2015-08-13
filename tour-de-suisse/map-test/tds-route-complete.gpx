@@ -1823,6 +1823,12 @@
    <trkpt lon="8.7884" lat="46.1735666666667">
     <time>2015-08-03T18:59:59Z</time>
    </trkpt>
+   <trkpt lon="8.97295" lat="46.179">
+    <time>2015-08-03T18:59:59Z</time>
+   </trkpt>
+   <trkpt lon="9.03285" lat="46.2086666666667">
+    <time>2015-08-13T18:59:59Z</time>
+   </trkpt>
   </trkseg>
  </trk>
 </gpx>
