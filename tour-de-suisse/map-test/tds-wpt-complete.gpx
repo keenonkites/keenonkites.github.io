@@ -2903,4 +2903,9 @@
     <name>ticinese</name>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.2086666666667" lon="9.03285">
+    <time>2015-08-13T18:59:59Z</time>
+    <name>Wizard8</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
