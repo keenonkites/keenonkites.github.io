@@ -2908,4 +2908,24 @@
     <name>Wizard8</name>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.4776333333333" lon="8.39796666666667">
+    <time>2015-08-30T18:59:59Z</time>
+    <name>Piratenbär</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.5057833333333" lon="8.32018333333333">
+    <time>2015-09-19T18:59:59Z</time>
+    <name>BelTicino</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9542" lon="8.55476666666667">
+    <time>2015-09-28T18:59:59Z</time>
+    <name>coco.ch</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.6287833333333" lon="8.3045">
+    <time>2015-09-28T18:59:59Z</time>
+    <name>coco.ch</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
