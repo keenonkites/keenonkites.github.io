@@ -2928,4 +2928,39 @@
     <name>coco.ch</name>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.7005833333333" lon="8.2328">
+    <time>2015-10-10T18:59:59Z</time>
+    <name>eragon10</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7548333333333" lon="8.03868333333333">
+    <time>2016-02-03T20:00:00Z</time>
+    <name>O-Laeufer</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.6903666666667" lon="7.8543">
+    <time>2016-02-04T20:00:00Z</time>
+    <name>O-Laeufer</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.6852333333333" lon="7.74763333333333">
+    <time>2016-02-04T20:27:46Z</time>
+    <name>ginicat</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.77305" lon="7.68185">
+    <time>2016-02-07T20:00:00Z</time>
+    <name>HUCK64</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.8071833333333" lon="7.56966666666667">
+    <time>2016-02-08T20:00:00Z</time>
+    <name>Eltitas</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.8137333333333" lon="7.50308333333333">
+    <time>2016-02-14T20:00:00Z</time>
+    <name>Miro77 &amp; Aminis</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
