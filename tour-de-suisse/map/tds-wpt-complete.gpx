@@ -2973,4 +2973,9 @@
     <name>Wyss&apos;es</name>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.7318666666667" lon="7.44813333333333">
+    <time>2016-03-02T20:00:00Z</time>
+    <name>Stögu</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
