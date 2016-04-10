@@ -2978,4 +2978,9 @@
     <name>Stögu</name>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.7131833333333" lon="7.36685">
+    <time>2016-03-26T18:59:59Z</time>
+    <name>chapferebg</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
