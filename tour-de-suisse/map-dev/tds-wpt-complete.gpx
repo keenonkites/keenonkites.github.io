@@ -370,7 +370,7 @@
    </wpt>
    <wpt lat="47.0376833333333" lon="7.10896666666667">
     <time>2006-01-22T08:00:00Z</time>
-    <name>moudi</name>
+    <name>Moudi</name>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="46.9977" lon="7.0159">
@@ -940,7 +940,7 @@
    </wpt>
    <wpt lat="47.2577666666667" lon="7.64911666666667">
     <time>2009-11-05T20:00:00Z</time>
-    <name>jenalo</name>
+    <name>Jenalo</name>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="47.3451666666667" lon="7.68913333333333">
@@ -1005,7 +1005,7 @@
    </wpt>
    <wpt lat="47.4515833333333" lon="8.2783">
     <time>2010-01-02T20:00:00Z</time>
-    <name>d&apos;ronja</name>
+    <name>d&apos;Ronja</name>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="47.4714333333333" lon="8.45831666666667">
@@ -1550,7 +1550,7 @@
    </wpt>
    <wpt lat="47.1463833333333" lon="9.519">
     <time>2012-05-28T18:59:59Z</time>
-    <name>Indianagoofy</name>
+    <name>Indianagoofy&amp;Goofyne</name>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="47.1463833333333" lon="9.519">
@@ -1825,7 +1825,7 @@
    </wpt>
    <wpt lat="47.55805" lon="7.6201">
     <time>2012-12-02T20:00:00Z</time>
-    <name>MartiBelle</name>
+    <name>martifiosi</name>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="47.4554666666667" lon="7.60235">
@@ -2350,12 +2350,12 @@
    </wpt>
    <wpt lat="47.5826166666667" lon="8.12698333333333">
     <time>2013-11-18T20:00:00Z</time>
-    <name>DiMaSh</name>
+    <name>DiMaSh+</name>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="47.5544833333333" lon="7.9858">
     <time>2013-11-18T20:00:00Z</time>
-    <name>Benny1969</name>
+    <name>Be@Mi</name>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="47.5509166666667" lon="7.77785">
@@ -2530,7 +2530,7 @@
    </wpt>
    <wpt lat="46.58365" lon="7.0806">
     <time>2014-04-25T18:59:59Z</time>
-    <name>yerkalo</name>
+    <name>YERKALO</name>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="46.61405" lon="7.09465">
@@ -2590,7 +2590,7 @@
    </wpt>
    <wpt lat="46.77525" lon="8.14345">
     <time>2014-07-15T18:59:59Z</time>
-    <name>ligschwil</name>
+    <name>Ligschwil</name>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="46.8062666666667" lon="8.16938333333333">
@@ -2605,7 +2605,7 @@
    </wpt>
    <wpt lat="46.9300166666667" lon="8.30043333333333">
     <time>2014-07-20T18:59:59Z</time>
-    <name>Städerfamilie</name>
+    <name>Städer&apos;s</name>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="46.9635833333333" lon="8.38628333333333">
@@ -2960,7 +2960,7 @@
    </wpt>
    <wpt lat="46.8137333333333" lon="7.50308333333333">
     <time>2016-02-14T20:00:00Z</time>
-    <name>Miro77 &amp; Aminis</name>
+    <name>Miromas</name>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="46.78025" lon="7.4466">
@@ -2970,7 +2970,7 @@
    </wpt>
    <wpt lat="46.7428166666667" lon="7.45661666666667">
     <time>2016-02-20T08:33:33Z</time>
-    <name>Wyss&apos;es</name>
+    <name>mrsWyss</name>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="46.7318666666667" lon="7.44813333333333">
@@ -2981,6 +2981,11 @@
    <wpt lat="46.7131833333333" lon="7.36685">
     <time>2016-03-26T18:59:59Z</time>
     <name>chapferebg</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7131833333333" lon="7.35358333333333">
+    <time>2016-04-10T18:59:59Z</time>
+    <name>niesenschatten</name>
     <sym>Pin, Blue</sym>
    </wpt>
 </gpx>
