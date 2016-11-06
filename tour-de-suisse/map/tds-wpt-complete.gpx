@@ -2918,11 +2918,6 @@
     <name>BelTicino</name>
     <sym>Pin, Blue</sym>
    </wpt>
-   <wpt lat="46.9542" lon="8.55476666666667">
-    <time>2015-09-28T18:59:59Z</time>
-    <name>coco.ch</name>
-    <sym>Pin, Blue</sym>
-   </wpt>
    <wpt lat="46.6287833333333" lon="8.3045">
     <time>2015-09-28T18:59:59Z</time>
     <name>coco.ch</name>
@@ -2986,6 +2981,16 @@
    <wpt lat="46.7131833333333" lon="7.35358333333333">
     <time>2016-04-10T18:59:59Z</time>
     <name>niesenschatten</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7326666666667" lon="7.29306666666667">
+    <time>2016-07-24T18:59:59Z</time>
+    <name>SamXXXX</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7992833333333" lon="7.17656666666667">
+    <time>2016-10-29T14:54:00Z</time>
+    <name>ginicat</name>
     <sym>Pin, Blue</sym>
    </wpt>
 </gpx>
