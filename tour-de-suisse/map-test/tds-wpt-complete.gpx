@@ -2993,4 +2993,9 @@
     <name>ginicat</name>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.81895" lon="7.1548">
+    <time>2016-10-31T18:59:59Z</time>
+    <name>ricoan</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
