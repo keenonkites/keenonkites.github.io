@@ -2998,4 +2998,9 @@
     <name>ricoan</name>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.8311333333333" lon="7.1476">
+    <time>2016-11-22T20:00:00Z</time>
+    <name>Hagepulver</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
