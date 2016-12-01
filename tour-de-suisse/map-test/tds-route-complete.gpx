@@ -1900,6 +1900,9 @@
    <trkpt lon="7.0506" lat="46.8821666666667">
     <time>2016-11-25T20:00:00Z</time>
    </trkpt>
+   <trkpt lon="7.0506" lat="46.8821666666667">
+    <time>2016-11-26T20:00:00Z</time>
+   </trkpt>
   </trkseg>
  </trk>
 </gpx>
