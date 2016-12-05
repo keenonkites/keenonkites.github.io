@@ -3018,4 +3018,14 @@
     <name>Funny52</name>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.8508833333333" lon="6.84941666666667">
+    <time>2016-12-03T08:20:00Z</time>
+    <name>Gillou_69</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.2928" lon="6.24525">
+    <time>2016-12-03T20:00:00Z</time>
+    <name>Agathon</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
