@@ -3023,4 +3023,14 @@
     <name>Agathon</name>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.23925" lon="6.22258333333333">
+    <time>2016-12-04T20:00:00Z</time>
+    <name>Carangue</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.1874166666667" lon="6.18428333333333">
+    <time>2016-12-05T20:00:00Z</time>
+    <name>danlm</name>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
