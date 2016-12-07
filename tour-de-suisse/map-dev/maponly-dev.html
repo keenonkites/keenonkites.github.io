@@ -132,7 +132,7 @@
 					var yearmatch = (layer.feature.properties.name).match(/([0-9]{4,})/);
 					var yearid = yearmatch[1];
 					
-          this.setStyle ( trackStyle1);
+          function (e) { this.setStyle ( trackStyle1 ) };
           
 					// and bind the popup to it
 					layer.bindPopup("Route " + yearid);
