@@ -86,6 +86,7 @@
 			weight: 5,
 		}
     ];
+    var trackStyleIndex = 0;
 
 
 
@@ -139,12 +140,11 @@
 					var yearid = yearmatch[1];
 					
           
-          
 					// and bind the popup to it
-          layer.setStyle( trackStyle[1] );
+          layer.setStyle( trackStyle[trackStyleIndex] );
 					layer.bindPopup("Route " + yearid);
 					layer.on('click', function (e) { this.openPopup(e.latlng); this.setStyle( trackHighlightStyle ) });
-					layer.on('popupclose',  function (e) { this.setStyle( trackDefaultStyle )});
+					layer.on('popupclose',  function (e) { this.setStyle( trackStyle[trackStyleIndex] )});
 //					layer.on('mouseout',  function (e) { this.closePopup(); this.setStyle( trackDefaultStyle )});
 				
 				});
