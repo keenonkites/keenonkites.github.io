@@ -193,15 +193,19 @@
       attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> Contributors',
       maxZoom: 18,
 		});		
+    
+    var ocm = L.tileLayer('http://{s}.tile.thunderforest.com/cycle/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> Contributors & <a href="http://thunderforest.com/">Thunderforest</a>',
+      maxZoom: 18,
+    }).addTo(map);
 
 		var ThunderforestLandscape = L.tileLayer('http://{s}.tile.thunderforest.com/landscape/{z}/{x}/{y}.png', {
 			attribution: '&copy; <a href="http://www.opencyclemap.org">OpenCycleMap</a>, &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
 		});		
 
-    var ThunderforestOutdoors = L.tileLayer(
-    'http://{s}.tile.thunderforest.com/outdoors/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> Contributors & <a href="http://thunderforest.com/">Thunderforest</a>',
-        maxZoom: 18,
+    var ThunderforestOutdoors = L.tileLayer('http://{s}.tile.thunderforest.com/outdoors/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> Contributors & <a href="http://thunderforest.com/">Thunderforest</a>',
+      maxZoom: 18,
     });		
     
     var EsriWorldStreetMap = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
