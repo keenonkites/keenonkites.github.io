@@ -247,6 +247,7 @@ printf { *STDERR } ( "%s\n", $logKey);
      printf { $fh_dst_position } ( '   <wpt lat="' . $trkptLat{$logKey} . '" lon="' . $trkptLon{$logKey} . '">' . "\n" );
      printf { $fh_dst_position } ( "    <time>$trkptDate{$logKey}</time>\n" );
      printf { $fh_dst_position } ( "    <name>$wptFinder{ $logKey }</name>\n" );
+     printf { $fh_dst_position } ( "    <desc>$runningIndex</desc>\n" );
      printf { $fh_dst_position } ( "    <sym>Pin, Blue</sym>\n" );
      printf { $fh_dst_position } ( "   </wpt>\n" );
   }
@@ -255,6 +256,7 @@ printf { *STDERR } ( "%s\n", $logKey);
      printf { $fh_dst_wpt } ( '   <wpt lat="' . $trkptLat{$logKey} . '" lon="' . $trkptLon{$logKey} . '">' . "\n" );
      printf { $fh_dst_wpt } ( "    <time>$trkptDate{$logKey}</time>\n" );
      printf { $fh_dst_wpt } ( "    <name>$wptFinder{ $logKey }</name>\n" );
+     printf { $fh_dst_wpt } ( "    <desc>$runningIndex</desc>\n" );
      printf { $fh_dst_wpt } ( "    <sym>Pin, Blue</sym>\n" );
      printf { $fh_dst_wpt } ( "   </wpt>\n" );
   }
