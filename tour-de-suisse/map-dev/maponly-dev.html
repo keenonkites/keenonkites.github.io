@@ -207,7 +207,7 @@
           layer.setStyle( trackStyle[trackStyleIndex] );
 					layer.bindPopup("Route " + yearid);
 					layer.on('click', function (e) { this.openPopup(e.latlng); this.setStyle( trackHighlightStyle ) });
-					layer.on('popupclose',  function (e) { this.setStyle( trackStyle[trackStyleYear[trackStyleIndex]] )});
+					layer.on('popupclose',  function (e) { this.setStyle( trackStyle[trackStyleYear[yearid]] )});
 //					layer.on('mouseout',  function (e) { this.closePopup(); this.setStyle( trackDefaultStyle )});
 				  
           // increment the style index and check if it has to be reset to 0
