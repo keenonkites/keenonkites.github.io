@@ -146,7 +146,11 @@
 					layer.on('click', function (e) { this.openPopup(e.latlng); this.setStyle( trackHighlightStyle ) });
 					layer.on('popupclose',  function (e) { this.setStyle( trackStyle[trackStyleIndex] )});
 //					layer.on('mouseout',  function (e) { this.closePopup(); this.setStyle( trackDefaultStyle )});
-				
+				  
+          // increment the style index and check if it has to be reset to 0
+          trackStyleIndex += 1;
+          if (trackStyleIndex == trackStyle.length) { trackStyleIndex = 0 }
+        
 				});
 			}).addTo(map);
 
