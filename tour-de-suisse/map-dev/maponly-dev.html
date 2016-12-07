@@ -148,6 +148,7 @@
 
     ];
     var trackStyleIndex = 0;
+    var trackStyleYear = [];
 
 
 
@@ -200,12 +201,13 @@
 					var yearmatch = (layer.feature.properties.name).match(/([0-9]{4,})/);
 					var yearid = yearmatch[1];
 					
+          trackStyleYear[yearid] = trackStyleIndex;
           
 					// and bind the popup to it
           layer.setStyle( trackStyle[trackStyleIndex] );
 					layer.bindPopup("Route " + yearid);
 					layer.on('click', function (e) { this.openPopup(e.latlng); this.setStyle( trackHighlightStyle ) });
-					layer.on('popupclose',  function (e) { this.setStyle( trackStyle[trackStyleIndex] )});
+					layer.on('popupclose',  function (e) { this.setStyle( trackStyle[trackstyleYear[trackStyleIndex]] )});
 //					layer.on('mouseout',  function (e) { this.closePopup(); this.setStyle( trackDefaultStyle )});
 				  
           // increment the style index and check if it has to be reset to 0
