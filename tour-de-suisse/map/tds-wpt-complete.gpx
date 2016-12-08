@@ -1170,19 +1170,19 @@
    <wpt lat="47.5930666666667" lon="7.64441666666667">
     <time>2009-12-28T20:00:00Z</time>
     <name>waldi40</name>
-    <desc>Pos.: 195 / Dist.: 68.193 km</desc>
+    <desc>Pos.: 195 / Dist.: 4.219 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="47.5930666666667" lon="7.64441666666667">
     <time>2009-12-28T20:00:00Z</time>
     <name>waldi40</name>
-    <desc>Pos.: 196 / Dist.: 67.783 km</desc>
+    <desc>Pos.: 196 / Dist.: 0.000 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="47.548" lon="7.63126666666667">
     <time>2009-12-29T20:00:00Z</time>
     <name>Towerstar</name>
-    <desc>Pos.: 197 / Dist.: 5.404 km</desc>
+    <desc>Pos.: 197 / Dist.: 5.107 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="47.5444666666667" lon="7.78395">
@@ -1242,7 +1242,7 @@
    <wpt lat="47.4545166666667" lon="8.53181666666667">
     <time>2010-01-05T20:00:00Z</time>
     <name>sternli</name>
-    <desc>Pos.: 207 / Dist.: 68.387 km</desc>
+    <desc>Pos.: 207 / Dist.: 1.383 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="47.4702833333333" lon="8.51121666666667">
@@ -1266,7 +1266,7 @@
    <wpt lat="47.57945" lon="8.51181666666667">
     <time>2010-01-07T20:00:00Z</time>
     <name>barbagrigia</name>
-    <desc>Pos.: 211 / Dist.: 65.068 km</desc>
+    <desc>Pos.: 211 / Dist.: 6.761 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="47.5777833333333" lon="8.57938333333333">
@@ -2244,19 +2244,19 @@
    <wpt lat="47.25855" lon="7.34613333333333">
     <time>2012-12-29T20:00:00Z</time>
     <name>Mystic-S</name>
-    <desc>Pos.: 374 / Dist.: 14.328 km</desc>
+    <desc>Pos.: 374 / Dist.: 4.544 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="47.1997833333333" lon="7.17725">
     <time>2013-01-02T20:00:00Z</time>
     <name>Mystic-G</name>
-    <desc>Pos.: 375 / Dist.: 18.470 km</desc>
+    <desc>Pos.: 375 / Dist.: 14.328 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="47.1364" lon="7.23128333333333">
     <time>2013-01-06T20:00:00Z</time>
     <name>Nidi_biel</name>
-    <desc>Pos.: 376 / Dist.: 16.117 km</desc>
+    <desc>Pos.: 376 / Dist.: 8.146 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="47.1075666666667" lon="7.22906666666667">

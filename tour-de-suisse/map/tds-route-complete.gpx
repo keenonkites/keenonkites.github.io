@@ -551,7 +551,7 @@
  </trk>
  <trk>
   <name>Tour de Suisse (GCQG54) - Route 2009</name>
-  <desc>Total Pos.: 27 / Total Dist.: 354.470 km</desc>
+  <desc>Total Pos.: 27 / Total Dist.: 222.416 km</desc>
   <trkseg>
    <trkpt lon="6.73505" lat="46.8044333333333">
     <time>2008-10-12T18:59:59Z</time>
@@ -641,7 +641,7 @@
  </trk>
  <trk>
   <name>Tour de Suisse (GCQG54) - Route 2010</name>
-  <desc>Total Pos.: 56 / Total Dist.: 552.796 km</desc>
+  <desc>Total Pos.: 56 / Total Dist.: 427.485 km</desc>
   <trkseg>
    <trkpt lon="7.78395" lat="47.5444666666667">
     <time>2009-12-29T20:00:00Z</time>
@@ -869,7 +869,7 @@
  </trk>
  <trk>
   <name>Tour de Suisse (GCQG54) - Route 2012</name>
-  <desc>Total Pos.: 106 / Total Dist.: 1227.610 km</desc>
+  <desc>Total Pos.: 106 / Total Dist.: 1217.826 km</desc>
   <trkseg>
    <trkpt lon="8.08745" lat="46.7466833333333">
     <time>2011-10-12T18:59:59Z</time>
@@ -1196,7 +1196,7 @@
  </trk>
  <trk>
   <name>Tour de Suisse (GCQG54) - Route 2013</name>
-  <desc>Total Pos.: 114 / Total Dist.: 978.051 km</desc>
+  <desc>Total Pos.: 114 / Total Dist.: 965.937 km</desc>
   <trkseg>
    <trkpt lon="7.34613333333333" lat="47.25855">
     <time>2012-12-29T20:00:00Z</time>
