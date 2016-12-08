@@ -240,7 +240,7 @@
           
 					// and bind the popup to it
           layer.setStyle( trackStyle[trackStyleIndex] );
-					layer.bindPopup("Route " + yearid);
+					layer.bindPopup("Route " + yearid + "<br>" + layer.toGeoJSON().properties.desc );
 					layer.on('click', function (e) { this.openPopup(e.latlng); this.setStyle( trackHighlightStyle ) });
 					layer.on('popupclose',  function (e) { this.setStyle( trackStyle[trackStyleYear[yearid]] )});
 				  
@@ -272,7 +272,7 @@
 			.on ('ready', function(layer) {
 				this.eachLayer(function(marker) {
 					// and define the popups for all markers
-					marker.bindPopup("Position " + marker.toGeoJSON().properties.desc + ":<br>" + "Distanz " + marker.toGeoJSON().properties.cmt + ":<br>" + marker.toGeoJSON().properties.name + "<br>" + xmlDateToJavascriptDate(marker.toGeoJSON().properties.time).toLocaleDateString());
+					marker.bindPopup( marker.toGeoJSON().properties.desc + ":<br>" + marker.toGeoJSON().properties.name + "<br>" + xmlDateToJavascriptDate(marker.toGeoJSON().properties.time).toLocaleDateString());
 					marker.on('click', function (e) { this.openPopup();  });
 					marker.setIcon( blueMarker );
 				});
@@ -283,7 +283,7 @@
 			.on ('ready', function(layer) {
 				this.eachLayer(function(marker) {
 					// and define the popups for all markers
-					marker.bindPopup("Position " + marker.toGeoJSON().properties.desc + ":<br>" + marker.toGeoJSON().properties.name + "<br>" + xmlDateToJavascriptDate(marker.toGeoJSON().properties.time).toLocaleDateString());
+					marker.bindPopup( marker.toGeoJSON().properties.desc + ":<br>" + marker.toGeoJSON().properties.name + "<br>" + xmlDateToJavascriptDate(marker.toGeoJSON().properties.time).toLocaleDateString());
 					marker.on('click', function (e) { this.openPopup();  });
 					marker.setIcon( redMarker );
 				});
