@@ -21,7 +21,7 @@ my $logCoordLonLast;
 my $logCoordLat;
 my $logCoordLatLast;
 my $logWptLat;
-my $logWptLon;
+my $logWptLon;;
 my $logCounter = 0;
 my $logCoordCounter = 0;
 my $currentYear = "XXXX";
@@ -33,7 +33,15 @@ my $runningIndex = 0;
 my %trkptDate = ();
 my %trkptLat = ();
 my %trkptLon = ();
+my %trkptDist = ();
 my %wptFinder = ();
+my %yearlyDistance = ();
+my %yearlyPositions = ();
+my $totalDistance;
+my $totalPositions;
+
+# Needed for the distance calculation subs
+my $pi = atan2(1,1) * 4;
 
 # Read the exported tds.gpx (XML file) into a variable
 # -----------------------------------------------------
@@ -135,64 +143,68 @@ foreach my $logID (sort {$a <=> $b} keys( %{$XMLgpx->{wpt}->{'groundspeak:cache'
     # Calculate the missing Coordinate Values
     # ---------------------------------------
     $logCoordLat = $logCoordNDeg + $logCoordNMin/60;
-    $logCoordLon = $logCoordEDeg + $logCoordEMin/60;    
-    
-    # Create the output in the text file
-    # ----------------------------------
-    printf { $fh_dst_txt } ( "%04d  %25s  %-40s  %-20s\n", $logCoordCounter, $logDate, $logFinder, $logCoordinates);
+    $logCoordLon = $logCoordEDeg + $logCoordEMin/60;  
+    	
+	  # Filter the day out of the logDate
+	  # ---------------------------------
+	  $logDay = $logDate;
+	  $logDay =~ /(\d\d\d\d-\d\d-\d\d)T.*/;
+	  $logDay = $1;
 	
-	# Filter the day out of the logDate
-	# ---------------------------------
-	$logDay = $logDate;
-	$logDay =~ /(\d\d\d\d-\d\d-\d\d)T.*/;
-	$logDay = $1;
-	
-	# Let's create a sort key
-	# ----------------------
-	# 2014-06-19T18:59:59Z
- 	# both logid and date are problematic, quite good results with date+logid... but not always
-	# $logKey = $logDate . "-" . $logID;
-	$logKey = $logDay . "-" . $logID;
+	  # Let's create a sort key
+	  # ----------------------
+	  # 2014-06-19T18:59:59Z
+ 	  # both logid and date are problematic, quite good results with date+logid... but not always
+	  # $logKey = $logDate . "-" . $logID;
+	  $logKey = $logDay . "-" . $logID;
 
     # Fill the hash by using this sort keyAs we need to sort later on by date we save the stuff with a sortable unique key: date+logid
     # --------------------------------------------------------------------------------------------
     $trkptDate{ $logKey } = $logDate;
     $trkptLat{ $logKey }  = $logCoordLat;
     $trkptLon{ $logKey }  = $logCoordLon;
-	
-	# Save the finder for later re-use when creating the wpt files
-	# ------------------------------------------------------------
-	$wptFinder{ $logKey } = $logFinder;
 
-    # Create this waypoint in the wpt file
-    # --------------------------------------
-    #printf { $fh_dst_wpt } ( '   <wpt lat="' . $logCoordLat . '" lon="' . $logCoordLon . '">' . "\n" );
-    #printf { $fh_dst_wpt } ( "    <time>$logDate</time>\n" );
-    #printf { $fh_dst_wpt } ( "    <name>$logFinder</name>\n" );
-    #printf { $fh_dst_wpt } ( "    <sym>Pin, Blue</sym>\n" );
-    #printf { $fh_dst_wpt } ( "   </wpt>\n" );
+    # Calculate Distance from last Coordinates
+    if ( $logCoordCounter == "1" ) {  
+      $trkptDist{ $logKey } = "0";
+      $logCoordLatLast = $logCoordLat;
+      $logCoordLonLast = $logCoordLon;
+    }
+    else {
+      #Calculate the distance
+      $trkptDist { $logKey } = distance( $logCoordLat, $logCoordLon, $logCoordLatLast, $logCoordLonLast, "K" );
+    }
+    $logCoordLatLast = $logCoordLat;
+    $logCoordLonLast = $logCoordLon;
+    
+    # Create the output in the text file
+    # ----------------------------------
+    printf { $fh_dst_txt } ( "%04d  %6.3f km  %25s  %-40s  %-20s\n", $logCoordCounter, $trkptDist { $logKey }, $logDate, $logFinder, $logCoordinates);
+	
+	  # Save the finder for later re-use when creating the wpt files
+	  # ------------------------------------------------------------
+	  $wptFinder{ $logKey } = $logFinder;
 
 	}
   else {
-#    if ($logText =~ /\d\d\d.*\d\d\d/u ) {
-#      printf { *STDERR } ( "$logID\n" );
-#      printf { *STDERR } ( "$logText\n" );
-#      printf { *STDERR } ( "\n" );
-#    }
+ 
+    # No coordinates found, nothing to do right now
+
   }
  
 }
+
+# Put an empty line into the text file
+printf { $fh_dst_txt } ( "\n" );
+
 
 # We need to know how many entries we have
 # ----------------------------------------
 $goodCoordCounter = keys %wptFinder;
 
-# Initiate the running index for the next loop
+# Loop through to calculate yearly summaries
 # --------------------------------------------
 $runningIndex = 0;
-
-# Now we have to loop again to sort the stuff correctly for the track
-# -------------------------------------------------------------------
 foreach my $logKey (sort keys( %trkptDate)) {
 
   # Update the index
@@ -205,21 +217,54 @@ foreach my $logKey (sort keys( %trkptDate)) {
   $logYear =~ /(\d\d\d\d).*/;
   $logYear = $1;
   
-printf { *STDERR } ( "%s\n", $logKey);
+  # Sum and count
+  $yearlyDistance{ $logYear } += $trkptDist{$logKey};
+  $yearlyPositions{ $logYear } += 1;
+  
+  # Grand Total
+  $totalDistance += $trkptDist{$logKey};
+  $totalPositions += 1;
+  
+}
+
+# Now we have to loop again to sort the stuff correctly for the track
+# -------------------------------------------------------------------
+$runningIndex = 0;
+foreach my $logKey (sort keys( %trkptDate)) {
+
+  # Update the index
+  # ----------------
+  $runningIndex += 1;
+
+  # Get the log Year (for splitting the tracks up into years)
+  # ---------------------------------------------------------
+  $logYear = $trkptDate{$logKey};
+  $logYear =~ /(\d\d\d\d).*/;
+  $logYear = $1;
+  
+  # Debug only
+  #printf { *STDERR } ( "%s\n", $logKey);
 
   # Create this trackpoint in the gpx file
   # --------------------------------------
   # First let's check if we need to start a new track (changing year)
   if ( $logYear ne $currentYear ) {
+    
     if ( $currentYear ne "XXXX" ) {
       # New year but not the first one - we need to finish the existing track first before starting the new one
       printf { $fh_dst_gpx } ( "  </trkseg>\n" );
       printf { $fh_dst_gpx } ( " </trk>\n" );
     }
+    
     # Now we can start the new track  
     printf { $fh_dst_gpx } ( ' <trk>' . "\n" );
     printf { $fh_dst_gpx } ( '  <name>Tour de Suisse (GCQG54) - Route ' . $logYear . '</name>' . "\n" );
+    printf { $fh_dst_gpx } ( "  <desc>Total Pos.: $yearlyPositions{ $logYear } / Total Dist.: %.3f km</desc>\n", $yearlyDistance{ $logYear } );
     printf { $fh_dst_gpx } ( '  <trkseg>' . "\n" );
+    
+    # Do some printout to console and into the text file
+    printf { *STDERR }     ( "%s  %4d Positionen  %8.3f km\n", $logYear, $yearlyPositions{ $logYear }, $yearlyDistance{ $logYear });
+    printf { $fh_dst_txt } ( "%s  %4d Positionen  %8.3f km\n", $logYear, $yearlyPositions{ $logYear }, $yearlyDistance{ $logYear });
 
     # New year but not the first one - we need to repeat last point again
     if ( $currentYear ne "XXXX" ) {
@@ -239,7 +284,7 @@ printf { *STDERR } ( "%s\n", $logKey);
   $logCoordLatLast = $trkptLat{$logKey};
   $logDateLast     = $trkptDate{$logKey};
   $currentYear     = $logYear;
-  
+    
   # Update either the wpt file or the position file
   # -----------------------------------------------
   if ( $runningIndex == $goodCoordCounter ) {
@@ -247,7 +292,7 @@ printf { *STDERR } ( "%s\n", $logKey);
      printf { $fh_dst_position } ( '   <wpt lat="' . $trkptLat{$logKey} . '" lon="' . $trkptLon{$logKey} . '">' . "\n" );
      printf { $fh_dst_position } ( "    <time>$trkptDate{$logKey}</time>\n" );
      printf { $fh_dst_position } ( "    <name>$wptFinder{ $logKey }</name>\n" );
-     printf { $fh_dst_position } ( "    <desc>$runningIndex</desc>\n" );
+     printf { $fh_dst_position } ( "    <desc>Pos.: $runningIndex / Dist.: %.3f km</desc>\n", $trkptDist{$logKey} );
      printf { $fh_dst_position } ( "    <sym>Pin, Blue</sym>\n" );
      printf { $fh_dst_position } ( "   </wpt>\n" );
   }
@@ -256,7 +301,7 @@ printf { *STDERR } ( "%s\n", $logKey);
      printf { $fh_dst_wpt } ( '   <wpt lat="' . $trkptLat{$logKey} . '" lon="' . $trkptLon{$logKey} . '">' . "\n" );
      printf { $fh_dst_wpt } ( "    <time>$trkptDate{$logKey}</time>\n" );
      printf { $fh_dst_wpt } ( "    <name>$wptFinder{ $logKey }</name>\n" );
-     printf { $fh_dst_wpt } ( "    <desc>$runningIndex</desc>\n" );
+     printf { $fh_dst_wpt } ( "    <desc>Pos.: $runningIndex / Dist.: %.3f km</desc>\n", $trkptDist{$logKey} );
      printf { $fh_dst_wpt } ( "    <sym>Pin, Blue</sym>\n" );
      printf { $fh_dst_wpt } ( "   </wpt>\n" );
   }
@@ -279,6 +324,14 @@ printf { $fh_dst_wpt } ( "</gpx>\n" );
 printf { $fh_dst_position } ( "</gpx>\n" );
 
 
+# Output of a summary
+# -------------------
+printf { *STDERR }     ( "\nTotal Positions:    %s\nTotal Kilometer:   %.3f\n\n", $totalPositions, $totalDistance);
+printf { $fh_dst_txt } ( "\nTotal Positions:    %s\nTotal Kilometer:   %.3f\n\n", $totalPositions, $totalDistance);
+printf { *STDERR }     ( "logs:    %s\nCoords:   %s\n", $logCounter, $logCoordCounter);
+printf { $fh_dst_txt } ( "logs:    %s\nCoords:   %s\n", $logCounter, $logCoordCounter);
+
+
 # Close all files
 # ---------------
 $fh_dst_txt->close;
@@ -287,7 +340,73 @@ $fh_dst_wpt->close;
 $fh_dst_position->close;
 $fh_src->close;
 
-# Output of a summary
-# -------------------
-printf { *STDERR } ( "logs:    %s\nCoords:   %s\n", $logCounter, $logCoordCounter);
 
+
+
+
+#:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#:::                                                                         :::
+#:::  This routine calculates the distance between two points (given the     :::
+#:::  latitude/longitude of those points). It is being used to calculate     :::
+#:::  the distance between two locations using GeoDataSource(TM) products    :::
+#:::                                                                         :::
+#:::  Definitions:                                                           :::
+#:::    South latitudes are negative, east longitudes are positive           :::
+#:::                                                                         :::
+#:::  Passed to function:                                                    :::
+#:::    lat1, lon1 = Latitude and Longitude of point 1 (in decimal degrees)  :::
+#:::    lat2, lon2 = Latitude and Longitude of point 2 (in decimal degrees)  :::
+#:::    unit = the unit you desire for results                               :::
+#:::           where: 'M' is statute miles (default)                         :::
+#:::                  'K' is kilometers                                      :::
+#:::                  'N' is nautical miles                                  :::
+#:::                                                                         :::
+#:::  Worldwide cities and other features databases with latitude longitude  :::
+#:::  are available at http://www.geodatasource.com	                         :::
+#:::                                                                         :::
+#:::  For enquiries, please contact sales@geodatasource.com                  :::
+#:::                                                                         :::
+#:::  Official Web site: http://www.geodatasource.com                        :::
+#:::                                                                         :::
+#:::            GeoDataSource.com (C) All Rights Reserved 2015               :::
+#:::                                                                         :::
+#:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sub distance {
+	my ($lat1, $lon1, $lat2, $lon2, $unit) = @_;
+	my $theta = $lon1 - $lon2;
+	my $dist = sin(deg2rad($lat1)) * sin(deg2rad($lat2)) + cos(deg2rad($lat1)) * cos(deg2rad($lat2)) * cos(deg2rad($theta));
+  $dist  = acos($dist);
+  $dist = rad2deg($dist);
+  $dist = $dist * 60 * 1.1515;
+  if ($unit eq "K") {
+  	$dist = $dist * 1.609344;
+  } elsif ($unit eq "N") {
+  	$dist = $dist * 0.8684;
+		}
+	return ($dist);
+}
+
+#::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#:::  This function get the arccos function using arctan function   :::
+#::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sub acos {
+	my ($rad) = @_;
+	my $ret = atan2(sqrt(1 - $rad**2), $rad);
+	return $ret;
+}
+
+#::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#:::  This function converts decimal degrees to radians             :::
+#::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sub deg2rad {
+	my ($deg) = @_;
+	return ($deg * $pi / 180);
+}
+
+#::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#:::  This function converts radians to decimal degrees             :::
+#::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sub rad2deg {
+	my ($rad) = @_;
+	return ($rad * 180 / $pi);
+}

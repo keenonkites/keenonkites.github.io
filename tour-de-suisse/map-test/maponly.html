@@ -7,7 +7,7 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css"  />
 	<style>
 		html, body {
 			height: 100%;
@@ -21,8 +21,8 @@
 <body>
 	<div id="map" style="width: 100%; height: 95%"></div>
 
-	<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
-	<script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
+	<script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+	<script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
 	<script>
 
 		/**	
@@ -240,7 +240,7 @@
           
 					// and bind the popup to it
           layer.setStyle( trackStyle[trackStyleIndex] );
-					layer.bindPopup("Route " + yearid);
+					layer.bindPopup("Route " + yearid + "<br>" + layer.toGeoJSON().properties.desc );
 					layer.on('click', function (e) { this.openPopup(e.latlng); this.setStyle( trackHighlightStyle ) });
 					layer.on('popupclose',  function (e) { this.setStyle( trackStyle[trackStyleYear[yearid]] )});
 				  
@@ -272,7 +272,7 @@
 			.on ('ready', function(layer) {
 				this.eachLayer(function(marker) {
 					// and define the popups for all markers
-					marker.bindPopup("Position " + marker.toGeoJSON().properties.desc + ":<br>" + marker.toGeoJSON().properties.name + "<br>" + xmlDateToJavascriptDate(marker.toGeoJSON().properties.time).toLocaleDateString());
+					marker.bindPopup( marker.toGeoJSON().properties.desc + ":<br>" + marker.toGeoJSON().properties.name + "<br>" + xmlDateToJavascriptDate(marker.toGeoJSON().properties.time).toLocaleDateString());
 					marker.on('click', function (e) { this.openPopup();  });
 					marker.setIcon( blueMarker );
 				});
@@ -283,7 +283,7 @@
 			.on ('ready', function(layer) {
 				this.eachLayer(function(marker) {
 					// and define the popups for all markers
-					marker.bindPopup("Position " + marker.toGeoJSON().properties.desc + ":<br>" + marker.toGeoJSON().properties.name + "<br>" + xmlDateToJavascriptDate(marker.toGeoJSON().properties.time).toLocaleDateString());
+					marker.bindPopup( marker.toGeoJSON().properties.desc + ":<br>" + marker.toGeoJSON().properties.name + "<br>" + xmlDateToJavascriptDate(marker.toGeoJSON().properties.time).toLocaleDateString());
 					marker.on('click', function (e) { this.openPopup();  });
 					marker.setIcon( redMarker );
 				});
