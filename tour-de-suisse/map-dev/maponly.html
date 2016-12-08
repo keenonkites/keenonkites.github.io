@@ -194,6 +194,11 @@
       maxZoom: 18,
 		});		
     
+    var OpenTopoMap = L.tileLayer('http://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+	    maxZoom: 17,
+	    attribution: 'Map data: &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
+    });
+    
     var ocm = L.tileLayer('http://{s}.tile.thunderforest.com/cycle/{z}/{x}/{y}.png', {
       attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> Contributors & <a href="http://thunderforest.com/">Thunderforest</a>',
       maxZoom: 18,
@@ -220,6 +225,7 @@
 		var baseMaps = {
 			"OSM Mapnik":              osmMapnik,
       "OSM Mapnik B&W":          osmMapnikBW,
+      "OpenTopoMap":             OpenTopoMap,
 			"Thunderforest Landscape": ThunderforestLandscape,
       "Thunderforest Outdoors":  ThunderforestOutdoors,
       "Open Cycle Map":          ocm,
