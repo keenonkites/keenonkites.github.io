@@ -312,7 +312,9 @@
 		});
     
     map.on('click', function(e) {
+      var popLocation= e.latlng;
       var popup = L.popup()
+      .setLatLng(popLocation)
       .setContent('adfadf')
       .openOn(map)
       });
