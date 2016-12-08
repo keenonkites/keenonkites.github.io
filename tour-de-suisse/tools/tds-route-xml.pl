@@ -139,7 +139,7 @@ foreach my $logID (sort {$a <=> $b} keys( %{$XMLgpx->{wpt}->{'groundspeak:cache'
     
     # Create the output in the text file
     # ----------------------------------
-    printf { $fh_dst_txt } ( "%25s  %-40s  %-20s\n", $logDate, $logFinder, $logCoordinates);
+    printf { $fh_dst_txt } ( "%04d  %25s  %-40s  %-20s\n", $logCoordCounter, $logDate, $logFinder, $logCoordinates);
 	
 	# Filter the day out of the logDate
 	# ---------------------------------
