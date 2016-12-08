@@ -3639,4 +3639,10 @@
     <desc>Pos.: 606 / Dist.: 6.473 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.2002166666667" lon="6.11668333333333">
+    <time>2016-12-07T20:00:00Z</time>
+    <name>taphrina81</name>
+    <desc>Pos.: 607 / Dist.: 5.394 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
