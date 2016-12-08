@@ -34,6 +34,7 @@ my %trkptDate = ();
 my %trkptLat = ();
 my %trkptLon = ();
 my %trkptDist = ();
+my %trkptCoords = ();
 my %wptFinder = ();
 my %yearlyDistance = ();
 my %yearlyPositions = ();
@@ -59,6 +60,8 @@ open(my $fh_dst_wpt, ">:encoding(UTF-8)", "tds-wpt-complete.gpx")
   or die "Couldn't open tds-wpt-complete.gpx for writing: $!\n";
 open(my $fh_dst_position, ">:encoding(UTF-8)", "tds-wpt-position.gpx")
   or die "Couldn't open tds-wpt-position.gpx for writing: $!\n";
+open(my $fh_dst_infoStatistics, ">:encoding(UTF-8)", "tds-infoStatistics.js")
+  or die "Couldn't open tds-infoStatistics.js for writing: $!\n";
   
 # Create the gpx track header
 # ---------------------------
@@ -83,6 +86,14 @@ printf { $fh_dst_position } ( '<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-
 printf { $fh_dst_position } ( ' <metadata>' . "\n" );
 printf { $fh_dst_position } ( '  <time>2014-05-31T16:32:57Z</time>' . "\n" );
 printf { $fh_dst_position } ( ' </metadata>' . "\n" );
+
+# Create the infoStatistics header
+# ---------------------------------
+printf { $fh_dst_infoStatistics } ( 'var tdsInfoHeader = \'<h2>Tour de Suisse</h2><p>' );
+printf { $fh_dst_infoStatistics } ( '<a href=\"https://coord.info/GCQG54\">https://coord.info/GCQG54</a></p>' );
+printf { $fh_dst_infoStatistics } ( "<h3>J&auml;hrliche Statistiken</h3>\';\n" );
+printf { $fh_dst_infoStatistics } ( 'var tdsInfoStatistics = \'<pre>' );
+
 
 # Loop through all the log entries, sorted by ID (to ensure chronology ?? which is unfortunately wrong)
 # -----------------------------------------------------------------------------------------------------
@@ -163,27 +174,8 @@ foreach my $logID (sort {$a <=> $b} keys( %{$XMLgpx->{wpt}->{'groundspeak:cache'
     $trkptDate{ $logKey } = $logDate;
     $trkptLat{ $logKey }  = $logCoordLat;
     $trkptLon{ $logKey }  = $logCoordLon;
-
-    # Calculate Distance from last Coordinates
-    if ( $logCoordCounter == "1" ) {  
-      $trkptDist{ $logKey } = "0";
-      $logCoordLatLast = $logCoordLat;
-      $logCoordLonLast = $logCoordLon;
-    }
-    else {
-      #Calculate the distance
-      $trkptDist { $logKey } = distance( $logCoordLat, $logCoordLon, $logCoordLatLast, $logCoordLonLast, "K" );
-    }
-    $logCoordLatLast = $logCoordLat;
-    $logCoordLonLast = $logCoordLon;
-    
-    # Create the output in the text file
-    # ----------------------------------
-    printf { $fh_dst_txt } ( "%04d  %6.3f km  %25s  %-40s  %-20s\n", $logCoordCounter, $trkptDist { $logKey }, $logDate, $logFinder, $logCoordinates);
-	
-	  # Save the finder for later re-use when creating the wpt files
-	  # ------------------------------------------------------------
-	  $wptFinder{ $logKey } = $logFinder;
+    $trkptCoords{ $logKey } = $logCoordinates;
+    $wptFinder{ $logKey } = $logFinder;
 
 	}
   else {
@@ -193,9 +185,6 @@ foreach my $logID (sort {$a <=> $b} keys( %{$XMLgpx->{wpt}->{'groundspeak:cache'
   }
  
 }
-
-# Put an empty line into the text file
-printf { $fh_dst_txt } ( "\n" );
 
 
 # We need to know how many entries we have
@@ -216,7 +205,22 @@ foreach my $logKey (sort keys( %trkptDate)) {
   $logYear = $trkptDate{$logKey};
   $logYear =~ /(\d\d\d\d).*/;
   $logYear = $1;
-  
+
+  # Calculate Distance from last Coordinates
+  if ( $runningIndex == "1" ) {  
+    $trkptDist{ $logKey } = "0";
+  }
+  else {
+    #Calculate the distance
+    $trkptDist { $logKey } = distance( $trkptLat{ $logKey }, $trkptLon{ $logKey }, $logCoordLatLast, $logCoordLonLast, "K" );
+  }
+  $logCoordLatLast = $trkptLat{ $logKey };
+  $logCoordLonLast = $trkptLon{ $logKey };
+    
+  # Create the output in the text file
+  # ----------------------------------
+  printf { $fh_dst_txt } ( "%04d  %6.3f km  %25s  %-40s  %-20s\n", $runningIndex, $trkptDist{ $logKey }, $trkptDate{ $logKey }, $wptFinder{ $logKey }, $trkptCoords{ $logKey });
+
   # Sum and count
   $yearlyDistance{ $logYear } += $trkptDist{$logKey};
   $yearlyPositions{ $logYear } += 1;
@@ -226,6 +230,9 @@ foreach my $logKey (sort keys( %trkptDate)) {
   $totalPositions += 1;
   
 }
+
+# Put an empty line into the text file
+printf { $fh_dst_txt } ( "\n" );
 
 # Now we have to loop again to sort the stuff correctly for the track
 # -------------------------------------------------------------------
@@ -265,6 +272,10 @@ foreach my $logKey (sort keys( %trkptDate)) {
     # Do some printout to console and into the text file
     printf { *STDERR }     ( "%s  %4d Positionen  %8.3f km\n", $logYear, $yearlyPositions{ $logYear }, $yearlyDistance{ $logYear });
     printf { $fh_dst_txt } ( "%s  %4d Positionen  %8.3f km\n", $logYear, $yearlyPositions{ $logYear }, $yearlyDistance{ $logYear });
+
+    # Create the output in the infoStatistics file
+    # --------------------------------------------
+    printf { $fh_dst_infoStatistics } ( "%s  %4d Positionen  %8.3f km<br>", $logYear, $yearlyPositions{ $logYear }, $yearlyDistance{ $logYear });    
 
     # New year but not the first one - we need to repeat last point again
     if ( $currentYear ne "XXXX" ) {
@@ -324,12 +335,20 @@ printf { $fh_dst_wpt } ( "</gpx>\n" );
 printf { $fh_dst_position } ( "</gpx>\n" );
 
 
-# Output of a summary
-# -------------------
-printf { *STDERR }     ( "\nTotal Positions:    %s\nTotal Kilometer:   %.3f\n\n", $totalPositions, $totalDistance);
-printf { $fh_dst_txt } ( "\nTotal Positions:    %s\nTotal Kilometer:   %.3f\n\n", $totalPositions, $totalDistance);
+# Output of a summary to console
+# ------------------------------
+printf { *STDERR }     ( "\nTotal Positions:   %s\nTotal Kilometer:   %.3f\n\n", $totalPositions, $totalDistance);
 printf { *STDERR }     ( "logs:    %s\nCoords:   %s\n", $logCounter, $logCoordCounter);
+
+# Output of a summary to txt file
+# -------------------------------
+printf { $fh_dst_txt } ( "\nTotal Positions:   %s\nTotal Kilometer:   %.3f\n\n", $totalPositions, $totalDistance);
 printf { $fh_dst_txt } ( "logs:    %s\nCoords:   %s\n", $logCounter, $logCoordCounter);
+
+# Output of a summary to infoStatistics file
+# ------------------------------------------
+printf { $fh_dst_infoStatistics } ( "<br>Total Positionen:  %s<br>Total Kilometer:   %.3f<br></pre>\';", $totalPositions, $totalDistance);
+
 
 
 # Close all files
@@ -338,6 +357,7 @@ $fh_dst_txt->close;
 $fh_dst_gpx->close;
 $fh_dst_wpt->close;
 $fh_dst_position->close;
+$fh_dst_infoStatistics->close;
 $fh_src->close;
 
 
