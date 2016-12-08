@@ -76,6 +76,99 @@
 			weight: 5,
 		};
 
+    // Track Styles: yellow, green, blue, dark blue, sort of pink    
+		var trackStyle = [
+    // full line
+    {
+			color: '#FFBF00', 
+			weight: 5,
+		},
+    {
+			color: '#00FF00', 
+			weight: 5,
+		},
+    {
+			color: '#00FFFF', 
+			weight: 5,
+		},
+    {
+			color: '#0040FF', 
+			weight: 5,
+      //dashArray: '20, 15',
+		},
+    {
+			color: '#FE2EC8', 
+			weight: 5,
+		},
+    // dash version 1
+    {
+			color: '#FFBF00', 
+			weight: 5,
+      dashArray: '15, 10',
+      lineCap: 'butt',
+		},
+    {
+			color: '#00FF00', 
+			weight: 5,
+      dashArray: '15, 10',
+      lineCap: 'butt',
+		},
+    {
+			color: '#00FFFF', 
+			weight: 5,
+      dashArray: '15, 10',
+      lineCap: 'butt',
+		},
+    {
+			color: '#0040FF', 
+			weight: 5,
+      dashArray: '15, 10',
+      lineCap: 'butt',
+		},
+    {
+			color: '#FE2EC8', 
+			weight: 5,
+      dashArray: '15, 10',
+      lineCap: 'butt',
+		},
+    // dash version 2
+    {
+			color: '#FFBF00', 
+			weight: 5,
+      dashArray: '7, 5',
+      lineCap: 'butt',
+		},
+    {
+			color: '#00FF00', 
+			weight: 5,
+      dashArray: '7, 5',
+      lineCap: 'butt',
+		},
+    {
+			color: '#00FFFF', 
+			weight: 5,
+      dashArray: '7, 5',
+      lineCap: 'butt',
+		},
+    {
+			color: '#0040FF', 
+			weight: 5,
+      dashArray: '7, 5',
+      lineCap: 'butt',
+		},
+    {
+			color: '#FE2EC8', 
+			weight: 5,
+      dashArray: '7, 5',
+      lineCap: 'butt',
+		},
+
+    ];
+    var trackStyleIndex = 0;
+    var trackStyleYear = {};
+
+
+
         // create a custom layer to be able to apply style		
 		var customLayer = L.geoJson(null, {
 			style: function(feature) {
@@ -96,11 +189,26 @@
 			attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
 		}).addTo(map);		
 
+		var osmMapnikBW = L.tileLayer('http://{s}.www.toolserver.org/tiles/bw-mapnik/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> Contributors',
+      maxZoom: 18,
+		});		
+    
+    var ocm = L.tileLayer('http://{s}.tile.thunderforest.com/cycle/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> Contributors & <a href="http://thunderforest.com/">Thunderforest</a>',
+      maxZoom: 18,
+    });
+
 		var ThunderforestLandscape = L.tileLayer('http://{s}.tile.thunderforest.com/landscape/{z}/{x}/{y}.png', {
 			attribution: '&copy; <a href="http://www.opencyclemap.org">OpenCycleMap</a>, &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
 		});		
 
-		var EsriWorldStreetMap = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+    var ThunderforestOutdoors = L.tileLayer('http://{s}.tile.thunderforest.com/outdoors/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> Contributors & <a href="http://thunderforest.com/">Thunderforest</a>',
+      maxZoom: 18,
+    });		
+    
+    var EsriWorldStreetMap = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
 			attribution: 'Tiles &copy; Esri &mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom, 2012'
 		});		
 
@@ -111,7 +219,10 @@
 		// put all the predefined basemaps together
 		var baseMaps = {
 			"OSM Mapnik":              osmMapnik,
+      "OSM Mapnik B&W":          osmMapnikBW,
 			"Thunderforest Landscape": ThunderforestLandscape,
+      "Thunderforest Outdoors":  ThunderforestOutdoors,
+      "Open Cycle Map":          ocm,
 			"ESRI WorldStreetMap":     EsriWorldStreetMap,
 			"ESRI WorldImagery":       EsriWorldImagery
 		};
@@ -125,12 +236,18 @@
 					var yearmatch = (layer.feature.properties.name).match(/([0-9]{4,})/);
 					var yearid = yearmatch[1];
 					
+          trackStyleYear[yearid] = trackStyleIndex;
+          
 					// and bind the popup to it
+          layer.setStyle( trackStyle[trackStyleIndex] );
 					layer.bindPopup("Route " + yearid);
 					layer.on('click', function (e) { this.openPopup(e.latlng); this.setStyle( trackHighlightStyle ) });
-					layer.on('popupclose',  function (e) { this.setStyle( trackDefaultStyle )});
-//					layer.on('mouseout',  function (e) { this.closePopup(); this.setStyle( trackDefaultStyle )});
-				
+					layer.on('popupclose',  function (e) { this.setStyle( trackStyle[trackStyleYear[yearid]] )});
+				  
+          // increment the style index and check if it has to be reset to 0
+          trackStyleIndex += 1;
+          if (trackStyleIndex == trackStyle.length) { trackStyleIndex = 0 }
+        
 				});
 			}).addTo(map);
 
