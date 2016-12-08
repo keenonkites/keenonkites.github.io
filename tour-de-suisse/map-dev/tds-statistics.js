@@ -1,2 +1,2 @@
 var tdsStatistics = 
-"bla bla bla <br> bla bla bla";
+"bla bla bla from external <br> bla bla bla";
