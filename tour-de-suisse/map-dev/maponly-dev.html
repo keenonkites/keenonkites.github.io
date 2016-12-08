@@ -78,98 +78,97 @@
 
     // Track Styles: yellow, green, blue, dark blue, sort of pink    
 		var trackStyle = [
-    // full line
-    {
-			color: '#FFBF00', 
-			weight: 5,
-		},
-    {
-			color: '#00FF00', 
-			weight: 5,
-		},
-    {
-			color: '#00FFFF', 
-			weight: 5,
-		},
-    {
-			color: '#0040FF', 
-			weight: 5,
-      //dashArray: '20, 15',
-		},
-    {
-			color: '#FE2EC8', 
-			weight: 5,
-		},
-    // dash version 1
-    {
-			color: '#FFBF00', 
-			weight: 5,
-      dashArray: '15, 10',
-      lineCap: 'butt',
-		},
-    {
-			color: '#00FF00', 
-			weight: 5,
-      dashArray: '15, 10',
-      lineCap: 'butt',
-		},
-    {
-			color: '#00FFFF', 
-			weight: 5,
-      dashArray: '15, 10',
-      lineCap: 'butt',
-		},
-    {
-			color: '#0040FF', 
-			weight: 5,
-      dashArray: '15, 10',
-      lineCap: 'butt',
-		},
-    {
-			color: '#FE2EC8', 
-			weight: 5,
-      dashArray: '15, 10',
-      lineCap: 'butt',
-		},
-    // dash version 2
-    {
-			color: '#FFBF00', 
-			weight: 5,
-      dashArray: '7, 5',
-      lineCap: 'butt',
-		},
-    {
-			color: '#00FF00', 
-			weight: 5,
-      dashArray: '7, 5',
-      lineCap: 'butt',
-		},
-    {
-			color: '#00FFFF', 
-			weight: 5,
-      dashArray: '7, 5',
-      lineCap: 'butt',
-		},
-    {
-			color: '#0040FF', 
-			weight: 5,
-      dashArray: '7, 5',
-      lineCap: 'butt',
-		},
-    {
-			color: '#FE2EC8', 
-			weight: 5,
-      dashArray: '7, 5',
-      lineCap: 'butt',
-		},
-
+      // full line
+      {
+		  	color: '#FFBF00', 
+		  	weight: 5,
+		  },
+      {
+		  	color: '#00FF00', 
+		  	weight: 5,
+		  },
+      {
+		  	color: '#00FFFF', 
+		  	weight: 5,
+		  },
+      {
+		  	color: '#0040FF', 
+		  	weight: 5,
+        //dashArray: '20, 15',
+		  },
+      {
+		  	color: '#FE2EC8', 
+		  	weight: 5,
+		  },
+      // dash version 1
+      {
+		  	color: '#FFBF00', 
+		  	weight: 5,
+        dashArray: '15, 10',
+        lineCap: 'butt',
+		  },
+      {
+		  	color: '#00FF00', 
+		  	weight: 5,
+        dashArray: '15, 10',
+        lineCap: 'butt',
+		  },
+      {
+		  	color: '#00FFFF', 
+		  	weight: 5,
+        dashArray: '15, 10',
+        lineCap: 'butt',
+		  },
+      {
+		  	color: '#0040FF', 
+		  	weight: 5,
+        dashArray: '15, 10',
+        lineCap: 'butt',
+		  },
+      {
+		  	color: '#FE2EC8', 
+		  	weight: 5,
+        dashArray: '15, 10',
+        lineCap: 'butt',
+		  },
+      // dash version 2
+      {
+		  	color: '#FFBF00', 
+		  	weight: 5,
+        dashArray: '7, 5',
+        lineCap: 'butt',
+		  },
+      {
+		  	color: '#00FF00', 
+		  	weight: 5,
+        dashArray: '7, 5',
+        lineCap: 'butt',
+		  },
+      {
+		  	color: '#00FFFF', 
+		  	weight: 5,
+        dashArray: '7, 5',
+        lineCap: 'butt',
+		  },
+      {
+		  	color: '#0040FF', 
+		  	weight: 5,
+        dashArray: '7, 5',
+        lineCap: 'butt',
+		  },
+      {
+		  	color: '#FE2EC8', 
+		  	weight: 5,
+        dashArray: '7, 5',
+        lineCap: 'butt',
+		  },
     ];
     var trackStyleIndex = 0;
     var trackStyleYear = {};
 
 
 
-        // create a custom layer to be able to apply style		
+    // create a custom layer to be able to apply style		
 		var customLayer = L.geoJson(null, {
 			style: function(feature) {
 			    return trackDefaultStyle;
@@ -311,6 +310,12 @@
 			 if ( map.getZoom() < 11 && actualZoomlevel >= 11 ){ map.removeLayer( tdswpt )}
 			 else if ( map.getZoom() >= 11 && actualZoomlevel < 11 ){ map.addLayer( tdswpt )}
 		});
+    
+    map.on('click', function(e) {
+      var popup = L.popup()
+      .setContent('adfadf')
+      .openOn(map)
+      });
 
 		// Create a clear circle for the very starting of the Tour for easier identifying
  		var startCircle = L.circleMarker([47.08348465, 7.30976677], {
