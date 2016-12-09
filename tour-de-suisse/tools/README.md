@@ -30,3 +30,22 @@ Procedure to create the gpx files for the online map
     - *tds-wpt-complete.gpx*
     - *tds-wpt-position.gpx*
 	  - *tds-infoStatistics.js*
+6.  Publish the three updated directories
+    - *map-dev*
+    - *map-test*
+    - *map*
+
+Procedure to update targets
+----------------------------------------------------
+1.  Get the coordinates of the target from either google maps or osm in the following format:
+    46.347433, 6.186028
+2.  maponly.html: 
+    - Search for the definitions of variables targetCircle1, targetCircle2, targetCircle3
+    - update the coordinates in L.circleMarker([....])
+    - update the description/text of the markers in ....bindPopup("xxxx") of this marker
+3.  Copy the following file into the map directories:
+    - *map-only *
+4.  Publish the three updated directories
+    - *map-dev*
+    - *map-test*
+    - *map*
