@@ -3645,4 +3645,16 @@
     <desc>Pos.: 607 / Dist.: 5.394 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.1321333333333" lon="5.95651666666667">
+    <time>2016-12-07T20:00:00Z</time>
+    <name>FXR&amp;Girl&apos;sPowerTeam</name>
+    <desc>Pos.: 608 / Dist.: 14.472 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.2453166666667" lon="6.08236666666667">
+    <time>2016-12-10T20:00:00Z</time>
+    <name>Pirates de Bacchus</name>
+    <desc>Pos.: 609 / Dist.: 15.881 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
