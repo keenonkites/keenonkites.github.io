@@ -3663,4 +3663,10 @@
     <desc>Pos.: 610 / Dist.: 7.366 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.3115833333333" lon="6.12016666666667">
+    <time>2016-12-11T20:00:00Z</time>
+    <name>papschallex</name>
+    <desc>Pos.: 611 / Dist.: 14.160 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
