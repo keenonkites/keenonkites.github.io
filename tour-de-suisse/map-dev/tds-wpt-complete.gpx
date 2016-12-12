@@ -3669,4 +3669,10 @@
     <desc>Pos.: 611 / Dist.: 14.160 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.3487833333333" lon="6.18446666666667">
+    <time>2016-12-11T20:00:00Z</time>
+    <name>agauch</name>
+    <desc>Pos.: 612 / Dist.: 6.440 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
