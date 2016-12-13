@@ -3681,4 +3681,10 @@
     <desc>Pos.: 613 / Dist.: 1.840 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.3706666666667" lon="6.2328">
+    <time>2016-12-12T20:00:00Z</time>
+    <name>Dadandhis3girls</name>
+    <desc>Pos.: 614 / Dist.: 3.079 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
