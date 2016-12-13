@@ -3675,4 +3675,10 @@
     <desc>Pos.: 612 / Dist.: 6.440 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.3486666666667" lon="6.20843333333333">
+    <time>2016-12-12T20:00:00Z</time>
+    <name>Fidji82</name>
+    <desc>Pos.: 613 / Dist.: 1.840 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
