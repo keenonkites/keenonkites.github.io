@@ -40,6 +40,10 @@ my %yearlyDistance = ();
 my %yearlyPositions = ();
 my $totalDistance;
 my $totalPositions;
+my %seenCoordinates = ();
+my %logidBlackList = (
+    "123062768"  => "1",
+    ); 
 
 # Needed for the distance calculation subs
 my $pi = atan2(1,1) * 4;
@@ -147,35 +151,61 @@ foreach my $logID (sort {$a <=> $b} keys( %{$XMLgpx->{wpt}->{'groundspeak:cache'
   # ------------------------
   if ( $logCoordinates ne "" ) {
     
-    # Increase the Coordinate Counter
-    # -------------------------------
-    $logCoordCounter += 1;
-    
-    # Calculate the missing Coordinate Values
-    # ---------------------------------------
-    $logCoordLat = $logCoordNDeg + $logCoordNMin/60;
-    $logCoordLon = $logCoordEDeg + $logCoordEMin/60;  
-    	
-	  # Filter the day out of the logDate
-	  # ---------------------------------
-	  $logDay = $logDate;
-	  $logDay =~ /(\d\d\d\d-\d\d-\d\d)T.*/;
-	  $logDay = $1;
-	
-	  # Let's create a sort key
-	  # ----------------------
-	  # 2014-06-19T18:59:59Z
- 	  # both logid and date are problematic, quite good results with date+logid... but not always
-	  # $logKey = $logDate . "-" . $logID;
-	  $logKey = $logDay . "-" . $logID;
+    # did we see this coordinates already ?
+    if ( exists $seenCoordinates{$logCoordinates} ) {
+      
+      # Drop some info about the duplicate Coordinates found
+      printf { *STDERR } ( "Duplicate Coordinates: %-22s: Date: %s Finder: %-20s LogID: %s\n", $logCoordinates, $logDate, $logFinder, $logDay . "-" . $logID);
+      
+    }
 
-    # Fill the hash by using this sort keyAs we need to sort later on by date we save the stuff with a sortable unique key: date+logid
-    # --------------------------------------------------------------------------------------------
-    $trkptDate{ $logKey } = $logDate;
-    $trkptLat{ $logKey }  = $logCoordLat;
-    $trkptLon{ $logKey }  = $logCoordLon;
-    $trkptCoords{ $logKey } = $logCoordinates;
-    $wptFinder{ $logKey } = $logFinder;
+    # is this logID on the blacklist ?
+    elsif ( exists $logidBlackList{$logID} ) {
+      
+      # Drop some info about the Blacklisted Log
+      printf { *STDERR } ( "Blacklisted Log Entry: %-22s: Date: %s Finder: %-20s LogID: %s\n", $logID, $logDate, $logFinder, $logDay . "-" . $logID);
+      
+    }
+    
+    # not seen this coordinates yet and not on blacklist, consider them valid
+    else {
+      
+      # Increase the Coordinate Counter
+      # -------------------------------
+      $logCoordCounter += 1;
+      
+      # Calculate the missing Coordinate Values
+      # ---------------------------------------
+      $logCoordLat = $logCoordNDeg + $logCoordNMin/60;
+      $logCoordLon = $logCoordEDeg + $logCoordEMin/60;  
+      	
+	    # Filter the day out of the logDate
+	    # ---------------------------------
+	    $logDay = $logDate;
+	    $logDay =~ /(\d\d\d\d-\d\d-\d\d)T.*/;
+	    $logDay = $1;
+      
+	    # Let's create a sort key
+	    # ----------------------
+	    # 2014-06-19T18:59:59Z
+ 	    # both logid and date are problematic, quite good results with date+logid... but not always
+	    # $logKey = $logDate . "-" . $logID;
+	    $logKey = $logDay . "-" . $logID;
+      
+      # Fill the hash by using this sort keyAs we need to sort later on by date we save the stuff with a sortable unique key: date+logid
+      # --------------------------------------------------------------------------------------------
+      $trkptDate{ $logKey } = $logDate;
+      $trkptLat{ $logKey }  = $logCoordLat;
+      $trkptLon{ $logKey }  = $logCoordLon;
+      $trkptCoords{ $logKey } = $logCoordinates;
+      $wptFinder{ $logKey } = $logFinder; 
+      
+      # Put the coordinate into the seenCoordinates list
+      # ------------------------------------------------
+      $seenCoordinates{$logCoordinates}=$logCounter;     
+      
+    }
+    
 
 	}
   else {
