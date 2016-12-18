@@ -3687,4 +3687,16 @@
     <desc>Pos.: 614 / Dist.: 3.079 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.3817833333333" lon="6.24076666666667">
+    <time>2016-12-13T20:00:00Z</time>
+    <name>GrossATuin</name>
+    <desc>Pos.: 615 / Dist.: 1.379 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.3817833333333" lon="6.24076666666667">
+    <time>2016-12-14T20:00:00Z</time>
+    <name>piji74</name>
+    <desc>Pos.: 616 / Dist.: 0.000 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
