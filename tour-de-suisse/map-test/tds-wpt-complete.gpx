@@ -3699,4 +3699,10 @@
     <desc>Pos.: 616 / Dist.: 0.000 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.45905" lon="6.34211666666667">
+    <time>2016-12-17T20:00:00Z</time>
+    <name>Thanh61</name>
+    <desc>Pos.: 617 / Dist.: 11.583 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>

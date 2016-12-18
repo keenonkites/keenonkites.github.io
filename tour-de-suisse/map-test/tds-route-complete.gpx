@@ -1856,7 +1856,7 @@
  </trk>
  <trk>
   <name>Tour de Suisse (GCQG54) - Route 2016</name>
-  <desc>Total Pos.: 32 / Total Dist.: 308.141 km</desc>
+  <desc>Total Pos.: 33 / Total Dist.: 320.793 km</desc>
   <trkseg>
    <trkpt lon="8.2328" lat="46.7005833333333">
     <time>2015-10-10T18:59:59Z</time>
@@ -1956,6 +1956,9 @@
    </trkpt>
    <trkpt lon="6.34211666666667" lat="46.45905">
     <time>2016-12-17T20:00:00Z</time>
+   </trkpt>
+   <trkpt lon="6.49408333333333" lat="46.5037333333333">
+    <time>2016-12-18T20:00:00Z</time>
    </trkpt>
   </trkseg>
  </trk>
