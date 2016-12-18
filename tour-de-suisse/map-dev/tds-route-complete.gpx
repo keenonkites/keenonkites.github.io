@@ -626,7 +626,7 @@
  </trk>
  <trk>
   <name>Tour de Suisse (GCQG54) - Route 2010</name>
-  <desc>Total Pos.: 54 / Total Dist.: 427.456 km</desc>
+  <desc>Total Pos.: 53 / Total Dist.: 427.235 km</desc>
   <trkseg>
    <trkpt lon="7.78395" lat="47.5444666666667">
     <time>2009-12-29T20:00:00Z</time>
@@ -705,9 +705,6 @@
    </trkpt>
    <trkpt lon="9.1546" lat="47.6193">
     <time>2010-08-10T18:59:59Z</time>
-   </trkpt>
-   <trkpt lon="9.15626666666667" lat="47.6193">
-    <time>2010-08-22T18:59:59Z</time>
    </trkpt>
    <trkpt lon="9.01633333333333" lat="47.5411333333333">
     <time>2010-08-23T18:59:59Z</time>
