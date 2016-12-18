@@ -194,7 +194,7 @@
  </trk>
  <trk>
   <name>Tour de Suisse (GCQG54) - Route 2006</name>
-  <desc>Total Pos.: 81 / Total Dist.: 855.709 km</desc>
+  <desc>Total Pos.: 78 / Total Dist.: 855.709 km</desc>
   <trkseg>
    <trkpt lon="7.59383333333333" lat="47.35935">
     <time>2005-12-29T08:00:00Z</time>
@@ -283,9 +283,6 @@
    <trkpt lon="7.16451666666667" lat="46.738">
     <time>2006-03-02T08:00:00Z</time>
    </trkpt>
-   <trkpt lon="7.16451666666667" lat="46.738">
-    <time>2006-03-02T08:00:00Z</time>
-   </trkpt>
    <trkpt lon="7.16101666666667" lat="46.8144833333333">
     <time>2006-03-05T08:00:00Z</time>
    </trkpt>
@@ -300,9 +297,6 @@
    </trkpt>
    <trkpt lon="7.64903333333333" lat="46.782">
     <time>2006-03-19T08:00:00Z</time>
-   </trkpt>
-   <trkpt lon="7.64903333333333" lat="46.782">
-    <time>2006-03-20T08:00:00Z</time>
    </trkpt>
    <trkpt lon="7.57178333333333" lat="46.8126333333333">
     <time>2006-03-20T08:00:00Z</time>
@@ -357,9 +351,6 @@
    </trkpt>
    <trkpt lon="8.51896666666667" lat="47.5252833333333">
     <time>2006-08-18T07:00:00Z</time>
-   </trkpt>
-   <trkpt lon="8.51896666666667" lat="47.5252833333333">
-    <time>2006-08-21T07:00:00Z</time>
    </trkpt>
    <trkpt lon="8.57581666666667" lat="47.5462666666667">
     <time>2006-08-26T07:00:00Z</time>
@@ -551,7 +542,7 @@
  </trk>
  <trk>
   <name>Tour de Suisse (GCQG54) - Route 2009</name>
-  <desc>Total Pos.: 27 / Total Dist.: 222.416 km</desc>
+  <desc>Total Pos.: 25 / Total Dist.: 222.416 km</desc>
   <trkseg>
    <trkpt lon="6.73505" lat="46.8044333333333">
     <time>2008-10-12T18:59:59Z</time>
@@ -582,9 +573,6 @@
    </trkpt>
    <trkpt lon="7.64035" lat="46.74805">
     <time>2009-09-26T18:59:59Z</time>
-   </trkpt>
-   <trkpt lon="7.64035" lat="46.74805">
-    <time>2009-09-29T18:59:59Z</time>
    </trkpt>
    <trkpt lon="7.60363333333333" lat="46.7740333333333">
     <time>2009-10-09T18:59:59Z</time>
@@ -628,9 +616,6 @@
    <trkpt lon="7.64441666666667" lat="47.5930666666667">
     <time>2009-12-28T20:00:00Z</time>
    </trkpt>
-   <trkpt lon="7.64441666666667" lat="47.5930666666667">
-    <time>2009-12-28T20:00:00Z</time>
-   </trkpt>
    <trkpt lon="7.63126666666667" lat="47.548">
     <time>2009-12-29T20:00:00Z</time>
    </trkpt>
@@ -641,7 +626,7 @@
  </trk>
  <trk>
   <name>Tour de Suisse (GCQG54) - Route 2010</name>
-  <desc>Total Pos.: 56 / Total Dist.: 427.485 km</desc>
+  <desc>Total Pos.: 53 / Total Dist.: 427.235 km</desc>
   <trkseg>
    <trkpt lon="7.78395" lat="47.5444666666667">
     <time>2009-12-29T20:00:00Z</time>
@@ -721,12 +706,6 @@
    <trkpt lon="9.1546" lat="47.6193">
     <time>2010-08-10T18:59:59Z</time>
    </trkpt>
-   <trkpt lon="9.15626666666667" lat="47.6193">
-    <time>2010-08-22T18:59:59Z</time>
-   </trkpt>
-   <trkpt lon="9.1546" lat="47.6193">
-    <time>2010-08-22T18:59:59Z</time>
-   </trkpt>
    <trkpt lon="9.01633333333333" lat="47.5411333333333">
     <time>2010-08-23T18:59:59Z</time>
    </trkpt>
@@ -764,9 +743,6 @@
     <time>2010-09-12T18:59:59Z</time>
    </trkpt>
    <trkpt lon="8.4136" lat="47.1170166666667">
-    <time>2010-09-13T18:59:59Z</time>
-   </trkpt>
-   <trkpt lon="8.3348" lat="47.0510833333333">
     <time>2010-09-13T18:59:59Z</time>
    </trkpt>
    <trkpt lon="8.3348" lat="47.0510833333333">
@@ -869,7 +845,7 @@
  </trk>
  <trk>
   <name>Tour de Suisse (GCQG54) - Route 2012</name>
-  <desc>Total Pos.: 106 / Total Dist.: 1217.826 km</desc>
+  <desc>Total Pos.: 100 / Total Dist.: 1217.775 km</desc>
   <trkseg>
    <trkpt lon="8.08745" lat="46.7466833333333">
     <time>2011-10-12T18:59:59Z</time>
@@ -879,9 +855,6 @@
    </trkpt>
    <trkpt lon="7.83206666666667" lat="46.6921333333333">
     <time>2012-02-09T20:00:00Z</time>
-   </trkpt>
-   <trkpt lon="7.66795" lat="46.7302166666667">
-    <time>2012-02-10T20:00:00Z</time>
    </trkpt>
    <trkpt lon="7.66795" lat="46.7302166666667">
     <time>2012-02-10T20:00:00Z</time>
@@ -922,17 +895,11 @@
    <trkpt lon="8.17823333333333" lat="47.14505">
     <time>2012-04-19T18:59:59Z</time>
    </trkpt>
-   <trkpt lon="8.17823333333333" lat="47.14505">
-    <time>2012-04-19T18:59:59Z</time>
-   </trkpt>
    <trkpt lon="8.06665" lat="47.1713833333333">
     <time>2012-04-20T18:59:59Z</time>
    </trkpt>
    <trkpt lon="8.48693333333333" lat="47.1145666666667">
     <time>2012-04-22T18:59:59Z</time>
-   </trkpt>
-   <trkpt lon="8.56358333333333" lat="47.0438166666667">
-    <time>2012-04-23T18:59:59Z</time>
    </trkpt>
    <trkpt lon="8.56358333333333" lat="47.0438166666667">
     <time>2012-04-23T18:59:59Z</time>
@@ -979,9 +946,6 @@
    <trkpt lon="9.38581666666667" lat="47.0484333333333">
     <time>2012-05-22T18:59:59Z</time>
    </trkpt>
-   <trkpt lon="9.38616666666667" lat="47.0484333333333">
-    <time>2012-05-22T18:59:59Z</time>
-   </trkpt>
    <trkpt lon="9.13926666666667" lat="47.1212666666667">
     <time>2012-05-23T18:59:59Z</time>
    </trkpt>
@@ -996,9 +960,6 @@
    </trkpt>
    <trkpt lon="9.5203" lat="47.0238833333333">
     <time>2012-05-27T18:59:59Z</time>
-   </trkpt>
-   <trkpt lon="9.519" lat="47.1463833333333">
-    <time>2012-05-28T18:59:59Z</time>
    </trkpt>
    <trkpt lon="9.519" lat="47.1463833333333">
     <time>2012-05-28T18:59:59Z</time>
@@ -1086,9 +1047,6 @@
    </trkpt>
    <trkpt lon="8.874" lat="46.40435">
     <time>2012-08-31T18:59:59Z</time>
-   </trkpt>
-   <trkpt lon="8.874" lat="46.40435">
-    <time>2012-09-16T18:59:59Z</time>
    </trkpt>
    <trkpt lon="8.75958333333333" lat="46.4916">
     <time>2012-10-06T18:59:59Z</time>
@@ -1196,7 +1154,7 @@
  </trk>
  <trk>
   <name>Tour de Suisse (GCQG54) - Route 2013</name>
-  <desc>Total Pos.: 114 / Total Dist.: 965.937 km</desc>
+  <desc>Total Pos.: 113 / Total Dist.: 965.937 km</desc>
   <trkseg>
    <trkpt lon="7.34613333333333" lat="47.25855">
     <time>2012-12-29T20:00:00Z</time>
@@ -1528,9 +1486,6 @@
    <trkpt lon="7.3576" lat="47.3779666666667">
     <time>2013-12-15T20:00:00Z</time>
    </trkpt>
-   <trkpt lon="7.3576" lat="47.3779666666667">
-    <time>2013-12-15T20:00:00Z</time>
-   </trkpt>
    <trkpt lon="7.20633333333333" lat="47.3847666666667">
     <time>2013-12-15T20:00:00Z</time>
    </trkpt>
@@ -1856,7 +1811,7 @@
  </trk>
  <trk>
   <name>Tour de Suisse (GCQG54) - Route 2016</name>
-  <desc>Total Pos.: 33 / Total Dist.: 320.793 km</desc>
+  <desc>Total Pos.: 32 / Total Dist.: 320.793 km</desc>
   <trkseg>
    <trkpt lon="8.2328" lat="46.7005833333333">
     <time>2015-10-10T18:59:59Z</time>
@@ -1950,9 +1905,6 @@
    </trkpt>
    <trkpt lon="6.24076666666667" lat="46.3817833333333">
     <time>2016-12-13T20:00:00Z</time>
-   </trkpt>
-   <trkpt lon="6.24076666666667" lat="46.3817833333333">
-    <time>2016-12-14T20:00:00Z</time>
    </trkpt>
    <trkpt lon="6.34211666666667" lat="46.45905">
     <time>2016-12-17T20:00:00Z</time>
