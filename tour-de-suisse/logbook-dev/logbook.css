@@ -43,6 +43,13 @@ a {
   margin: 0 auto;
   }
 
+#slider2 {
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  margin: 0 auto;
+  }
+
 .rslides_container {
   margin-bottom: 50px;
   position: relative;
