@@ -3609,4 +3609,22 @@
     <desc>Pos.: 601 / Dist.: 11.583 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.5037333333333" lon="6.49408333333333">
+    <time>2016-12-18T20:00:00Z</time>
+    <name>Sbarmet</name>
+    <desc>Pos.: 602 / Dist.: 12.652 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.5127833333333" lon="6.56843333333333">
+    <time>2016-12-22T20:00:00Z</time>
+    <name>Jorg64</name>
+    <desc>Pos.: 603 / Dist.: 5.778 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.5051" lon="6.62813333333333">
+    <time>2016-12-22T12:16:11Z</time>
+    <name>MAMSS</name>
+    <desc>Pos.: 604 / Dist.: 4.648 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
