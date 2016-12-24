@@ -3627,4 +3627,16 @@
     <desc>Pos.: 604 / Dist.: 4.648 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.4724333333333" lon="6.7987">
+    <time>2016-12-22T20:00:00Z</time>
+    <name>patrick&amp;patricia</name>
+    <desc>Pos.: 605 / Dist.: 13.553 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.4625333333333" lon="6.84531666666667">
+    <time>2016-12-23T20:00:00Z</time>
+    <name>Marafska</name>
+    <desc>Pos.: 606 / Dist.: 3.736 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
