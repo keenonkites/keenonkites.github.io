@@ -3639,4 +3639,10 @@
     <desc>Pos.: 606 / Dist.: 3.736 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.4752166666667" lon="6.84973333333333">
+    <time>2016-12-24T20:00:00Z</time>
+    <name>pchappuis</name>
+    <desc>Pos.: 607 / Dist.: 1.450 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
