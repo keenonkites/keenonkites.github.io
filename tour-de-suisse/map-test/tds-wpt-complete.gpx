@@ -3645,4 +3645,10 @@
     <desc>Pos.: 607 / Dist.: 1.450 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.4197833333333" lon="6.92905">
+    <time>2016-12-26T20:00:00Z</time>
+    <name>K.oline1</name>
+    <desc>Pos.: 608 / Dist.: 8.655 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
