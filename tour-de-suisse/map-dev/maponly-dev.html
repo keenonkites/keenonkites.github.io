@@ -278,7 +278,7 @@
 				this.eachLayer(function(marker) {
 					// and define the popups for all markers
 					if ( marker.toGeoJSON().properties.link ) {marker.bindPopup( marker.toGeoJSON().properties.desc + ":<br>" + marker.toGeoJSON().properties.name + "<br>" + xmlDateToJavascriptDate(marker.toGeoJSON().properties.time).toLocaleDateString() + "<br><a href=\"" +  marker.toGeoJSON().properties.link + "\" target=\"_blank\">Online Logbuch</a>"); }
-					else {marker.bindPopup( marker.toGeoJSON().properties.desc + ":<br>" + marker.toGeoJSON().properties.name + "<br>" + xmlDateToJavascriptDate(marker.toGeoJSON().properties.time).toLocaleDateString()); }
+					else {marker.bindPopup( marker.toGeoJSON().properties.desc + ":<br>" + marker.toGeoJSON().properties.name + "<br>" + xmlDateToJavascriptDate(marker.toGeoJSON().properties.time).toLocaleDateString() + "<br><a href=\"" +  marker.toGeoJSON().properties.link + "\" target=\"_blank\">Online Logbuch</a>"); }
 					
 					marker.on('click', function (e) { this.openPopup();  });
 					marker.setIcon( redMarker );
