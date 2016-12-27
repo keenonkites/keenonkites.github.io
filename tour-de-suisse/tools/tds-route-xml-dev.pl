@@ -49,6 +49,7 @@ my $pi = atan2(1,1) * 4;
 my %logidBlackList = (
     "123062768"  => "1",
     ); 
+my %logdateToImage = ();
 my %imageToLogdate = (
     "img003.jpg" => [ "2013-05-31" ],
     "img004.jpg" => [ "2013-06-07", "2013-06-09", "2013-06-16" ],
@@ -110,6 +111,16 @@ my %imageToLogdate = (
     
     );
 
+# Reverse the imageToLogdate hash
+foreach my $imgKey (sort keys( %imageToLogdate)) {
+     #printf { *STDERR } ( "imgKey: %s\n", $imgKey);
+     
+     foreach my $logdateKey (@{$imageToLogdate{$imgKey}}) {
+        $logdateToImage{$logdateKey} = $imgKey;
+     printf { *STDERR } ( "imgKey: %s   logdate: %s\n", $logdateToImage{$logdateKey}, $logdateKey);
+		 
+	 }     
+}
 
 # Read the exported tds.gpx (XML file) into a variable
 # -----------------------------------------------------
@@ -342,6 +353,11 @@ foreach my $logKey (sort keys( %trkptDate)) {
   $logYear =~ /(\d\d\d\d).*/;
   $logYear = $1;
   
+  # Create the date only (no time information), needed for image lookup
+  $logDay = $trkptDate{$logKey};
+  $logDay =~ /(\d\d\d\d-\d\d-\d\d)T.*/;
+  $logDay = $1;
+
   # Debug only
   #printf { *STDERR } ( "%s\n", $logKey);
 
@@ -388,6 +404,7 @@ foreach my $logKey (sort keys( %trkptDate)) {
   $logCoordLatLast = $trkptLat{$logKey};
   $logDateLast     = $trkptDate{$logKey};
   $currentYear     = $logYear;
+ 
     
   # Update either the wpt file or the position file
   # -----------------------------------------------
@@ -406,6 +423,11 @@ foreach my $logKey (sort keys( %trkptDate)) {
      printf { $fh_dst_wpt } ( "    <time>$trkptDate{$logKey}</time>\n" );
      printf { $fh_dst_wpt } ( "    <name>$wptFinder{ $logKey }</name>\n" );
      printf { $fh_dst_wpt } ( "    <desc>Pos.: $runningIndex / Dist.: %.3f km</desc>\n", $trkptDist{$logKey} );
+     # Do we have an online logbook entry for this date ?
+     if ( exists $logdateToImage{$logDay} ) {
+	      #printf { $fh_dst_wpt } ( "    <keywords>http://test.whatsoever.com/%s\</keywords>\n", $logdateToImage{$logDay} );		 
+	      printf { $fh_dst_wpt } ( "    <link>http://keenonkites.github.io/tour-de-suisse/logbook-dev-fotorama/logbook-dev-fotorama.html#%s\</link>\n", $logdateToImage{$logDay} );		 
+		 }
      printf { $fh_dst_wpt } ( "    <sym>Pin, Blue</sym>\n" );
      printf { $fh_dst_wpt } ( "   </wpt>\n" );
   }
