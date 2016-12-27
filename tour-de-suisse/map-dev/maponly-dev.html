@@ -278,7 +278,7 @@
 			.on ('ready', function(layer) {
 				this.eachLayer(function(marker) {
 					// and define the popups for all markers
-					marker.bindPopup( marker.toGeoJSON().properties.desc + ":<br>" + marker.toGeoJSON().properties.name + "<br>" + xmlDateToJavascriptDate(marker.toGeoJSON().properties.time).toLocaleDateString() ); }
+					marker.bindPopup( marker.toGeoJSON().properties.desc + ":<br>" + marker.toGeoJSON().properties.name + "<br>" + xmlDateToJavascriptDate(marker.toGeoJSON().properties.time).toLocaleDateString() ); 
 					marker.on('click', function (e) { this.openPopup();  });
 					marker.setIcon( redMarker );
 				});
