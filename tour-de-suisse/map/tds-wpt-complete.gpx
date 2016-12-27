@@ -3657,4 +3657,10 @@
     <desc>Pos.: 609 / Dist.: 10.050 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.33985" lon="6.89095">
+    <time>2016-12-26T20:00:00Z</time>
+    <name>AnneB25</name>
+    <desc>Pos.: 610 / Dist.: 8.871 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
