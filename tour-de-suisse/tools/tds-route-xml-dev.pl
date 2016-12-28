@@ -10,10 +10,18 @@ my $onlineLogbookBaseURL="http://keenonkites.github.io/tour-de-suisse/logbook/lo
 
 # Some Log and image related manual stuff
 my %logidBlackList = (
+     "11521252"  => "1",
     "123062768"  => "1",
+    "236273602"  => "1",
+    "524705545"  => "1",
     ); 
 my %logidOverride = (
-    "18959129" => ":47:38.147:9:09.270:Jasi+Saba:"
+    "11898722"  => ": 47 : 31.391 : 7 : 34.179 : Find-It :",
+    "12316206"  => ": 47 : 18.420 : 7 : 41.472 : MiMa :",
+    "18959129"  => ":47:38.147:9:09.270:Jasi+Saba:",
+    "258297723" => ": 46 : 15.399 : 009 : 01.818 : PKLM :",
+    "289214332" => ": 47 : 08.030 : 007 : 26.640 : Mr.Gross :",
+
     );
 my %imageToLogdate = (
     "img003.jpg" => [ "2013", "2013-05-31" ],
@@ -213,7 +221,7 @@ foreach my $logID (sort {$a <=> $b} keys( %{$XMLgpx->{wpt}->{'groundspeak:cache'
     printf { *STDERR } ( "Coordinates override : %-22s: Date: %s Finder: %-20s LogID: %s\n", $logID, $logDate, $logFinder, $logDay . "-" . $logID);      
   }
   # Catching proper coordinates with colons first
-	if ( $logText =~ /:\D+(4[567])\D+:\D+(\d\d?)\D+(\d\d\d)\D+:\D+0?0?(5|6|7|8|9|10)\D+:\D+(\d\d?)\D+(\d\d\d)\D+/u ) {
+	if ( $logText =~ /:\D*(4[567])\D*:\D*(\d\d?)\D+(\d\d\d)\D*:\D*0?0?(5|6|7|8|9|10)\D*:\D*(\d\d?)\D+(\d\d\d)\D+/u ) {
     $logCoordNDeg = sprintf ( "%02d", $1);
     $logCoordNMin = sprintf ( "%02d.%03d", $2, $3);
     $logCoordEDeg = sprintf ( "%03d", $4);
