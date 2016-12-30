@@ -3853,4 +3853,16 @@
     <desc>Pos.: 608 / Dist.: 8.871 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.23445" lon="6.99945">
+    <time>2016-12-27T20:00:00Z</time>
+    <name>Tourelles</name>
+    <desc>Pos.: 609 / Dist.: 14.382 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.1442666666667" lon="7.02945">
+    <time>2016-12-29T20:00:00Z</time>
+    <name>BUZZ L&apos;ECLAIR</name>
+    <desc>Pos.: 610 / Dist.: 10.290 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
