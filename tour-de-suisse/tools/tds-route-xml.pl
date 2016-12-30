@@ -4,7 +4,86 @@ use XML::Simple;
 use IO::File;
 use Data::Dumper;
 
+# Customization
+# -------------
+my $onlineLogbookBaseURL="http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html";
 
+# Some Log and image related manual stuff
+my %logidBlackList = (
+     "11521252"  => "1",
+    "123062768"  => "1",
+    "236273602"  => "1",
+    "524705545"  => "1",
+    ); 
+my %logidOverride = (
+    "11898722"  => ": 47 : 31.391 : 7 : 34.179 : Find-It :",
+    "12316206"  => ": 47 : 18.420 : 7 : 41.472 : MiMa :",
+    "18959129"  => ":47:38.147:9:09.270:Jasi+Saba:",
+    "258297723" => ": 46 : 15.399 : 009 : 01.818 : PKLM :",
+    "289214332" => ": 47 : 08.030 : 007 : 26.640 : Mr.Gross :",
+
+    );
+my %imageToLogdate = (
+    "img003.jpg" => [ "2013", "2013-05-31" ],
+    "img004.jpg" => [ "2013-06-07", "2013-06-09", "2013-06-16" ],
+    "img005.jpg" => [ "2013-06-30", "2013-07-01", ],
+    "img006.jpg" => [ "2013-06-19", "2013-06-22", "2013-07-02", ],
+    "img007.jpg" => [ "2013-07-03", "2013-07-04", ],
+    "img008.jpg" => [ "2013-07-05", ],
+    "img009.jpg" => [ "2013-07-07", "2013-07-18", ],
+    "img010.jpg" => [ "2013-07-20", "2013-07-27", "2013-07-30", "2013-08-04", ],
+    "img011.jpg" => [ "2013-08-06", ],
+    "img012.jpg" => [ "2013-08-12", "2013-08-13", "2013-08-15", ],
+    "img013.jpg" => [ "2013-08-16", "2013-08-17", "2013-08-19", ],
+    "img014.jpg" => [ "2013-08-24", ],
+    "img015.jpg" => [ "2013-09-01", "2013-09-19", ],
+    "img016.jpg" => [ "2013-09-23", "2013-09-24", "2013-09-26", ],
+    "img017.jpg" => [ "2013-09-27", ],
+    "img018.jpg" => [ "2013-09-29", ],
+    "img019.jpg" => [ "2013-10-01", ],
+    "img020.jpg" => [ "2013-10-02", "2013-10-03", ],
+    "img021.jpg" => [ "2013-10-06", "2013-10-13", "2013-10-18", "2013-10-19", ],
+    "img022.jpg" => [ "2013-10-20", "2013-10-22", "2013-10-26", ],
+    "img023.jpg" => [ "2013-11-03", "2013-11-10", "2013-11-17", ],
+    "img024.jpg" => [ "2013-11-18", "2013-11-19", "2013-11-20", "2013-11-21", ],
+    "img025.jpg" => [ "2013-11-23", "2013-11-24", "2013-12-01", "2013-12-02", "2013-12-08", ],
+    "img026.jpg" => [ "2013-12-10", "2013-12-15", "2013-12-16", ],
+    "img027.jpg" => [ "2014", "2013-12-18", "2013-12-22", "2014-01-13", "2014-01-23", ],
+    "img028.jpg" => [ "2014-01-24", "2014-02-05", "2014-02-06", "2014-02-07", ],
+    "img029.jpg" => [ "2014-02-11", "2014-02-18", "2014-02-19", "2014-03-06", "2014-03-08", "2014-03-09", ],
+    "img030.jpg" => [ "2014-03-16", "2014-03-17", "2014-04-21", ],
+    "img031.jpg" => [ "2014-04-21", "2014-04-25", "2014-05-16", "2014-05-26", ],
+    "img032.jpg" => [ "2014-05-29", ],
+    "img033.jpg" => [ "2014-06-08", ],
+    "img034.jpg" => [ "2014-06-19", "2014-06-20", ],
+    "img035.jpg" => [ "2014-07-13", "2014-07-15", ],
+    "img036.jpg" => [ "2014-07-19", "2014-07-20", "2014-07-23", "2014-07-27", ],
+    "img037.jpg" => [ "2014-08-06", "2014-08-08", "2014-08-15", ],
+    "img038.jpg" => [ "2014-08-19", "2014-09-14", "2014-09-27", "2014-10-08", ],
+    "img039.jpg" => [ "2014-10-12", "2014-12-02", "2014-12-05", "2014-12-06", ],
+    "img040.jpg" => [ "2015", "2014-12-20", "2015-01-02", ],
+    "img041.jpg" => [ "2015-01-05", "2015-01-10", ],
+    "img042.jpg" => [ "2015-01-11", "2015-01-12", ],
+    "img043.jpg" => [ "2015-01-13", "2015-01-15", ],
+    "img044.jpg" => [ "2015-01-16", "2015-01-18", "2015-01-20", "2015-02-12", ],
+    "img045.jpg" => [ "2015-02-22", "2015-02-24", "2015-03-21", "2015-04-21", "2015-04-22", ],
+    "img046.jpg" => [ "2015-04-24", "2015-04-26", "2015-04-27", "2015-04-28", ],
+    "img047.jpg" => [ "2015-04-29", ],
+    "img048.jpg" => [ "2015-04-30", "2015-05-01", "2015-06-29", "2015-07-06", "2015-07-17", ],
+    "img049.jpg" => [ "2015-07-19", "2015-07-24", "2015-07-25", "2015-07-27", "2015-07-28", ],
+    "img050.jpg" => [ "2015-07-30", "2015-07-31", "2015-08-03", ],
+    "img051.jpg" => [ "2016", "2015-08-13", "2015-08-30", "2015-09-19", "2015-09-28", "2015-10-10", "2016-02-03", ],
+    "img052.jpg" => [ "2016-02-04", "2016-02-07", "2016-02-08", ],
+    "img053.jpg" => [ "2016-02-14", "2016-02-16", "2016-02-20", "2016-03-02", ],
+    "img054.jpg" => [ "2016-03-26", "2016-04-10", "2016-07-24", "2016-10-29", "2016-10-31", "2016-11-22", "2016-11-25", "2016-11-26", ],
+    "img055.jpg" => [ "2016-12-03", "2016-12-04", ],
+    "img056.jpg" => [ "2016-12-05", "2016-12-07", ],
+    "img057.jpg" => [ "2016-12-10", "2016-12-11", ],
+    "img058.jpg" => [ "2016-12-12", "2016-12-13", ],
+    "img059.jpg" => [ "2016-12-17", ],
+    
+    );
+    
 # Variable Initialization
 # -----------------------
 my $logText;
@@ -41,12 +120,18 @@ my %yearlyPositions = ();
 my $totalDistance;
 my $totalPositions;
 my %seenCoordinates = ();
-my %logidBlackList = (
-    "123062768"  => "1",
-    ); 
+my %logdateToImage = ();
 
 # Needed for the distance calculation subs
 my $pi = atan2(1,1) * 4;
+
+# Reverse the imageToLogdate hash
+foreach my $imgKey (sort keys( %imageToLogdate)) {
+    foreach my $logdateKey (@{$imageToLogdate{$imgKey}}) {
+        $logdateToImage{$logdateKey} = $imgKey;
+		 
+	 }     
+}
 
 # Read the exported tds.gpx (XML file) into a variable
 # -----------------------------------------------------
@@ -94,7 +179,7 @@ printf { $fh_dst_position } ( ' </metadata>' . "\n" );
 # Create the infoStatistics header
 # ---------------------------------
 printf { $fh_dst_infoStatistics } ( 'var tdsInfoHeader = \'<h2>Tour de Suisse</h2><p>' );
-printf { $fh_dst_infoStatistics } ( '<a href=\"https://coord.info/GCQG54\">https://coord.info/GCQG54</a></p>' );
+printf { $fh_dst_infoStatistics } ( '<a target=\"_blank\" href=\"https://coord.info/GCQG54\">https://coord.info/GCQG54</a></p>' );
 printf { $fh_dst_infoStatistics } ( "<h3>J&auml;hrliche Statistiken</h3>\';\n" );
 printf { $fh_dst_infoStatistics } ( 'var tdsInfoStatistics = \'<pre>' );
 
@@ -129,7 +214,22 @@ foreach my $logID (sort {$a <=> $b} keys( %{$XMLgpx->{wpt}->{'groundspeak:cache'
   # Try to read the coordinates out of the log entry
   # ------------------------------------------------
   $logCoordinates = "";
-	if ( $logText =~ /(4[567])\D+(\d\d?)\D+(\d\d\d)\D+0?0?(5|6|7|8|9|10)\D+(\d\d?)\D+(\d\d\d)/u ) {
+  
+  # Do we have overridden coordinates ?
+  if ( exists $logidOverride{$logID} ) {
+    $logText =  $logidOverride{$logID};
+    printf { *STDERR } ( "Coordinates override : %-22s: Date: %s Finder: %-20s LogID: %s\n", $logID, $logDate, $logFinder, $logDay . "-" . $logID);      
+  }
+  # Catching proper coordinates with colons first
+	if ( $logText =~ /:\D*(4[567])\D*:\D*(\d\d?)\D+(\d\d\d)\D*:\D*0?0?(5|6|7|8|9|10)\D*:\D*(\d\d?)\D+(\d\d\d)\D+/u ) {
+    $logCoordNDeg = sprintf ( "%02d", $1);
+    $logCoordNMin = sprintf ( "%02d.%03d", $2, $3);
+    $logCoordEDeg = sprintf ( "%03d", $4);
+    $logCoordEMin = sprintf ( "%02d.%03d", $5, $6);
+    $logCoordinates = "N$logCoordNDeg $logCoordNMin E$logCoordEDeg $logCoordEMin" ;
+	}  
+  # Catching proper coordinates also without colons
+	elsif ( $logText =~ /(4[567])\D+(\d\d?)\D+(\d\d\d)\D+0?0?(5|6|7|8|9|10)\D+(\d\d?)\D+(\d\d\d)/u ) {
     $logCoordNDeg = sprintf ( "%02d", $1);
     $logCoordNMin = sprintf ( "%02d.%03d", $2, $3);
     $logCoordEDeg = sprintf ( "%03d", $4);
@@ -279,6 +379,11 @@ foreach my $logKey (sort keys( %trkptDate)) {
   $logYear =~ /(\d\d\d\d).*/;
   $logYear = $1;
   
+  # Create the date only (no time information), needed for image lookup
+  $logDay = $trkptDate{$logKey};
+  $logDay =~ /(\d\d\d\d-\d\d-\d\d)T.*/;
+  $logDay = $1;
+
   # Debug only
   #printf { *STDERR } ( "%s\n", $logKey);
 
@@ -297,6 +402,11 @@ foreach my $logKey (sort keys( %trkptDate)) {
     printf { $fh_dst_gpx } ( ' <trk>' . "\n" );
     printf { $fh_dst_gpx } ( '  <name>Tour de Suisse (GCQG54) - Route ' . $logYear . '</name>' . "\n" );
     printf { $fh_dst_gpx } ( "  <desc>Total Pos.: $yearlyPositions{ $logYear } / Total Dist.: %.3f km</desc>\n", $yearlyDistance{ $logYear } );
+     # Do we have an online logbook entry for this date ?
+     if ( exists $logdateToImage{$logYear} ) {
+	      #printf { $fh_dst_wpt } ( "    <keywords>http://test.whatsoever.com/%s\</keywords>\n", $logdateToImage{$logDay} );		 
+	      printf { $fh_dst_gpx } ( "    <link>%s#%s\</link>\n", $onlineLogbookBaseURL,$logdateToImage{$logYear} );		 
+		 }
     printf { $fh_dst_gpx } ( '  <trkseg>' . "\n" );
     
     # Do some printout to console and into the text file
@@ -325,6 +435,7 @@ foreach my $logKey (sort keys( %trkptDate)) {
   $logCoordLatLast = $trkptLat{$logKey};
   $logDateLast     = $trkptDate{$logKey};
   $currentYear     = $logYear;
+ 
     
   # Update either the wpt file or the position file
   # -----------------------------------------------
@@ -343,6 +454,11 @@ foreach my $logKey (sort keys( %trkptDate)) {
      printf { $fh_dst_wpt } ( "    <time>$trkptDate{$logKey}</time>\n" );
      printf { $fh_dst_wpt } ( "    <name>$wptFinder{ $logKey }</name>\n" );
      printf { $fh_dst_wpt } ( "    <desc>Pos.: $runningIndex / Dist.: %.3f km</desc>\n", $trkptDist{$logKey} );
+     # Do we have an online logbook entry for this date ?
+     if ( exists $logdateToImage{$logDay} ) {
+	      #printf { $fh_dst_wpt } ( "    <keywords>http://test.whatsoever.com/%s\</keywords>\n", $logdateToImage{$logDay} );		 
+	      printf { $fh_dst_wpt } ( "    <link>%s#%s\</link>\n", $onlineLogbookBaseURL,$logdateToImage{$logDay} );		 
+		 }
      printf { $fh_dst_wpt } ( "    <sym>Pin, Blue</sym>\n" );
      printf { $fh_dst_wpt } ( "   </wpt>\n" );
   }
