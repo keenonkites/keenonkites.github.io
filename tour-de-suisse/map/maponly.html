@@ -234,7 +234,11 @@
           
 					// and bind the popup to it
           layer.setStyle( trackStyle[trackStyleIndex] );
-					layer.bindPopup("Route " + yearid + "<br>" + layer.toGeoJSON().properties.desc );
+          
+					if ( layer.toGeoJSON().properties.link ) {layer.bindPopup("Route " + yearid + "<br>" + layer.toGeoJSON().properties.desc + "<br><a href=\"" +  layer.toGeoJSON().properties.link + "\" target=\"_blank\">Online Logbuch</a>" ); }
+					else {layer.bindPopup("Route " + yearid + "<br>" + layer.toGeoJSON().properties.desc ); }
+          
+					//layer.bindPopup("Route " + yearid + "<br>" + layer.toGeoJSON().properties.desc );
 					layer.on('click', function (e) { this.openPopup(e.latlng); this.setStyle( trackHighlightStyle ) });
 					layer.on('popupclose',  function (e) { this.setStyle( trackStyle[trackStyleYear[yearid]] )});
 				  
@@ -266,7 +270,8 @@
 			.on ('ready', function(layer) {
 				this.eachLayer(function(marker) {
 					// and define the popups for all markers
-					marker.bindPopup( marker.toGeoJSON().properties.desc + ":<br>" + marker.toGeoJSON().properties.name + "<br>" + xmlDateToJavascriptDate(marker.toGeoJSON().properties.time).toLocaleDateString());
+					if ( marker.toGeoJSON().properties.link ) {marker.bindPopup( marker.toGeoJSON().properties.desc + ":<br>" + marker.toGeoJSON().properties.name + "<br>" + xmlDateToJavascriptDate(marker.toGeoJSON().properties.time).toLocaleDateString() + "<br><a href=\"" +  marker.toGeoJSON().properties.link + "\" target=\"_blank\">Online Logbuch</a>"); }
+					else {marker.bindPopup( marker.toGeoJSON().properties.desc + ":<br>" + marker.toGeoJSON().properties.name + "<br>" + xmlDateToJavascriptDate(marker.toGeoJSON().properties.time).toLocaleDateString() ); }
 					marker.on('click', function (e) { this.openPopup();  });
 					marker.setIcon( blueMarker );
 				});
@@ -277,7 +282,7 @@
 			.on ('ready', function(layer) {
 				this.eachLayer(function(marker) {
 					// and define the popups for all markers
-					marker.bindPopup( marker.toGeoJSON().properties.desc + ":<br>" + marker.toGeoJSON().properties.name + "<br>" + xmlDateToJavascriptDate(marker.toGeoJSON().properties.time).toLocaleDateString());
+					marker.bindPopup( marker.toGeoJSON().properties.desc + ":<br>" + marker.toGeoJSON().properties.name + "<br>" + xmlDateToJavascriptDate(marker.toGeoJSON().properties.time).toLocaleDateString() ); 
 					marker.on('click', function (e) { this.openPopup();  });
 					marker.setIcon( redMarker );
 				});
@@ -325,22 +330,22 @@
 		startCircle.on('click', function (e) { this.openPopup();  });
 //		startCircle.on('mouseout',  function (e) { this.closePopup(); });
 
- 		var targetCircle1 = L.circleMarker([46.475412, 6.851384], {
+ 		var targetCircle1 = L.circleMarker([46.233682, 7.375976], {
 			radius: 20,
 			stroke: 5,
 			color: '#FF3300',
 			fillColor: '#FF704D',
 			fillOpacity: 0.5
-		}).addTo(map).bindPopup("Zwischenziel 1<br>Stopover 1<br>Charlie Chaplin");
+		}).addTo(map).bindPopup("Zwischenziel 1<br>Stopover 1<br>Tourbillon FC Sion");
 		targetCircle1.on('click', function (e) { this.openPopup();  });
 
- 		var targetCircle2 = L.circleMarker([46.095255, 7.074111], {
+ 		var targetCircle2 = L.circleMarker([46.403692, 7.784450], {
 			radius: 20,
 			stroke: 5,
 			color: '#FF3300',
 			fillColor: '#FF704D',
 			fillOpacity: 0.5
-		}).addTo(map).bindPopup("Zwischenziel 2<br>Stopover 2<br>Barry du Grand-St-Bernard");
+		}).addTo(map).bindPopup("Zwischenziel 2<br>Stopover 2<br>Tschäggättä");
 		targetCircle2.on('click', function (e) { this.openPopup();  });
  
 // 		var targetCircle3 = L.circleMarker([46.196653, 8.848542], {
