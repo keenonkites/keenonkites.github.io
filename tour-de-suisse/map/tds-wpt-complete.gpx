@@ -3865,4 +3865,10 @@
     <desc>Pos.: 610 / Dist.: 10.290 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.0945166666667" lon="7.0745">
+    <time>2016-12-29T20:00:00Z</time>
+    <name>megote</name>
+    <desc>Pos.: 611 / Dist.: 6.531 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
