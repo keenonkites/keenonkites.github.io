@@ -3326,7 +3326,7 @@
    </wpt>
    <wpt lat="46.90365" lon="9.82506666666667">
     <time>2015-01-18T20:00:00Z</time>
-    <name>hemaromir</name>
+    <name>heromir</name>
     <desc>Pos.: 532 / Dist.: 10.863 km</desc>
     <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img044.jpg</link>
     <sym>Pin, Blue</sym>
@@ -3869,6 +3869,12 @@
     <time>2016-12-29T20:00:00Z</time>
     <name>megote</name>
     <desc>Pos.: 611 / Dist.: 6.531 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.1479166666667" lon="7.17263333333333">
+    <time>2016-12-31T13:17:11Z</time>
+    <name>lsvetri 4</name>
+    <desc>Pos.: 612 / Dist.: 9.615 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
 </gpx>
