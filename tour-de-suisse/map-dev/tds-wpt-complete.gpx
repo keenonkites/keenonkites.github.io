@@ -3877,4 +3877,10 @@
     <desc>Pos.: 612 / Dist.: 9.615 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.2054666666667" lon="7.23223333333333">
+    <time>2016-12-31T15:05:44Z</time>
+    <name>Bibi labricole</name>
+    <desc>Pos.: 613 / Dist.: 7.874 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
