@@ -3883,4 +3883,10 @@
     <desc>Pos.: 613 / Dist.: 7.874 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.2272666666667" lon="7.28203333333333">
+    <time>2017-01-01T16:13:00Z</time>
+    <name>Gillou_69</name>
+    <desc>Pos.: 614 / Dist.: 4.534 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
