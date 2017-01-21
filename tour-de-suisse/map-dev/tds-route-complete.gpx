@@ -1953,7 +1953,7 @@
  </trk>
  <trk>
   <name>Tour de Suisse (GCQG54) - Route 2017</name>
-  <desc>Total Pos.: 3 / Total Dist.: 10.235 km</desc>
+  <desc>Total Pos.: 4 / Total Dist.: 13.321 km</desc>
   <trkseg>
    <trkpt lon="7.23223333333333" lat="46.2054666666667">
     <time>2016-12-31T15:05:44Z</time>
@@ -1966,6 +1966,9 @@
    </trkpt>
    <trkpt lon="7.33455" lat="46.2305333333333">
     <time>2017-01-14T20:00:00Z</time>
+   </trkpt>
+   <trkpt lon="7.37431666666667" lat="46.2342333333333">
+    <time>2017-01-21T20:00:00Z</time>
    </trkpt>
   </trkseg>
  </trk>
