@@ -2634,7 +2634,7 @@
    </wpt>
    <wpt lat="47.2658166666667" lon="9.29498333333333">
     <time>2013-09-19T18:59:59Z</time>
-    <name>Chrisoli</name>
+    <name>Chreazy</name>
     <desc>Pos.: 433 / Dist.: 4.111 km</desc>
     <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img015.jpg</link>
     <sym>Pin, Blue</sym>
@@ -3905,6 +3905,12 @@
     <time>2017-01-21T20:00:00Z</time>
     <name>Huck1974</name>
     <desc>Pos.: 617 / Dist.: 3.086 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.2937833333333" lon="7.52758333333333">
+    <time>2017-02-17T20:00:00Z</time>
+    <name>marujave</name>
+    <desc>Pos.: 618 / Dist.: 13.515 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
 </gpx>
