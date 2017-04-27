@@ -3,6 +3,7 @@ use warnings;
 use XML::Simple;
 use IO::File;
 use Data::Dumper;
+use Time::Piece;
 
 # Customization
 # -------------
@@ -133,6 +134,15 @@ foreach my $imgKey (sort keys( %imageToLogdate)) {
 	 }     
 }
 
+# Calculate the number of days since releasing the cache
+# ------------------------------------------------------
+#my $age_days = localtime - Time::Piece->strptime("2005/09/09", "%Y/%m/%d");
+my $now = localtime;
+my $tds_publish = Time::Piece->strptime("2005/09/09", "%Y/%m/%d");
+my $tds_age = $now - $tds_publish;
+my $tds_age_days = int($tds_age->days);
+my $tds_age_weeks = int(($tds_age_days / 7) + 0.5);
+
 # Read the exported tds.gpx (XML file) into a variable
 # -----------------------------------------------------
 my $fh_src = new IO::File('tds.gpx') 
@@ -180,8 +190,9 @@ printf { $fh_dst_position } ( ' </metadata>' . "\n" );
 # ---------------------------------
 printf { $fh_dst_infoStatistics } ( 'var tdsInfoHeader = \'<h2>Tour de Suisse</h2><p>' );
 printf { $fh_dst_infoStatistics } ( '<a target=\"_blank\" href=\"https://coord.info/GCQG54\">https://coord.info/GCQG54</a></p>' );
-printf { $fh_dst_infoStatistics } ( "<h3>J&auml;hrliche Statistiken</h3>\';\n" );
-printf { $fh_dst_infoStatistics } ( 'var tdsInfoStatistics = \'<pre>' );
+printf { $fh_dst_infoStatistics } ( "<pre><h3>J&auml;hrliche Statistiken</h3>\';\n" );
+#printf { $fh_dst_infoStatistics } ( 'var tdsInfoStatistics = \'<pre>' );
+printf { $fh_dst_infoStatistics } ( 'var tdsInfoStatistics = \'' );
 
 
 # Loop through all the log entries, sorted by ID (to ensure chronology ?? which is unfortunately wrong)
@@ -483,17 +494,40 @@ printf { $fh_dst_position } ( "</gpx>\n" );
 
 # Output of a summary to console
 # ------------------------------
-printf { *STDERR }     ( "\nTotal Positions:   %s\nTotal Kilometer:   %.3f\n\n", $totalPositions, $totalDistance);
-printf { *STDERR }     ( "logs:    %s\nCoords:   %s\n", $logCounter, $logCoordCounter);
+printf { *STDERR }     ( "\n" );
+printf { *STDERR }     ( "Total Positions:        %6s\n", $totalPositions);
+printf { *STDERR }     ( "Total Kilometer:        %10.3f\n\n", $totalDistance);
+printf { *STDERR }     ( "Logs:                   %6s\n", $logCounter);
+printf { *STDERR }     ( "Coords:                 %6s\n\n", $logCoordCounter);
+printf { *STDERR }     ( "Days:                   %6s\n", $tds_age_days);
+printf { *STDERR }     ( "Weeks:                  %6s\n", $tds_age_weeks);
+printf { *STDERR }     ( "Positions per Week:     %9.2f\n", $totalPositions / $tds_age_weeks);
+printf { *STDERR }     ( "Kilometer per Week:     %10.3f\n", $totalDistance / $tds_age_weeks);
+printf { *STDERR }     ( "Kilometer per Position: %10.3f\n", $totalDistance / $totalPositions);
 
 # Output of a summary to txt file
 # -------------------------------
-printf { $fh_dst_txt } ( "\nTotal Positions:   %s\nTotal Kilometer:   %.3f\n\n", $totalPositions, $totalDistance);
-printf { $fh_dst_txt } ( "logs:    %s\nCoords:   %s\n", $logCounter, $logCoordCounter);
+printf { $fh_dst_txt } ( "\n" );
+printf { $fh_dst_txt } ( "Total Positions:        %6s\n", $totalPositions);
+printf { $fh_dst_txt } ( "Total Kilometer:        %10.3f\n\n", $totalDistance);
+printf { $fh_dst_txt } ( "Logs:                   %6s\n", $logCounter);
+printf { $fh_dst_txt } ( "Coords:                 %6s\n\n", $logCoordCounter);
+printf { $fh_dst_txt } ( "Days:                   %6s\n", $tds_age_days);
+printf { $fh_dst_txt } ( "Weeks:                  %6s\n", $tds_age_weeks);
+printf { $fh_dst_txt } ( "Positions per Week:     %9.2f\n", $totalPositions / $tds_age_weeks);
+printf { $fh_dst_txt } ( "Kilometer per Week:     %10.3f\n", $totalDistance / $tds_age_weeks);
+printf { $fh_dst_txt } ( "Kilometer per Position: %10.3f\n", $totalDistance / $totalPositions);
 
 # Output of a summary to infoStatistics file
 # ------------------------------------------
-printf { $fh_dst_infoStatistics } ( "<br>Total Positionen:  %s<br>Total Kilometer:   %.3f<br></pre>\';", $totalPositions, $totalDistance);
+printf { $fh_dst_infoStatistics } ( "<br><h3>Gesammtstatistiken</h3>");
+printf { $fh_dst_infoStatistics } ( "Total Positionen:       %6s<br>", $totalPositions);
+printf { $fh_dst_infoStatistics } ( "Total Kilometer:        %10.3f<br><br>", $totalDistance);
+printf { $fh_dst_infoStatistics } ( "Tage unterwegs:         %6s<br>", $tds_age_days);
+printf { $fh_dst_infoStatistics } ( "Wochen unterwegs:       %6s<br><br>", $tds_age_weeks);
+printf { $fh_dst_infoStatistics } ( "Positionen pro Woche:   %9.2f<br>", $totalPositions / $tds_age_weeks);
+printf { $fh_dst_infoStatistics } ( "Kilometer pro Woche:    %10.3f<br>", $totalDistance / $tds_age_weeks);
+printf { $fh_dst_infoStatistics } ( "Kilometer pro Position: %10.3f<br>\';", $totalDistance / $totalPositions);
 
 
 
