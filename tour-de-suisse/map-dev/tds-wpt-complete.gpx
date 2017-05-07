@@ -3919,4 +3919,10 @@
     <desc>Pos.: 619 / Dist.: 25.036 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="46.5326833333333" lon="7.66265">
+    <time>2017-04-29T18:59:59Z</time>
+    <name>julmat</name>
+    <desc>Pos.: 620 / Dist.: 4.061 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
