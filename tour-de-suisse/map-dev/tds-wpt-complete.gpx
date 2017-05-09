@@ -1,0 +1,3956 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:rmc="urn:net:trekbuddy:1.0:nmea:rmc" creator="QLandkarteGT 1.7.6.post http://www.qlandkarte.org/" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.qlandkarte.org/xmlschemas/v1.1 http://www.qlandkarte.org/xmlschemas/v1.1/ql-extensions.xsd" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:ql="http://www.qlandkarte.org/xmlschemas/v1.1">
+ <metadata>
+  <time>2014-05-31T16:32:57Z</time>
+ </metadata>
+   <wpt lat="47.0834833333333" lon="7.30976666666667">
+    <time>2005-09-10T07:00:00Z</time>
+    <name>Mystic-G</name>
+    <desc>Pos.: 1 / Dist.: 0.000 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0361166666667" lon="7.38475">
+    <time>2005-09-10T07:00:00Z</time>
+    <name>Berner</name>
+    <desc>Pos.: 2 / Dist.: 7.746 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1059666666667" lon="7.42998333333333">
+    <time>2005-09-11T07:00:00Z</time>
+    <name>Storchi 1</name>
+    <desc>Pos.: 3 / Dist.: 8.488 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0257333333333" lon="7.4683">
+    <time>2005-09-12T07:00:00Z</time>
+    <name>D&apos;Fenneks</name>
+    <desc>Pos.: 4 / Dist.: 9.381 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9473333333333" lon="7.45083333333333">
+    <time>2005-09-14T07:00:00Z</time>
+    <name>hajker</name>
+    <desc>Pos.: 5 / Dist.: 8.817 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9177333333333" lon="7.60083333333333">
+    <time>2005-09-14T07:00:00Z</time>
+    <name>venefica</name>
+    <desc>Pos.: 6 / Dist.: 11.855 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9409666666667" lon="7.71296666666667">
+    <time>2005-09-16T07:00:00Z</time>
+    <name>Der Imker</name>
+    <desc>Pos.: 7 / Dist.: 8.898 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0023333333333" lon="7.82581666666667">
+    <time>2005-09-19T07:00:00Z</time>
+    <name>phil59</name>
+    <desc>Pos.: 8 / Dist.: 10.948 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0978333333333" lon="7.81823333333333">
+    <time>2005-09-30T07:00:00Z</time>
+    <name>Happywin</name>
+    <desc>Pos.: 9 / Dist.: 10.634 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.14745" lon="7.96738333333333">
+    <time>2005-10-06T07:00:00Z</time>
+    <name>Mammuti</name>
+    <desc>Pos.: 10 / Dist.: 12.561 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1144833333333" lon="8.1393">
+    <time>2005-10-12T07:00:00Z</time>
+    <name>spaghetti</name>
+    <desc>Pos.: 11 / Dist.: 13.511 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0916166666667" lon="8.20795">
+    <time>2005-10-14T07:00:00Z</time>
+    <name>bossi-trip</name>
+    <desc>Pos.: 12 / Dist.: 5.784 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.2670666666667" lon="8.30061666666667">
+    <time>2005-10-31T08:00:00Z</time>
+    <name>Silverwave</name>
+    <desc>Pos.: 13 / Dist.: 20.727 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.3753333333333" lon="8.31376666666667">
+    <time>2005-11-02T08:00:00Z</time>
+    <name>Waschi</name>
+    <desc>Pos.: 14 / Dist.: 12.079 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.35475" lon="8.40931666666667">
+    <time>2005-11-08T08:00:00Z</time>
+    <name>elquerandi</name>
+    <desc>Pos.: 15 / Dist.: 7.551 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.3920166666667" lon="8.50618333333333">
+    <time>2005-11-17T08:00:00Z</time>
+    <name>yugi04</name>
+    <desc>Pos.: 16 / Dist.: 8.389 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4281" lon="8.49031666666667">
+    <time>2005-11-17T08:00:00Z</time>
+    <name>PicoKnirps</name>
+    <desc>Pos.: 17 / Dist.: 4.186 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4193" lon="8.52293333333333">
+    <time>2005-11-18T08:00:00Z</time>
+    <name>Silberpfeil</name>
+    <desc>Pos.: 18 / Dist.: 2.642 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4373166666667" lon="8.70016666666667">
+    <time>2005-11-22T08:00:00Z</time>
+    <name>PicoKnirps</name>
+    <desc>Pos.: 19 / Dist.: 13.481 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.34545" lon="8.84616666666667">
+    <time>2005-11-22T08:00:00Z</time>
+    <name>Hobel</name>
+    <desc>Pos.: 20 / Dist.: 15.004 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.3506666666667" lon="8.94166666666667">
+    <time>2005-11-23T08:00:00Z</time>
+    <name>Tullus</name>
+    <desc>Pos.: 21 / Dist.: 7.218 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.3717666666667" lon="9.03386666666667">
+    <time>2005-11-25T08:00:00Z</time>
+    <name>Jasi+Saba</name>
+    <desc>Pos.: 22 / Dist.: 7.330 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.2552166666667" lon="9.08016666666667">
+    <time>2005-11-26T08:00:00Z</time>
+    <name>Swiss Jim Hawkins</name>
+    <desc>Pos.: 23 / Dist.: 13.421 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1979166666667" lon="9.42171666666667">
+    <time>2005-11-26T08:00:00Z</time>
+    <name>Jasi+Saba</name>
+    <desc>Pos.: 24 / Dist.: 26.565 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4189833333333" lon="9.55208333333333">
+    <time>2005-11-27T08:00:00Z</time>
+    <name>jös</name>
+    <desc>Pos.: 25 / Dist.: 26.472 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4499666666667" lon="9.38821666666667">
+    <time>2005-11-27T08:00:00Z</time>
+    <name>tanja und tom</name>
+    <desc>Pos.: 26 / Dist.: 12.797 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4298333333333" lon="9.30925">
+    <time>2005-11-27T08:00:00Z</time>
+    <name>Der UHU</name>
+    <desc>Pos.: 27 / Dist.: 6.347 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4654666666667" lon="9.38745">
+    <time>2005-11-29T08:00:00Z</time>
+    <name>tuxracer</name>
+    <desc>Pos.: 28 / Dist.: 7.090 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.5001333333333" lon="9.33866666666667">
+    <time>2005-12-01T08:00:00Z</time>
+    <name>Minis</name>
+    <desc>Pos.: 29 / Dist.: 5.319 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.5229833333333" lon="9.28915">
+    <time>2005-12-02T08:00:00Z</time>
+    <name>Lody &amp; Gofry</name>
+    <desc>Pos.: 30 / Dist.: 4.504 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4768" lon="9.19296666666667">
+    <time>2005-12-03T08:00:00Z</time>
+    <name>Der UHU</name>
+    <desc>Pos.: 31 / Dist.: 8.864 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.5051" lon="9.2111">
+    <time>2005-12-03T08:00:00Z</time>
+    <name>tanja und tom</name>
+    <desc>Pos.: 32 / Dist.: 3.429 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4345" lon="9.1335">
+    <time>2005-12-04T08:00:00Z</time>
+    <name>jös</name>
+    <desc>Pos.: 33 / Dist.: 9.780 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4717833333333" lon="9.02651666666667">
+    <time>2005-12-05T08:00:00Z</time>
+    <name>gerojo</name>
+    <desc>Pos.: 34 / Dist.: 9.049 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.5309166666667" lon="8.95395">
+    <time>2005-12-06T08:00:00Z</time>
+    <name>Jasi+Saba</name>
+    <desc>Pos.: 35 / Dist.: 8.541 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.5652666666667" lon="9.12135">
+    <time>2005-12-06T08:00:00Z</time>
+    <name>harrybald</name>
+    <desc>Pos.: 36 / Dist.: 13.131 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.66425" lon="9.13633333333333">
+    <time>2005-12-07T08:00:00Z</time>
+    <name>tuxracer</name>
+    <desc>Pos.: 37 / Dist.: 11.063 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.6165" lon="9.06056666666667">
+    <time>2005-12-08T08:00:00Z</time>
+    <name>PeterWehrli</name>
+    <desc>Pos.: 38 / Dist.: 7.772 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.5890833333333" lon="8.78408333333333">
+    <time>2005-12-09T08:00:00Z</time>
+    <name>bikekurier</name>
+    <desc>Pos.: 39 / Dist.: 20.951 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.59" lon="8.73653333333333">
+    <time>2005-12-10T08:00:00Z</time>
+    <name>vierkant</name>
+    <desc>Pos.: 40 / Dist.: 3.567 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.48745" lon="8.70218333333333">
+    <time>2005-12-10T08:00:00Z</time>
+    <name>PicoKnirps</name>
+    <desc>Pos.: 41 / Dist.: 11.690 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4891666666667" lon="8.53178333333333">
+    <time>2005-12-11T08:00:00Z</time>
+    <name>pasatho</name>
+    <desc>Pos.: 42 / Dist.: 12.804 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.3452333333333" lon="8.71911666666667">
+    <time>2005-12-11T08:00:00Z</time>
+    <name>Die Motte</name>
+    <desc>Pos.: 43 / Dist.: 21.325 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4004166666667" lon="8.62243333333333">
+    <time>2005-12-12T08:00:00Z</time>
+    <name>Desert Snow</name>
+    <desc>Pos.: 44 / Dist.: 9.521 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4069333333333" lon="8.5919">
+    <time>2005-12-13T08:00:00Z</time>
+    <name>PicoKnirps</name>
+    <desc>Pos.: 45 / Dist.: 2.409 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4308166666667" lon="8.61313333333333">
+    <time>2005-12-13T08:00:00Z</time>
+    <name>stefan007</name>
+    <desc>Pos.: 46 / Dist.: 3.099 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4272833333333" lon="8.59983333333333">
+    <time>2005-12-14T08:00:00Z</time>
+    <name>icklesidi</name>
+    <desc>Pos.: 47 / Dist.: 1.075 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4807666666667" lon="8.3091">
+    <time>2005-12-15T08:00:00Z</time>
+    <name>PicoKnirps</name>
+    <desc>Pos.: 48 / Dist.: 22.653 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4984" lon="8.20351666666667">
+    <time>2005-12-16T08:00:00Z</time>
+    <name>Die Motte</name>
+    <desc>Pos.: 49 / Dist.: 8.172 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.47985" lon="8.10458333333333">
+    <time>2005-12-18T08:00:00Z</time>
+    <name>venefica</name>
+    <desc>Pos.: 50 / Dist.: 7.714 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.5420666666667" lon="7.9825">
+    <time>2005-12-18T08:00:00Z</time>
+    <name>swissgeocache</name>
+    <desc>Pos.: 51 / Dist.: 11.486 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.5529166666667" lon="7.87126666666667">
+    <time>2005-12-19T08:00:00Z</time>
+    <name>hajker</name>
+    <desc>Pos.: 52 / Dist.: 8.435 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.5316833333333" lon="7.73528333333333">
+    <time>2005-12-19T08:00:00Z</time>
+    <name>Mystic-G</name>
+    <desc>Pos.: 53 / Dist.: 10.476 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.5231833333333" lon="7.56965">
+    <time>2005-12-20T08:00:00Z</time>
+    <name>Find-It</name>
+    <desc>Pos.: 54 / Dist.: 12.471 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.53045" lon="7.63935">
+    <time>2005-12-21T08:00:00Z</time>
+    <name>chjasipa</name>
+    <desc>Pos.: 55 / Dist.: 5.295 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.5174166666667" lon="7.61855">
+    <time>2005-12-22T08:00:00Z</time>
+    <name>gletzi</name>
+    <desc>Pos.: 56 / Dist.: 2.131 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4805833333333" lon="7.53936666666667">
+    <time>2005-12-22T08:00:00Z</time>
+    <name>daendy</name>
+    <desc>Pos.: 57 / Dist.: 7.222 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4810166666667" lon="7.49495">
+    <time>2005-12-23T08:00:00Z</time>
+    <name>mistral28</name>
+    <desc>Pos.: 58 / Dist.: 3.338 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4032666666667" lon="7.63495">
+    <time>2005-12-29T08:00:00Z</time>
+    <name>hajker</name>
+    <desc>Pos.: 59 / Dist.: 13.623 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.35935" lon="7.59383333333333">
+    <time>2005-12-29T08:00:00Z</time>
+    <name>venefica</name>
+    <desc>Pos.: 60 / Dist.: 5.782 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.3590166666667" lon="7.66011666666667">
+    <time>2006-01-03T08:00:00Z</time>
+    <name>MiMa</name>
+    <desc>Pos.: 61 / Dist.: 4.993 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.32295" lon="7.71158333333333">
+    <time>2006-01-07T08:00:00Z</time>
+    <name>Tullus</name>
+    <desc>Pos.: 62 / Dist.: 5.578 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.307" lon="7.6912">
+    <time>2006-01-09T08:00:00Z</time>
+    <name>MiMa</name>
+    <desc>Pos.: 63 / Dist.: 2.347 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.2776666666667" lon="7.75718333333333">
+    <time>2006-01-10T08:00:00Z</time>
+    <name>Lody &amp; Gofry</name>
+    <desc>Pos.: 64 / Dist.: 5.950 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.2735333333333" lon="7.64015">
+    <time>2006-01-15T08:00:00Z</time>
+    <name>Sanne&amp;Kiki</name>
+    <desc>Pos.: 65 / Dist.: 8.841 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.2395666666667" lon="7.65255">
+    <time>2006-01-18T08:00:00Z</time>
+    <name>Vatanen73</name>
+    <desc>Pos.: 66 / Dist.: 3.891 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.208" lon="7.53875">
+    <time>2006-01-18T08:00:00Z</time>
+    <name>Mystic-G</name>
+    <desc>Pos.: 67 / Dist.: 9.283 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1547333333333" lon="7.42251666666667">
+    <time>2006-01-19T08:00:00Z</time>
+    <name>mr.magic</name>
+    <desc>Pos.: 68 / Dist.: 10.594 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.14175" lon="7.34373333333333">
+    <time>2006-01-20T08:00:00Z</time>
+    <name>Thekla</name>
+    <desc>Pos.: 69 / Dist.: 6.130 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1361" lon="7.23218333333333">
+    <time>2006-01-20T08:00:00Z</time>
+    <name>Sanne&amp;Kiki</name>
+    <desc>Pos.: 70 / Dist.: 8.460 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1734166666667" lon="7.28588333333333">
+    <time>2006-01-20T08:00:00Z</time>
+    <name>Thekla</name>
+    <desc>Pos.: 71 / Dist.: 5.805 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1022" lon="7.17748333333333">
+    <time>2006-01-21T08:00:00Z</time>
+    <name>matte bueb j</name>
+    <desc>Pos.: 72 / Dist.: 11.398 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0376833333333" lon="7.10896666666667">
+    <time>2006-01-22T08:00:00Z</time>
+    <name>Moudi</name>
+    <desc>Pos.: 73 / Dist.: 8.854 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9977" lon="7.0159">
+    <time>2006-01-27T08:00:00Z</time>
+    <name>phil59</name>
+    <desc>Pos.: 74 / Dist.: 8.339 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0016166666667" lon="6.94026666666667">
+    <time>2006-01-29T08:00:00Z</time>
+    <name>oli kuul</name>
+    <desc>Pos.: 75 / Dist.: 5.752 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9916333333333" lon="6.92553333333333">
+    <time>2006-01-29T08:00:00Z</time>
+    <name>SUI-66</name>
+    <desc>Pos.: 76 / Dist.: 1.575 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9664" lon="6.8654">
+    <time>2006-01-29T08:00:00Z</time>
+    <name>BADOUM</name>
+    <desc>Pos.: 77 / Dist.: 5.356 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9279333333333" lon="6.82543333333333">
+    <time>2006-01-29T08:00:00Z</time>
+    <name>Rumpeli</name>
+    <desc>Pos.: 78 / Dist.: 5.244 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.8791" lon="6.75488333333333">
+    <time>2006-01-29T08:00:00Z</time>
+    <name>Waldkatze</name>
+    <desc>Pos.: 79 / Dist.: 7.629 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.8540333333333" lon="6.72555">
+    <time>2006-01-30T08:00:00Z</time>
+    <name>Thekla</name>
+    <desc>Pos.: 80 / Dist.: 3.569 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.77825" lon="6.64166666666667">
+    <time>2006-02-01T08:00:00Z</time>
+    <name>phil59</name>
+    <desc>Pos.: 81 / Dist.: 10.571 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7767" lon="6.59851666666667">
+    <time>2006-02-01T08:00:00Z</time>
+    <name>phil59</name>
+    <desc>Pos.: 82 / Dist.: 3.290 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.6610333333333" lon="6.55476666666667">
+    <time>2006-02-06T08:00:00Z</time>
+    <name>Swiss Jim Hawkins</name>
+    <desc>Pos.: 83 / Dist.: 13.286 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.6055" lon="6.52145">
+    <time>2006-02-09T08:00:00Z</time>
+    <name>oli kuul</name>
+    <desc>Pos.: 84 / Dist.: 6.678 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.6163166666667" lon="6.58821666666667">
+    <time>2006-02-11T08:00:00Z</time>
+    <name>Reloader22 (Dan &amp; †Adé)</name>
+    <desc>Pos.: 85 / Dist.: 5.240 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.5007333333333" lon="6.76356666666667">
+    <time>2006-02-19T08:00:00Z</time>
+    <name>Robin des bois</name>
+    <desc>Pos.: 86 / Dist.: 18.571 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.6173666666667" lon="7.05926666666667">
+    <time>2006-02-27T08:00:00Z</time>
+    <name>Mystic-G</name>
+    <desc>Pos.: 87 / Dist.: 26.063 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.738" lon="7.16451666666667">
+    <time>2006-03-02T08:00:00Z</time>
+    <name>Mumins</name>
+    <desc>Pos.: 88 / Dist.: 15.633 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.8144833333333" lon="7.16101666666667">
+    <time>2006-03-05T08:00:00Z</time>
+    <name>munds</name>
+    <desc>Pos.: 89 / Dist.: 8.508 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.76465" lon="7.447">
+    <time>2006-03-12T08:00:00Z</time>
+    <name>xiphias</name>
+    <desc>Pos.: 90 / Dist.: 22.466 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.76575" lon="7.5412">
+    <time>2006-03-17T08:00:00Z</time>
+    <name>Baery68</name>
+    <desc>Pos.: 91 / Dist.: 7.176 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7731833333333" lon="7.55105">
+    <time>2006-03-17T08:00:00Z</time>
+    <name>Huckis</name>
+    <desc>Pos.: 92 / Dist.: 1.116 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.782" lon="7.64903333333333">
+    <time>2006-03-19T08:00:00Z</time>
+    <name>Karibu&apos;s</name>
+    <desc>Pos.: 93 / Dist.: 7.525 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.8126333333333" lon="7.57178333333333">
+    <time>2006-03-20T08:00:00Z</time>
+    <name>Jaris</name>
+    <desc>Pos.: 94 / Dist.: 6.795 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7474666666667" lon="7.63683333333333">
+    <time>2006-03-21T08:00:00Z</time>
+    <name>Mr.GPS-yess</name>
+    <desc>Pos.: 95 / Dist.: 8.777 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7264833333333" lon="7.62928333333333">
+    <time>2006-03-21T08:00:00Z</time>
+    <name>Mr.Quady</name>
+    <desc>Pos.: 96 / Dist.: 2.403 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.6923666666667" lon="7.68651666666667">
+    <time>2006-03-25T08:00:00Z</time>
+    <name>woistwalter?</name>
+    <desc>Pos.: 97 / Dist.: 5.782 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.65645" lon="7.72225">
+    <time>2006-03-26T08:00:00Z</time>
+    <name>Berner</name>
+    <desc>Pos.: 98 / Dist.: 4.835 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.6815" lon="7.877">
+    <time>2006-04-07T07:00:00Z</time>
+    <name>Der Imker</name>
+    <desc>Pos.: 99 / Dist.: 12.131 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.6966333333333" lon="7.88038333333333">
+    <time>2006-04-07T07:00:00Z</time>
+    <name>Amadiesli</name>
+    <desc>Pos.: 100 / Dist.: 1.702 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.73785" lon="7.96331666666667">
+    <time>2006-04-23T07:00:00Z</time>
+    <name>stefan007</name>
+    <desc>Pos.: 101 / Dist.: 7.808 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7562333333333" lon="8.13635">
+    <time>2006-05-14T07:00:00Z</time>
+    <name>Mystic-G</name>
+    <desc>Pos.: 102 / Dist.: 13.341 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7755833333333" lon="8.1423">
+    <time>2006-05-24T07:00:00Z</time>
+    <name>Jaris</name>
+    <desc>Pos.: 103 / Dist.: 2.199 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.8255166666667" lon="8.18326666666667">
+    <time>2006-07-26T07:00:00Z</time>
+    <name>Jaris</name>
+    <desc>Pos.: 104 / Dist.: 6.368 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.8971" lon="8.24458333333333">
+    <time>2006-07-27T07:00:00Z</time>
+    <name>Waschi</name>
+    <desc>Pos.: 105 / Dist.: 9.224 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0944333333333" lon="7.18721666666667">
+    <time>2006-08-08T07:35:10Z</time>
+    <name>swissgeocache</name>
+    <desc>Pos.: 106 / Dist.: 83.135 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.3415" lon="8.14536666666667">
+    <time>2006-08-12T07:00:00Z</time>
+    <name>PicoKnirps</name>
+    <desc>Pos.: 107 / Dist.: 77.399 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.3870833333333" lon="8.18701666666667">
+    <time>2006-08-14T07:00:00Z</time>
+    <name>mirpets</name>
+    <desc>Pos.: 108 / Dist.: 5.961 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.5299666666667" lon="8.28286666666667">
+    <time>2006-08-17T07:00:00Z</time>
+    <name>swissseal</name>
+    <desc>Pos.: 109 / Dist.: 17.445 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4889833333333" lon="8.42241666666667">
+    <time>2006-08-17T07:00:00Z</time>
+    <name>PicoKnirps</name>
+    <desc>Pos.: 110 / Dist.: 11.429 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.5252833333333" lon="8.51896666666667">
+    <time>2006-08-18T07:00:00Z</time>
+    <name>Tullus</name>
+    <desc>Pos.: 111 / Dist.: 8.299 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.5462666666667" lon="8.57581666666667">
+    <time>2006-08-26T07:00:00Z</time>
+    <name>skipperdan</name>
+    <desc>Pos.: 112 / Dist.: 4.864 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4997833333333" lon="8.47813333333333">
+    <time>2006-08-27T07:00:00Z</time>
+    <name>PicoKnirps</name>
+    <desc>Pos.: 113 / Dist.: 8.973 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.6747833333333" lon="8.61438333333333">
+    <time>2006-08-28T07:00:00Z</time>
+    <name>Die schwarze Hand</name>
+    <desc>Pos.: 114 / Dist.: 21.978 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.68115" lon="8.64685">
+    <time>2006-08-29T07:00:00Z</time>
+    <name>stefan007</name>
+    <desc>Pos.: 115 / Dist.: 2.532 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.64845" lon="8.87666666666667">
+    <time>2006-09-04T07:00:00Z</time>
+    <name>tuxracer</name>
+    <desc>Pos.: 116 / Dist.: 17.589 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.6394666666667" lon="8.88456666666667">
+    <time>2006-09-04T07:00:00Z</time>
+    <name>Algorithmus</name>
+    <desc>Pos.: 117 / Dist.: 1.161 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.6995333333333" lon="9.18493333333333">
+    <time>2006-09-07T07:00:00Z</time>
+    <name>PeterWehrli</name>
+    <desc>Pos.: 118 / Dist.: 23.461 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.6216666666667" lon="9.2709">
+    <time>2006-09-07T07:00:00Z</time>
+    <name>PeterWehrli</name>
+    <desc>Pos.: 119 / Dist.: 10.789 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.6357833333333" lon="9.1545">
+    <time>2006-09-12T07:00:00Z</time>
+    <name>Jasi+Saba</name>
+    <desc>Pos.: 120 / Dist.: 8.862 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4765" lon="9.45775">
+    <time>2006-09-13T07:00:00Z</time>
+    <name>tanja und tom</name>
+    <desc>Pos.: 121 / Dist.: 28.835 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.485" lon="9.54766666666667">
+    <time>2006-09-14T07:00:00Z</time>
+    <name>jös</name>
+    <desc>Pos.: 122 / Dist.: 6.823 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.3905833333333" lon="9.6445">
+    <time>2006-09-14T07:00:00Z</time>
+    <name>Desert Snow</name>
+    <desc>Pos.: 123 / Dist.: 12.777 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.3588833333333" lon="9.61043333333333">
+    <time>2006-09-14T07:00:00Z</time>
+    <name>Jasi+Saba</name>
+    <desc>Pos.: 124 / Dist.: 4.359 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.3396666666667" lon="9.49133333333333">
+    <time>2006-09-15T07:00:00Z</time>
+    <name>jös</name>
+    <desc>Pos.: 125 / Dist.: 9.223 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.2861833333333" lon="9.5489">
+    <time>2006-09-18T07:00:00Z</time>
+    <name>Jasi+Saba</name>
+    <desc>Pos.: 126 / Dist.: 7.362 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.21555" lon="9.49721666666667">
+    <time>2006-09-18T07:00:00Z</time>
+    <name>Schnueffelnase</name>
+    <desc>Pos.: 127 / Dist.: 8.769 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1379833333333" lon="9.52631666666667">
+    <time>2006-09-18T07:00:00Z</time>
+    <name>lupf</name>
+    <desc>Pos.: 128 / Dist.: 8.901 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0651" lon="9.50081666666667">
+    <time>2006-09-20T07:00:00Z</time>
+    <name>Jasi+Saba</name>
+    <desc>Pos.: 129 / Dist.: 8.331 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0137166666667" lon="9.5452">
+    <time>2006-09-20T07:00:00Z</time>
+    <name>haupkins</name>
+    <desc>Pos.: 130 / Dist.: 6.630 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.03685" lon="9.4486">
+    <time>2006-09-21T07:00:00Z</time>
+    <name>Quaxis</name>
+    <desc>Pos.: 131 / Dist.: 7.760 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0488" lon="9.41056666666667">
+    <time>2006-09-22T07:00:00Z</time>
+    <name>bloeterli</name>
+    <desc>Pos.: 132 / Dist.: 3.173 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.11535" lon="9.2912">
+    <time>2006-09-22T07:00:00Z</time>
+    <name>Jasi+Saba</name>
+    <desc>Pos.: 133 / Dist.: 11.681 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0526833333333" lon="9.05736666666667">
+    <time>2006-09-22T07:00:00Z</time>
+    <name>Die Motte</name>
+    <desc>Pos.: 134 / Dist.: 19.026 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.94705" lon="9.03268333333333">
+    <time>2006-09-26T07:00:00Z</time>
+    <name>schufis</name>
+    <desc>Pos.: 135 / Dist.: 11.894 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.87385" lon="8.86895">
+    <time>2006-10-08T07:00:00Z</time>
+    <name>lupf</name>
+    <desc>Pos.: 136 / Dist.: 14.863 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9319" lon="8.61345">
+    <time>2006-10-26T07:00:00Z</time>
+    <name>PicoKnirps</name>
+    <desc>Pos.: 137 / Dist.: 20.455 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.8823666666667" lon="8.64615">
+    <time>2006-11-16T08:00:00Z</time>
+    <name>Braschi</name>
+    <desc>Pos.: 138 / Dist.: 6.042 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9592666666667" lon="8.49586666666667">
+    <time>2006-11-16T08:00:00Z</time>
+    <name>Fee_Rapunzel</name>
+    <desc>Pos.: 139 / Dist.: 14.261 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9815166666667" lon="8.34421666666667">
+    <time>2007-01-18T08:00:00Z</time>
+    <name>Waschi</name>
+    <desc>Pos.: 140 / Dist.: 11.769 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0171333333333" lon="8.32453333333333">
+    <time>2007-01-21T08:00:00Z</time>
+    <name>lubiker</name>
+    <desc>Pos.: 141 / Dist.: 4.232 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1388833333333" lon="8.20331666666667">
+    <time>2007-02-04T08:00:00Z</time>
+    <name>icklesidi</name>
+    <desc>Pos.: 142 / Dist.: 16.356 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1309" lon="8.10175">
+    <time>2007-05-18T07:00:00Z</time>
+    <name>Swiss_ICe</name>
+    <desc>Pos.: 143 / Dist.: 7.734 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1469166666667" lon="7.99276666666667">
+    <time>2007-05-26T07:00:00Z</time>
+    <name>salbedo</name>
+    <desc>Pos.: 144 / Dist.: 8.433 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.2322833333333" lon="7.83893333333333">
+    <time>2007-06-13T07:00:00Z</time>
+    <name>elquerandi</name>
+    <desc>Pos.: 145 / Dist.: 15.007 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1850166666667" lon="7.85853333333333">
+    <time>2007-06-19T07:00:00Z</time>
+    <name>jopary</name>
+    <desc>Pos.: 146 / Dist.: 5.460 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1514333333333" lon="7.93463333333333">
+    <time>2007-06-20T07:00:00Z</time>
+    <name>roehru</name>
+    <desc>Pos.: 147 / Dist.: 6.858 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.2324166666667" lon="7.84073333333333">
+    <time>2007-11-06T20:00:00Z</time>
+    <name>Schaffner</name>
+    <desc>Pos.: 148 / Dist.: 11.464 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.2323333333333" lon="7.84073333333333">
+    <time>2007-11-06T20:00:00Z</time>
+    <name>PicoKnirps</name>
+    <desc>Pos.: 149 / Dist.: 0.009 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.2110666666667" lon="7.79791666666667">
+    <time>2007-12-17T20:00:00Z</time>
+    <name>JJKP</name>
+    <desc>Pos.: 150 / Dist.: 4.006 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.19735" lon="7.85476666666667">
+    <time>2007-12-18T20:00:00Z</time>
+    <name>Berner</name>
+    <desc>Pos.: 151 / Dist.: 4.557 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1139333333333" lon="7.8469">
+    <time>2007-12-19T20:00:00Z</time>
+    <name>Swiss Indy Team</name>
+    <desc>Pos.: 152 / Dist.: 9.294 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1225" lon="7.82831666666667">
+    <time>2007-12-20T20:00:00Z</time>
+    <name>Swiss Indy Team</name>
+    <desc>Pos.: 153 / Dist.: 1.698 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1139166666667" lon="7.84686666666667">
+    <time>2007-12-22T20:00:00Z</time>
+    <name>gloeggli</name>
+    <desc>Pos.: 154 / Dist.: 1.697 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1883166666667" lon="7.78115">
+    <time>2007-12-22T20:00:00Z</time>
+    <name>Compi7</name>
+    <desc>Pos.: 155 / Dist.: 9.650 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1948166666667" lon="7.76246666666667">
+    <time>2007-12-25T20:00:00Z</time>
+    <name>NathanS05</name>
+    <desc>Pos.: 156 / Dist.: 1.586 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.08695" lon="7.64771666666667">
+    <time>2007-12-27T20:00:00Z</time>
+    <name>Agentenbande</name>
+    <desc>Pos.: 157 / Dist.: 14.804 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9857333333333" lon="7.50901666666667">
+    <time>2008-01-15T20:00:00Z</time>
+    <name>Swiss Chiron</name>
+    <desc>Pos.: 158 / Dist.: 15.399 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0845666666667" lon="7.40448333333333">
+    <time>2008-01-30T20:00:00Z</time>
+    <name>phil59</name>
+    <desc>Pos.: 159 / Dist.: 13.547 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1770666666667" lon="7.43275">
+    <time>2008-02-02T20:00:00Z</time>
+    <name>kerumar</name>
+    <desc>Pos.: 160 / Dist.: 10.505 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0948333333333" lon="7.15881666666667">
+    <time>2008-02-06T20:00:00Z</time>
+    <name>lilibiggs</name>
+    <desc>Pos.: 161 / Dist.: 22.648 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0471" lon="7.27458333333333">
+    <time>2008-02-22T20:00:00Z</time>
+    <name>tanja und tom</name>
+    <desc>Pos.: 162 / Dist.: 10.248 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.004" lon="7.18498333333333">
+    <time>2008-02-24T20:00:00Z</time>
+    <name>fourNdog</name>
+    <desc>Pos.: 163 / Dist.: 8.312 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.8859666666667" lon="7.01881666666667">
+    <time>2008-03-04T20:00:00Z</time>
+    <name>phil59</name>
+    <desc>Pos.: 164 / Dist.: 18.203 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.8480833333333" lon="6.91895">
+    <time>2008-03-15T18:59:59Z</time>
+    <name>furtif</name>
+    <desc>Pos.: 165 / Dist.: 8.682 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.8273833333333" lon="6.90976666666667">
+    <time>2008-03-15T18:59:59Z</time>
+    <name>Ambroise</name>
+    <desc>Pos.: 166 / Dist.: 2.405 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7981333333333" lon="6.82195">
+    <time>2008-09-26T18:59:59Z</time>
+    <name>mr.edi</name>
+    <desc>Pos.: 167 / Dist.: 7.432 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.8044333333333" lon="6.73505">
+    <time>2008-10-12T18:59:59Z</time>
+    <name>fourNdog</name>
+    <desc>Pos.: 168 / Dist.: 6.651 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7897166666667" lon="6.7629">
+    <time>2009-03-07T20:00:00Z</time>
+    <name>Eltitas</name>
+    <desc>Pos.: 169 / Dist.: 2.678 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7626" lon="7.05185">
+    <time>2009-04-13T18:59:59Z</time>
+    <name>Braschi</name>
+    <desc>Pos.: 170 / Dist.: 22.209 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7344833333333" lon="7.24951666666667">
+    <time>2009-09-05T18:59:59Z</time>
+    <name>mahuzi</name>
+    <desc>Pos.: 171 / Dist.: 15.381 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7393166666667" lon="7.28893333333333">
+    <time>2009-09-05T18:59:59Z</time>
+    <name>elmathu</name>
+    <desc>Pos.: 172 / Dist.: 3.051 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7669" lon="7.3316">
+    <time>2009-09-08T18:59:59Z</time>
+    <name>twingo69</name>
+    <desc>Pos.: 173 / Dist.: 4.469 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7470333333333" lon="7.38508333333333">
+    <time>2009-09-13T18:59:59Z</time>
+    <name>Frienisberger</name>
+    <desc>Pos.: 174 / Dist.: 4.634 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7334" lon="7.4527">
+    <time>2009-09-23T18:59:59Z</time>
+    <name>Cache.Mike</name>
+    <desc>Pos.: 175 / Dist.: 5.371 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.68745" lon="7.64478333333333">
+    <time>2009-09-23T18:59:59Z</time>
+    <name>Cache.Mike</name>
+    <desc>Pos.: 176 / Dist.: 15.510 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.74805" lon="7.64035">
+    <time>2009-09-26T18:59:59Z</time>
+    <name>Sitipeja</name>
+    <desc>Pos.: 177 / Dist.: 6.747 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7740333333333" lon="7.5703">
+    <time>2009-10-09T18:59:59Z</time>
+    <name>GulaS</name>
+    <desc>Pos.: 178 / Dist.: 6.068 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7953666666667" lon="7.5757">
+    <time>2009-10-10T18:59:59Z</time>
+    <name>Fö-Nix</name>
+    <desc>Pos.: 179 / Dist.: 2.407 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9312666666667" lon="7.5667">
+    <time>2009-10-10T18:59:59Z</time>
+    <name>lucky el loco</name>
+    <desc>Pos.: 180 / Dist.: 15.126 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9769666666667" lon="7.45918333333333">
+    <time>2009-10-11T18:59:59Z</time>
+    <name>foolish5</name>
+    <desc>Pos.: 181 / Dist.: 9.613 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0762333333333" lon="7.56618333333333">
+    <time>2009-11-02T20:00:00Z</time>
+    <name>aenneli</name>
+    <desc>Pos.: 182 / Dist.: 13.697 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.2230333333333" lon="7.53478333333333">
+    <time>2009-11-04T20:00:00Z</time>
+    <name>Khadija</name>
+    <desc>Pos.: 183 / Dist.: 16.494 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.2577666666667" lon="7.64911666666667">
+    <time>2009-11-05T20:00:00Z</time>
+    <name>Jenalo</name>
+    <desc>Pos.: 184 / Dist.: 9.456 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.3451666666667" lon="7.68913333333333">
+    <time>2009-11-05T20:00:00Z</time>
+    <name>NinjaCacher!</name>
+    <desc>Pos.: 185 / Dist.: 10.176 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.3849333333333" lon="7.53925">
+    <time>2009-11-11T20:00:00Z</time>
+    <name>Thermodos</name>
+    <desc>Pos.: 186 / Dist.: 12.123 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.42575" lon="7.50831666666667">
+    <time>2009-11-14T20:00:00Z</time>
+    <name>racemice</name>
+    <desc>Pos.: 187 / Dist.: 5.101 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4447666666667" lon="7.57731666666667">
+    <time>2009-11-15T20:00:00Z</time>
+    <name>salbedo</name>
+    <desc>Pos.: 188 / Dist.: 5.604 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.5196333333333" lon="7.62353333333333">
+    <time>2009-12-27T20:00:00Z</time>
+    <name>Basileus &amp; Basilea</name>
+    <desc>Pos.: 189 / Dist.: 9.020 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.5872666666667" lon="7.58881666666667">
+    <time>2009-12-28T20:00:00Z</time>
+    <name>Find-it-old</name>
+    <desc>Pos.: 190 / Dist.: 7.959 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.5930666666667" lon="7.64441666666667">
+    <time>2009-12-28T20:00:00Z</time>
+    <name>waldi40</name>
+    <desc>Pos.: 191 / Dist.: 4.219 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.548" lon="7.63126666666667">
+    <time>2009-12-29T20:00:00Z</time>
+    <name>Towerstar</name>
+    <desc>Pos.: 192 / Dist.: 5.107 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.5444666666667" lon="7.78395">
+    <time>2009-12-29T20:00:00Z</time>
+    <name>hexehexe</name>
+    <desc>Pos.: 193 / Dist.: 11.466 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4974" lon="8.05775">
+    <time>2010-01-01T20:00:00Z</time>
+    <name>nangga</name>
+    <desc>Pos.: 194 / Dist.: 21.215 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4759833333333" lon="8.21405">
+    <time>2010-01-02T20:00:00Z</time>
+    <name>molubuha</name>
+    <desc>Pos.: 195 / Dist.: 11.983 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4515833333333" lon="8.2783">
+    <time>2010-01-02T20:00:00Z</time>
+    <name>d&apos;Ronja</name>
+    <desc>Pos.: 196 / Dist.: 5.540 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4714333333333" lon="8.45831666666667">
+    <time>2010-01-03T20:00:00Z</time>
+    <name>magirus</name>
+    <desc>Pos.: 197 / Dist.: 13.711 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.5356333333333" lon="8.57333333333333">
+    <time>2010-01-03T20:00:00Z</time>
+    <name>chrissy_dugi</name>
+    <desc>Pos.: 198 / Dist.: 11.207 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4593833333333" lon="8.42705">
+    <time>2010-01-03T20:00:00Z</time>
+    <name>PicoKnirps</name>
+    <desc>Pos.: 199 / Dist.: 13.880 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.46035" lon="8.42301666666667">
+    <time>2010-01-03T20:00:00Z</time>
+    <name>Luckythree</name>
+    <desc>Pos.: 200 / Dist.: 0.322 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4429833333333" lon="8.52493333333333">
+    <time>2010-01-04T20:00:00Z</time>
+    <name>catwisel</name>
+    <desc>Pos.: 201 / Dist.: 7.902 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4545166666667" lon="8.53181666666667">
+    <time>2010-01-05T20:00:00Z</time>
+    <name>sternli</name>
+    <desc>Pos.: 202 / Dist.: 1.383 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4702833333333" lon="8.51121666666667">
+    <time>2010-01-05T10:29:46Z</time>
+    <name>ernies</name>
+    <desc>Pos.: 203 / Dist.: 2.339 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.5193166666667" lon="8.54953333333333">
+    <time>2010-01-05T20:00:00Z</time>
+    <name>pasatho</name>
+    <desc>Pos.: 204 / Dist.: 6.165 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.5220666666667" lon="8.54161666666667">
+    <time>2010-01-05T08:00:00Z</time>
+    <name>PicoKnirps</name>
+    <desc>Pos.: 205 / Dist.: 0.668 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.57945" lon="8.51181666666667">
+    <time>2010-01-07T20:00:00Z</time>
+    <name>barbagrigia</name>
+    <desc>Pos.: 206 / Dist.: 6.761 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.5777833333333" lon="8.57938333333333">
+    <time>2010-01-08T20:00:00Z</time>
+    <name>StefM</name>
+    <desc>Pos.: 207 / Dist.: 5.071 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.64305" lon="8.60718333333333">
+    <time>2010-01-10T20:00:00Z</time>
+    <name>möösli</name>
+    <desc>Pos.: 208 / Dist.: 7.550 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.6761666666667" lon="8.61001666666667">
+    <time>2010-01-17T20:00:00Z</time>
+    <name>Vyrembi</name>
+    <desc>Pos.: 209 / Dist.: 3.688 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.67545" lon="8.61665">
+    <time>2010-02-17T20:00:00Z</time>
+    <name>Mondlinger</name>
+    <desc>Pos.: 210 / Dist.: 0.503 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.68735" lon="8.62378333333333">
+    <time>2010-02-19T20:00:00Z</time>
+    <name>popfex</name>
+    <desc>Pos.: 211 / Dist.: 1.427 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.73295" lon="8.663">
+    <time>2010-02-23T20:00:00Z</time>
+    <name>Scio</name>
+    <desc>Pos.: 212 / Dist.: 5.858 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.6697166666667" lon="8.82018333333333">
+    <time>2010-04-09T18:59:59Z</time>
+    <name>Garfield+Arlene</name>
+    <desc>Pos.: 213 / Dist.: 13.703 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.65485" lon="8.86686666666667">
+    <time>2010-04-12T18:59:59Z</time>
+    <name>shch</name>
+    <desc>Pos.: 214 / Dist.: 3.867 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.64825" lon="8.94001666666667">
+    <time>2010-04-17T18:59:59Z</time>
+    <name>Algorithmus</name>
+    <desc>Pos.: 215 / Dist.: 5.528 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.6727166666667" lon="9.06231666666667">
+    <time>2010-05-02T18:59:59Z</time>
+    <name>Bruchpilot60</name>
+    <desc>Pos.: 216 / Dist.: 9.554 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.6636" lon="9.11055">
+    <time>2010-08-10T18:59:59Z</time>
+    <name>Jasi+Saba</name>
+    <desc>Pos.: 217 / Dist.: 3.751 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.6193" lon="9.1546">
+    <time>2010-08-10T18:59:59Z</time>
+    <name>thurgauer</name>
+    <desc>Pos.: 218 / Dist.: 5.929 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.5411333333333" lon="9.01633333333333">
+    <time>2010-08-23T18:59:59Z</time>
+    <name>bikekurier</name>
+    <desc>Pos.: 219 / Dist.: 13.531 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.546" lon="8.8494">
+    <time>2010-08-25T18:59:59Z</time>
+    <name>PeterWehrli</name>
+    <desc>Pos.: 220 / Dist.: 12.541 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.50525" lon="8.70026666666667">
+    <time>2010-08-29T18:59:59Z</time>
+    <name>-Wrex-</name>
+    <desc>Pos.: 221 / Dist.: 12.079 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4503833333333" lon="8.56715">
+    <time>2010-08-30T18:59:59Z</time>
+    <name>salbedo</name>
+    <desc>Pos.: 222 / Dist.: 11.717 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.3777166666667" lon="8.55056666666667">
+    <time>2010-09-03T18:59:59Z</time>
+    <name>mipsel</name>
+    <desc>Pos.: 223 / Dist.: 8.176 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.5057333333333" lon="8.72695">
+    <time>2010-09-04T18:59:59Z</time>
+    <name>Boskop</name>
+    <desc>Pos.: 224 / Dist.: 19.456 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.3968666666667" lon="8.59711666666667">
+    <time>2010-09-07T18:59:59Z</time>
+    <name>tifig</name>
+    <desc>Pos.: 225 / Dist.: 15.551 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.3494166666667" lon="8.49166666666667">
+    <time>2010-09-08T18:59:59Z</time>
+    <name>icklesidi</name>
+    <desc>Pos.: 226 / Dist.: 9.533 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.3484" lon="8.49038333333333">
+    <time>2010-09-09T20:30:53Z</time>
+    <name>ernies</name>
+    <desc>Pos.: 227 / Dist.: 0.149 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.3585333333333" lon="8.46345">
+    <time>2010-09-11T18:59:59Z</time>
+    <name>icklesidi</name>
+    <desc>Pos.: 228 / Dist.: 2.321 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.2664833333333" lon="8.50113333333333">
+    <time>2010-09-12T18:59:59Z</time>
+    <name>Gelada</name>
+    <desc>Pos.: 229 / Dist.: 10.622 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.2018833333333" lon="8.43926666666667">
+    <time>2010-09-12T18:59:59Z</time>
+    <name>TecmjrB</name>
+    <desc>Pos.: 230 / Dist.: 8.568 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1170166666667" lon="8.4136">
+    <time>2010-09-13T18:59:59Z</time>
+    <name>Cacheator</name>
+    <desc>Pos.: 231 / Dist.: 9.634 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0510833333333" lon="8.3348">
+    <time>2010-09-13T18:59:59Z</time>
+    <name>Rotmarder</name>
+    <desc>Pos.: 232 / Dist.: 9.452 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9553" lon="8.27668333333333">
+    <time>2010-09-14T18:59:59Z</time>
+    <name>nokko~tronic</name>
+    <desc>Pos.: 233 / Dist.: 11.526 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0331166666667" lon="8.3575">
+    <time>2010-09-14T18:59:59Z</time>
+    <name>Waschi</name>
+    <desc>Pos.: 234 / Dist.: 10.603 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0447833333333" lon="8.3219">
+    <time>2010-09-27T18:59:59Z</time>
+    <name>Waschi</name>
+    <desc>Pos.: 235 / Dist.: 2.993 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9212166666667" lon="8.27323333333333">
+    <time>2010-09-27T18:59:59Z</time>
+    <name>rohrerhj</name>
+    <desc>Pos.: 236 / Dist.: 14.227 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.8046166666667" lon="8.16861666666667">
+    <time>2010-09-29T18:59:59Z</time>
+    <name>Loppergnom</name>
+    <desc>Pos.: 237 / Dist.: 15.210 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7203833333333" lon="7.98831666666667">
+    <time>2010-10-01T18:59:59Z</time>
+    <name>nokko~tronic</name>
+    <desc>Pos.: 238 / Dist.: 16.623 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7204" lon="7.98806666666667">
+    <time>2010-10-03T18:59:59Z</time>
+    <name>nokko~tronic</name>
+    <desc>Pos.: 239 / Dist.: 0.019 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.6775" lon="7.86466666666667">
+    <time>2010-10-03T18:59:59Z</time>
+    <name>O-Laeufer</name>
+    <desc>Pos.: 240 / Dist.: 10.550 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.6778" lon="7.86393333333333">
+    <time>2010-10-03T18:59:59Z</time>
+    <name>O-Laeufer</name>
+    <desc>Pos.: 241 / Dist.: 0.065 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.6589333333333" lon="7.74386666666667">
+    <time>2010-10-05T18:59:59Z</time>
+    <name>Compi7</name>
+    <desc>Pos.: 242 / Dist.: 9.398 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.6284166666667" lon="7.73048333333333">
+    <time>2010-10-06T18:59:59Z</time>
+    <name>Vanderhoff</name>
+    <desc>Pos.: 243 / Dist.: 3.544 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.5789666666667" lon="7.64961666666667">
+    <time>2010-10-17T18:59:59Z</time>
+    <name>Jakis</name>
+    <desc>Pos.: 244 / Dist.: 8.270 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.5338666666667" lon="7.66775">
+    <time>2010-10-18T18:59:59Z</time>
+    <name>beutlins</name>
+    <desc>Pos.: 245 / Dist.: 5.203 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.4782333333333" lon="7.66698333333333">
+    <time>2010-10-19T18:59:59Z</time>
+    <name>Niceman-ch</name>
+    <desc>Pos.: 246 / Dist.: 6.186 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.59755" lon="7.66111666666667">
+    <time>2011-01-19T20:00:00Z</time>
+    <name>bajassli</name>
+    <desc>Pos.: 247 / Dist.: 13.274 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.6893" lon="7.68826666666667">
+    <time>2011-01-22T20:00:00Z</time>
+    <name>Bookenways</name>
+    <desc>Pos.: 248 / Dist.: 10.410 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.6927166666667" lon="7.67308333333333">
+    <time>2011-01-23T20:00:00Z</time>
+    <name>jjsch.68</name>
+    <desc>Pos.: 249 / Dist.: 1.219 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.6753" lon="7.6271">
+    <time>2011-01-24T20:00:00Z</time>
+    <name>Emmenstein</name>
+    <desc>Pos.: 250 / Dist.: 4.007 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.61465" lon="7.37326666666667">
+    <time>2011-01-27T20:00:00Z</time>
+    <name>Compi7</name>
+    <desc>Pos.: 251 / Dist.: 20.516 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.5908166666667" lon="7.3411">
+    <time>2011-01-29T20:00:00Z</time>
+    <name>Pfauenauge04</name>
+    <desc>Pos.: 252 / Dist.: 3.614 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.6097833333333" lon="7.27706666666667">
+    <time>2011-01-29T20:00:00Z</time>
+    <name>Eltitas</name>
+    <desc>Pos.: 253 / Dist.: 5.327 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.6115166666667" lon="7.1754">
+    <time>2011-04-10T18:59:59Z</time>
+    <name>Butterblume</name>
+    <desc>Pos.: 254 / Dist.: 7.768 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.6057333333333" lon="7.10201666666667">
+    <time>2011-05-05T18:59:59Z</time>
+    <name>fam.wue</name>
+    <desc>Pos.: 255 / Dist.: 5.642 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.5773" lon="7.07921666666667">
+    <time>2011-06-28T18:59:59Z</time>
+    <name>hekiha</name>
+    <desc>Pos.: 256 / Dist.: 3.610 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.5923" lon="7.0762">
+    <time>2011-07-15T18:59:59Z</time>
+    <name>cuchaule</name>
+    <desc>Pos.: 257 / Dist.: 1.684 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.71175" lon="8.21618333333333">
+    <time>2011-07-26T18:59:59Z</time>
+    <name>treasure hunt</name>
+    <desc>Pos.: 258 / Dist.: 88.015 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7573333333333" lon="8.13531666666667">
+    <time>2011-07-27T18:59:59Z</time>
+    <name>Riepichiep</name>
+    <desc>Pos.: 259 / Dist.: 7.979 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7466833333333" lon="8.08745">
+    <time>2011-10-12T18:59:59Z</time>
+    <name>schnuefelis</name>
+    <desc>Pos.: 260 / Dist.: 3.834 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7167166666667" lon="7.92566666666667">
+    <time>2012-02-05T20:00:00Z</time>
+    <name>Tapsi.li</name>
+    <desc>Pos.: 261 / Dist.: 12.772 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.6921333333333" lon="7.83206666666667">
+    <time>2012-02-09T20:00:00Z</time>
+    <name>O-Laeufer</name>
+    <desc>Pos.: 262 / Dist.: 7.642 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7302166666667" lon="7.66795">
+    <time>2012-02-10T20:00:00Z</time>
+    <name>baryt68</name>
+    <desc>Pos.: 263 / Dist.: 13.209 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7823166666667" lon="7.64851666666667">
+    <time>2012-02-12T20:00:00Z</time>
+    <name>HUCK64</name>
+    <desc>Pos.: 264 / Dist.: 5.979 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.6236" lon="8.02156666666667">
+    <time>2012-02-13T20:00:00Z</time>
+    <name>Moxjet</name>
+    <desc>Pos.: 265 / Dist.: 33.475 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.2021833333333" lon="7.36865">
+    <time>2012-03-16T09:36:34Z</time>
+    <name>Znuk</name>
+    <desc>Pos.: 266 / Dist.: 81.228 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1602666666667" lon="7.47418333333333">
+    <time>2012-03-20T18:59:59Z</time>
+    <name>Mat_Lynx</name>
+    <desc>Pos.: 267 / Dist.: 9.237 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0492666666667" lon="7.42243333333333">
+    <time>2012-04-01T18:59:59Z</time>
+    <name>stoe_01</name>
+    <desc>Pos.: 268 / Dist.: 12.949 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0630666666667" lon="7.58938333333333">
+    <time>2012-04-05T18:59:59Z</time>
+    <name>Gluresucher</name>
+    <desc>Pos.: 269 / Dist.: 12.739 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.019" lon="7.74393333333333">
+    <time>2012-04-09T18:59:59Z</time>
+    <name>Resbug</name>
+    <desc>Pos.: 270 / Dist.: 12.694 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.2606" lon="8.60028333333333">
+    <time>2012-04-10T18:59:59Z</time>
+    <name>tifig</name>
+    <desc>Pos.: 271 / Dist.: 70.117 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.94755" lon="8.0445">
+    <time>2012-04-16T18:59:59Z</time>
+    <name>tifig</name>
+    <desc>Pos.: 272 / Dist.: 54.598 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0396833333333" lon="8.18378333333333">
+    <time>2012-04-18T18:59:59Z</time>
+    <name>Worlddiver</name>
+    <desc>Pos.: 273 / Dist.: 14.715 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.11855" lon="8.18281666666667">
+    <time>2012-04-19T18:59:59Z</time>
+    <name>claudiahans</name>
+    <desc>Pos.: 274 / Dist.: 8.769 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.14505" lon="8.17823333333333">
+    <time>2012-04-19T18:59:59Z</time>
+    <name>chipmuncher</name>
+    <desc>Pos.: 275 / Dist.: 2.967 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1713833333333" lon="8.06665">
+    <time>2012-04-20T18:59:59Z</time>
+    <name>Die Heimlifeisse</name>
+    <desc>Pos.: 276 / Dist.: 8.930 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1145666666667" lon="8.48693333333333">
+    <time>2012-04-22T18:59:59Z</time>
+    <name>Biendliwisi</name>
+    <desc>Pos.: 277 / Dist.: 32.407 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0438166666667" lon="8.56358333333333">
+    <time>2012-04-23T18:59:59Z</time>
+    <name>Sortis</name>
+    <desc>Pos.: 278 / Dist.: 9.776 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0744" lon="8.49395">
+    <time>2012-04-25T18:59:59Z</time>
+    <name>thomeri</name>
+    <desc>Pos.: 279 / Dist.: 6.276 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1337666666667" lon="8.46795">
+    <time>2012-04-26T18:59:59Z</time>
+    <name>Widi5</name>
+    <desc>Pos.: 280 / Dist.: 6.888 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1143333333333" lon="8.62183333333333">
+    <time>2012-04-26T18:59:59Z</time>
+    <name>Don Raul</name>
+    <desc>Pos.: 281 / Dist.: 11.841 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.11345" lon="8.76515">
+    <time>2012-04-28T18:59:59Z</time>
+    <name>kalü</name>
+    <desc>Pos.: 282 / Dist.: 10.845 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1779666666667" lon="8.76943333333333">
+    <time>2012-05-08T18:59:59Z</time>
+    <name>daisy1620</name>
+    <desc>Pos.: 283 / Dist.: 7.181 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.2090833333333" lon="8.70731666666667">
+    <time>2012-05-09T18:59:59Z</time>
+    <name>lokisob</name>
+    <desc>Pos.: 284 / Dist.: 5.831 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.2010166666667" lon="8.69021666666667">
+    <time>2012-05-10T18:59:59Z</time>
+    <name>Die Berüchtigten</name>
+    <desc>Pos.: 285 / Dist.: 1.573 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.2189" lon="8.80886666666667">
+    <time>2012-05-12T18:59:59Z</time>
+    <name>etzelblick</name>
+    <desc>Pos.: 286 / Dist.: 9.180 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.2011" lon="8.79615">
+    <time>2012-05-13T18:59:59Z</time>
+    <name>Tayger</name>
+    <desc>Pos.: 287 / Dist.: 2.200 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1941" lon="8.86468333333333">
+    <time>2012-05-13T18:59:59Z</time>
+    <name>Tenemet</name>
+    <desc>Pos.: 288 / Dist.: 5.236 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1883" lon="9.01016666666667">
+    <time>2012-05-17T18:59:59Z</time>
+    <name>meersäuli</name>
+    <desc>Pos.: 289 / Dist.: 11.012 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1421166666667" lon="9.27048333333333">
+    <time>2012-05-20T18:59:59Z</time>
+    <name>cascata</name>
+    <desc>Pos.: 290 / Dist.: 20.338 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0484333333333" lon="9.38616666666667">
+    <time>2012-05-22T18:59:59Z</time>
+    <name>bloeterli</name>
+    <desc>Pos.: 291 / Dist.: 13.608 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1212666666667" lon="9.13926666666667">
+    <time>2012-05-23T18:59:59Z</time>
+    <name>H0nolulu</name>
+    <desc>Pos.: 292 / Dist.: 20.372 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1115" lon="9.21506666666667">
+    <time>2012-05-24T18:59:59Z</time>
+    <name>Michix</name>
+    <desc>Pos.: 293 / Dist.: 5.837 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0491833333333" lon="9.4386">
+    <time>2012-05-26T18:59:59Z</time>
+    <name>chraxli</name>
+    <desc>Pos.: 294 / Dist.: 18.289 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.02305" lon="9.45925">
+    <time>2012-05-27T18:59:59Z</time>
+    <name>swissalba</name>
+    <desc>Pos.: 295 / Dist.: 3.300 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0238833333333" lon="9.5203">
+    <time>2012-05-27T18:59:59Z</time>
+    <name>Rakchi</name>
+    <desc>Pos.: 296 / Dist.: 4.628 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1463833333333" lon="9.519">
+    <time>2012-05-28T18:59:59Z</time>
+    <name>Indianagoofy&amp;Goofyne</name>
+    <desc>Pos.: 297 / Dist.: 13.621 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.12485" lon="9.53328333333333">
+    <time>2012-05-29T18:59:59Z</time>
+    <name>hoepsi</name>
+    <desc>Pos.: 298 / Dist.: 2.627 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1248166666667" lon="9.54621666666667">
+    <time>2012-05-31T18:59:59Z</time>
+    <name>NX-8213</name>
+    <desc>Pos.: 299 / Dist.: 0.978 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.10835" lon="9.57753333333333">
+    <time>2012-06-01T18:59:59Z</time>
+    <name>Jasi+Saba</name>
+    <desc>Pos.: 300 / Dist.: 2.995 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1264833333333" lon="9.533">
+    <time>2012-06-01T18:59:59Z</time>
+    <name>stromer5</name>
+    <desc>Pos.: 301 / Dist.: 3.927 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.8150166666667" lon="9.36141666666667">
+    <time>2012-06-02T18:59:59Z</time>
+    <name>maraz</name>
+    <desc>Pos.: 302 / Dist.: 36.998 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.8033" lon="9.3408">
+    <time>2012-06-03T18:59:59Z</time>
+    <name>nrg77</name>
+    <desc>Pos.: 303 / Dist.: 2.039 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7948833333333" lon="9.31671666666667">
+    <time>2012-06-04T18:59:59Z</time>
+    <name>tigerandmike</name>
+    <desc>Pos.: 304 / Dist.: 2.058 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7684" lon="9.20835">
+    <time>2012-06-04T18:59:59Z</time>
+    <name>Team Capun</name>
+    <desc>Pos.: 305 / Dist.: 8.761 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7260666666667" lon="8.94741666666667">
+    <time>2012-06-12T17:07:22Z</time>
+    <name>moritours</name>
+    <desc>Pos.: 306 / Dist.: 20.430 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.6935666666667" lon="8.85498333333333">
+    <time>2012-06-23T18:59:59Z</time>
+    <name>4Rennschnecken</name>
+    <desc>Pos.: 307 / Dist.: 7.920 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.56365" lon="8.8036">
+    <time>2012-07-10T18:59:59Z</time>
+    <name>GrignaSprite</name>
+    <desc>Pos.: 308 / Dist.: 14.969 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.48445" lon="8.9468">
+    <time>2012-07-11T18:59:59Z</time>
+    <name>hb9eds ? Alchemilla</name>
+    <desc>Pos.: 309 / Dist.: 14.056 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.3818833333333" lon="8.96956666666667">
+    <time>2012-07-12T18:59:59Z</time>
+    <name>goldzak</name>
+    <desc>Pos.: 310 / Dist.: 11.537 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.1920333333333" lon="9.02668333333333">
+    <time>2012-07-15T18:59:59Z</time>
+    <name>fastoa</name>
+    <desc>Pos.: 311 / Dist.: 21.561 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.1367" lon="8.91126666666667">
+    <time>2012-07-16T18:59:59Z</time>
+    <name>GPenguinS</name>
+    <desc>Pos.: 312 / Dist.: 10.810 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.0183333333333" lon="8.92783333333333">
+    <time>2012-07-18T18:59:59Z</time>
+    <name>finsteraarhorn</name>
+    <desc>Pos.: 313 / Dist.: 13.223 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="45.8937333333333" lon="8.98595">
+    <time>2012-07-19T18:59:59Z</time>
+    <name>miuu</name>
+    <desc>Pos.: 314 / Dist.: 14.564 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="45.8665333333333" lon="8.99916666666667">
+    <time>2012-07-20T18:59:59Z</time>
+    <name>Camel!</name>
+    <desc>Pos.: 315 / Dist.: 3.193 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="45.9338166666667" lon="8.95168333333333">
+    <time>2012-07-22T18:59:59Z</time>
+    <name>tanja und tom</name>
+    <desc>Pos.: 316 / Dist.: 8.335 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="45.9633833333333" lon="8.88726666666667">
+    <time>2012-07-24T18:59:59Z</time>
+    <name>giuba21</name>
+    <desc>Pos.: 317 / Dist.: 5.967 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.05085" lon="8.88883333333333">
+    <time>2012-08-03T18:59:59Z</time>
+    <name>hgy59</name>
+    <desc>Pos.: 318 / Dist.: 9.726 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.1437833333333" lon="8.95528333333333">
+    <time>2012-08-06T18:59:59Z</time>
+    <name>dis19</name>
+    <desc>Pos.: 319 / Dist.: 11.534 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.1757666666667" lon="8.97731666666667">
+    <time>2012-08-09T18:59:59Z</time>
+    <name>fafafafa</name>
+    <desc>Pos.: 320 / Dist.: 3.940 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.1693666666667" lon="8.84918333333333">
+    <time>2012-08-14T18:59:59Z</time>
+    <name>BelTicino</name>
+    <desc>Pos.: 321 / Dist.: 9.892 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.1931833333333" lon="9.0211">
+    <time>2012-08-16T18:59:59Z</time>
+    <name>Mr. &amp; Miss X</name>
+    <desc>Pos.: 322 / Dist.: 13.497 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.25665" lon="9.0303">
+    <time>2012-08-17T18:59:59Z</time>
+    <name>PKLM</name>
+    <desc>Pos.: 323 / Dist.: 7.092 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.3014166666667" lon="8.97663333333333">
+    <time>2012-08-17T18:59:59Z</time>
+    <name>Danymey</name>
+    <desc>Pos.: 324 / Dist.: 6.464 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.40435" lon="8.874">
+    <time>2012-08-31T18:59:59Z</time>
+    <name>casamafa</name>
+    <desc>Pos.: 325 / Dist.: 13.894 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.4916" lon="8.75958333333333">
+    <time>2012-10-06T18:59:59Z</time>
+    <name>D&apos;Buebe vom Dorf</name>
+    <desc>Pos.: 326 / Dist.: 13.075 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.5167" lon="8.67513333333333">
+    <time>2012-10-07T18:59:59Z</time>
+    <name>Loremo</name>
+    <desc>Pos.: 327 / Dist.: 7.040 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.52315" lon="8.58998333333333">
+    <time>2012-10-27T18:59:59Z</time>
+    <name>giorgix3</name>
+    <desc>Pos.: 328 / Dist.: 6.554 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.6711166666667" lon="8.59201666666667">
+    <time>2012-11-02T18:59:59Z</time>
+    <name>GPenguinS</name>
+    <desc>Pos.: 329 / Dist.: 16.453 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7326666666667" lon="8.6298">
+    <time>2012-11-04T20:00:00Z</time>
+    <name>Urmanija</name>
+    <desc>Pos.: 330 / Dist.: 7.425 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4830166666667" lon="8.21378333333333">
+    <time>2012-11-14T20:00:00Z</time>
+    <name>Hlw</name>
+    <desc>Pos.: 331 / Dist.: 89.173 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4704" lon="8.28475">
+    <time>2012-11-16T20:00:00Z</time>
+    <name>KAPPIS</name>
+    <desc>Pos.: 332 / Dist.: 5.515 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.46045" lon="8.28718333333333">
+    <time>2012-11-18T20:00:00Z</time>
+    <name>mfbaden</name>
+    <desc>Pos.: 333 / Dist.: 1.121 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.455" lon="8.235">
+    <time>2012-11-18T20:00:00Z</time>
+    <name>Omeros</name>
+    <desc>Pos.: 334 / Dist.: 3.970 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.43725" lon="8.35258333333333">
+    <time>2012-11-19T20:00:00Z</time>
+    <name>aikaonyx</name>
+    <desc>Pos.: 335 / Dist.: 9.059 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4523166666667" lon="8.19203333333333">
+    <time>2012-11-21T20:00:00Z</time>
+    <name>tommiB</name>
+    <desc>Pos.: 336 / Dist.: 12.189 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.3576666666667" lon="8.51508333333333">
+    <time>2012-11-23T20:00:00Z</time>
+    <name>SaschaBänzi</name>
+    <desc>Pos.: 337 / Dist.: 26.491 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4017666666667" lon="8.42965">
+    <time>2012-11-23T20:00:00Z</time>
+    <name>fiona84</name>
+    <desc>Pos.: 338 / Dist.: 8.088 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4593666666667" lon="8.42705">
+    <time>2012-11-23T20:00:00Z</time>
+    <name>PicoKnirps</name>
+    <desc>Pos.: 339 / Dist.: 6.408 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4635833333333" lon="8.41658333333333">
+    <time>2012-11-24T20:00:00Z</time>
+    <name>Luckythree</name>
+    <desc>Pos.: 340 / Dist.: 0.916 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.5123333333333" lon="8.36616666666667">
+    <time>2012-11-24T20:00:00Z</time>
+    <name>pasra</name>
+    <desc>Pos.: 341 / Dist.: 6.613 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4220166666667" lon="8.17425">
+    <time>2012-11-25T20:00:00Z</time>
+    <name>molubuha</name>
+    <desc>Pos.: 342 / Dist.: 17.577 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.3688166666667" lon="8.02851666666667">
+    <time>2012-11-25T20:00:00Z</time>
+    <name>bossi-trip</name>
+    <desc>Pos.: 343 / Dist.: 12.462 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4367166666667" lon="8.0699">
+    <time>2012-11-26T20:00:00Z</time>
+    <name>9xy</name>
+    <desc>Pos.: 344 / Dist.: 8.167 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.44665" lon="8.09746666666667">
+    <time>2012-11-27T20:00:00Z</time>
+    <name>Zahn5</name>
+    <desc>Pos.: 345 / Dist.: 2.349 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4783166666667" lon="8.06798333333333">
+    <time>2012-11-27T20:00:00Z</time>
+    <name>treasure hunt</name>
+    <desc>Pos.: 346 / Dist.: 4.160 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.53475" lon="7.87823333333333">
+    <time>2012-11-28T20:00:00Z</time>
+    <name>zulei32</name>
+    <desc>Pos.: 347 / Dist.: 15.572 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.5328333333333" lon="7.70013333333333">
+    <time>2012-11-30T20:00:00Z</time>
+    <name>EdnaSonne</name>
+    <desc>Pos.: 348 / Dist.: 13.372 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.5397333333333" lon="7.66088333333333">
+    <time>2012-12-01T20:00:00Z</time>
+    <name>lilupanda</name>
+    <desc>Pos.: 349 / Dist.: 3.045 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.55805" lon="7.6201">
+    <time>2012-12-02T20:00:00Z</time>
+    <name>martifiosi</name>
+    <desc>Pos.: 350 / Dist.: 3.676 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4554666666667" lon="7.60235">
+    <time>2012-12-03T20:00:00Z</time>
+    <name>Birszwärge</name>
+    <desc>Pos.: 351 / Dist.: 11.484 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4277666666667" lon="7.53561666666667">
+    <time>2012-12-03T20:00:00Z</time>
+    <name>ravijeger</name>
+    <desc>Pos.: 352 / Dist.: 5.888 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.39975" lon="7.47766666666667">
+    <time>2012-12-04T20:00:00Z</time>
+    <name>pipistrelli</name>
+    <desc>Pos.: 353 / Dist.: 5.359 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.3973833333333" lon="7.39635">
+    <time>2012-12-05T17:39:14Z</time>
+    <name>alatariel &amp; osiris</name>
+    <desc>Pos.: 354 / Dist.: 6.126 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.38885" lon="7.37073333333333">
+    <time>2012-12-06T20:00:00Z</time>
+    <name>bubendorf</name>
+    <desc>Pos.: 355 / Dist.: 2.149 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.3725666666667" lon="7.36043333333333">
+    <time>2012-12-06T20:00:00Z</time>
+    <name>al_fa</name>
+    <desc>Pos.: 356 / Dist.: 1.970 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.2691833333333" lon="7.36251666666667">
+    <time>2012-12-13T20:00:00Z</time>
+    <name>aaremeitschi</name>
+    <desc>Pos.: 357 / Dist.: 11.496 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.2919666666667" lon="7.38081666666667">
+    <time>2012-12-26T20:00:00Z</time>
+    <name>jackeroo99</name>
+    <desc>Pos.: 358 / Dist.: 2.885 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.25855" lon="7.34613333333333">
+    <time>2012-12-29T20:00:00Z</time>
+    <name>Mystic-S</name>
+    <desc>Pos.: 359 / Dist.: 4.544 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1997833333333" lon="7.17725">
+    <time>2013-01-02T20:00:00Z</time>
+    <name>Mystic-G</name>
+    <desc>Pos.: 360 / Dist.: 14.328 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1364" lon="7.23128333333333">
+    <time>2013-01-06T20:00:00Z</time>
+    <name>Nidi_biel</name>
+    <desc>Pos.: 361 / Dist.: 8.146 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1075666666667" lon="7.22906666666667">
+    <time>2013-01-08T20:00:00Z</time>
+    <name>Aku+Uvo</name>
+    <desc>Pos.: 362 / Dist.: 3.210 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1338333333333" lon="7.444">
+    <time>2013-01-13T20:00:00Z</time>
+    <name>Mr.G!</name>
+    <desc>Pos.: 363 / Dist.: 16.522 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0457833333333" lon="7.37438333333333">
+    <time>2013-01-13T20:00:00Z</time>
+    <name>CeMaBiFi junior&apos;s</name>
+    <desc>Pos.: 364 / Dist.: 11.119 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1390333333333" lon="7.26635">
+    <time>2013-01-15T20:00:00Z</time>
+    <name>chasseral</name>
+    <desc>Pos.: 365 / Dist.: 13.206 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0427166666667" lon="7.26896666666667">
+    <time>2013-01-16T20:00:00Z</time>
+    <name>Tapsi.li</name>
+    <desc>Pos.: 366 / Dist.: 10.711 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9879166666667" lon="7.19135">
+    <time>2013-01-16T20:00:00Z</time>
+    <name>Radioaktiv</name>
+    <desc>Pos.: 367 / Dist.: 8.470 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9955833333333" lon="7.10651666666667">
+    <time>2013-01-20T20:00:00Z</time>
+    <name>sutosven</name>
+    <desc>Pos.: 368 / Dist.: 6.490 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9585833333333" lon="7.01473333333333">
+    <time>2013-01-22T20:00:00Z</time>
+    <name>LIANA25</name>
+    <desc>Pos.: 369 / Dist.: 8.088 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9641" lon="7.09306666666667">
+    <time>2013-01-25T20:00:00Z</time>
+    <name>KKA16</name>
+    <desc>Pos.: 370 / Dist.: 5.976 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9204333333333" lon="7.27666666666667">
+    <time>2013-01-26T20:00:00Z</time>
+    <name>Rollsky</name>
+    <desc>Pos.: 371 / Dist.: 14.759 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9330666666667" lon="7.42975">
+    <time>2013-01-27T15:26:14Z</time>
+    <name>Caro1984</name>
+    <desc>Pos.: 372 / Dist.: 11.709 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9436333333333" lon="7.24281666666667">
+    <time>2013-01-28T20:00:00Z</time>
+    <name>edi_the_eagle</name>
+    <desc>Pos.: 373 / Dist.: 14.240 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9187" lon="7.32621666666667">
+    <time>2013-01-31T20:00:00Z</time>
+    <name>Mromi62</name>
+    <desc>Pos.: 374 / Dist.: 6.913 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.8518166666667" lon="7.4731">
+    <time>2013-02-01T20:00:00Z</time>
+    <name>Fribj</name>
+    <desc>Pos.: 375 / Dist.: 13.413 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7874166666667" lon="7.46778333333333">
+    <time>2013-02-02T20:00:00Z</time>
+    <name>Zombie&apos;s</name>
+    <desc>Pos.: 376 / Dist.: 7.172 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.75475" lon="7.45066666666667">
+    <time>2013-02-18T20:29:07Z</time>
+    <name>Apicula</name>
+    <desc>Pos.: 377 / Dist.: 3.859 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7993666666667" lon="7.47648333333333">
+    <time>2013-02-19T09:38:49Z</time>
+    <name>SouthernLord</name>
+    <desc>Pos.: 378 / Dist.: 5.336 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.8260666666667" lon="7.53136666666667">
+    <time>2013-02-19T20:00:00Z</time>
+    <name>eigerrun</name>
+    <desc>Pos.: 379 / Dist.: 5.124 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.8419333333333" lon="7.54361666666667">
+    <time>2013-02-19T20:00:00Z</time>
+    <name>schallers</name>
+    <desc>Pos.: 380 / Dist.: 1.995 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.8674333333333" lon="7.5188">
+    <time>2013-02-20T20:00:00Z</time>
+    <name>Galgenvögel</name>
+    <desc>Pos.: 381 / Dist.: 3.406 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9086833333333" lon="7.51046666666667">
+    <time>2013-02-20T20:00:00Z</time>
+    <name>elmathu</name>
+    <desc>Pos.: 382 / Dist.: 4.630 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9069833333333" lon="7.60813333333333">
+    <time>2013-02-21T20:00:00Z</time>
+    <name>fam.wue</name>
+    <desc>Pos.: 383 / Dist.: 7.421 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9073666666667" lon="7.66056666666667">
+    <time>2013-02-21T20:00:00Z</time>
+    <name>DinoRex07</name>
+    <desc>Pos.: 384 / Dist.: 3.983 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9280833333333" lon="7.73481666666667">
+    <time>2013-02-25T20:00:00Z</time>
+    <name>dreamfull</name>
+    <desc>Pos.: 385 / Dist.: 6.091 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9358" lon="7.78743333333333">
+    <time>2013-02-25T20:00:00Z</time>
+    <name>spazifiz</name>
+    <desc>Pos.: 386 / Dist.: 4.086 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.92615" lon="7.85073333333333">
+    <time>2013-03-11T23:49:04Z</time>
+    <name>Stöpsu</name>
+    <desc>Pos.: 387 / Dist.: 4.925 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.96135" lon="7.90793333333333">
+    <time>2013-03-23T18:59:59Z</time>
+    <name>uschoen</name>
+    <desc>Pos.: 388 / Dist.: 5.846 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9827666666667" lon="7.93695">
+    <time>2013-03-26T18:59:59Z</time>
+    <name>silli1310</name>
+    <desc>Pos.: 389 / Dist.: 3.243 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0035833333333" lon="7.94018333333333">
+    <time>2013-04-25T18:59:59Z</time>
+    <name>Katzenauge07</name>
+    <desc>Pos.: 390 / Dist.: 2.328 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0409" lon="7.95686666666667">
+    <time>2013-04-28T18:59:59Z</time>
+    <name>simeat</name>
+    <desc>Pos.: 391 / Dist.: 4.338 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1177666666667" lon="7.99771666666667">
+    <time>2013-05-05T18:59:59Z</time>
+    <name>stuhlbein</name>
+    <desc>Pos.: 392 / Dist.: 9.089 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9700666666667" lon="8.31698333333333">
+    <time>2013-05-08T18:59:59Z</time>
+    <name>Lara05</name>
+    <desc>Pos.: 393 / Dist.: 29.238 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9808666666667" lon="8.33773333333333">
+    <time>2013-05-10T18:59:59Z</time>
+    <name>s&apos;lulins</name>
+    <desc>Pos.: 394 / Dist.: 1.980 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0185666666667" lon="8.28355">
+    <time>2013-05-11T18:59:59Z</time>
+    <name>Steipilzbrätler</name>
+    <desc>Pos.: 395 / Dist.: 5.870 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.2048" lon="8.32228333333333">
+    <time>2013-05-31T18:59:59Z</time>
+    <name>icklesidi</name>
+    <desc>Pos.: 396 / Dist.: 20.914 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img003.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0765" lon="8.44695">
+    <time>2013-06-07T07:00:00Z</time>
+    <name>Staerneching</name>
+    <desc>Pos.: 397 / Dist.: 17.100 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img004.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0923833333333" lon="8.44763333333333">
+    <time>2013-06-07T07:00:00Z</time>
+    <name>a234781</name>
+    <desc>Pos.: 398 / Dist.: 1.767 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img004.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0665" lon="8.56616666666667">
+    <time>2013-06-09T07:00:00Z</time>
+    <name>Spirit_ch</name>
+    <desc>Pos.: 399 / Dist.: 9.425 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img004.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.982" lon="8.61265">
+    <time>2013-06-16T18:59:59Z</time>
+    <name>TecmjrB</name>
+    <desc>Pos.: 400 / Dist.: 10.034 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img004.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9594" lon="8.6156">
+    <time>2013-06-19T18:59:59Z</time>
+    <name>schlumpftrupp</name>
+    <desc>Pos.: 401 / Dist.: 2.523 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img006.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.86655" lon="8.75416666666667">
+    <time>2013-06-22T18:59:59Z</time>
+    <name>lunzebiene</name>
+    <desc>Pos.: 402 / Dist.: 14.743 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img006.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.8652166666667" lon="8.7853">
+    <time>2013-06-30T18:59:59Z</time>
+    <name>Piratenbär</name>
+    <desc>Pos.: 403 / Dist.: 2.371 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img005.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.8715166666667" lon="8.75803333333333">
+    <time>2013-06-30T18:59:59Z</time>
+    <name>Trepan</name>
+    <desc>Pos.: 404 / Dist.: 2.188 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img005.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.8676833333333" lon="8.85445">
+    <time>2013-06-30T18:59:59Z</time>
+    <name>Silas07</name>
+    <desc>Pos.: 405 / Dist.: 7.342 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img005.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9877166666667" lon="9.05926666666667">
+    <time>2013-07-01T18:59:59Z</time>
+    <name>Chäps</name>
+    <desc>Pos.: 406 / Dist.: 20.494 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img005.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1745333333333" lon="8.98558333333333">
+    <time>2013-07-01T18:59:59Z</time>
+    <name>ussbuehler</name>
+    <desc>Pos.: 407 / Dist.: 21.508 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img005.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1260666666667" lon="8.84705">
+    <time>2013-07-02T18:59:59Z</time>
+    <name>Team Eisstock</name>
+    <desc>Pos.: 408 / Dist.: 11.780 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img006.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1541166666667" lon="8.77875">
+    <time>2013-07-02T18:59:59Z</time>
+    <name>Wolpe</name>
+    <desc>Pos.: 409 / Dist.: 6.034 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img006.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1556166666667" lon="8.72291666666667">
+    <time>2013-07-03T18:59:59Z</time>
+    <name>Svandan</name>
+    <desc>Pos.: 410 / Dist.: 4.225 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img007.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1952666666667" lon="8.75655">
+    <time>2013-07-04T18:59:59Z</time>
+    <name>Black Ravens</name>
+    <desc>Pos.: 411 / Dist.: 5.089 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img007.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.18275" lon="8.97665">
+    <time>2013-07-05T18:59:59Z</time>
+    <name>be68</name>
+    <desc>Pos.: 412 / Dist.: 16.689 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img008.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1541166666667" lon="9.02753333333333">
+    <time>2013-07-05T18:59:59Z</time>
+    <name>Goldinus</name>
+    <desc>Pos.: 413 / Dist.: 4.993 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img008.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1087166666667" lon="9.0809">
+    <time>2013-07-05T18:59:59Z</time>
+    <name>ussbuehler</name>
+    <desc>Pos.: 414 / Dist.: 6.464 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img008.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.02175" lon="9.06906666666667">
+    <time>2013-07-05T18:59:59Z</time>
+    <name>kraimorie</name>
+    <desc>Pos.: 415 / Dist.: 9.711 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img008.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9915166666667" lon="9.07546666666667">
+    <time>2013-07-07T18:59:59Z</time>
+    <name>meersäuli</name>
+    <desc>Pos.: 416 / Dist.: 3.396 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img009.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0224833333333" lon="9.08758333333333">
+    <time>2013-07-07T18:59:59Z</time>
+    <name>pfiff 74.ch</name>
+    <desc>Pos.: 417 / Dist.: 3.564 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img009.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0826" lon="9.07423333333333">
+    <time>2013-07-18T18:59:59Z</time>
+    <name>Michix</name>
+    <desc>Pos.: 418 / Dist.: 6.760 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img009.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1144" lon="9.19493333333333">
+    <time>2013-07-20T18:59:59Z</time>
+    <name>Stuermi33</name>
+    <desc>Pos.: 419 / Dist.: 9.796 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img010.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1184166666667" lon="9.28761666666667">
+    <time>2013-07-27T18:59:59Z</time>
+    <name>bloeterli</name>
+    <desc>Pos.: 420 / Dist.: 7.027 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img010.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1015833333333" lon="9.35188333333333">
+    <time>2013-07-30T18:59:59Z</time>
+    <name>hoepsi</name>
+    <desc>Pos.: 421 / Dist.: 5.211 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img010.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0575166666667" lon="9.45125">
+    <time>2013-08-04T18:59:59Z</time>
+    <name>Hexilein</name>
+    <desc>Pos.: 422 / Dist.: 8.979 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img010.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0137" lon="9.5452">
+    <time>2013-08-04T18:59:59Z</time>
+    <name>Jasi+Saba</name>
+    <desc>Pos.: 423 / Dist.: 8.627 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img010.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0410166666667" lon="9.53031666666667">
+    <time>2013-08-06T18:59:59Z</time>
+    <name>chraxli</name>
+    <desc>Pos.: 424 / Dist.: 3.240 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img011.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.05215" lon="9.41315">
+    <time>2013-08-12T18:59:59Z</time>
+    <name>swissalba</name>
+    <desc>Pos.: 425 / Dist.: 8.963 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img012.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0657333333333" lon="9.50185">
+    <time>2013-08-13T18:59:59Z</time>
+    <name>pongo und göttin</name>
+    <desc>Pos.: 426 / Dist.: 6.886 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img012.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1275666666667" lon="9.47513333333333">
+    <time>2013-08-15T18:59:59Z</time>
+    <name>Pakasch</name>
+    <desc>Pos.: 427 / Dist.: 7.166 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img012.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1363333333333" lon="9.45448333333333">
+    <time>2013-08-16T18:59:59Z</time>
+    <name>Fliggflauder</name>
+    <desc>Pos.: 428 / Dist.: 1.841 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img013.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.2888666666667" lon="9.52023333333333">
+    <time>2013-08-17T18:59:59Z</time>
+    <name>adfahe</name>
+    <desc>Pos.: 429 / Dist.: 17.672 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img013.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.2258833333333" lon="9.4441">
+    <time>2013-08-19T18:59:59Z</time>
+    <name>HB9TMR</name>
+    <desc>Pos.: 430 / Dist.: 9.058 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img013.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.2076666666667" lon="9.36528333333333">
+    <time>2013-08-24T18:59:59Z</time>
+    <name>pongo und göttin</name>
+    <desc>Pos.: 431 / Dist.: 6.288 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img014.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.2493666666667" lon="9.34376666666667">
+    <time>2013-09-01T18:59:59Z</time>
+    <name>Bärenkralle</name>
+    <desc>Pos.: 432 / Dist.: 4.913 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img015.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.2658166666667" lon="9.29498333333333">
+    <time>2013-09-19T18:59:59Z</time>
+    <name>Chreazy</name>
+    <desc>Pos.: 433 / Dist.: 4.111 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img015.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.45635" lon="9.04161666666667">
+    <time>2013-09-23T18:59:59Z</time>
+    <name>Rikli25</name>
+    <desc>Pos.: 434 / Dist.: 28.513 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img016.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4908166666667" lon="9.23165">
+    <time>2013-09-24T18:59:59Z</time>
+    <name>Wibus</name>
+    <desc>Pos.: 435 / Dist.: 14.787 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img016.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.5182333333333" lon="9.19321666666667">
+    <time>2013-09-26T18:59:59Z</time>
+    <name>Junaro</name>
+    <desc>Pos.: 436 / Dist.: 4.198 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img016.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.542" lon="9.29158333333333">
+    <time>2013-09-27T18:59:59Z</time>
+    <name>birkli</name>
+    <desc>Pos.: 437 / Dist.: 7.843 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img017.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.5961333333333" lon="9.32261666666667">
+    <time>2013-09-27T18:59:59Z</time>
+    <name>popfex</name>
+    <desc>Pos.: 438 / Dist.: 6.454 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img017.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.6491166666667" lon="9.19283333333333">
+    <time>2013-09-29T18:59:59Z</time>
+    <name>Appezeller</name>
+    <desc>Pos.: 439 / Dist.: 11.371 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img018.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.6635666666667" lon="9.1423">
+    <time>2013-09-29T18:59:59Z</time>
+    <name>GreenTeam_ch</name>
+    <desc>Pos.: 440 / Dist.: 4.112 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img018.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.6198333333333" lon="9.11733333333333">
+    <time>2013-10-01T18:59:59Z</time>
+    <name>DerGallier</name>
+    <desc>Pos.: 441 / Dist.: 5.210 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img019.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.67245" lon="9.16983333333333">
+    <time>2013-10-01T18:59:59Z</time>
+    <name>*ra</name>
+    <desc>Pos.: 442 / Dist.: 7.049 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img019.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.6527833333333" lon="9.18546666666667">
+    <time>2013-10-02T18:59:59Z</time>
+    <name>Laub-frosch</name>
+    <desc>Pos.: 443 / Dist.: 2.480 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img020.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.6722333333333" lon="9.06253333333333">
+    <time>2013-10-03T18:59:59Z</time>
+    <name>stehebo</name>
+    <desc>Pos.: 444 / Dist.: 9.457 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img020.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.6750333333333" lon="9.01653333333333">
+    <time>2013-10-06T18:59:59Z</time>
+    <name>Lody &amp; Gofry</name>
+    <desc>Pos.: 445 / Dist.: 3.458 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img021.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.6667666666667" lon="8.98168333333333">
+    <time>2013-10-13T18:59:59Z</time>
+    <name>whiterussian_ch</name>
+    <desc>Pos.: 446 / Dist.: 2.767 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img021.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.6799666666667" lon="8.83841666666667">
+    <time>2013-10-18T18:59:59Z</time>
+    <name>Sajoansa</name>
+    <desc>Pos.: 447 / Dist.: 10.826 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img021.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.7191166666667" lon="8.69156666666667">
+    <time>2013-10-19T18:59:59Z</time>
+    <name>LabiCH</name>
+    <desc>Pos.: 448 / Dist.: 11.820 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img021.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.6867166666667" lon="8.63536666666667">
+    <time>2013-10-20T18:59:59Z</time>
+    <name>wummi65</name>
+    <desc>Pos.: 449 / Dist.: 5.537 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img022.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.63125" lon="8.65945">
+    <time>2013-10-22T18:59:59Z</time>
+    <name>busy2</name>
+    <desc>Pos.: 450 / Dist.: 6.426 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img022.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.588" lon="8.50016666666667">
+    <time>2013-10-26T18:59:59Z</time>
+    <name>JKrubi</name>
+    <desc>Pos.: 451 / Dist.: 12.872 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img022.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.5570666666667" lon="8.42775">
+    <time>2013-11-03T20:00:00Z</time>
+    <name>Hinni&amp;Simo</name>
+    <desc>Pos.: 452 / Dist.: 6.430 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img023.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.5559166666667" lon="8.38593333333333">
+    <time>2013-11-10T20:00:00Z</time>
+    <name>JuergB</name>
+    <desc>Pos.: 453 / Dist.: 3.140 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img023.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.6006666666667" lon="8.17765">
+    <time>2013-11-17T20:00:00Z</time>
+    <name>jonny08</name>
+    <desc>Pos.: 454 / Dist.: 16.396 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img023.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.5826166666667" lon="8.12698333333333">
+    <time>2013-11-18T20:00:00Z</time>
+    <name>DiMaSh+</name>
+    <desc>Pos.: 455 / Dist.: 4.297 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img024.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.5544833333333" lon="7.9858">
+    <time>2013-11-18T20:00:00Z</time>
+    <name>Be@Mi</name>
+    <desc>Pos.: 456 / Dist.: 11.044 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img024.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.5509166666667" lon="7.77785">
+    <time>2013-11-19T20:00:00Z</time>
+    <name>Eyjafjallajökull</name>
+    <desc>Pos.: 457 / Dist.: 15.610 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img024.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4851333333333" lon="7.61833333333333">
+    <time>2013-11-20T20:00:00Z</time>
+    <name>Swisspanther</name>
+    <desc>Pos.: 458 / Dist.: 14.035 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img024.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.5204166666667" lon="7.63998333333333">
+    <time>2013-11-20T20:00:00Z</time>
+    <name>Quirin07</name>
+    <desc>Pos.: 459 / Dist.: 4.247 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img024.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.5457666666667" lon="7.64456666666667">
+    <time>2013-11-21T20:00:00Z</time>
+    <name>drueegger</name>
+    <desc>Pos.: 460 / Dist.: 2.840 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img024.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.5593" lon="7.63143333333333">
+    <time>2013-11-23T20:00:00Z</time>
+    <name>Lampi89</name>
+    <desc>Pos.: 461 / Dist.: 1.799 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img025.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.5483" lon="7.78268333333333">
+    <time>2013-11-24T20:00:00Z</time>
+    <name>Muggefuerz</name>
+    <desc>Pos.: 462 / Dist.: 11.416 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img025.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.5469" lon="7.77498333333333">
+    <time>2013-12-01T20:00:00Z</time>
+    <name>sgnuflas</name>
+    <desc>Pos.: 463 / Dist.: 0.598 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img025.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.5666666666667" lon="7.58333333333333">
+    <time>2013-12-02T20:00:00Z</time>
+    <name>M2S2</name>
+    <desc>Pos.: 464 / Dist.: 14.548 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img025.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.42535" lon="7.49935">
+    <time>2013-12-08T20:00:00Z</time>
+    <name>M2S2</name>
+    <desc>Pos.: 465 / Dist.: 16.932 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img025.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4260166666667" lon="7.50401666666667">
+    <time>2013-12-08T20:00:00Z</time>
+    <name>w18</name>
+    <desc>Pos.: 466 / Dist.: 0.359 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img025.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.3972333333333" lon="7.39631666666667">
+    <time>2013-12-10T20:00:00Z</time>
+    <name>mindx</name>
+    <desc>Pos.: 467 / Dist.: 8.713 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img026.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.3779666666667" lon="7.3576">
+    <time>2013-12-15T20:00:00Z</time>
+    <name>La Baroudeuse</name>
+    <desc>Pos.: 468 / Dist.: 3.617 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img026.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.3847666666667" lon="7.20633333333333">
+    <time>2013-12-15T20:00:00Z</time>
+    <name>Sarkara</name>
+    <desc>Pos.: 469 / Dist.: 11.414 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img026.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.2375166666667" lon="7.0455">
+    <time>2013-12-16T20:00:00Z</time>
+    <name>chassetoys</name>
+    <desc>Pos.: 470 / Dist.: 20.373 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img026.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0712" lon="6.86988333333333">
+    <time>2013-12-18T20:00:00Z</time>
+    <name>UncleBen&apos;s</name>
+    <desc>Pos.: 471 / Dist.: 22.766 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img027.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9498166666667" lon="6.83423333333333">
+    <time>2013-12-22T20:00:00Z</time>
+    <name>speedy4807</name>
+    <desc>Pos.: 472 / Dist.: 13.765 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img027.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9993666666667" lon="6.94865">
+    <time>2014-01-13T20:00:00Z</time>
+    <name>jraminhos</name>
+    <desc>Pos.: 473 / Dist.: 10.281 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img027.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0016" lon="6.94028333333333">
+    <time>2014-01-23T20:00:00Z</time>
+    <name>oli kuul</name>
+    <desc>Pos.: 474 / Dist.: 0.681 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img027.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.00235" lon="6.92426666666667">
+    <time>2014-01-24T20:00:00Z</time>
+    <name>Nab74</name>
+    <desc>Pos.: 475 / Dist.: 1.217 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img028.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0051833333333" lon="6.83316666666667">
+    <time>2014-02-05T20:00:00Z</time>
+    <name>Les Varnaveux</name>
+    <desc>Pos.: 476 / Dist.: 6.915 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img028.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.94375" lon="6.81016666666667">
+    <time>2014-02-06T20:00:00Z</time>
+    <name>Mar-elendili</name>
+    <desc>Pos.: 477 / Dist.: 7.050 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img028.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9065833333333" lon="6.7635">
+    <time>2014-02-06T20:00:00Z</time>
+    <name>Astrancia</name>
+    <desc>Pos.: 478 / Dist.: 5.444 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img028.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.83515" lon="6.64226666666667">
+    <time>2014-02-07T20:00:00Z</time>
+    <name>Alinternet</name>
+    <desc>Pos.: 479 / Dist.: 12.166 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img028.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7689833333333" lon="6.59451666666667">
+    <time>2014-02-11T20:00:00Z</time>
+    <name>quetzal-ch</name>
+    <desc>Pos.: 480 / Dist.: 8.206 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img029.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7785833333333" lon="6.64075">
+    <time>2014-02-18T20:00:00Z</time>
+    <name>Sylcé</name>
+    <desc>Pos.: 481 / Dist.: 3.679 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img029.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.5085833333333" lon="6.63203333333333">
+    <time>2014-02-19T20:00:00Z</time>
+    <name>BOA2300</name>
+    <desc>Pos.: 482 / Dist.: 30.029 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img029.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.5188333333333" lon="6.59643333333333">
+    <time>2014-03-06T20:00:00Z</time>
+    <name>Lesyeuxdetaupes</name>
+    <desc>Pos.: 483 / Dist.: 2.953 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img029.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.5194666666667" lon="6.69901666666667">
+    <time>2014-03-08T20:00:00Z</time>
+    <name>flochrikck</name>
+    <desc>Pos.: 484 / Dist.: 7.849 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img029.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.5108833333333" lon="6.77385">
+    <time>2014-03-09T18:59:59Z</time>
+    <name>Nellea</name>
+    <desc>Pos.: 485 / Dist.: 5.805 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img029.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.47155" lon="6.88401666666667">
+    <time>2014-03-16T18:59:59Z</time>
+    <name>Oleg</name>
+    <desc>Pos.: 486 / Dist.: 9.500 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img030.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.4323" lon="6.90923333333333">
+    <time>2014-03-17T18:59:59Z</time>
+    <name>graines d&apos;aventures</name>
+    <desc>Pos.: 487 / Dist.: 4.773 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img030.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.4719166666667" lon="6.85266666666667">
+    <time>2014-04-21T18:59:59Z</time>
+    <name>Ondallaz</name>
+    <desc>Pos.: 488 / Dist.: 6.179 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img031.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.4465666666667" lon="6.90103333333333">
+    <time>2014-04-24T18:59:59Z</time>
+    <name>K.oline1</name>
+    <desc>Pos.: 489 / Dist.: 4.655 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.58365" lon="7.0806">
+    <time>2014-04-25T18:59:59Z</time>
+    <name>YERKALO</name>
+    <desc>Pos.: 490 / Dist.: 20.521 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img031.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.61405" lon="7.09465">
+    <time>2014-05-16T18:59:59Z</time>
+    <name>pasatho</name>
+    <desc>Pos.: 491 / Dist.: 3.547 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img031.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.6220166666667" lon="7.148">
+    <time>2014-05-26T18:59:59Z</time>
+    <name>Tourelles</name>
+    <desc>Pos.: 492 / Dist.: 4.170 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img031.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.5905" lon="7.33651666666667">
+    <time>2014-05-29T18:59:59Z</time>
+    <name>keenonkites</name>
+    <desc>Pos.: 493 / Dist.: 14.821 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img032.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.6276666666667" lon="7.39506666666667">
+    <time>2014-06-08T18:59:59Z</time>
+    <name>Koalaboy</name>
+    <desc>Pos.: 494 / Dist.: 6.089 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img033.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.6676166666667" lon="7.60155">
+    <time>2014-06-19T19:44:43Z</time>
+    <name>carena64</name>
+    <desc>Pos.: 495 / Dist.: 16.375 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img034.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7292333333333" lon="7.59125">
+    <time>2014-06-19T18:59:59Z</time>
+    <name>Santianer</name>
+    <desc>Pos.: 496 / Dist.: 6.896 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img034.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7372166666667" lon="7.65426666666667">
+    <time>2014-06-20T10:55:05Z</time>
+    <name>sanreju</name>
+    <desc>Pos.: 497 / Dist.: 4.884 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img034.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.6838666666667" lon="7.78081666666667">
+    <time>2014-06-20T18:59:59Z</time>
+    <name>eigerrun</name>
+    <desc>Pos.: 498 / Dist.: 11.326 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img034.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.6818166666667" lon="7.87591666666667">
+    <time>2014-07-13T18:59:59Z</time>
+    <name>andi e.</name>
+    <desc>Pos.: 499 / Dist.: 7.258 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img035.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7509166666667" lon="8.10925">
+    <time>2014-07-13T18:59:59Z</time>
+    <name>xundx</name>
+    <desc>Pos.: 500 / Dist.: 19.376 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img035.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7606333333333" lon="8.14">
+    <time>2014-07-13T18:59:59Z</time>
+    <name>Schmidi74</name>
+    <desc>Pos.: 501 / Dist.: 2.580 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img035.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.77525" lon="8.14345">
+    <time>2014-07-15T18:59:59Z</time>
+    <name>Ligschwil</name>
+    <desc>Pos.: 502 / Dist.: 1.646 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img035.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.8062666666667" lon="8.16938333333333">
+    <time>2014-07-15T18:59:59Z</time>
+    <name>BäRu</name>
+    <desc>Pos.: 503 / Dist.: 3.974 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img035.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.8958333333333" lon="8.22035">
+    <time>2014-07-19T18:59:59Z</time>
+    <name>gnome.ch</name>
+    <desc>Pos.: 504 / Dist.: 10.686 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img036.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9300166666667" lon="8.30043333333333">
+    <time>2014-07-20T18:59:59Z</time>
+    <name>Städer&apos;s</name>
+    <desc>Pos.: 505 / Dist.: 7.173 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img036.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9635833333333" lon="8.38628333333333">
+    <time>2014-07-23T18:59:59Z</time>
+    <name>Elchli</name>
+    <desc>Pos.: 506 / Dist.: 7.510 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img036.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9927833333333" lon="8.41748333333333">
+    <time>2014-07-23T18:59:59Z</time>
+    <name>July4ers</name>
+    <desc>Pos.: 507 / Dist.: 4.018 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img036.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.80935" lon="8.42135">
+    <time>2014-07-27T18:59:59Z</time>
+    <name>we-base</name>
+    <desc>Pos.: 508 / Dist.: 20.398 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img036.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9605166666667" lon="8.45293333333333">
+    <time>2014-07-27T18:59:59Z</time>
+    <name>geo.hammer</name>
+    <desc>Pos.: 509 / Dist.: 16.979 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img036.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9593833333333" lon="8.50025">
+    <time>2014-08-06T18:59:59Z</time>
+    <name>legguM</name>
+    <desc>Pos.: 510 / Dist.: 3.593 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img037.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9623" lon="8.5731">
+    <time>2014-08-08T18:59:59Z</time>
+    <name>Strandhotel</name>
+    <desc>Pos.: 511 / Dist.: 5.538 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img037.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9677" lon="8.59296666666667">
+    <time>2014-08-15T18:59:59Z</time>
+    <name>Crazy-Bikers</name>
+    <desc>Pos.: 512 / Dist.: 1.623 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img037.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0679666666667" lon="8.6215">
+    <time>2014-08-19T18:59:59Z</time>
+    <name>Ado &amp; Lomoli</name>
+    <desc>Pos.: 513 / Dist.: 11.356 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img038.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.12175" lon="8.63651666666667">
+    <time>2014-09-14T18:59:59Z</time>
+    <name>baenzfamily</name>
+    <desc>Pos.: 514 / Dist.: 6.087 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img038.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1436333333333" lon="8.65278333333333">
+    <time>2014-09-27T18:59:59Z</time>
+    <name>benitos family</name>
+    <desc>Pos.: 515 / Dist.: 2.727 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img038.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1676333333333" lon="8.73165">
+    <time>2014-10-08T18:59:59Z</time>
+    <name>daisy1620</name>
+    <desc>Pos.: 516 / Dist.: 6.533 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img038.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1931666666667" lon="8.67605">
+    <time>2014-10-12T18:59:59Z</time>
+    <name>topaz58</name>
+    <desc>Pos.: 517 / Dist.: 5.071 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img039.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.2012833333333" lon="8.69083333333333">
+    <time>2014-12-02T20:00:00Z</time>
+    <name>swiss_sombrero</name>
+    <desc>Pos.: 518 / Dist.: 1.436 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img039.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.12585" lon="8.74491666666667">
+    <time>2014-12-05T20:00:00Z</time>
+    <name>ladytwo2</name>
+    <desc>Pos.: 519 / Dist.: 9.331 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img039.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1675" lon="8.76686666666667">
+    <time>2014-12-06T20:00:00Z</time>
+    <name>Ofner</name>
+    <desc>Pos.: 520 / Dist.: 4.920 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img039.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1823" lon="8.85595">
+    <time>2014-12-20T20:00:00Z</time>
+    <name>popfex</name>
+    <desc>Pos.: 521 / Dist.: 6.931 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img040.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.2544833333333" lon="9.04005">
+    <time>2014-12-20T20:00:00Z</time>
+    <name>cats1611</name>
+    <desc>Pos.: 522 / Dist.: 16.054 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img040.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.21635" lon="8.97076666666667">
+    <time>2015-01-02T17:07:54Z</time>
+    <name>MHM G-Team</name>
+    <desc>Pos.: 523 / Dist.: 6.733 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img040.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1726833333333" lon="9.00965">
+    <time>2015-01-05T20:00:00Z</time>
+    <name>Michix</name>
+    <desc>Pos.: 524 / Dist.: 5.675 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img041.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1151333333333" lon="9.21623333333333">
+    <time>2015-01-10T20:00:00Z</time>
+    <name>curwas</name>
+    <desc>Pos.: 525 / Dist.: 16.883 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img041.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.12405" lon="9.30135">
+    <time>2015-01-11T20:00:00Z</time>
+    <name>rg4980</name>
+    <desc>Pos.: 526 / Dist.: 6.516 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img042.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.0509333333333" lon="9.43656666666667">
+    <time>2015-01-12T20:00:00Z</time>
+    <name>bloeterli</name>
+    <desc>Pos.: 527 / Dist.: 13.072 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img042.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9695" lon="9.5773">
+    <time>2015-01-13T20:00:00Z</time>
+    <name>Team Raclettis</name>
+    <desc>Pos.: 528 / Dist.: 13.994 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img043.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9735166666667" lon="9.64098333333333">
+    <time>2015-01-13T20:00:00Z</time>
+    <name>ady73</name>
+    <desc>Pos.: 529 / Dist.: 4.852 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img043.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9783" lon="9.65696666666667">
+    <time>2015-01-15T20:00:00Z</time>
+    <name>chaufma</name>
+    <desc>Pos.: 530 / Dist.: 1.324 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img043.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9563333333333" lon="9.70458333333333">
+    <time>2015-01-16T20:00:00Z</time>
+    <name>plausi</name>
+    <desc>Pos.: 531 / Dist.: 4.361 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img044.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.90365" lon="9.82506666666667">
+    <time>2015-01-18T20:00:00Z</time>
+    <name>heromir</name>
+    <desc>Pos.: 532 / Dist.: 10.863 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img044.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.8840833333333" lon="9.85718333333333">
+    <time>2015-01-20T20:00:00Z</time>
+    <name>martina08</name>
+    <desc>Pos.: 533 / Dist.: 3.269 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img044.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.8131" lon="9.84505">
+    <time>2015-02-12T20:00:00Z</time>
+    <name>loslachen.ch</name>
+    <desc>Pos.: 534 / Dist.: 7.946 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img044.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7281833333333" lon="9.77118333333333">
+    <time>2015-02-22T20:00:00Z</time>
+    <name>nuggetpete</name>
+    <desc>Pos.: 535 / Dist.: 10.991 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img045.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.67505" lon="9.67203333333333">
+    <time>2015-02-24T20:00:00Z</time>
+    <name>Ferratum</name>
+    <desc>Pos.: 536 / Dist.: 9.595 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img045.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.6785333333333" lon="9.53021666666667">
+    <time>2015-03-21T18:59:59Z</time>
+    <name>Bigiwo</name>
+    <desc>Pos.: 537 / Dist.: 10.826 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img045.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.6992166666667" lon="9.46756666666667">
+    <time>2015-04-21T18:59:59Z</time>
+    <name>bigGBS</name>
+    <desc>Pos.: 538 / Dist.: 5.303 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img045.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.6842666666667" lon="9.446">
+    <time>2015-04-22T18:59:59Z</time>
+    <name>Servaz</name>
+    <desc>Pos.: 539 / Dist.: 2.339 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img045.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.6368666666667" lon="9.44113333333333">
+    <time>2015-04-24T14:10:44Z</time>
+    <name>Madmeck</name>
+    <desc>Pos.: 540 / Dist.: 5.283 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img046.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.4623833333333" lon="9.18375">
+    <time>2015-04-26T18:59:59Z</time>
+    <name>agrifoglio</name>
+    <desc>Pos.: 541 / Dist.: 27.636 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img046.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.3233666666667" lon="9.2152">
+    <time>2015-04-27T18:59:59Z</time>
+    <name>Grampasso</name>
+    <desc>Pos.: 542 / Dist.: 15.644 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img046.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.2151333333333" lon="9.03905">
+    <time>2015-04-28T18:59:59Z</time>
+    <name>Coattis</name>
+    <desc>Pos.: 543 / Dist.: 18.115 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img046.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.1903666666667" lon="9.02606666666667">
+    <time>2015-04-28T18:59:59Z</time>
+    <name>NikNikko</name>
+    <desc>Pos.: 544 / Dist.: 2.929 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img046.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.1944333333333" lon="9.00096666666667">
+    <time>2015-04-29T18:59:59Z</time>
+    <name>lunzebiene</name>
+    <desc>Pos.: 545 / Dist.: 1.984 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img047.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.1654166666667" lon="8.94725">
+    <time>2015-04-29T18:59:59Z</time>
+    <name>Grob+CPM</name>
+    <desc>Pos.: 546 / Dist.: 5.245 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img047.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.0979666666667" lon="8.92411666666667">
+    <time>2015-04-29T18:59:59Z</time>
+    <name>Elijah Six</name>
+    <desc>Pos.: 547 / Dist.: 7.709 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img047.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.0054" lon="8.96143333333333">
+    <time>2015-04-29T18:59:59Z</time>
+    <name>drmitch74</name>
+    <desc>Pos.: 548 / Dist.: 10.688 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img047.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.0277" lon="8.91911666666667">
+    <time>2015-04-30T18:59:59Z</time>
+    <name>SonoStrano81</name>
+    <desc>Pos.: 549 / Dist.: 4.102 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img048.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="45.95415" lon="8.95">
+    <time>2015-04-30T18:59:59Z</time>
+    <name>b2b4</name>
+    <desc>Pos.: 550 / Dist.: 8.519 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img048.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="45.9535166666667" lon="8.95866666666667">
+    <time>2015-05-01T18:59:59Z</time>
+    <name>lukem18</name>
+    <desc>Pos.: 551 / Dist.: 0.674 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img048.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="45.9715666666667" lon="8.97066666666667">
+    <time>2015-06-29T18:59:59Z</time>
+    <name>GeoFellow</name>
+    <desc>Pos.: 552 / Dist.: 2.211 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img048.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="45.87735" lon="8.98103333333333">
+    <time>2015-07-06T18:59:59Z</time>
+    <name>coco.ch</name>
+    <desc>Pos.: 553 / Dist.: 10.507 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img048.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="45.9701166666667" lon="8.8818">
+    <time>2015-07-16T14:00:11Z</time>
+    <name>Piratenbär</name>
+    <desc>Pos.: 554 / Dist.: 12.857 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.0682666666667" lon="8.92981666666667">
+    <time>2015-07-19T18:59:59Z</time>
+    <name>Thai-TukTuk</name>
+    <desc>Pos.: 555 / Dist.: 11.526 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img049.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.1440666666667" lon="8.9418">
+    <time>2015-07-24T18:59:59Z</time>
+    <name>coco.ch</name>
+    <desc>Pos.: 556 / Dist.: 8.479 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img049.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.1708666666667" lon="8.9151">
+    <time>2015-07-25T18:59:59Z</time>
+    <name>monty-CH</name>
+    <desc>Pos.: 557 / Dist.: 3.621 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img049.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.1841666666667" lon="8.8546">
+    <time>2015-07-27T18:59:59Z</time>
+    <name>Total4</name>
+    <desc>Pos.: 558 / Dist.: 4.887 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img049.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.1637333333333" lon="8.7547">
+    <time>2015-07-28T13:56:30Z</time>
+    <name>Jack Dalton</name>
+    <desc>Pos.: 559 / Dist.: 8.020 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img049.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.18325" lon="8.8489">
+    <time>2015-07-30T18:59:59Z</time>
+    <name>SchregiWeiss</name>
+    <desc>Pos.: 560 / Dist.: 7.571 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img050.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.1959" lon="8.84631666666667">
+    <time>2015-07-31T18:59:59Z</time>
+    <name>casamafa</name>
+    <desc>Pos.: 561 / Dist.: 1.421 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img050.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.1735666666667" lon="8.7884">
+    <time>2015-08-03T18:59:59Z</time>
+    <name>HugBee</name>
+    <desc>Pos.: 562 / Dist.: 5.103 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img050.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.179" lon="8.97295">
+    <time>2015-08-03T18:59:59Z</time>
+    <name>ticinese</name>
+    <desc>Pos.: 563 / Dist.: 14.222 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img050.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.2086666666667" lon="9.03285">
+    <time>2015-08-13T18:59:59Z</time>
+    <name>Wizard8</name>
+    <desc>Pos.: 564 / Dist.: 5.669 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img051.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.47755" lon="8.39831666666667">
+    <time>2015-08-30T18:59:59Z</time>
+    <name>Piratenbär</name>
+    <desc>Pos.: 565 / Dist.: 57.149 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img051.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.5057833333333" lon="8.32018333333333">
+    <time>2015-09-19T18:59:59Z</time>
+    <name>BelTicino</name>
+    <desc>Pos.: 566 / Dist.: 6.755 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img051.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.6287833333333" lon="8.3045">
+    <time>2015-09-28T18:59:59Z</time>
+    <name>coco.ch</name>
+    <desc>Pos.: 567 / Dist.: 13.729 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img051.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7005833333333" lon="8.2328">
+    <time>2015-10-10T18:59:59Z</time>
+    <name>eragon10</name>
+    <desc>Pos.: 568 / Dist.: 9.678 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img051.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7548333333333" lon="8.03868333333333">
+    <time>2016-02-03T20:00:00Z</time>
+    <name>O-Laeufer</name>
+    <desc>Pos.: 569 / Dist.: 15.977 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img051.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.6903666666667" lon="7.8543">
+    <time>2016-02-04T20:00:00Z</time>
+    <name>O-Laeufer</name>
+    <desc>Pos.: 570 / Dist.: 15.777 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img052.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.6852333333333" lon="7.74763333333333">
+    <time>2016-02-04T20:27:46Z</time>
+    <name>ginicat</name>
+    <desc>Pos.: 571 / Dist.: 8.156 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img052.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.77305" lon="7.68185">
+    <time>2016-02-07T20:00:00Z</time>
+    <name>HUCK64</name>
+    <desc>Pos.: 572 / Dist.: 10.976 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img052.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.8071833333333" lon="7.56966666666667">
+    <time>2016-02-08T20:00:00Z</time>
+    <name>Eltitas</name>
+    <desc>Pos.: 573 / Dist.: 9.346 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img052.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.81365" lon="7.50295">
+    <time>2016-02-14T20:00:00Z</time>
+    <name>Miromas</name>
+    <desc>Pos.: 574 / Dist.: 5.128 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img053.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.78025" lon="7.4466">
+    <time>2016-02-16T20:00:00Z</time>
+    <name>Sarah-CH</name>
+    <desc>Pos.: 575 / Dist.: 5.674 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img053.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7428166666667" lon="7.45661666666667">
+    <time>2016-02-20T08:33:33Z</time>
+    <name>mrsWyss</name>
+    <desc>Pos.: 576 / Dist.: 4.232 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img053.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7318666666667" lon="7.44813333333333">
+    <time>2016-03-02T20:00:00Z</time>
+    <name>Stögu</name>
+    <desc>Pos.: 577 / Dist.: 1.379 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img053.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7131833333333" lon="7.36685">
+    <time>2016-03-26T18:59:59Z</time>
+    <name>chapferebg</name>
+    <desc>Pos.: 578 / Dist.: 6.535 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img054.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7131833333333" lon="7.35358333333333">
+    <time>2016-04-10T18:59:59Z</time>
+    <name>niesenschatten</name>
+    <desc>Pos.: 579 / Dist.: 1.011 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img054.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7326666666667" lon="7.29306666666667">
+    <time>2016-07-24T18:59:59Z</time>
+    <name>SamXXXX</name>
+    <desc>Pos.: 580 / Dist.: 5.096 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img054.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.7992833333333" lon="7.17656666666667">
+    <time>2016-10-29T14:54:00Z</time>
+    <name>ginicat</name>
+    <desc>Pos.: 581 / Dist.: 11.558 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img054.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.81895" lon="7.1548">
+    <time>2016-10-31T18:59:59Z</time>
+    <name>ricoan</name>
+    <desc>Pos.: 582 / Dist.: 2.743 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img054.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.8311333333333" lon="7.1476">
+    <time>2016-11-22T20:00:00Z</time>
+    <name>Hagepulver</name>
+    <desc>Pos.: 583 / Dist.: 1.461 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img054.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.91205" lon="7.12635">
+    <time>2016-11-25T21:34:03Z</time>
+    <name>magali76</name>
+    <desc>Pos.: 584 / Dist.: 9.141 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img054.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.8821666666667" lon="7.0506">
+    <time>2016-11-26T20:00:00Z</time>
+    <name>Funny52</name>
+    <desc>Pos.: 585 / Dist.: 6.646 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img054.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.8508833333333" lon="6.84941666666667">
+    <time>2016-12-03T08:20:00Z</time>
+    <name>Gillou_69</name>
+    <desc>Pos.: 586 / Dist.: 15.685 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img055.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.2928" lon="6.24525">
+    <time>2016-12-03T20:00:00Z</time>
+    <name>Agathon</name>
+    <desc>Pos.: 587 / Dist.: 77.351 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img055.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.23925" lon="6.22258333333333">
+    <time>2016-12-04T20:00:00Z</time>
+    <name>Carangue</name>
+    <desc>Pos.: 588 / Dist.: 6.204 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img055.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.1874166666667" lon="6.18428333333333">
+    <time>2016-12-05T20:00:00Z</time>
+    <name>danlm</name>
+    <desc>Pos.: 589 / Dist.: 6.473 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img056.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.2002166666667" lon="6.11668333333333">
+    <time>2016-12-07T20:00:00Z</time>
+    <name>taphrina81</name>
+    <desc>Pos.: 590 / Dist.: 5.394 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img056.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.1321333333333" lon="5.95651666666667">
+    <time>2016-12-07T20:00:00Z</time>
+    <name>FXR&amp;Girl&apos;sPowerTeam</name>
+    <desc>Pos.: 591 / Dist.: 14.472 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img056.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.2453166666667" lon="6.08236666666667">
+    <time>2016-12-10T20:00:00Z</time>
+    <name>Pirates de Bacchus</name>
+    <desc>Pos.: 592 / Dist.: 15.881 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img057.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.1842333333333" lon="6.11943333333333">
+    <time>2016-12-10T20:00:00Z</time>
+    <name>Ecureuils de Genève</name>
+    <desc>Pos.: 593 / Dist.: 7.366 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img057.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.3115833333333" lon="6.12016666666667">
+    <time>2016-12-11T20:00:00Z</time>
+    <name>papschallex</name>
+    <desc>Pos.: 594 / Dist.: 14.160 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img057.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.3487833333333" lon="6.18446666666667">
+    <time>2016-12-11T20:00:00Z</time>
+    <name>agauch</name>
+    <desc>Pos.: 595 / Dist.: 6.440 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img057.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.3486666666667" lon="6.20843333333333">
+    <time>2016-12-12T20:00:00Z</time>
+    <name>Fidji82</name>
+    <desc>Pos.: 596 / Dist.: 1.840 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img058.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.3706666666667" lon="6.2328">
+    <time>2016-12-12T20:00:00Z</time>
+    <name>Dadandhis3girls</name>
+    <desc>Pos.: 597 / Dist.: 3.079 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img058.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.3817833333333" lon="6.24076666666667">
+    <time>2016-12-13T20:00:00Z</time>
+    <name>GrossATuin</name>
+    <desc>Pos.: 598 / Dist.: 1.379 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img058.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.45905" lon="6.34211666666667">
+    <time>2016-12-17T20:00:00Z</time>
+    <name>Thanh61</name>
+    <desc>Pos.: 599 / Dist.: 11.583 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img059.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.5037333333333" lon="6.49408333333333">
+    <time>2016-12-18T20:00:00Z</time>
+    <name>Sbarmet</name>
+    <desc>Pos.: 600 / Dist.: 12.652 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img059.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.5127833333333" lon="6.56843333333333">
+    <time>2016-12-22T20:00:00Z</time>
+    <name>Jorg64</name>
+    <desc>Pos.: 601 / Dist.: 5.778 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img059.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.5051" lon="6.62813333333333">
+    <time>2016-12-22T12:16:11Z</time>
+    <name>MAMSS</name>
+    <desc>Pos.: 602 / Dist.: 4.648 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img059.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.4724333333333" lon="6.7987">
+    <time>2016-12-22T20:00:00Z</time>
+    <name>patrick&amp;patricia</name>
+    <desc>Pos.: 603 / Dist.: 13.553 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img059.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.4625333333333" lon="6.84531666666667">
+    <time>2016-12-23T20:00:00Z</time>
+    <name>Marafska</name>
+    <desc>Pos.: 604 / Dist.: 3.736 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img060.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.4752166666667" lon="6.84973333333333">
+    <time>2016-12-24T20:00:00Z</time>
+    <name>pchappuis</name>
+    <desc>Pos.: 605 / Dist.: 1.450 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img061.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.4197833333333" lon="6.92905">
+    <time>2016-12-26T20:00:00Z</time>
+    <name>K.oline1</name>
+    <desc>Pos.: 606 / Dist.: 8.655 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img061.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.3925" lon="6.80408333333333">
+    <time>2016-12-26T20:00:00Z</time>
+    <name>mine de rien</name>
+    <desc>Pos.: 607 / Dist.: 10.050 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img061.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.33985" lon="6.89095">
+    <time>2016-12-26T20:00:00Z</time>
+    <name>AnneB25</name>
+    <desc>Pos.: 608 / Dist.: 8.871 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img061.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.23445" lon="6.99945">
+    <time>2016-12-27T20:00:00Z</time>
+    <name>Tourelles</name>
+    <desc>Pos.: 609 / Dist.: 14.382 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img062.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.1442666666667" lon="7.02945">
+    <time>2016-12-29T20:00:00Z</time>
+    <name>BUZZ L&apos;ECLAIR</name>
+    <desc>Pos.: 610 / Dist.: 10.290 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img062.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.0945166666667" lon="7.0745">
+    <time>2016-12-29T20:00:00Z</time>
+    <name>megote</name>
+    <desc>Pos.: 611 / Dist.: 6.531 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img062.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.1479166666667" lon="7.17263333333333">
+    <time>2016-12-31T13:17:11Z</time>
+    <name>lsvetri 4</name>
+    <desc>Pos.: 612 / Dist.: 9.615 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img062.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.2054666666667" lon="7.23223333333333">
+    <time>2016-12-31T15:05:44Z</time>
+    <name>Bibi labricole</name>
+    <desc>Pos.: 613 / Dist.: 7.874 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img062.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.2272666666667" lon="7.28203333333333">
+    <time>2017-01-01T16:13:00Z</time>
+    <name>Gillou_69</name>
+    <desc>Pos.: 614 / Dist.: 4.534 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img063.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.2126" lon="7.32215">
+    <time>2017-01-08T12:35:37Z</time>
+    <name>lsvetri 4</name>
+    <desc>Pos.: 615 / Dist.: 3.491 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img063.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.2305333333333" lon="7.33455">
+    <time>2017-01-14T20:00:00Z</time>
+    <name>Bibifricotin</name>
+    <desc>Pos.: 616 / Dist.: 2.210 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img063.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.2342333333333" lon="7.37431666666667">
+    <time>2017-01-21T20:00:00Z</time>
+    <name>Huck1974</name>
+    <desc>Pos.: 617 / Dist.: 3.086 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img064.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.2937833333333" lon="7.52758333333333">
+    <time>2017-02-17T20:00:00Z</time>
+    <name>marujave</name>
+    <desc>Pos.: 618 / Dist.: 13.515 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img064.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.4964833333333" lon="7.66973333333333">
+    <time>2017-04-26T20:08:29Z</time>
+    <name>ginicat</name>
+    <desc>Pos.: 619 / Dist.: 25.036 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img064.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.5326833333333" lon="7.66265">
+    <time>2017-04-29T18:59:59Z</time>
+    <name>julmat</name>
+    <desc>Pos.: 620 / Dist.: 4.061 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img065.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.6169" lon="7.68305">
+    <time>2017-05-07T18:59:59Z</time>
+    <name>keenonkites</name>
+    <desc>Pos.: 621 / Dist.: 9.493 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img065.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+</gpx>
