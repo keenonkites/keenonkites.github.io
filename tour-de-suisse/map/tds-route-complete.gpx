@@ -1953,7 +1953,7 @@
  </trk>
  <trk>
   <name>Tour de Suisse (GCQG54) - Route 2017</name>
-  <desc>Total Pos.: 9 / Total Dist.: 76.352 km</desc>
+  <desc>Total Pos.: 10 / Total Dist.: 86.105 km</desc>
     <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img063.jpg</link>
   <trkseg>
    <trkpt lon="7.23223333333333" lat="46.2054666666667">
@@ -1985,6 +1985,9 @@
    </trkpt>
    <trkpt lon="7.81006666666667" lat="46.6621833333333">
     <time>2017-05-09T18:59:59Z</time>
+   </trkpt>
+   <trkpt lon="7.68838333333333" lat="46.6890833333333">
+    <time>2017-05-10T18:59:59Z</time>
    </trkpt>
   </trkseg>
  </trk>
