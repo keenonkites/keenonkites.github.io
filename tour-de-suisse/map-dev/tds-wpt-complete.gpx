@@ -3971,6 +3971,14 @@
     <time>2017-05-11T12:00:00Z</time>
     <name>kaka63</name>
     <desc>Pos.: 624 / Dist.: 9.089 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img066.jpg</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.8001333333333" lon="7.62613333333333">
+    <time>2017-05-12T12:00:00Z</time>
+    <name>Eltitas</name>
+    <desc>Pos.: 625 / Dist.: 4.448 km</desc>
+    <link>http://keenonkites.github.io/tour-de-suisse/logbook/logbook.html#img066.jpg</link>
     <sym>Pin, Blue</sym>
    </wpt>
 </gpx>
