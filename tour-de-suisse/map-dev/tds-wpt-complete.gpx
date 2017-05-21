@@ -4000,16 +4000,10 @@
     <desc>Pos.: 628 / Dist.: 11.265 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
-   <wpt lat="46.9122166666667" lon="7.8503">
-    <time>2017-05-20T12:00:00Z</time>
-    <name>Wake_Girl</name>
-    <desc>Pos.: 629 / Dist.: 7.780 km</desc>
-    <sym>Pin, Blue</sym>
-   </wpt>
    <wpt lat="46.9120166666667" lon="7.85011666666667">
     <time>2017-05-20T12:00:00Z</time>
     <name>Wake_Girl</name>
-    <desc>Pos.: 630 / Dist.: 0.026 km</desc>
+    <desc>Pos.: 629 / Dist.: 7.768 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
 </gpx>
