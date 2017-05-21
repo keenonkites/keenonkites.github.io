@@ -2249,7 +2249,7 @@
    </wpt>
    <wpt lat="46.8518166666667" lon="7.4731">
     <time>2013-02-01T20:00:00Z</time>
-    <name>Fribj</name>
+    <name>Emmentaler</name>
     <desc>Pos.: 375 / Dist.: 13.413 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
@@ -3992,6 +3992,18 @@
     <time>2017-05-18T09:22:00Z</time>
     <name>Poro79</name>
     <desc>Pos.: 627 / Dist.: 6.991 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9168" lon="7.74808333333333">
+    <time>2017-05-20T12:00:00Z</time>
+    <name>Näkemiin</name>
+    <desc>Pos.: 628 / Dist.: 11.265 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="46.9120166666667" lon="7.85011666666667">
+    <time>2017-05-20T12:00:00Z</time>
+    <name>Wake_Girl</name>
+    <desc>Pos.: 629 / Dist.: 7.768 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
 </gpx>
