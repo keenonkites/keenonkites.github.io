@@ -81,6 +81,8 @@ my $tds_publish = Time::Piece->strptime("2017/05/23", "%Y/%m/%d");
 my $tds_age = $now - $tds_publish;
 my $tds_age_days = int($tds_age->days);
 my $tds_age_weeks = int(($tds_age_days / 7) + 0.5);
+if ( $tds_age_weeks == 0 ) { $tds_age_weeks = 1; }
+
 
 # Read the exported tds.gpx (XML file) into a variable
 # -----------------------------------------------------
