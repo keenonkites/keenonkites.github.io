@@ -1,0 +1,20 @@
+0001   0.000 km       2017-05-23T12:00:00Z  Mystic-G                                  N46 56.069 E008 00.553  GC4K1WK     
+0002  11.438 km       2017-05-30T12:00:00Z  icklesidi                                 N47 01.762 E008 04.049  GC49655     
+0003   0.365 km       2017-05-30T12:00:00Z  icklesidi                                 N47 01.799 E008 03.765  <no cache>  
+0004  10.700 km       2017-06-18T12:00:00Z  luckyfour                                 N47 05.890 E008 09.747  <no cache>  
+0005   7.130 km       2017-06-19T12:00:00Z  Piratenbä                                 N47 09.731 E008 09.425  <no cache>  
+0006   5.626 km       2017-06-21T12:00:00Z  andi e.                                   N47 12.355 E008 07.179  <no cache>  
+
+2017     6 Positionen    35.259 km
+
+Total Positions:             6
+Total Kilometer:            35.259
+
+Logs:                       21
+Coords:                      6
+
+Days:                       29
+Weeks:                       4
+Positions per Week:          1.50
+Kilometer per Week:          8.815
+Kilometer per Position:      5.877
