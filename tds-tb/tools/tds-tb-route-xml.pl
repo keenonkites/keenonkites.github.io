@@ -269,8 +269,7 @@ foreach my $logID (sort {$a <=> $b} keys( %{$XMLgpx->{wpt}->{'groundspeak:cache'
       
     }
     
-
-	}
+  }
   else {
  
     # No coordinates found, nothing to do right now
