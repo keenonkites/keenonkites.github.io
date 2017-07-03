@@ -33,4 +33,10 @@
     <desc>Pos.: 5 / Dist.: 7.130 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="47.2059166666667" lon="8.11965">
+    <time>2017-06-21T12:00:00Z</time>
+    <name>andi e.</name>
+    <desc>Pos.: 6 / Dist.: 5.626 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
