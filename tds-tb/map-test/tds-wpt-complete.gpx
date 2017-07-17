@@ -39,4 +39,10 @@
     <desc>Pos.: 6 / Dist.: 5.626 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="47.1866" lon="8.17648333333333">
+    <time>2017-07-03T12:00:00Z</time>
+    <name>simeat</name>
+    <desc>Pos.: 7 / Dist.: 4.801 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
