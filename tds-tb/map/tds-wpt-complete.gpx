@@ -45,4 +45,58 @@
     <desc>Pos.: 7 / Dist.: 4.801 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="47.15565" lon="8.24355">
+    <time>2017-07-16T12:00:00Z</time>
+    <name>w-k-b-r</name>
+    <desc>Pos.: 8 / Dist.: 6.127 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.1741333333333" lon="8.28905">
+    <time>2017-10-06T12:00:00Z</time>
+    <name>Ritibänz</name>
+    <desc>Pos.: 9 / Dist.: 4.007 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.2092833333333" lon="8.30365">
+    <time>2017-10-07T12:00:00Z</time>
+    <name>niggae</name>
+    <desc>Pos.: 10 / Dist.: 4.061 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.20915" lon="8.30381666666667">
+    <time>2017-10-07T12:00:00Z</time>
+    <name>niggae</name>
+    <desc>Pos.: 11 / Dist.: 0.019 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.2459833333333" lon="8.35775">
+    <time>2017-10-07T12:00:00Z</time>
+    <name>icklesidi</name>
+    <desc>Pos.: 12 / Dist.: 5.776 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.2461166666667" lon="8.3585">
+    <time>2017-10-07T12:00:00Z</time>
+    <name>icklesidi</name>
+    <desc>Pos.: 13 / Dist.: 0.059 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.35085" lon="8.50723333333333">
+    <time>2017-11-19T12:00:00Z</time>
+    <name>El Ritmo Fatal</name>
+    <desc>Pos.: 14 / Dist.: 16.168 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.3517833333333" lon="8.50416666666667">
+    <time>2017-11-20T12:00:00Z</time>
+    <name>El Ritmo Fatal</name>
+    <desc>Pos.: 15 / Dist.: 0.253 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.3501666666667" lon="8.50433333333333">
+    <time>2017-11-21T12:00:00Z</time>
+    <name>anika117</name>
+    <desc>Pos.: 16 / Dist.: 0.180 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
