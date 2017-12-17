@@ -5,7 +5,7 @@
  </metadata>
  <trk>
   <name>Tour de Suisse (TB8DWT0) - Route 2017</name>
-  <desc>Total Pos.: 19 / Total Dist.: 84.366 km</desc>
+  <desc>Total Pos.: 22 / Total Dist.: 98.614 km</desc>
   <trkseg>
    <trkpt lon="8.00921666666667" lat="46.9344833333333">
     <time>2017-05-23T12:00:00Z</time>
@@ -63,6 +63,15 @@
    </trkpt>
    <trkpt lon="8.51188333333333" lat="47.4106666666667">
     <time>2017-12-02T12:00:00Z</time>
+   </trkpt>
+   <trkpt lon="8.56885" lat="47.4770166666667">
+    <time>2017-12-07T12:00:00Z</time>
+   </trkpt>
+   <trkpt lon="8.56173333333333" lat="47.47005">
+    <time>2017-12-09T12:00:00Z</time>
+   </trkpt>
+   <trkpt lon="8.62441666666667" lat="47.4630833333333">
+    <time>2017-12-13T12:00:00Z</time>
    </trkpt>
   </trkseg>
  </trk>

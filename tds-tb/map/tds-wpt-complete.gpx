@@ -111,4 +111,22 @@
     <desc>Pos.: 18 / Dist.: 6.866 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="47.4106666666667" lon="8.51188333333333">
+    <time>2017-12-02T12:00:00Z</time>
+    <name>MCAarau</name>
+    <desc>Pos.: 19 / Dist.: 0.583 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.4770166666667" lon="8.56885">
+    <time>2017-12-07T12:00:00Z</time>
+    <name>müdain</name>
+    <desc>Pos.: 20 / Dist.: 8.531 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.47005" lon="8.56173333333333">
+    <time>2017-12-09T12:00:00Z</time>
+    <name>müdain</name>
+    <desc>Pos.: 21 / Dist.: 0.941 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
