@@ -129,4 +129,16 @@
     <desc>Pos.: 21 / Dist.: 0.941 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="47.4630833333333" lon="8.62441666666667">
+    <time>2017-12-13T12:00:00Z</time>
+    <name>tante resi</name>
+    <desc>Pos.: 22 / Dist.: 4.775 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.5079333333333" lon="8.63685">
+    <time>2017-12-17T12:00:00Z</time>
+    <name>fafafafa</name>
+    <desc>Pos.: 23 / Dist.: 5.074 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
