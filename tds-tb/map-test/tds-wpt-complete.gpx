@@ -147,4 +147,16 @@
     <desc>Pos.: 24 / Dist.: 1.912 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="47.5899666666667" lon="8.73663333333333">
+    <time>2017-12-24T12:00:00Z</time>
+    <name>Bücy</name>
+    <desc>Pos.: 25 / Dist.: 10.039 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.5947" lon="8.6922">
+    <time>2018-01-06T12:00:00Z</time>
+    <name>swisstypo</name>
+    <desc>Pos.: 26 / Dist.: 3.373 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
