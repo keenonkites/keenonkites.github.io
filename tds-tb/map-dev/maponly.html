@@ -300,11 +300,26 @@
 				});
 			}).addTo(map);
 		
+		var laufindex;
+		var targetCircle = [];
+//		for ( laufindex = 0; laufindex <= 1; laufindex++ ) {
+		for ( laufindex = 0; laufindex <= nextStopoverIndex - 1; laufindex++ ) {
+            var targetCircle[laufindex] = L.circleMarker(nextStopoverCoords[laufindex], {
+            	radius: 20,
+            	stroke: 5,
+            	color: '#FF3300',
+            	fillColor: '#FF704D',
+            	fillOpacity: 0.5
+            }).addTo(map).bindPopup(nextStopoverName[laufindex]);
+            targetCircle[laufindex].on('click', function (e) { this.openPopup();  });
+        }
+
 		// Put the overlay maps together into one container
 		var overlayMaps = {
 							'TdS Route': tdstrack ,
 							'TdS Waypoints': tdswpt ,
-							'TdS Position': tdswptposition
+							'TdS Position': tdswptposition , 
+							//'TdS Stopovers': tdsstopovers
 		}
 		
 		// Define and add the control panel to the map
