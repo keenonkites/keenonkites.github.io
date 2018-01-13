@@ -2,9 +2,10 @@ var nextStopoverCoords = [];
 var nextStopoverName = [];
 var stopoverIndex = 0;
 var nextStopoverIndex = 0;
+var stringStopoverDe = "Zwischenenziel ";
 
 nextStopoverCoords[nextStopoverIndex] = [47.352014, 8.509486];
-nextStopoverName[nextStopoverIndex]   = "Zwischenziel 1<br>Stopover 1<br>Schützenhaus Albisgüetli";
+nextStopoverName[nextStopoverIndex]   = stringStopoverDe.concat ( nextStopoverIndex + 1, "<br>Stopover ", nextStopoverIndex + 1, "<br>SchÃ¼tzenhaus AlbisgÃ¼etli");
 stopoverIndex++;
 nextStopoverIndex++;
 
