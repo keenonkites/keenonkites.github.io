@@ -1,6 +1,7 @@
-var stopoverIndex, nextStopoverIndex, nextStopoverCoords, nextStopoverName;
-stopoverIndex = 0;
-nextStopoverIndex = 0;
+var nextStopoverCoords = [];
+var nextStopoverName = [];
+var stopoverIndex = 0;
+var nextStopoverIndex = 0;
 
 nextStopoverCoords[nextStopoverIndex] = [47.352014, 8.509486];
 nextStopoverName[nextStopoverIndex]   = "Zwischenziel 1<br>Stopover 1<br>Schützenhaus Albisgüetli";
