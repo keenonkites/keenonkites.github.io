@@ -10,11 +10,11 @@ stopoverIndex++;
 nextStopoverIndex++;
 
 nextStopoverCoords[nextStopoverIndex] = [47.696911, 8.639903];
-nextStopoverName[nextStopoverIndex]   = "Zwischenziel 2<br>Stopover 2<br>Munot Schaffhausen";
+nextStopoverName[nextStopoverIndex]   = stringStopoverDe.concat ( nextStopoverIndex + 1, "<br>Stopover ", nextStopoverIndex + 1, "<br>Munot Schaffhausen");
 stopoverIndex++;
 nextStopoverIndex++;
 
 nextStopoverCoords[nextStopoverIndex] = [47.666637, 8.981765];
-nextStopoverName[nextStopoverIndex]   = "Zwischenziel 3<br>Stopover 3<br>Rathaus Steckborn";
+nextStopoverName[nextStopoverIndex]   = stringStopoverDe.concat ( nextStopoverIndex + 1, "<br>Stopover ", nextStopoverIndex + 1, "<br>Rathaus Steckborn");
 stopoverIndex++;
 nextStopoverIndex++;
