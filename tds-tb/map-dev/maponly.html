@@ -343,16 +343,15 @@
 //		startCircle.on('mouseout',  function (e) { this.closePopup(); });
 
 		var laufindex;
-		var targetCircle = [];
 		for ( laufindex = 0; laufindex <= nextStopoverIndex; laufindex++ ) {
-            targetCircle[laufindex] = L.circleMarker(nextStopoverCoords[laufindex], {
+            var targetCircle = L.circleMarker(nextStopoverCoords[laufindex], {
             	radius: 20,
             	stroke: 5,
             	color: '#FF3300',
             	fillColor: '#FF704D',
             	fillOpacity: 0.5
             }).addTo(map).bindPopup(nextStopoverName[laufindex]);
-            targetCircle[laufindex].on('click', function (e) { this.openPopup();  });
+            targetCircle.on('click', function (e) { this.openPopup();  });
         }
 
 // 		var targetCircle1 = L.circleMarker([47.352014, 8.509486], {
