@@ -1,4 +1,4 @@
-vars stopoverIndex, nextStopoverIndex;
+var stopoverIndex, nextStopoverIndex;
 stopoverIndex = 0;
 nextStopoverIndex = 0;
 
