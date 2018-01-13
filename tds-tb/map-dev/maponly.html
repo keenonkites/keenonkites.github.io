@@ -344,14 +344,14 @@
 
 		var laufindex;
 		for ( laufindex = 0; laufindex <= nextStopoverIndex; laufindex++ ) {
-            var targetCircle1 = L.circleMarker(nextStopoverCoords[laufindex], {
+            var targetCircle[laufindex] = L.circleMarker(nextStopoverCoords[laufindex], {
             	radius: 20,
             	stroke: 5,
             	color: '#FF3300',
             	fillColor: '#FF704D',
             	fillOpacity: 0.5
             }).addTo(map).bindPopup(nextStopoverName[laufindex]);
-            targetCircle1.on('click', function (e) { this.openPopup();  });
+            targetCircle[laufindex].on('click', function (e) { this.openPopup();  });
         }
 
 // 		var targetCircle1 = L.circleMarker([47.352014, 8.509486], {
