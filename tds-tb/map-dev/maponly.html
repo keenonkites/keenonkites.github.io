@@ -343,8 +343,9 @@
 //		startCircle.on('mouseout',  function (e) { this.closePopup(); });
 
 		var laufindex;
+		var targetCircle = [];
 		for ( laufindex = 0; laufindex <= nextStopoverIndex; laufindex++ ) {
-            var targetCircle[laufindex] = L.circleMarker(nextStopoverCoords[laufindex], {
+            targetCircle[laufindex] = L.circleMarker(nextStopoverCoords[laufindex], {
             	radius: 20,
             	stroke: 5,
             	color: '#FF3300',

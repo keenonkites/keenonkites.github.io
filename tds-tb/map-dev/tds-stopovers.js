@@ -6,6 +6,7 @@ var stringStopoverDe = "Zwischenenziel ";
 
 nextStopoverCoords[nextStopoverIndex] = [47.013885, 7.959830];
 nextStopoverName[nextStopoverIndex]   = stringStopoverDe.concat ( nextStopoverIndex + 1, "<br>Stopover ", nextStopoverIndex + 1, "<br>Änziloch");
+nextStopoverName[nextStopoverIndex]   = nextStopoverName[nextStopoverIndex].concat ( nextStopoverIndex + 1, "<br>Stopover ", nextStopoverIndex + 1, "<br>Änziloch");
 stopoverIndex++;
 nextStopoverIndex++;
 
