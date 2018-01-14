@@ -309,7 +309,8 @@
             	color: '#FF3300',
             	fillColor: '#FF704D',
             	fillOpacity: 0.5
-            }).addTo(map).bindPopup(stopoverName[stopoverIndex]);
+            }).bindPopup(stopoverName[stopoverIndex]);
+			//}).addTo(map).bindPopup(stopoverName[stopoverIndex]);
             targetCircle[stopoverIndex].on('click', function (e) { this.openPopup();  });
         }
 		
