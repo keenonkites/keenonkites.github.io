@@ -300,18 +300,17 @@
 				});
 			}).addTo(map);
 
-		var laufindex;
+		//var tcLoop;
 		var targetCircle = [];
-//		for ( laufindex = 0; laufindex <= 1; laufindex++ ) {
-		for ( laufindex = 0; laufindex <= nextStopoverIndex - 1; laufindex++ ) {
-            targetCircle[laufindex] = L.circleMarker(nextStopoverCoords[laufindex], {
+		for ( stopoverIndex = stopoverFound; stopoverIndex <= stopoverCoords.length - 1; stopoverIndex++ ) {
+            targetCircle[stopoverIndex] = L.circleMarker(stopoverCoords[stopoverIndex], {
             	radius: 20,
             	stroke: 5,
             	color: '#FF3300',
             	fillColor: '#FF704D',
             	fillOpacity: 0.5
-            }).addTo(map).bindPopup(nextStopoverName[laufindex]);
-            targetCircle[laufindex].on('click', function (e) { this.openPopup();  });
+            }).addTo(map).bindPopup(stopoverName[stopoverIndex]);
+            targetCircle[stopoverIndex].on('click', function (e) { this.openPopup();  });
         }
 
 			
