@@ -3,7 +3,7 @@ var stopoverCoords = [];
 var stopoverName = [];
 var stopoverIndex = 0;
 var stopoverFound = 0;
-var stringStopover = "Zwischenenziel/Stopover ";
+var stringStopover = "Zwischenenziel / Stopover ";
 
 // Stopovers - passed
 // ------------------

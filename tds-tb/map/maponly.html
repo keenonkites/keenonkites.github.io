@@ -24,6 +24,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/leaflet@1.0.2/dist/leaflet.js"></script>
 	<script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
   <script src="tds-infoStatistics.js"></script>
+  <script src="tds-stopovers.js"></script>
 	<script>
 
 		/**	
@@ -298,7 +299,21 @@
 					marker.setIcon( redMarker );
 				});
 			}).addTo(map);
-		
+
+		//var tcLoop;
+		var targetCircle = [];
+		for ( stopoverIndex = stopoverFound; stopoverIndex <= stopoverCoords.length - 1; stopoverIndex++ ) {
+            targetCircle[stopoverIndex] = L.circleMarker(stopoverCoords[stopoverIndex], {
+            	radius: 20,
+            	stroke: 5,
+            	color: '#FF3300',
+            	fillColor: '#FF704D',
+            	fillOpacity: 0.5
+            }).addTo(map).bindPopup(stopoverName[stopoverIndex]);
+            targetCircle[stopoverIndex].on('click', function (e) { this.openPopup();  });
+        }
+
+			
 		// Put the overlay maps together into one container
 		var overlayMaps = {
 							'TdS Route': tdstrack ,
@@ -341,32 +356,6 @@
 		startCircle.on('click', function (e) { this.openPopup();  });
 //		startCircle.on('mouseout',  function (e) { this.closePopup(); });
 
- 		var targetCircle1 = L.circleMarker([47.352014, 8.509486], {
-			radius: 20,
-			stroke: 5,
-			color: '#FF3300',
-			fillColor: '#FF704D',
-			fillOpacity: 0.5
-		}).addTo(map).bindPopup("Zwischenziel 1<br>Stopover 1<br>Schützenhaus Albisgüetli");
-		targetCircle1.on('click', function (e) { this.openPopup();  });
-
- 		var targetCircle2 = L.circleMarker([47.696911, 8.639903], {
-			radius: 20,
-			stroke: 5,
-			color: '#FF3300',
-			fillColor: '#FF704D',
-			fillOpacity: 0.5
-		}).addTo(map).bindPopup("Zwischenziel 2<br>Stopover 2<br>Munot Schaffhausen");
-		targetCircle2.on('click', function (e) { this.openPopup();  });
-
- 		var targetCircle3 = L.circleMarker([47.666637, 8.981765], {
-			radius: 20,
-			stroke: 5,
-			color: '#FF3300',
-			fillColor: '#FF704D',
-			fillOpacity: 0.5
-		}).addTo(map).bindPopup("Zwischenziel 3<br>Stopover 3<br>Rathaus Steckborn");
-		targetCircle3.on('click', function (e) { this.openPopup();  });
 		
  
 	</script>
