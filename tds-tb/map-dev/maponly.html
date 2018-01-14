@@ -312,13 +312,15 @@
             }).addTo(map).bindPopup(stopoverName[stopoverIndex]);
             targetCircle[stopoverIndex].on('click', function (e) { this.openPopup();  });
         }
-
+		
+		var tdsstopovers = L.layerGroup(targetCircle);
 			
 		// Put the overlay maps together into one container
 		var overlayMaps = {
 							'TdS Route': tdstrack ,
 							'TdS Waypoints': tdswpt ,
-							'TdS Position': tdswptposition
+							'TdS Position': tdswptposition,
+							'TdS Zwischenhalte': tdsstopovers
 		}
 		
 		// Define and add the control panel to the map
