@@ -159,4 +159,10 @@
     <desc>Pos.: 26 / Dist.: 3.373 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="47.6233" lon="8.65158333333333">
+    <time>2018-01-06T12:00:00Z</time>
+    <name>a smile for you</name>
+    <desc>Pos.: 27 / Dist.: 4.403 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
