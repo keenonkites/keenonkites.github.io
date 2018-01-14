@@ -301,6 +301,7 @@
 			}).addTo(map);
 
 		//var tcLoop;
+		var stopoversFuture = L.featureGroup();
 		var targetCircle = [];
 		for ( stopoverIndex = stopoverFound; stopoverIndex <= stopoverCoords.length - 1; stopoverIndex++ ) {
             targetCircle[stopoverIndex] = L.circleMarker(stopoverCoords[stopoverIndex], {
@@ -309,11 +310,11 @@
             	color: '#FF3300',
             	fillColor: '#FF704D',
             	fillOpacity: 0.5
-			}).addTo(map).bindPopup(stopoverName[stopoverIndex]);
+			}).addTo(stopoversFuture).bindPopup(stopoverName[stopoverIndex]);
             targetCircle[stopoverIndex].on('click', function (e) { this.openPopup();  });
         }
 		
-		var tdsstopovers = L.layerGroup([targetCircle]);
+		var tdsstopovers = map.addLayer(stopoversFuture);
 			
 		// Put the overlay maps together into one container
 		var overlayMaps = {
