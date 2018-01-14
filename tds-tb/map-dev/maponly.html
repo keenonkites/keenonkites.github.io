@@ -309,19 +309,18 @@
             	color: '#FF3300',
             	fillColor: '#FF704D',
             	fillOpacity: 0.5
-            }).bindPopup(stopoverName[stopoverIndex]);
-			//}).addTo(map).bindPopup(stopoverName[stopoverIndex]);
+			}).addTo(map).bindPopup(stopoverName[stopoverIndex]);
             targetCircle[stopoverIndex].on('click', function (e) { this.openPopup();  });
         }
 		
-		var tdsstopovers = L.layerGroup(targetCircle);
+		//var tdsstopovers = L.layerGroup(targetCircle);
 			
 		// Put the overlay maps together into one container
 		var overlayMaps = {
 							'TdS Route': tdstrack ,
 							'TdS Waypoints': tdswpt ,
 							'TdS Position': tdswptposition,
-							'TdS Zwischenhalte': tdsstopovers
+							//'TdS Zwischenhalte': tdsstopovers
 		}
 		
 		// Define and add the control panel to the map
