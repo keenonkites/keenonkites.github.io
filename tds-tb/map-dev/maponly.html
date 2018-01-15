@@ -300,8 +300,19 @@
 				});
 			}).addTo(map);
 
-		//var tcLoop;
+			// Create a clear circle for the very starting of the Tour for easier identifying
 		var stopoversFuture = L.featureGroup();
+ 		var startCircle = L.circleMarker([46.93448, 8.00922], {
+			radius: 20,
+			stroke: 5,
+			color: '#003300',
+			fillColor: '#00ff00',
+			fillOpacity: 0.5
+		}).addTo(stopoversFuture).bindPopup("TdS<br>Start");
+
+		startCircle.on('click', function (e) { this.openPopup();  });
+
+		//var tcLoop;
 		var targetCircle = [];
 		for ( stopoverIndex = 0; stopoverIndex <= stopoverCoords.length - 1; stopoverIndex++ ) {
 //		for ( stopoverIndex = stopoverFound; stopoverIndex <= stopoverCoords.length - 1; stopoverIndex++ ) {
@@ -311,7 +322,7 @@
             	color: '#FF3300',
             	fillColor: '#FF704D',
             	fillOpacity: 0.5
-			}).addTo(stopoversFuture).bindPopup(stopoverName[stopoverIndex]);
+			}).addTo(map).bindPopup(stopoverName[stopoverIndex]);
             targetCircle[stopoverIndex].on('click', function (e) { this.openPopup();  });
         }
 		
@@ -349,16 +360,6 @@
       .openOn(map);
       });
 
-		// Create a clear circle for the very starting of the Tour for easier identifying
- 		var startCircle = L.circleMarker([46.93448, 8.00922], {
-			radius: 20,
-			stroke: 5,
-			color: '#003300',
-			fillColor: '#00ff00',
-			fillOpacity: 0.5
-		}).addTo(map).bindPopup("TdS<br>Start");
-		startCircle.on('click', function (e) { this.openPopup();  });
-//		startCircle.on('mouseout',  function (e) { this.closePopup(); });
 
 		
  
