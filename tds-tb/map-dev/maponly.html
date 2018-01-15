@@ -300,30 +300,28 @@
 				});
 			}).addTo(map);
 
-			// Create a clear circle for the very starting of the Tour for easier identifying
-		var stopoversFuture = L.layerGroup();
+		// Create a clear circle for the very starting of the Tour for easier identifying
  		var startCircle = L.circleMarker([46.93448, 8.00922], {
 			radius: 20,
 			stroke: 5,
 			color: '#003300',
 			fillColor: '#00ff00',
 			fillOpacity: 0.5
-		}).addTo(stopoversFuture).bindPopup("TdS<br>Start");
-
+		}).addTo(map).bindPopup("TdS<br>Start");
 		startCircle.on('click', function (e) { this.openPopup();  });
 
-		//var tcLoop;
-		var targetCircle = [];
-		for ( stopoverIndex = 0; stopoverIndex <= stopoverCoords.length - 1; stopoverIndex++ ) {
-//		for ( stopoverIndex = stopoverFound; stopoverIndex <= stopoverCoords.length - 1; stopoverIndex++ ) {
-            targetCircle[stopoverIndex] = L.circleMarker(stopoverCoords[stopoverIndex], {
+		// Circles we passed already
+		var stopoversPast = L.layerGroup();
+		var targetCirclePast = [];
+		for ( stopoverIndex = 0; stopoverIndex <= stopoverFound - 1; stopoverIndex++ ) {
+            targetCirclePast[stopoverIndex] = L.circleMarker(stopoverCoords[stopoverIndex], {
             	radius: 20,
             	stroke: 5,
             	color: '#FF3300',
             	fillColor: '#FF704D',
             	fillOpacity: 0.5
 			}).addTo(map).bindPopup(stopoverName[stopoverIndex]);
-            targetCircle[stopoverIndex].on('click', function (e) { this.openPopup();  });
+            targetCirclePast[stopoverIndex].on('click', function (e) { this.openPopup();  });
         }
 		
 		//var tdsstopovers = map.addLayer(stopoversFuture);
@@ -333,7 +331,7 @@
 							'TdS Route': tdstrack ,
 							'TdS Waypoints': tdswpt ,
 							'TdS Position': tdswptposition,
-							'TdS Zwischenhalte': stopoversFuture
+							'TdS Zwischenhalte': stopoversPast
 		}
 		
 		// Define and add the control panel to the map
