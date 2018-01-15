@@ -310,7 +310,7 @@
 		}).addTo(map).bindPopup("TdS<br>Start");
 		startCircle.on('click', function (e) { this.openPopup();  });
 
-		// Circles we passed already
+		// stopovers we passed already
 		var stopoversPast = L.layerGroup();
 		var targetCirclePast = [];
 		for ( stopoverIndex = 0; stopoverIndex <= stopoverFound - 1; stopoverIndex++ ) {
@@ -323,8 +323,24 @@
 			}).addTo(stopoversPast).bindPopup(stopoverName[stopoverIndex]);
             targetCirclePast[stopoverIndex].on('click', function (e) { this.openPopup();  });
         }
+
+		// stopovers for the future
+		var stopoversFuture = L.layerGroup();
+		var targetCircleFuture = [];
+		var stopoverIndexLocal;
+		for ( stopoverIndex = stopoverFound; stopoverIndex <= stopoverCoords.length - 1; stopoverIndex++ ) {
+			stopoverIndexLocal = stopoverIndex - stopoverFound -1;
+			targetCircleFuture[stopoverIndexLocal] = L.circleMarker(stopoverCoords[stopoverIndex], {
+            	radius: 20,
+            	stroke: 5,
+            	color: '#FF3300',
+            	fillColor: '#FF704D',
+            	fillOpacity: 0.5
+			}).addTo(stopoversFuture).bindPopup(stopoverName[stopoverIndex]);
+            targetCircleFuture[stopoverIndexLocal].on('click', function (e) { this.openPopup();  });
+        }
+		stopoversFuture.addTo(map);
 		
-		//var tdsstopovers = map.addLayer(stopoversFuture);
 			
 		// Put the overlay maps together into one container
 		var overlayMaps = {
