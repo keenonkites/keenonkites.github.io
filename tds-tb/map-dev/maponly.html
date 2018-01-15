@@ -301,7 +301,7 @@
 			}).addTo(map);
 
 			// Create a clear circle for the very starting of the Tour for easier identifying
-		var stopoversFuture = L.featureGroup();
+		var stopoversFuture = L.layerGroup();
  		var startCircle = L.circleMarker([46.93448, 8.00922], {
 			radius: 20,
 			stroke: 5,
@@ -326,14 +326,14 @@
             targetCircle[stopoverIndex].on('click', function (e) { this.openPopup();  });
         }
 		
-		var tdsstopovers = map.addLayer(stopoversFuture);
+		//var tdsstopovers = map.addLayer(stopoversFuture);
 			
 		// Put the overlay maps together into one container
 		var overlayMaps = {
 							'TdS Route': tdstrack ,
 							'TdS Waypoints': tdswpt ,
 							'TdS Position': tdswptposition,
-							'TdS Zwischenhalte': tdsstopovers
+							'TdS Zwischenhalte': stopoversFuture
 		}
 		
 		// Define and add the control panel to the map
