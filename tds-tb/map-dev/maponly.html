@@ -300,6 +300,17 @@
 				});
 			}).addTo(map);
 
+		var LeafIcon2 = L.Icon.extend({
+			options: {
+				iconSize:	  [25,  18],
+				iconAnchor:   [12,  9],
+				popupAnchor:  [25,  18]	
+			}
+		});
+		
+		// Predefine our Icons
+		var treasureMarker = new LeafIcon({iconUrl: 'marker-icon-treasure.png'});
+			
 		// Here we load all the caches
 		var tdscaches    = omnivore.gpx('tds-caches.gpx' )
 			.on ('ready', function(layer) {
@@ -307,7 +318,7 @@
 					// and define the popups for all markers
 					marker.bindPopup( "<a href=\"" +  marker.toGeoJSON().properties.link + "\" target=\"_blank\">" + 	marker.toGeoJSON().properties.desc + "</a><br>" + marker.toGeoJSON().properties.name + "<br>" + xmlDateToJavascriptDate(marker.toGeoJSON().properties.time).toLocaleDateString() );
 					marker.on('click', function (e) { this.openPopup();  });
-					marker.setIcon( blueMarker );
+					marker.setIcon( treasureMarker );
 				});
 			});
 
