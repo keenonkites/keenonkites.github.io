@@ -309,7 +309,7 @@
 		});
 		
 		// Predefine our Icons
-		var treasureMarker = new LeafIcon({iconUrl: 'marker-icon-treasure.png'});
+		var treasureMarker = new LeafIcon2({iconUrl: 'marker-icon-treasure.png'});
 			
 		// Here we load all the caches
 		var tdscaches    = omnivore.gpx('tds-caches.gpx' )
@@ -388,13 +388,19 @@
 			 if ( map.getZoom() < 11 && actualZoomlevel >= 11 ){ 
 			     map.removeLayer( tdswpt );
 				 map.removeLayer( stopoversPast );
-				 map.removeLayer( tdscaches )
 			 }
 			 else if ( map.getZoom() >= 11 && actualZoomlevel < 11 ){ 
 			     map.addLayer( tdswpt );
 				 map.addLayer( stopoversPast );
 				 map.addLayer( tdscaches )
 			 }
+			 else if ( map.getZoom() < 13 && actualZoomlevel >= 13 ){ 
+				 map.removeLayer( tdscaches )
+			 }
+			 else if ( map.getZoom() >= 13 && actualZoomlevel < 13 ){ 
+				 map.addLayer( tdscaches )
+			 }
+
 		});
     
     map.on('click', function(e) {
