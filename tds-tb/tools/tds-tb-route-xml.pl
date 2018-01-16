@@ -29,7 +29,9 @@ my $logFinder;
 my $logCache;
 my $logDate;
 my $logDateLast;
+my $logType;
 my $logCoordinates;
+my $logCoordinatesCache;
 my $logCoordNDeg;
 my $logCoordNMin;
 my $logCoordEDeg;
@@ -42,6 +44,7 @@ my $logWptLat;
 my $logWptLon;;
 my $logCounter = 0;
 my $logCoordCounter = 0;
+my $logCacheCounter = 0;
 my $currentYear = "XXXX";
 my $logYear;
 my $logDay;
@@ -98,6 +101,8 @@ open(my $fh_dst_txt, ">:encoding(UTF-8)", "tds-route-complete.txt")
   or die "Couldn't open tds-route-complete.txt for writing: $!\n";
 open(my $fh_dst_wpt, ">:encoding(UTF-8)", "tds-wpt-complete.gpx")
   or die "Couldn't open tds-wpt-complete.gpx for writing: $!\n";
+open(my $fh_dst_caches, ">:encoding(UTF-8)", "tds-caches.gpx")
+  or die "Couldn't open tds-caches.gpx for writing: $!\n";
 open(my $fh_dst_position, ">:encoding(UTF-8)", "tds-wpt-position.gpx")
   or die "Couldn't open tds-wpt-position.gpx for writing: $!\n";
 open(my $fh_dst_infoStatistics, ">:encoding(UTF-8)", "tds-infoStatistics.js")
@@ -118,6 +123,14 @@ printf { $fh_dst_wpt } ( '<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-insta
 printf { $fh_dst_wpt } ( ' <metadata>' . "\n" );
 printf { $fh_dst_wpt } ( '  <time>2014-05-31T16:32:57Z</time>' . "\n" );
 printf { $fh_dst_wpt } ( ' </metadata>' . "\n" );
+
+# Create the gpx caches
+# -------------------------
+printf { $fh_dst_caches } ( '<?xml version="1.0" encoding="UTF-8" standalone="no" ?>' . "\n" );
+printf { $fh_dst_caches } ( '<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:rmc="urn:net:trekbuddy:1.0:nmea:rmc" creator="QLandkarteGT 1.7.6.post http://www.qlandkarte.org/" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.qlandkarte.org/xmlschemas/v1.1 http://www.qlandkarte.org/xmlschemas/v1.1/ql-extensions.xsd" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:ql="http://www.qlandkarte.org/xmlschemas/v1.1">' . "\n" );
+printf { $fh_dst_caches } ( ' <metadata>' . "\n" );
+printf { $fh_dst_caches } ( '  <time>2014-05-31T16:32:57Z</time>' . "\n" );
+printf { $fh_dst_caches } ( ' </metadata>' . "\n" );
 
 # Create the gpx position header
 # -------------------------------
@@ -150,6 +163,7 @@ foreach my $logID (sort {$a <=> $b} keys( %{$XMLgpx->{wpt}->{'groundspeak:cache'
   $logCache = $XMLgpx->{wpt}->{'groundspeak:cache'}->{'groundspeak:logs'}->{'groundspeak:log'}{$logID}->{'groundspeak:finder'}{content};
   $logText = $XMLgpx->{wpt}->{'groundspeak:cache'}->{'groundspeak:logs'}->{'groundspeak:log'}{$logID}->{'groundspeak:text'}{content};
   $logDate = $XMLgpx->{wpt}->{'groundspeak:cache'}->{'groundspeak:logs'}->{'groundspeak:log'}{$logID}->{'groundspeak:date'};
+  $logType = $XMLgpx->{wpt}->{'groundspeak:cache'}->{'groundspeak:logs'}->{'groundspeak:log'}{$logID}->{'groundspeak:type'};
   
   # Get rid of eventuall Cache ID which is together with Finder
   # -----------------------------------------------------------
@@ -172,10 +186,40 @@ foreach my $logID (sort {$a <=> $b} keys( %{$XMLgpx->{wpt}->{'groundspeak:cache'
   # -------------------------------------------
   $logWptLat = $XMLgpx->{wpt}->{'groundspeak:cache'}->{'groundspeak:logs'}->{'groundspeak:log'}{$logID}->{'groundspeak:log_wpt'}{lat};
   $logWptLon = $XMLgpx->{wpt}->{'groundspeak:cache'}->{'groundspeak:logs'}->{'groundspeak:log'}{$logID}->{'groundspeak:log_wpt'}{lon};
-  
+    
   # Try to read the coordinates out of the log entry
   # ------------------------------------------------
   $logCoordinates = "";
+  $logCoordinatesCache = "";
+  
+  # In case of type 'Dropped Off', cut coordinates 
+  # ----------------------------------------------
+  # Logs of type "Dropped Off" contain Coordinates of the cache in the first line of the log text in the GPX (not visible in frontend).
+  # We cut that off and save it away for Cache layer
+  if ( $logType eq "Dropped Off" && $logText =~ /^N (4[567])° (\d\d?)\.(\d\d\d)  E (5|6|7|8|9|10)° (\d\d?)\.(\d\d\d)\n/ ) {
+    $logCoordNDeg = sprintf ( "%02d", $1);
+    $logCoordNMin = sprintf ( "%02d.%03d", $2, $3);
+    $logCoordEDeg = sprintf ( "%03d", $4);
+    $logCoordEMin = sprintf ( "%02d.%03d", $5, $6);
+    $logCoordinatesCache = "N$logCoordNDeg $logCoordNMin E$logCoordEDeg $logCoordEMin" ;
+  
+	printf { *STDERR } ( "DroppedOff: %-22s: Date: %s Finder: %-20s Cache: %s Coordinates %s\n", $logID, $logDate, $logFinder, $logCache, $logCoordinatesCache );
+	$logCacheCounter += 1;
+	
+	# Strip that Cache coordinate
+	# -----------------------------
+	$logText =~ s/^N 4[567]° \d\d?\.\d\d\d  E (5|6|7|8|9|10)° \d\d?\.\d\d\d$//;
+
+    # Write it into the cache file
+    printf { $fh_dst_caches } ( '   <wpt lat="' . $logWptLat . '" lon="' . $logWptLon . '">' . "\n" );
+    printf { $fh_dst_caches } ( "    <time>$logDate</time>\n" );
+    printf { $fh_dst_caches } ( "    <name>$logFinder</name>\n" );
+    printf { $fh_dst_caches } ( "    <desc>$logCache/desc>\n" );
+    printf { $fh_dst_caches } ( "    <link>https://coord.info/%s</link>\n", $logCache );		 
+    printf { $fh_dst_caches } ( "    <sym>Pin, Blue</sym>\n" );
+    printf { $fh_dst_caches } ( "   </wpt>\n" );
+
+	}
   
   # Do we have overridden coordinates ?
   if ( exists $logidOverride{$logID} ) {
@@ -438,6 +482,10 @@ printf { $fh_dst_gpx } ( "</gpx>\n" );
 # -------------------
 printf { $fh_dst_wpt } ( "</gpx>\n" );
 
+# Finish the caches file
+# ----------------------
+printf { $fh_dst_wpt } ( "</gpx>\n" );
+
 # Finish the position file
 # -------------------------
 printf { $fh_dst_position } ( "</gpx>\n" );
@@ -449,7 +497,8 @@ printf { *STDERR }     ( "\n" );
 printf { *STDERR }     ( "Total Positions:        %6s\n", $totalPositions);
 printf { *STDERR }     ( "Total Kilometer:        %10.3f\n\n", $totalDistance);
 printf { *STDERR }     ( "Logs:                   %6s\n", $logCounter);
-printf { *STDERR }     ( "Coords:                 %6s\n\n", $logCoordCounter);
+printf { *STDERR }     ( "Coords:                 %6s\n", $logCoordCounter);
+printf { *STDERR }     ( "Caches:                 %6s\n\n", $logCacheCounter);
 printf { *STDERR }     ( "Days:                   %6s\n", $tds_age_days);
 printf { *STDERR }     ( "Weeks:                  %6s\n", $tds_age_weeks);
 printf { *STDERR }     ( "Positions per Week:     %9.2f\n", $totalPositions / $tds_age_weeks);
@@ -462,7 +511,8 @@ printf { $fh_dst_txt } ( "\n" );
 printf { $fh_dst_txt } ( "Total Positions:        %6s\n", $totalPositions);
 printf { $fh_dst_txt } ( "Total Kilometer:        %10.3f\n\n", $totalDistance);
 printf { $fh_dst_txt } ( "Logs:                   %6s\n", $logCounter);
-printf { $fh_dst_txt } ( "Coords:                 %6s\n\n", $logCoordCounter);
+printf { $fh_dst_txt } ( "Coords:                 %6s\n", $logCoordCounter);
+printf { $fh_dst_txt } ( "Caches:                 %6s\n\n", $logCacheCounter);
 printf { $fh_dst_txt } ( "Days:                   %6s\n", $tds_age_days);
 printf { $fh_dst_txt } ( "Weeks:                  %6s\n", $tds_age_weeks);
 printf { $fh_dst_txt } ( "Positions per Week:     %9.2f\n", $totalPositions / $tds_age_weeks);
@@ -488,6 +538,7 @@ $fh_dst_txt->close;
 $fh_dst_gpx->close;
 $fh_dst_wpt->close;
 $fh_dst_position->close;
+$fh_dst_caches->close;
 $fh_dst_infoStatistics->close;
 $fh_src->close;
 
