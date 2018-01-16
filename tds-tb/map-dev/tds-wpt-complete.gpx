@@ -9,160 +9,118 @@
     <desc>Pos.: 1 / Dist.: 0.000 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
-   <wpt lat="47.0293666666667" lon="8.06748333333333">
-    <time>2017-05-30T12:00:00Z</time>
-    <name>icklesidi</name>
-    <desc>Pos.: 2 / Dist.: 11.438 km</desc>
-    <sym>Pin, Blue</sym>
-   </wpt>
    <wpt lat="47.0299833333333" lon="8.06275">
     <time>2017-05-30T12:00:00Z</time>
     <name>icklesidi</name>
-    <desc>Pos.: 3 / Dist.: 0.365 km</desc>
+    <desc>Pos.: 2 / Dist.: 11.369 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="47.0981666666667" lon="8.16245">
     <time>2017-06-18T12:00:00Z</time>
     <name>luckyfour</name>
-    <desc>Pos.: 4 / Dist.: 10.700 km</desc>
+    <desc>Pos.: 3 / Dist.: 10.700 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="47.1621833333333" lon="8.15708333333333">
     <time>2017-06-19T12:00:00Z</time>
     <name>Piratenbär</name>
-    <desc>Pos.: 5 / Dist.: 7.130 km</desc>
+    <desc>Pos.: 4 / Dist.: 7.130 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="47.2059166666667" lon="8.11965">
     <time>2017-06-21T12:00:00Z</time>
     <name>andi e.</name>
-    <desc>Pos.: 6 / Dist.: 5.626 km</desc>
+    <desc>Pos.: 5 / Dist.: 5.626 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="47.1866" lon="8.17648333333333">
     <time>2017-07-03T12:00:00Z</time>
     <name>simeat</name>
-    <desc>Pos.: 7 / Dist.: 4.801 km</desc>
+    <desc>Pos.: 6 / Dist.: 4.801 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="47.15565" lon="8.24355">
     <time>2017-07-16T12:00:00Z</time>
     <name>w-k-b-r</name>
-    <desc>Pos.: 8 / Dist.: 6.127 km</desc>
+    <desc>Pos.: 7 / Dist.: 6.127 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="47.1741333333333" lon="8.28905">
     <time>2017-10-06T12:00:00Z</time>
     <name>Ritibänz</name>
-    <desc>Pos.: 9 / Dist.: 4.007 km</desc>
-    <sym>Pin, Blue</sym>
-   </wpt>
-   <wpt lat="47.2092833333333" lon="8.30365">
-    <time>2017-10-07T12:00:00Z</time>
-    <name>niggae</name>
-    <desc>Pos.: 10 / Dist.: 4.061 km</desc>
+    <desc>Pos.: 8 / Dist.: 4.007 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="47.20915" lon="8.30381666666667">
     <time>2017-10-07T12:00:00Z</time>
     <name>niggae</name>
-    <desc>Pos.: 11 / Dist.: 0.019 km</desc>
+    <desc>Pos.: 9 / Dist.: 4.050 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="47.2459833333333" lon="8.35775">
     <time>2017-10-07T12:00:00Z</time>
     <name>icklesidi</name>
-    <desc>Pos.: 12 / Dist.: 5.776 km</desc>
-    <sym>Pin, Blue</sym>
-   </wpt>
-   <wpt lat="47.2461166666667" lon="8.3585">
-    <time>2017-10-07T12:00:00Z</time>
-    <name>icklesidi</name>
-    <desc>Pos.: 13 / Dist.: 0.059 km</desc>
+    <desc>Pos.: 10 / Dist.: 5.776 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="47.35085" lon="8.50723333333333">
     <time>2017-11-19T12:00:00Z</time>
     <name>El Ritmo Fatal</name>
-    <desc>Pos.: 14 / Dist.: 16.168 km</desc>
-    <sym>Pin, Blue</sym>
-   </wpt>
-   <wpt lat="47.3517833333333" lon="8.50416666666667">
-    <time>2017-11-20T12:00:00Z</time>
-    <name>El Ritmo Fatal</name>
-    <desc>Pos.: 15 / Dist.: 0.253 km</desc>
+    <desc>Pos.: 11 / Dist.: 16.218 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="47.3501666666667" lon="8.50433333333333">
     <time>2017-11-21T12:00:00Z</time>
     <name>anika117</name>
-    <desc>Pos.: 16 / Dist.: 0.180 km</desc>
-    <sym>Pin, Blue</sym>
-   </wpt>
-   <wpt lat="47.3485333333333" lon="8.50303333333333">
-    <time>2017-11-21T12:00:00Z</time>
-    <name>anika117</name>
-    <desc>Pos.: 17 / Dist.: 0.206 km</desc>
+    <desc>Pos.: 12 / Dist.: 0.231 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="47.4102833333333" lon="8.50415">
     <time>2017-12-02T12:00:00Z</time>
     <name>MCAarau</name>
-    <desc>Pos.: 18 / Dist.: 6.866 km</desc>
-    <sym>Pin, Blue</sym>
-   </wpt>
-   <wpt lat="47.4106666666667" lon="8.51188333333333">
-    <time>2017-12-02T12:00:00Z</time>
-    <name>MCAarau</name>
-    <desc>Pos.: 19 / Dist.: 0.583 km</desc>
+    <desc>Pos.: 13 / Dist.: 6.684 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="47.4770166666667" lon="8.56885">
     <time>2017-12-07T12:00:00Z</time>
     <name>müdain</name>
-    <desc>Pos.: 20 / Dist.: 8.531 km</desc>
-    <sym>Pin, Blue</sym>
-   </wpt>
-   <wpt lat="47.47005" lon="8.56173333333333">
-    <time>2017-12-09T12:00:00Z</time>
-    <name>müdain</name>
-    <desc>Pos.: 21 / Dist.: 0.941 km</desc>
+    <desc>Pos.: 14 / Dist.: 8.873 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="47.4630833333333" lon="8.62441666666667">
     <time>2017-12-13T12:00:00Z</time>
     <name>tante resi</name>
-    <desc>Pos.: 22 / Dist.: 4.775 km</desc>
+    <desc>Pos.: 15 / Dist.: 4.455 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="47.5079333333333" lon="8.63685">
     <time>2017-12-17T12:00:00Z</time>
     <name>fafafafa</name>
-    <desc>Pos.: 23 / Dist.: 5.074 km</desc>
+    <desc>Pos.: 16 / Dist.: 5.074 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="47.51645" lon="8.65896666666667">
     <time>2017-12-17T12:00:00Z</time>
     <name>Momo o)</name>
-    <desc>Pos.: 24 / Dist.: 1.912 km</desc>
+    <desc>Pos.: 17 / Dist.: 1.912 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="47.5899666666667" lon="8.73663333333333">
     <time>2017-12-24T12:00:00Z</time>
     <name>Bücy</name>
-    <desc>Pos.: 25 / Dist.: 10.039 km</desc>
+    <desc>Pos.: 18 / Dist.: 10.039 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="47.5947" lon="8.6922">
     <time>2018-01-06T12:00:00Z</time>
     <name>swisstypo</name>
-    <desc>Pos.: 26 / Dist.: 3.373 km</desc>
+    <desc>Pos.: 19 / Dist.: 3.373 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
    <wpt lat="47.6233" lon="8.65158333333333">
     <time>2018-01-06T12:00:00Z</time>
     <name>a smile for you</name>
-    <desc>Pos.: 27 / Dist.: 4.403 km</desc>
+    <desc>Pos.: 20 / Dist.: 4.403 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
 </gpx>

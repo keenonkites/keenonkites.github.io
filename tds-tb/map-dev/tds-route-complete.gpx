@@ -5,13 +5,10 @@
  </metadata>
  <trk>
   <name>Tour de Suisse (TB8DWT0) - Route 2017</name>
-  <desc>Total Pos.: 25 / Total Dist.: 115.639 km</desc>
+  <desc>Total Pos.: 18 / Total Dist.: 113.071 km</desc>
   <trkseg>
    <trkpt lon="8.00921666666667" lat="46.9344833333333">
     <time>2017-05-23T12:00:00Z</time>
-   </trkpt>
-   <trkpt lon="8.06748333333333" lat="47.0293666666667">
-    <time>2017-05-30T12:00:00Z</time>
    </trkpt>
    <trkpt lon="8.06275" lat="47.0299833333333">
     <time>2017-05-30T12:00:00Z</time>
@@ -34,41 +31,23 @@
    <trkpt lon="8.28905" lat="47.1741333333333">
     <time>2017-10-06T12:00:00Z</time>
    </trkpt>
-   <trkpt lon="8.30365" lat="47.2092833333333">
-    <time>2017-10-07T12:00:00Z</time>
-   </trkpt>
    <trkpt lon="8.30381666666667" lat="47.20915">
     <time>2017-10-07T12:00:00Z</time>
    </trkpt>
    <trkpt lon="8.35775" lat="47.2459833333333">
     <time>2017-10-07T12:00:00Z</time>
    </trkpt>
-   <trkpt lon="8.3585" lat="47.2461166666667">
-    <time>2017-10-07T12:00:00Z</time>
-   </trkpt>
    <trkpt lon="8.50723333333333" lat="47.35085">
     <time>2017-11-19T12:00:00Z</time>
    </trkpt>
-   <trkpt lon="8.50416666666667" lat="47.3517833333333">
-    <time>2017-11-20T12:00:00Z</time>
-   </trkpt>
    <trkpt lon="8.50433333333333" lat="47.3501666666667">
-    <time>2017-11-21T12:00:00Z</time>
-   </trkpt>
-   <trkpt lon="8.50303333333333" lat="47.3485333333333">
     <time>2017-11-21T12:00:00Z</time>
    </trkpt>
    <trkpt lon="8.50415" lat="47.4102833333333">
     <time>2017-12-02T12:00:00Z</time>
    </trkpt>
-   <trkpt lon="8.51188333333333" lat="47.4106666666667">
-    <time>2017-12-02T12:00:00Z</time>
-   </trkpt>
    <trkpt lon="8.56885" lat="47.4770166666667">
     <time>2017-12-07T12:00:00Z</time>
-   </trkpt>
-   <trkpt lon="8.56173333333333" lat="47.47005">
-    <time>2017-12-09T12:00:00Z</time>
    </trkpt>
    <trkpt lon="8.62441666666667" lat="47.4630833333333">
     <time>2017-12-13T12:00:00Z</time>
