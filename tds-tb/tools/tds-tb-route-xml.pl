@@ -484,7 +484,7 @@ printf { $fh_dst_wpt } ( "</gpx>\n" );
 
 # Finish the caches file
 # ----------------------
-printf { $fh_dst_wpt } ( "</gpx>\n" );
+printf { $fh_dst_caches } ( "</gpx>\n" );
 
 # Finish the position file
 # -------------------------
