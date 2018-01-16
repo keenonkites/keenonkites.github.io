@@ -214,7 +214,7 @@ foreach my $logID (sort {$a <=> $b} keys( %{$XMLgpx->{wpt}->{'groundspeak:cache'
     printf { $fh_dst_caches } ( '   <wpt lat="' . $logWptLat . '" lon="' . $logWptLon . '">' . "\n" );
     printf { $fh_dst_caches } ( "    <time>$logDate</time>\n" );
     printf { $fh_dst_caches } ( "    <name>$logFinder</name>\n" );
-    printf { $fh_dst_caches } ( "    <desc>$logCache/desc>\n" );
+    printf { $fh_dst_caches } ( "    <desc>$logCache</desc>\n" );
     printf { $fh_dst_caches } ( "    <link>https://coord.info/%s</link>\n", $logCache );		 
     printf { $fh_dst_caches } ( "    <sym>Pin, Blue</sym>\n" );
     printf { $fh_dst_caches } ( "   </wpt>\n" );
