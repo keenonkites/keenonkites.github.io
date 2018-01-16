@@ -300,6 +300,17 @@
 				});
 			}).addTo(map);
 
+		// Here we load all the caches
+		var tdscaches    = omnivore.gpx('tds-caches.gpx' )
+			.on ('ready', function(layer) {
+				this.eachLayer(function(marker) {
+					// and define the popups for all markers
+					marker.bindPopup( "<a href=\"" +  marker.toGeoJSON().properties.link + "\" target=\"_blank\">" + 	marker.toGeoJSON().properties.desc + "</a><br>" + marker.toGeoJSON().properties.name + "<br>" + xmlDateToJavascriptDate(marker.toGeoJSON().properties.time).toLocaleDateString() );
+					marker.on('click', function (e) { this.openPopup();  });
+					marker.setIcon( blueMarker );
+				});
+			});
+
 		// Create a clear circle for the very starting of the Tour for easier identifying
  		var startCircle = L.circleMarker([46.93448, 8.00922], {
 			radius: 20,
@@ -347,7 +358,8 @@
 							'TdS Route': tdstrack ,
 							'TdS Waypoints': tdswpt ,
 							'TdS Position': tdswptposition,
-							'TdS Zwischenhalte': stopoversPast
+							'TdS Zwischenhalte': stopoversPast,
+							'Tds besuchte Caches': tdscaches
 		}
 		
 		// Define and add the control panel to the map
@@ -364,11 +376,13 @@
 		map.on('zoomend ', function(e) {
 			 if ( map.getZoom() < 11 && actualZoomlevel >= 11 ){ 
 			     map.removeLayer( tdswpt );
-				 map.removeLayer( stopoversPast)
+				 map.removeLayer( stopoversPast );
+				 map.removeLayer( tdscaches )
 			 }
 			 else if ( map.getZoom() >= 11 && actualZoomlevel < 11 ){ 
 			     map.addLayer( tdswpt );
-				 map.addLayer( stopoversPast)
+				 map.addLayer( stopoversPast );
+				 map.addLayer( tdscaches )
 			 }
 		});
     
