@@ -129,4 +129,16 @@
     <desc>Pos.: 21 / Dist.: 6.349 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="47.69305" lon="8.6377">
+    <time>2018-03-02T12:00:00Z</time>
+    <name>bloeterli</name>
+    <desc>Pos.: 22 / Dist.: 2.509 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.39615" lon="9.20101666666667">
+    <time>2018-05-13T12:00:00Z</time>
+    <name>Soleil84</name>
+    <desc>Pos.: 23 / Dist.: 53.641 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
