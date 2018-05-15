@@ -122,4 +122,18 @@
     <link>https://coord.info/GC40JKE</link>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="47.39853" lon="9.202717">
+    <time>2018-05-13T12:00:00Z</time>
+    <name>Soleil84</name>
+    <desc>GC6B7FT</desc>
+    <link>https://coord.info/GC6B7FT</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.40975" lon="9.190784">
+    <time>2018-05-15T12:00:00Z</time>
+    <name>Salzburger</name>
+    <desc>GC747VQ</desc>
+    <link>https://coord.info/GC747VQ</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
