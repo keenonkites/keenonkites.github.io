@@ -136,4 +136,11 @@
     <link>https://coord.info/GC747VQ</link>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="47.41927" lon="9.369">
+    <time>2018-05-27T12:00:00Z</time>
+    <name>&gt;Pat&lt;</name>
+    <desc>GC35MQP</desc>
+    <link>https://coord.info/GC35MQP</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
