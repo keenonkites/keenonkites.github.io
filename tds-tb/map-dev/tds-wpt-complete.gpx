@@ -141,4 +141,10 @@
     <desc>Pos.: 23 / Dist.: 53.641 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="47.4098833333333" lon="9.19055">
+    <time>2018-05-15T12:00:00Z</time>
+    <name>Salzburger</name>
+    <desc>Pos.: 24 / Dist.: 1.718 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
