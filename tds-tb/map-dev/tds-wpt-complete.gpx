@@ -147,4 +147,10 @@
     <desc>Pos.: 24 / Dist.: 1.718 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="47.4192" lon="9.36871666666667">
+    <time>2018-05-27T12:00:00Z</time>
+    <name>&gt;Pat&lt;</name>
+    <desc>Pos.: 25 / Dist.: 13.445 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
