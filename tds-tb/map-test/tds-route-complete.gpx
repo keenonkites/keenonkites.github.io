@@ -65,7 +65,7 @@
  </trk>
  <trk>
   <name>Tour de Suisse (TB8DWT0) - Route 2018</name>
-  <desc>Total Pos.: 7 / Total Dist.: 85.438 km</desc>
+  <desc>Total Pos.: 8 / Total Dist.: 90.041 km</desc>
   <trkseg>
    <trkpt lon="8.73663333333333" lat="47.5899666666667">
     <time>2017-12-24T12:00:00Z</time>
@@ -90,6 +90,9 @@
    </trkpt>
    <trkpt lon="9.36871666666667" lat="47.4192">
     <time>2018-05-27T12:00:00Z</time>
+   </trkpt>
+   <trkpt lon="9.30846666666667" lat="47.42645">
+    <time>2018-06-02T12:00:00Z</time>
    </trkpt>
   </trkseg>
  </trk>
