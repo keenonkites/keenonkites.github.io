@@ -150,4 +150,18 @@
     <link>https://coord.info/GC7P469</link>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="47.53037" lon="8.9546">
+    <time>2018-11-16T12:00:00Z</time>
+    <name>3waldpiraten</name>
+    <desc>GC7X8XG</desc>
+    <link>https://coord.info/GC7X8XG</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
+   <wpt lat="47.53315" lon="8.959783">
+    <time>2018-11-17T12:00:00Z</time>
+    <name>3waldpiraten</name>
+    <desc>GC5DHXH</desc>
+    <link>https://coord.info/GC5DHXH</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
