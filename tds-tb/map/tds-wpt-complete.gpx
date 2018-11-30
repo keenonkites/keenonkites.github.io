@@ -159,4 +159,10 @@
     <desc>Pos.: 26 / Dist.: 4.604 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="47.53095" lon="8.95413333333333">
+    <time>2018-11-16T12:00:00Z</time>
+    <name>3waldpiraten</name>
+    <desc>Pos.: 27 / Dist.: 29.052 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>

@@ -164,4 +164,11 @@
     <link>https://coord.info/GC5DHXH</link>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="47.44383" lon="9.104583">
+    <time>2018-11-30T12:00:00Z</time>
+    <name>stettfurter</name>
+    <desc>GC7YY2A</desc>
+    <link>https://coord.info/GC7YY2A</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
