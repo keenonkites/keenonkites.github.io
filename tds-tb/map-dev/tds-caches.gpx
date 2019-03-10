@@ -171,4 +171,11 @@
     <link>https://coord.info/GC7YY2A</link>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="47.46275" lon="9.040533">
+    <time>2019-03-09T12:00:00Z</time>
+    <name>Crazy-Bikers</name>
+    <desc>GC7J0DW</desc>
+    <link>https://coord.info/GC7J0DW</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
