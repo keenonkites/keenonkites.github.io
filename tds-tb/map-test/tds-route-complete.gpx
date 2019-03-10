@@ -102,4 +102,16 @@
    </trkpt>
   </trkseg>
  </trk>
+ <trk>
+  <name>Tour de Suisse (TB8DWT0) - Route 2019</name>
+  <desc>Total Pos.: 1 / Total Dist.: 5.482 km</desc>
+  <trkseg>
+   <trkpt lon="9.10285" lat="47.43865">
+    <time>2018-11-30T12:00:00Z</time>
+   </trkpt>
+   <trkpt lon="9.03938333333333" lat="47.4629166666667">
+    <time>2019-03-09T12:00:00Z</time>
+   </trkpt>
+  </trkseg>
+ </trk>
 </gpx>

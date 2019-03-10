@@ -165,4 +165,10 @@
     <desc>Pos.: 27 / Dist.: 29.052 km</desc>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="47.43865" lon="9.10285">
+    <time>2018-11-30T12:00:00Z</time>
+    <name>stettfurter</name>
+    <desc>Pos.: 28 / Dist.: 15.172 km</desc>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
