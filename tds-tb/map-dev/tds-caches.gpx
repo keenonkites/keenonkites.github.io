@@ -178,4 +178,11 @@
     <link>https://coord.info/GC7J0DW</link>
     <sym>Pin, Blue</sym>
    </wpt>
+   <wpt lat="47.59982" lon="9.002567">
+    <time>2019-06-22T12:00:00Z</time>
+    <name>HvH.li</name>
+    <desc>GC3MJZ6</desc>
+    <link>https://coord.info/GC3MJZ6</link>
+    <sym>Pin, Blue</sym>
+   </wpt>
 </gpx>
