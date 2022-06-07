@@ -90,7 +90,7 @@
 			var datestring = ""
 			if ('date' in banner) {
 				var d = new Date(banner.date)
-				datestring = " (" + d.toDateString()  + ")"
+				datestring = " (" + d.toLocaleDateString(undefined,{ weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })  + ")"
 			}
 			if ('text' in banner) {
 				elem.title = banner.text + datestring
